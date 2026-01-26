@@ -1,0 +1,535 @@
+{
+  "deckId": "numbers",
+  "deckName": {
+    "en": "Numbers",
+    "el": "Αριθμοί",
+    "ca": "Nombres"
+  },
+  "version": "1.0.0",
+  "languagePair": {
+    "source": "el",
+    "target": "ca"
+  },
+  "level": "A1",
+  "description": {
+    "en": "Basic numbers and simple counting phrases",
+    "el": "Βασικοί αριθμοί και απλές φράσεις μέτρησης",
+    "ca": "Nombres bàsics i frases simples de comptatge"
+  },
+  "itemCount": 16,
+  "items": [
+    {
+      "id": "num_001",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "ένα",
+        "romanization": "ena",
+        "phonetic": "EH-nah"
+      },
+      "catalan": {
+        "text": "un",
+        "phonetic": "oon"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_002",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "δύο",
+        "romanization": "dyo",
+        "phonetic": "THEE-oh"
+      },
+      "catalan": {
+        "text": "dos",
+        "phonetic": "dohs"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_003",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "τρία",
+        "romanization": "tria",
+        "phonetic": "TREE-ah"
+      },
+      "catalan": {
+        "text": "tres",
+        "phonetic": "trehs"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_004",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "τέσσερα",
+        "romanization": "tessera",
+        "phonetic": "TEH-seh-rah"
+      },
+      "catalan": {
+        "text": "quatre",
+        "phonetic": "KWAH-treh"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_005",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "πέντε",
+        "romanization": "pente",
+        "phonetic": "PEN-teh"
+      },
+      "catalan": {
+        "text": "cinc",
+        "phonetic": "seenk"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_006",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "έξι",
+        "romanization": "exi",
+        "phonetic": "EK-see"
+      },
+      "catalan": {
+        "text": "sis",
+        "phonetic": "sees"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_007",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 2,
+      "greek": {
+        "text": "επτά",
+        "romanization": "epta",
+        "phonetic": "ep-TAH"
+      },
+      "catalan": {
+        "text": "set",
+        "phonetic": "set"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_008",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 2,
+      "greek": {
+        "text": "οκτώ",
+        "romanization": "okto",
+        "phonetic": "ok-TOH"
+      },
+      "catalan": {
+        "text": "vuit",
+        "phonetic": "vweet"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_009",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 2,
+      "greek": {
+        "text": "εννέα",
+        "romanization": "ennea",
+        "phonetic": "en-NEH-ah"
+      },
+      "catalan": {
+        "text": "nou",
+        "phonetic": "noo"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_010",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 2,
+      "greek": {
+        "text": "δέκα",
+        "romanization": "deka",
+        "phonetic": "DEH-kah"
+      },
+      "catalan": {
+        "text": "deu",
+        "phonetic": "deh-oo"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_011",
+      "type": "phrase",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "Έχω ένα",
+        "romanization": "Echo ena",
+        "phonetic": "EH-hoh EH-nah"
+      },
+      "catalan": {
+        "text": "Tinc un",
+        "phonetic": "teenk oon"
+      },
+      "tags": [
+        "counting",
+        "simple"
+      ],
+      "words": [
+        {
+          "greek": "Έχω",
+          "catalan": "Tinc"
+        },
+        {
+          "greek": "ένα",
+          "catalan": "un"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Έχω",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Tinc"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "ένα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "un"
+          }
+        }
+      ]
+    },
+    {
+      "id": "num_012",
+      "type": "phrase",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "Έχω δύο",
+        "romanization": "Echo dyo",
+        "phonetic": "EH-hoh THEE-oh"
+      },
+      "catalan": {
+        "text": "Tinc dos",
+        "phonetic": "teenk dohs"
+      },
+      "tags": [
+        "counting",
+        "simple"
+      ],
+      "words": [
+        {
+          "greek": "Έχω",
+          "catalan": "Tinc"
+        },
+        {
+          "greek": "δύο",
+          "catalan": "dos"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Έχω",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Tinc"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "δύο",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "dos"
+          }
+        }
+      ]
+    },
+    {
+      "id": "num_013",
+      "type": "phrase",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "Έχω τρία",
+        "romanization": "Echo tria",
+        "phonetic": "EH-hoh TREE-ah"
+      },
+      "catalan": {
+        "text": "Tinc tres",
+        "phonetic": "teenk trehs"
+      },
+      "tags": [
+        "counting",
+        "simple"
+      ],
+      "words": [
+        {
+          "greek": "Έχω",
+          "catalan": "Tinc"
+        },
+        {
+          "greek": "τρία",
+          "catalan": "tres"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Έχω",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Tinc"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "τρία",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "tres"
+          }
+        }
+      ]
+    },
+    {
+      "id": "num_014",
+      "type": "phrase",
+      "category": "numbers",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πόσα έχεις;",
+        "romanization": "Posa echeis?",
+        "phonetic": "POH-sa EH-hee-s"
+      },
+      "catalan": {
+        "text": "Quants tens?",
+        "phonetic": "kwants tens"
+      },
+      "tags": [
+        "question"
+      ],
+      "words": [
+        {
+          "greek": "Πόσα",
+          "catalan": "Quants"
+        },
+        {
+          "greek": "έχεις",
+          "catalan": "tens"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Πόσα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Quants"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "έχεις",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "tens"
+          }
+        }
+      ]
+    },
+    {
+      "id": "num_015",
+      "type": "phrase",
+      "category": "numbers",
+      "difficulty": 2,
+      "greek": {
+        "text": "Αριθμός τέσσερα",
+        "romanization": "Arithmos tessera",
+        "phonetic": "ah-REETH-mos TEH-seh-rah"
+      },
+      "catalan": {
+        "text": "Número quatre",
+        "phonetic": "NOO-meh-roh KWAH-treh"
+      },
+      "tags": [
+        "counting"
+      ],
+      "words": [
+        {
+          "greek": "Αριθμός",
+          "catalan": "Número"
+        },
+        {
+          "greek": "τέσσερα",
+          "catalan": "quatre"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Αριθμός",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Número"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "τέσσερα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "quatre"
+          }
+        }
+      ]
+    },
+    {
+      "id": "num_016",
+      "type": "phrase",
+      "category": "numbers",
+      "difficulty": 2,
+      "greek": {
+        "text": "Δύο άτομα",
+        "romanization": "Dyo atoma",
+        "phonetic": "THEE-oh AH-toh-mah"
+      },
+      "catalan": {
+        "text": "Dues persones",
+        "phonetic": "doos pehr-SOH-nes"
+      },
+      "tags": [
+        "counting"
+      ],
+      "words": [
+        {
+          "greek": "Δύο",
+          "catalan": "Dues"
+        },
+        {
+          "greek": "άτομα",
+          "catalan": "persones"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Δύο",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Dues"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "άτομα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "persones"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "Language Duel",
+    "createdAt": "2026-01-26T00:00:00Z",
+    "tags": [
+      "numbers",
+      "a1"
+    ]
+  }
+}

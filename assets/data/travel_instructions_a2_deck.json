@@ -1,0 +1,1377 @@
+{
+  "deckId": "travel_interactions_a2",
+  "deckName": {
+    "en": "Travel Interactions (A2)",
+    "el": "Ταξίδι – Αλληλεπιδράσεις (A2)",
+    "ca": "Viatge – Interaccions (A2)"
+  },
+  "version": 1,
+  "languagePair": "el-ca",
+  "level": "A2",
+  "description": {
+    "en": "Common travel interactions: asking for help, solving problems, booking, and simple explanations.",
+    "el": "Συνηθισμένες αλληλεπιδράσεις ταξιδιού: βοήθεια, προβλήματα, κρατήσεις και απλές εξηγήσεις.",
+    "ca": "Interaccions habituals de viatge: demanar ajuda, resoldre problemes, reserves i explicacions senzilles."
+  },
+  "itemCount": 30,
+  "metadata": {
+    "tags": [
+      "travel",
+      "interactions",
+      "problems",
+      "booking",
+      "a2"
+    ],
+    "source": "custom"
+  },
+  "items": [
+    {
+      "id": "ta2_001",
+      "type": "vocab",
+      "category": "time",
+      "difficulty": 2,
+      "greek": {
+        "text": "σήμερα",
+        "romanization": "símera",
+        "phonetic": "símera"
+      },
+      "catalan": {
+        "text": "avui",
+        "romanization": "avui",
+        "phonetic": "avui"
+      }
+    },
+    {
+      "id": "ta2_002",
+      "type": "vocab",
+      "category": "time",
+      "difficulty": 2,
+      "greek": {
+        "text": "αύριο",
+        "romanization": "ávrio",
+        "phonetic": "ávrio"
+      },
+      "catalan": {
+        "text": "demà",
+        "romanization": "demà",
+        "phonetic": "demà"
+      }
+    },
+    {
+      "id": "ta2_003",
+      "type": "vocab",
+      "category": "time",
+      "difficulty": 2,
+      "greek": {
+        "text": "χθες",
+        "romanization": "chthés",
+        "phonetic": "chthés"
+      },
+      "catalan": {
+        "text": "ahir",
+        "romanization": "ahir",
+        "phonetic": "ahir"
+      }
+    },
+    {
+      "id": "ta2_004",
+      "type": "vocab",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "πρόβλημα",
+        "romanization": "próvlima",
+        "phonetic": "próvlima"
+      },
+      "catalan": {
+        "text": "problema",
+        "romanization": "problema",
+        "phonetic": "problema"
+      }
+    },
+    {
+      "id": "ta2_005",
+      "type": "vocab",
+      "category": "hotel",
+      "difficulty": 2,
+      "greek": {
+        "text": "δωμάτιο",
+        "romanization": "domátio",
+        "phonetic": "domátio"
+      },
+      "catalan": {
+        "text": "habitació",
+        "romanization": "habitació",
+        "phonetic": "habitació"
+      }
+    },
+    {
+      "id": "ta2_006",
+      "type": "vocab",
+      "category": "money",
+      "difficulty": 2,
+      "greek": {
+        "text": "ακριβό",
+        "romanization": "akrivó",
+        "phonetic": "akrivó"
+      },
+      "catalan": {
+        "text": "car",
+        "romanization": "car",
+        "phonetic": "car"
+      }
+    },
+    {
+      "id": "ta2_007",
+      "type": "vocab",
+      "category": "money",
+      "difficulty": 2,
+      "greek": {
+        "text": "φθηνό",
+        "romanization": "fthinó",
+        "phonetic": "fthinó"
+      },
+      "catalan": {
+        "text": "barat",
+        "romanization": "barat",
+        "phonetic": "barat"
+      }
+    },
+    {
+      "id": "ta2_008",
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 2,
+      "greek": {
+        "text": "καθυστέρηση",
+        "romanization": "kathistérisi",
+        "phonetic": "kathistérisi"
+      },
+      "catalan": {
+        "text": "retard",
+        "romanization": "retard",
+        "phonetic": "retard"
+      }
+    },
+    {
+      "id": "ta2_009",
+      "type": "vocab",
+      "category": "food",
+      "difficulty": 2,
+      "greek": {
+        "text": "λογαριασμός",
+        "romanization": "logariasmós",
+        "phonetic": "logariasmós"
+      },
+      "catalan": {
+        "text": "compte",
+        "romanization": "compte",
+        "phonetic": "compte"
+      }
+    },
+    {
+      "id": "ta2_010",
+      "type": "vocab",
+      "category": "language",
+      "difficulty": 2,
+      "greek": {
+        "text": "σιγά σιγά",
+        "romanization": "sigá sigá",
+        "phonetic": "sigá sigá"
+      },
+      "catalan": {
+        "text": "a poc a poc",
+        "romanization": "a poc a poc",
+        "phonetic": "a poc a poc"
+      }
+    },
+    {
+      "id": "ta2_011",
+      "type": "phrase",
+      "category": "hotel",
+      "difficulty": 2,
+      "greek": {
+        "text": "Έχω μια κράτηση για δύο νύχτες.",
+        "romanization": "Écho mia krátisi gia dýo nýchtes.",
+        "phonetic": "Écho mia krátisi gia dýo nýchtes."
+      },
+      "catalan": {
+        "text": "Tinc una reserva per a dues nits.",
+        "romanization": "Tinc una reserva per a dues nits.",
+        "phonetic": "Tinc una reserva per a dues nits."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Έχω"
+          },
+          "catalan": {
+            "word": "Tinc"
+          }
+        },
+        {
+          "greek": {
+            "word": "μια"
+          },
+          "catalan": {
+            "word": "una"
+          }
+        },
+        {
+          "greek": {
+            "word": "κράτηση"
+          },
+          "catalan": {
+            "word": "reserva"
+          }
+        },
+        {
+          "greek": {
+            "word": "για"
+          },
+          "catalan": {
+            "word": "per"
+          }
+        },
+        {
+          "greek": {
+            "word": "δύο"
+          },
+          "catalan": {
+            "word": "a"
+          }
+        },
+        {
+          "greek": {
+            "word": "νύχτες"
+          },
+          "catalan": {
+            "word": "dues"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "nits"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_012",
+      "type": "phrase",
+      "category": "hotel",
+      "difficulty": 2,
+      "greek": {
+        "text": "Το δωμάτιο είναι πολύ μικρό.",
+        "romanization": "To domátio eínai polí mikró.",
+        "phonetic": "To domátio eínai polí mikró."
+      },
+      "catalan": {
+        "text": "L’habitació és molt petita.",
+        "romanization": "L’habitació és molt petita.",
+        "phonetic": "L’habitació és molt petita."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Το"
+          },
+          "catalan": {
+            "word": "L’habitació"
+          }
+        },
+        {
+          "greek": {
+            "word": "δωμάτιο"
+          },
+          "catalan": {
+            "word": "és"
+          }
+        },
+        {
+          "greek": {
+            "word": "είναι"
+          },
+          "catalan": {
+            "word": "molt"
+          }
+        },
+        {
+          "greek": {
+            "word": "πολύ"
+          },
+          "catalan": {
+            "word": "petita"
+          }
+        },
+        {
+          "greek": {
+            "word": "μικρό"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_013",
+      "type": "phrase",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "Έχω ένα πρόβλημα με το εισιτήριο.",
+        "romanization": "Écho éna próvlima me to eisitírio.",
+        "phonetic": "Écho éna próvlima me to eisitírio."
+      },
+      "catalan": {
+        "text": "Tinc un problema amb el bitllet.",
+        "romanization": "Tinc un problema amb el bitllet.",
+        "phonetic": "Tinc un problema amb el bitllet."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Έχω"
+          },
+          "catalan": {
+            "word": "Tinc"
+          }
+        },
+        {
+          "greek": {
+            "word": "ένα"
+          },
+          "catalan": {
+            "word": "un"
+          }
+        },
+        {
+          "greek": {
+            "word": "πρόβλημα"
+          },
+          "catalan": {
+            "word": "problema"
+          }
+        },
+        {
+          "greek": {
+            "word": "με"
+          },
+          "catalan": {
+            "word": "amb"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "el"
+          }
+        },
+        {
+          "greek": {
+            "word": "εισιτήριο"
+          },
+          "catalan": {
+            "word": "bitllet"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_014",
+      "type": "phrase",
+      "category": "transport",
+      "difficulty": 2,
+      "greek": {
+        "text": "Το λεωφορείο έχει καθυστέρηση.",
+        "romanization": "To leoforeío échi kathistérisi.",
+        "phonetic": "To leoforeío échi kathistérisi."
+      },
+      "catalan": {
+        "text": "L’autobús té retard.",
+        "romanization": "L’autobús té retard.",
+        "phonetic": "L’autobús té retard."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Το"
+          },
+          "catalan": {
+            "word": "L’autobús"
+          }
+        },
+        {
+          "greek": {
+            "word": "λεωφορείο"
+          },
+          "catalan": {
+            "word": "té"
+          }
+        },
+        {
+          "greek": {
+            "word": "έχει"
+          },
+          "catalan": {
+            "word": "retard"
+          }
+        },
+        {
+          "greek": {
+            "word": "καθυστέρηση"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_015",
+      "type": "phrase",
+      "category": "directions",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πώς μπορώ να πάω στο κέντρο;",
+        "romanization": "Pós boró na páo sto kéntro?",
+        "phonetic": "Pós boró na páo sto kéntro?"
+      },
+      "catalan": {
+        "text": "Com puc anar al centre?",
+        "romanization": "Com puc anar al centre?",
+        "phonetic": "Com puc anar al centre?"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πώς"
+          },
+          "catalan": {
+            "word": "Com"
+          }
+        },
+        {
+          "greek": {
+            "word": "μπορώ"
+          },
+          "catalan": {
+            "word": "puc"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": "anar"
+          }
+        },
+        {
+          "greek": {
+            "word": "πάω"
+          },
+          "catalan": {
+            "word": "al"
+          }
+        },
+        {
+          "greek": {
+            "word": "στο"
+          },
+          "catalan": {
+            "word": "centre"
+          }
+        },
+        {
+          "greek": {
+            "word": "κέντρο"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_016",
+      "type": "phrase",
+      "category": "language",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μπορείτε να μιλήσετε πιο αργά;",
+        "romanization": "Boríte na milísete pio argá?",
+        "phonetic": "Boríte na milísete pio argá?"
+      },
+      "catalan": {
+        "text": "Pot parlar més a poc a poc?",
+        "romanization": "Pot parlar més a poc a poc?",
+        "phonetic": "Pot parlar més a poc a poc?"
+      },
+      "formalityLevel": "formal",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Μπορείτε"
+          },
+          "catalan": {
+            "word": "Pot"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": "parlar"
+          }
+        },
+        {
+          "greek": {
+            "word": "μιλήσετε"
+          },
+          "catalan": {
+            "word": "més"
+          }
+        },
+        {
+          "greek": {
+            "word": "πιο"
+          },
+          "catalan": {
+            "word": "a"
+          }
+        },
+        {
+          "greek": {
+            "word": "αργά"
+          },
+          "catalan": {
+            "word": "poc"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "a"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "poc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_017",
+      "type": "phrase",
+      "category": "food",
+      "difficulty": 2,
+      "greek": {
+        "text": "Θα ήθελα να πληρώσω.",
+        "romanization": "Tha íthela na pliróso.",
+        "phonetic": "Tha íthela na pliróso."
+      },
+      "catalan": {
+        "text": "Voldria pagar.",
+        "romanization": "Voldria pagar.",
+        "phonetic": "Voldria pagar."
+      },
+      "formalityLevel": "polite",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Θα"
+          },
+          "catalan": {
+            "word": "Voldria"
+          }
+        },
+        {
+          "greek": {
+            "word": "ήθελα"
+          },
+          "catalan": {
+            "word": "pagar"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": ""
+          }
+        },
+        {
+          "greek": {
+            "word": "πληρώσω"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_018",
+      "type": "phrase",
+      "category": "food",
+      "difficulty": 2,
+      "greek": {
+        "text": "Ο λογαριασμός, παρακαλώ.",
+        "romanization": "O logariasmós, parakaló.",
+        "phonetic": "O logariasmós, parakaló."
+      },
+      "catalan": {
+        "text": "El compte, si us plau.",
+        "romanization": "El compte, si us plau.",
+        "phonetic": "El compte, si us plau."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Ο"
+          },
+          "catalan": {
+            "word": "El"
+          }
+        },
+        {
+          "greek": {
+            "word": "λογαριασμός"
+          },
+          "catalan": {
+            "word": "compte"
+          }
+        },
+        {
+          "greek": {
+            "word": "παρακαλώ"
+          },
+          "catalan": {
+            "word": "si"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "us"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "plau"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_019",
+      "type": "phrase",
+      "category": "shopping",
+      "difficulty": 2,
+      "greek": {
+        "text": "Είναι πολύ ακριβό για μένα.",
+        "romanization": "Eínai polí akrivó gia ména.",
+        "phonetic": "Eínai polí akrivó gia ména."
+      },
+      "catalan": {
+        "text": "És massa car per a mi.",
+        "romanization": "És massa car per a mi.",
+        "phonetic": "És massa car per a mi."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Είναι"
+          },
+          "catalan": {
+            "word": "És"
+          }
+        },
+        {
+          "greek": {
+            "word": "πολύ"
+          },
+          "catalan": {
+            "word": "massa"
+          }
+        },
+        {
+          "greek": {
+            "word": "ακριβό"
+          },
+          "catalan": {
+            "word": "car"
+          }
+        },
+        {
+          "greek": {
+            "word": "για"
+          },
+          "catalan": {
+            "word": "per"
+          }
+        },
+        {
+          "greek": {
+            "word": "μένα"
+          },
+          "catalan": {
+            "word": "a"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "mi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_020",
+      "type": "phrase",
+      "category": "shopping",
+      "difficulty": 2,
+      "greek": {
+        "text": "Υπάρχει κάτι φθηνότερο;",
+        "romanization": "Ypárchi káti fthinótero?",
+        "phonetic": "Ypárchi káti fthinótero?"
+      },
+      "catalan": {
+        "text": "Hi ha alguna cosa més barata?",
+        "romanization": "Hi ha alguna cosa més barata?",
+        "phonetic": "Hi ha alguna cosa més barata?"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Υπάρχει"
+          },
+          "catalan": {
+            "word": "Hi"
+          }
+        },
+        {
+          "greek": {
+            "word": "κάτι"
+          },
+          "catalan": {
+            "word": "ha"
+          }
+        },
+        {
+          "greek": {
+            "word": "φθηνότερο"
+          },
+          "catalan": {
+            "word": "alguna"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "cosa"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "més"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "barata"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_021",
+      "type": "phrase",
+      "category": "time",
+      "difficulty": 2,
+      "greek": {
+        "text": "Θα έρθω αύριο το πρωί.",
+        "romanization": "Tha értho ávrio to proí.",
+        "phonetic": "Tha értho ávrio to proí."
+      },
+      "catalan": {
+        "text": "Vindré demà al matí.",
+        "romanization": "Vindré demà al matí.",
+        "phonetic": "Vindré demà al matí."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Θα"
+          },
+          "catalan": {
+            "word": "Vindré"
+          }
+        },
+        {
+          "greek": {
+            "word": "έρθω"
+          },
+          "catalan": {
+            "word": "demà"
+          }
+        },
+        {
+          "greek": {
+            "word": "αύριο"
+          },
+          "catalan": {
+            "word": "al"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "matí"
+          }
+        },
+        {
+          "greek": {
+            "word": "πρωί"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_022",
+      "type": "phrase",
+      "category": "time",
+      "difficulty": 2,
+      "greek": {
+        "text": "Ήμουν εδώ χθες.",
+        "romanization": "Ímun edó chthés.",
+        "phonetic": "Ímun edó chthés."
+      },
+      "catalan": {
+        "text": "Era aquí ahir.",
+        "romanization": "Era aquí ahir.",
+        "phonetic": "Era aquí ahir."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Ήμουν"
+          },
+          "catalan": {
+            "word": "Era"
+          }
+        },
+        {
+          "greek": {
+            "word": "εδώ"
+          },
+          "catalan": {
+            "word": "aquí"
+          }
+        },
+        {
+          "greek": {
+            "word": "χθες"
+          },
+          "catalan": {
+            "word": "ahir"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_023",
+      "type": "phrase",
+      "category": "help",
+      "difficulty": 2,
+      "greek": {
+        "text": "Δεν καταλαβαίνω.",
+        "romanization": "Den katalavéno.",
+        "phonetic": "Den katalavéno."
+      },
+      "catalan": {
+        "text": "No ho entenc.",
+        "romanization": "No ho entenc.",
+        "phonetic": "No ho entenc."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Δεν"
+          },
+          "catalan": {
+            "word": "No"
+          }
+        },
+        {
+          "greek": {
+            "word": "καταλαβαίνω"
+          },
+          "catalan": {
+            "word": "ho"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "entenc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_024",
+      "type": "phrase",
+      "category": "help",
+      "difficulty": 2,
+      "greek": {
+        "text": "Καταλαβαίνω, ευχαριστώ.",
+        "romanization": "Katalavéno, efcharistó.",
+        "phonetic": "Katalavéno, efcharistó."
+      },
+      "catalan": {
+        "text": "Ho entenc, gràcies.",
+        "romanization": "Ho entenc, gràcies.",
+        "phonetic": "Ho entenc, gràcies."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Καταλαβαίνω"
+          },
+          "catalan": {
+            "word": "Ho"
+          }
+        },
+        {
+          "greek": {
+            "word": "ευχαριστώ"
+          },
+          "catalan": {
+            "word": "entenc"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "gràcies"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_025",
+      "type": "phrase",
+      "category": "transport",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πού μπορώ να πάρω ταξί;",
+        "romanization": "Poú boró na páro taxí?",
+        "phonetic": "Poú boró na páro taxí?"
+      },
+      "catalan": {
+        "text": "On puc agafar un taxi?",
+        "romanization": "On puc agafar un taxi?",
+        "phonetic": "On puc agafar un taxi?"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πού"
+          },
+          "catalan": {
+            "word": "On"
+          }
+        },
+        {
+          "greek": {
+            "word": "μπορώ"
+          },
+          "catalan": {
+            "word": "puc"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": "agafar"
+          }
+        },
+        {
+          "greek": {
+            "word": "πάρω"
+          },
+          "catalan": {
+            "word": "un"
+          }
+        },
+        {
+          "greek": {
+            "word": "ταξί"
+          },
+          "catalan": {
+            "word": "taxi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_026",
+      "type": "phrase",
+      "category": "transport",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πόση ώρα χρειάζεται;",
+        "romanization": "Pósi óra chriázete?",
+        "phonetic": "Pósi óra chriázete?"
+      },
+      "catalan": {
+        "text": "Quant de temps cal?",
+        "romanization": "Quant de temps cal?",
+        "phonetic": "Quant de temps cal?"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πόση"
+          },
+          "catalan": {
+            "word": "Quant"
+          }
+        },
+        {
+          "greek": {
+            "word": "ώρα"
+          },
+          "catalan": {
+            "word": "de"
+          }
+        },
+        {
+          "greek": {
+            "word": "χρειάζεται"
+          },
+          "catalan": {
+            "word": "temps"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "cal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_027",
+      "type": "phrase",
+      "category": "social",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μου αρέσει πολύ αυτή η πόλη.",
+        "romanization": "Mou arési polí aftí i póli.",
+        "phonetic": "Mou arési polí aftí i póli."
+      },
+      "catalan": {
+        "text": "M’agrada molt aquesta ciutat.",
+        "romanization": "M’agrada molt aquesta ciutat.",
+        "phonetic": "M’agrada molt aquesta ciutat."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Μου"
+          },
+          "catalan": {
+            "word": "M’agrada"
+          }
+        },
+        {
+          "greek": {
+            "word": "αρέσει"
+          },
+          "catalan": {
+            "word": "molt"
+          }
+        },
+        {
+          "greek": {
+            "word": "πολύ"
+          },
+          "catalan": {
+            "word": "aquesta"
+          }
+        },
+        {
+          "greek": {
+            "word": "αυτή"
+          },
+          "catalan": {
+            "word": "ciutat"
+          }
+        },
+        {
+          "greek": {
+            "word": "η"
+          },
+          "catalan": {
+            "word": ""
+          }
+        },
+        {
+          "greek": {
+            "word": "πόλη"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_028",
+      "type": "phrase",
+      "category": "social",
+      "difficulty": 2,
+      "greek": {
+        "text": "Είναι η πρώτη μου φορά εδώ.",
+        "romanization": "Eínai i próti mou forá edó.",
+        "phonetic": "Eínai i próti mou forá edó."
+      },
+      "catalan": {
+        "text": "És la primera vegada que soc aquí.",
+        "romanization": "És la primera vegada que soc aquí.",
+        "phonetic": "És la primera vegada que soc aquí."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Είναι"
+          },
+          "catalan": {
+            "word": "És"
+          }
+        },
+        {
+          "greek": {
+            "word": "η"
+          },
+          "catalan": {
+            "word": "la"
+          }
+        },
+        {
+          "greek": {
+            "word": "πρώτη"
+          },
+          "catalan": {
+            "word": "primera"
+          }
+        },
+        {
+          "greek": {
+            "word": "μου"
+          },
+          "catalan": {
+            "word": "vegada"
+          }
+        },
+        {
+          "greek": {
+            "word": "φορά"
+          },
+          "catalan": {
+            "word": "que"
+          }
+        },
+        {
+          "greek": {
+            "word": "εδώ"
+          },
+          "catalan": {
+            "word": "soc"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "aquí"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_029",
+      "type": "phrase",
+      "category": "farewell",
+      "difficulty": 2,
+      "greek": {
+        "text": "Θα τα πούμε αργότερα.",
+        "romanization": "Tha ta poúme argótera.",
+        "phonetic": "Tha ta poúme argótera."
+      },
+      "catalan": {
+        "text": "Ens veiem més tard.",
+        "romanization": "Ens veiem més tard.",
+        "phonetic": "Ens veiem més tard."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Θα"
+          },
+          "catalan": {
+            "word": "Ens"
+          }
+        },
+        {
+          "greek": {
+            "word": "τα"
+          },
+          "catalan": {
+            "word": "veiem"
+          }
+        },
+        {
+          "greek": {
+            "word": "πούμε"
+          },
+          "catalan": {
+            "word": "més"
+          }
+        },
+        {
+          "greek": {
+            "word": "αργότερα"
+          },
+          "catalan": {
+            "word": "tard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta2_030",
+      "type": "phrase",
+      "category": "farewell",
+      "difficulty": 2,
+      "greek": {
+        "text": "Ευχαριστώ για τη βοήθειά σας.",
+        "romanization": "Efcharistó gia ti voíthiá sas.",
+        "phonetic": "Efcharistó gia ti voíthiá sas."
+      },
+      "catalan": {
+        "text": "Gràcies per la seva ajuda.",
+        "romanization": "Gràcies per la seva ajuda.",
+        "phonetic": "Gràcies per la seva ajuda."
+      },
+      "formalityLevel": "formal",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Ευχαριστώ"
+          },
+          "catalan": {
+            "word": "Gràcies"
+          }
+        },
+        {
+          "greek": {
+            "word": "για"
+          },
+          "catalan": {
+            "word": "per"
+          }
+        },
+        {
+          "greek": {
+            "word": "τη"
+          },
+          "catalan": {
+            "word": "la"
+          }
+        },
+        {
+          "greek": {
+            "word": "βοήθειά"
+          },
+          "catalan": {
+            "word": "seva"
+          }
+        },
+        {
+          "greek": {
+            "word": "σας"
+          },
+          "catalan": {
+            "word": "ajuda"
+          }
+        }
+      ]
+    }
+  ]
+}

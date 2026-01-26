@@ -1,0 +1,554 @@
+{
+  "deckId": "family",
+  "deckName": {
+    "en": "Family",
+    "el": "Οικογένεια",
+    "ca": "Família"
+  },
+  "version": "1.0.0",
+  "languagePair": {
+    "source": "el",
+    "target": "ca"
+  },
+  "level": "A1",
+  "description": {
+    "en": "Family members and simple family phrases",
+    "el": "Μέλη οικογένειας και απλές φράσεις",
+    "ca": "Membres de la família i frases simples"
+  },
+  "itemCount": 16,
+  "items": [
+    {
+      "id": "fam_001",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "μητέρα",
+        "romanization": "mitera",
+        "phonetic": "mee-TEH-rah"
+      },
+      "catalan": {
+        "text": "mare",
+        "phonetic": "MAH-reh"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_002",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "πατέρας",
+        "romanization": "pateras",
+        "phonetic": "pah-TEH-ras"
+      },
+      "catalan": {
+        "text": "pare",
+        "phonetic": "PAH-reh"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_003",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "αδερφός",
+        "romanization": "aderfos",
+        "phonetic": "ah-ther-FOS"
+      },
+      "catalan": {
+        "text": "germà",
+        "phonetic": "jair-MAH"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_004",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "αδερφή",
+        "romanization": "aderfi",
+        "phonetic": "ah-ther-FEE"
+      },
+      "catalan": {
+        "text": "germana",
+        "phonetic": "jair-MAH-nah"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_005",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 2,
+      "greek": {
+        "text": "γιος",
+        "romanization": "gios",
+        "phonetic": "yios"
+      },
+      "catalan": {
+        "text": "fill",
+        "phonetic": "feel"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_006",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 2,
+      "greek": {
+        "text": "κόρη",
+        "romanization": "kori",
+        "phonetic": "KOH-ree"
+      },
+      "catalan": {
+        "text": "filla",
+        "phonetic": "FEE-yah"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_007",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 2,
+      "greek": {
+        "text": "οικογένεια",
+        "romanization": "ikogeneia",
+        "phonetic": "ee-koh-YEH-nee-ah"
+      },
+      "catalan": {
+        "text": "família",
+        "phonetic": "fah-MEE-lee-ah"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_008",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 2,
+      "greek": {
+        "text": "γονείς",
+        "romanization": "gonis",
+        "phonetic": "goh-NEES"
+      },
+      "catalan": {
+        "text": "pares",
+        "phonetic": "PAH-res"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_009",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "παιδί",
+        "romanization": "paidi",
+        "phonetic": "peh-DEE"
+      },
+      "catalan": {
+        "text": "nen",
+        "phonetic": "nen"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_010",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "μωρό",
+        "romanization": "moro",
+        "phonetic": "moh-ROH"
+      },
+      "catalan": {
+        "text": "bebè",
+        "phonetic": "beh-BEH"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_011",
+      "type": "phrase",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Η μητέρα μου",
+        "romanization": "I mitera mou",
+        "phonetic": "ee mee-TEH-rah moo"
+      },
+      "catalan": {
+        "text": "La meva mare",
+        "phonetic": "lah MEH-vah MAH-reh"
+      },
+      "tags": [
+        "family"
+      ],
+      "words": [
+        {
+          "greek": "Η",
+          "catalan": "La"
+        },
+        {
+          "greek": "μητέρα",
+          "catalan": "meva"
+        },
+        {
+          "greek": "μου",
+          "catalan": "mare"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Η",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "La"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "μητέρα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "meva"
+          }
+        },
+        {
+          "position": 2,
+          "greek": {
+            "word": "μου",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "mare"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fam_012",
+      "type": "phrase",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ο πατέρας μου",
+        "romanization": "O pateras mou",
+        "phonetic": "oh pah-TEH-ras moo"
+      },
+      "catalan": {
+        "text": "El meu pare",
+        "phonetic": "el meh-oo PAH-reh"
+      },
+      "tags": [
+        "family"
+      ],
+      "words": [
+        {
+          "greek": "Ο",
+          "catalan": "El"
+        },
+        {
+          "greek": "πατέρας",
+          "catalan": "meu"
+        },
+        {
+          "greek": "μου",
+          "catalan": "pare"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Ο",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "El"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "πατέρας",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "meu"
+          }
+        },
+        {
+          "position": 2,
+          "greek": {
+            "word": "μου",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "pare"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fam_013",
+      "type": "phrase",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Έχω αδερφό",
+        "romanization": "Echo aderfo",
+        "phonetic": "EH-hoh ah-ther-FOH"
+      },
+      "catalan": {
+        "text": "Tinc un germà",
+        "phonetic": "teenk oon jair-MAH"
+      },
+      "tags": [
+        "family"
+      ],
+      "words": [
+        {
+          "greek": "Έχω",
+          "catalan": "Tinc"
+        },
+        {
+          "greek": "αδερφό",
+          "catalan": "germà"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Έχω",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Tinc"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "αδερφό",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "germà"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fam_014",
+      "type": "phrase",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Έχω αδερφή",
+        "romanization": "Echo aderfi",
+        "phonetic": "EH-hoh ah-ther-FEE"
+      },
+      "catalan": {
+        "text": "Tinc una germana",
+        "phonetic": "teenk OO-nah jair-MAH-nah"
+      },
+      "tags": [
+        "family"
+      ],
+      "words": [
+        {
+          "greek": "Έχω",
+          "catalan": "Tinc"
+        },
+        {
+          "greek": "αδερφή",
+          "catalan": "germana"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Έχω",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Tinc"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "αδερφή",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "germana"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fam_015",
+      "type": "phrase",
+      "category": "family",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μεγάλη οικογένεια",
+        "romanization": "Megali ikogeneia",
+        "phonetic": "meh-GAH-lee ee-koh-YEH-nee-ah"
+      },
+      "catalan": {
+        "text": "Família gran",
+        "phonetic": "fah-MEE-lee-ah grahn"
+      },
+      "tags": [
+        "family"
+      ],
+      "words": [
+        {
+          "greek": "Μεγάλη",
+          "catalan": "Família"
+        },
+        {
+          "greek": "οικογένεια",
+          "catalan": "gran"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Μεγάλη",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Família"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "οικογένεια",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "gran"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fam_016",
+      "type": "phrase",
+      "category": "family",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μικρή οικογένεια",
+        "romanization": "Mikri ikogeneia",
+        "phonetic": "mee-KREE ee-koh-YEH-nee-ah"
+      },
+      "catalan": {
+        "text": "Família petita",
+        "phonetic": "fah-MEE-lee-ah peh-TEE-tah"
+      },
+      "tags": [
+        "family"
+      ],
+      "words": [
+        {
+          "greek": "Μικρή",
+          "catalan": "Família"
+        },
+        {
+          "greek": "οικογένεια",
+          "catalan": "petita"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Μικρή",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Família"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "οικογένεια",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "petita"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "Language Duel",
+    "createdAt": "2026-01-26T00:00:00Z",
+    "tags": [
+      "family",
+      "a1"
+    ]
+  }
+}

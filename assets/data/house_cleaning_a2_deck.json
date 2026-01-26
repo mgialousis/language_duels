@@ -1,0 +1,827 @@
+{
+  "deckId": "house_cleaning_a2",
+  "deckName": {
+    "en": "Cleaning the House (A2)",
+    "el": "Καθάρισμα Σπιτιού (A2)",
+    "ca": "Fer dissabte – Neteja de la casa (A2)"
+  },
+  "version": 1,
+  "languagePair": "el-ca",
+  "level": "A2",
+  "description": {
+    "en": "House cleaning tasks and routines: chores, sequencing, requests, and simple complaints.",
+    "el": "Εργασίες καθαρισμού σπιτιού: δουλειές, σειρά ενεργειών, αιτήματα και απλά παράπονα.",
+    "ca": "Tasques de neteja de la llar: feines, ordre, peticions i petites queixes."
+  },
+  "itemCount": 30,
+  "metadata": {
+    "tags": [
+      "house",
+      "cleaning",
+      "chores",
+      "daily_life",
+      "a2"
+    ],
+    "source": "custom"
+  },
+  "items": [
+    {
+      "id": "hc2_001",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "καθαρίζω",
+        "romanization": "katharízo",
+        "phonetic": "katharízo"
+      },
+      "catalan": {
+        "text": "netejar",
+        "romanization": "netejar",
+        "phonetic": "netejar"
+      }
+    },
+    {
+      "id": "hc2_002",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "σκουπίζω",
+        "romanization": "skoupízo",
+        "phonetic": "skoupízo"
+      },
+      "catalan": {
+        "text": "escombrar",
+        "romanization": "escombrar",
+        "phonetic": "escombrar"
+      }
+    },
+    {
+      "id": "hc2_003",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "σφουγγαρίζω",
+        "romanization": "sfoungarízo",
+        "phonetic": "sfoungarízo"
+      },
+      "catalan": {
+        "text": "fregar el terra",
+        "romanization": "fregar el terra",
+        "phonetic": "fregar el terra"
+      }
+    },
+    {
+      "id": "hc2_004",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "ξεσκονίζω",
+        "romanization": "xeskonízo",
+        "phonetic": "xeskonízo"
+      },
+      "catalan": {
+        "text": "treure la pols",
+        "romanization": "treure la pols",
+        "phonetic": "treure la pols"
+      }
+    },
+    {
+      "id": "hc2_005",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "πλένω τα πιάτα",
+        "romanization": "pléno ta piáta",
+        "phonetic": "pléno ta piáta"
+      },
+      "catalan": {
+        "text": "rentar els plats",
+        "romanization": "rentar els plats",
+        "phonetic": "rentar els plats"
+      }
+    },
+    {
+      "id": "hc2_006",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "πλυντήριο",
+        "romanization": "plyndírio",
+        "phonetic": "plyndírio"
+      },
+      "catalan": {
+        "text": "rentadora",
+        "romanization": "rentadora",
+        "phonetic": "rentadora"
+      }
+    },
+    {
+      "id": "hc2_007",
+      "type": "vocab",
+      "category": "rooms",
+      "difficulty": 2,
+      "greek": {
+        "text": "κουζίνα",
+        "romanization": "kuzína",
+        "phonetic": "kuzína"
+      },
+      "catalan": {
+        "text": "cuina",
+        "romanization": "cuina",
+        "phonetic": "cuina"
+      }
+    },
+    {
+      "id": "hc2_008",
+      "type": "vocab",
+      "category": "rooms",
+      "difficulty": 2,
+      "greek": {
+        "text": "μπάνιο",
+        "romanization": "bánio",
+        "phonetic": "bánio"
+      },
+      "catalan": {
+        "text": "bany",
+        "romanization": "bany",
+        "phonetic": "bany"
+      }
+    },
+    {
+      "id": "hc2_009",
+      "type": "vocab",
+      "category": "rooms",
+      "difficulty": 2,
+      "greek": {
+        "text": "σαλόνι",
+        "romanization": "salóni",
+        "phonetic": "salóni"
+      },
+      "catalan": {
+        "text": "menjador",
+        "romanization": "menjador",
+        "phonetic": "menjador"
+      }
+    },
+    {
+      "id": "hc2_010",
+      "type": "vocab",
+      "category": "frequency",
+      "difficulty": 2,
+      "greek": {
+        "text": "κάθε Σάββατο",
+        "romanization": "káthe Sávvato",
+        "phonetic": "káthe Sávvato"
+      },
+      "catalan": {
+        "text": "cada dissabte",
+        "romanization": "cada dissabte",
+        "phonetic": "cada dissabte"
+      }
+    },
+    {
+      "id": "hc2_011",
+      "type": "phrase",
+      "category": "routine",
+      "difficulty": 2,
+      "greek": {
+        "text": "Το Σάββατο καθαρίζω το σπίτι.",
+        "romanization": "To Sávvato katharízo to spíti.",
+        "phonetic": "To Sávvato katharízo to spíti."
+      },
+      "catalan": {
+        "text": "El dissabte netejo la casa.",
+        "romanization": "El dissabte netejo la casa.",
+        "phonetic": "El dissabte netejo la casa."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Το"
+          },
+          "catalan": {
+            "word": "El"
+          }
+        },
+        {
+          "greek": {
+            "word": "Σάββατο"
+          },
+          "catalan": {
+            "word": "dissabte"
+          }
+        },
+        {
+          "greek": {
+            "word": "καθαρίζω"
+          },
+          "catalan": {
+            "word": "netejo"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "la"
+          }
+        },
+        {
+          "greek": {
+            "word": "σπίτι"
+          },
+          "catalan": {
+            "word": "casa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc2_012",
+      "type": "phrase",
+      "category": "sequence",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πρώτα σκουπίζω και μετά σφουγγαρίζω.",
+        "romanization": "Próta skoupízo kai metá sfoungarízo.",
+        "phonetic": "Próta skoupízo kai metá sfoungarízo."
+      },
+      "catalan": {
+        "text": "Primer escombro i després frego el terra.",
+        "romanization": "Primer escombro i després frego el terra.",
+        "phonetic": "Primer escombro i després frego el terra."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πρώτα"
+          },
+          "catalan": {
+            "word": "Primer"
+          }
+        },
+        {
+          "greek": {
+            "word": "σκουπίζω"
+          },
+          "catalan": {
+            "word": "escombro"
+          }
+        },
+        {
+          "greek": {
+            "word": "και"
+          },
+          "catalan": {
+            "word": "i"
+          }
+        },
+        {
+          "greek": {
+            "word": "μετά"
+          },
+          "catalan": {
+            "word": "després"
+          }
+        },
+        {
+          "greek": {
+            "word": "σφουγγαρίζω"
+          },
+          "catalan": {
+            "word": "frego"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "el"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "terra"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc2_013",
+      "type": "phrase",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πρέπει να πλύνω τα πιάτα.",
+        "romanization": "Prépi na plýno ta piáta.",
+        "phonetic": "Prépi na plýno ta piáta."
+      },
+      "catalan": {
+        "text": "He de rentar els plats.",
+        "romanization": "He de rentar els plats.",
+        "phonetic": "He de rentar els plats."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πρέπει"
+          },
+          "catalan": {
+            "word": "He"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": "de"
+          }
+        },
+        {
+          "greek": {
+            "word": "πλύνω"
+          },
+          "catalan": {
+            "word": "rentar"
+          }
+        },
+        {
+          "greek": {
+            "word": "τα"
+          },
+          "catalan": {
+            "word": "els"
+          }
+        },
+        {
+          "greek": {
+            "word": "πιάτα"
+          },
+          "catalan": {
+            "word": "plats"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc2_014",
+      "type": "phrase",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "Το μπάνιο είναι πολύ βρώμικο.",
+        "romanization": "To bánio eínai polí vrómiko.",
+        "phonetic": "To bánio eínai polí vrómiko."
+      },
+      "catalan": {
+        "text": "El bany està molt brut.",
+        "romanization": "El bany està molt brut.",
+        "phonetic": "El bany està molt brut."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Το"
+          },
+          "catalan": {
+            "word": "El"
+          }
+        },
+        {
+          "greek": {
+            "word": "μπάνιο"
+          },
+          "catalan": {
+            "word": "bany"
+          }
+        },
+        {
+          "greek": {
+            "word": "είναι"
+          },
+          "catalan": {
+            "word": "està"
+          }
+        },
+        {
+          "greek": {
+            "word": "πολύ"
+          },
+          "catalan": {
+            "word": "molt"
+          }
+        },
+        {
+          "greek": {
+            "word": "βρώμικο"
+          },
+          "catalan": {
+            "word": "brut"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc2_015",
+      "type": "phrase",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μπορείς να με βοηθήσεις με το καθάρισμα;",
+        "romanization": "Borís na me voithíseis me to kathárisma?",
+        "phonetic": "Borís na me voithíseis me to kathárisma?"
+      },
+      "catalan": {
+        "text": "Em pots ajudar amb la neteja?",
+        "romanization": "Em pots ajudar amb la neteja?",
+        "phonetic": "Em pots ajudar amb la neteja?"
+      },
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Μπορείς"
+          },
+          "catalan": {
+            "word": "Em"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": "pots"
+          }
+        },
+        {
+          "greek": {
+            "word": "με"
+          },
+          "catalan": {
+            "word": "ajudar"
+          }
+        },
+        {
+          "greek": {
+            "word": "βοηθήσεις"
+          },
+          "catalan": {
+            "word": "amb"
+          }
+        },
+        {
+          "greek": {
+            "word": "με"
+          },
+          "catalan": {
+            "word": "la"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "neteja"
+          }
+        },
+        {
+          "greek": {
+            "word": "καθάρισμα"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc2_016",
+      "type": "phrase",
+      "category": "division",
+      "difficulty": 2,
+      "greek": {
+        "text": "Εσύ καθάρισε την κουζίνα και εγώ το σαλόνι.",
+        "romanization": "Esý kathárise tin kuzína kai egó to salóni.",
+        "phonetic": "Esý kathárise tin kuzína kai egó to salóni."
+      },
+      "catalan": {
+        "text": "Tu neteja la cuina i jo el menjador.",
+        "romanization": "Tu neteja la cuina i jo el menjador.",
+        "phonetic": "Tu neteja la cuina i jo el menjador."
+      },
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Εσύ"
+          },
+          "catalan": {
+            "word": "Tu"
+          }
+        },
+        {
+          "greek": {
+            "word": "καθάρισε"
+          },
+          "catalan": {
+            "word": "neteja"
+          }
+        },
+        {
+          "greek": {
+            "word": "την"
+          },
+          "catalan": {
+            "word": "la"
+          }
+        },
+        {
+          "greek": {
+            "word": "κουζίνα"
+          },
+          "catalan": {
+            "word": "cuina"
+          }
+        },
+        {
+          "greek": {
+            "word": "και"
+          },
+          "catalan": {
+            "word": "i"
+          }
+        },
+        {
+          "greek": {
+            "word": "εγώ"
+          },
+          "catalan": {
+            "word": "jo"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "el"
+          }
+        },
+        {
+          "greek": {
+            "word": "σαλόνι"
+          },
+          "catalan": {
+            "word": "menjador"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc2_017",
+      "type": "phrase",
+      "category": "complaint",
+      "difficulty": 2,
+      "greek": {
+        "text": "Δεν μου αρέσει να καθαρίζω.",
+        "romanization": "Den mou arési na katharízo.",
+        "phonetic": "Den mou arési na katharízo."
+      },
+      "catalan": {
+        "text": "No m’agrada netejar.",
+        "romanization": "No m’agrada netejar.",
+        "phonetic": "No m’agrada netejar."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Δεν"
+          },
+          "catalan": {
+            "word": "No"
+          }
+        },
+        {
+          "greek": {
+            "word": "μου"
+          },
+          "catalan": {
+            "word": "m’agrada"
+          }
+        },
+        {
+          "greek": {
+            "word": "αρέσει"
+          },
+          "catalan": {
+            "word": "netejar"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": ""
+          }
+        },
+        {
+          "greek": {
+            "word": "καθαρίζω"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc2_018",
+      "type": "phrase",
+      "category": "completion",
+      "difficulty": 2,
+      "greek": {
+        "text": "Τελείωσα το καθάρισμα.",
+        "romanization": "Telíosa to kathárisma.",
+        "phonetic": "Telíosa to kathárisma."
+      },
+      "catalan": {
+        "text": "He acabat de netejar.",
+        "romanization": "He acabat de netejar.",
+        "phonetic": "He acabat de netejar."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Τελείωσα"
+          },
+          "catalan": {
+            "word": "He"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "acabat"
+          }
+        },
+        {
+          "greek": {
+            "word": "καθάρισμα"
+          },
+          "catalan": {
+            "word": "de"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "netejar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc2_019",
+      "type": "phrase",
+      "category": "result",
+      "difficulty": 2,
+      "greek": {
+        "text": "Το σπίτι είναι τώρα καθαρό.",
+        "romanization": "To spíti eínai tóra katharó.",
+        "phonetic": "To spíti eínai tóra katharó."
+      },
+      "catalan": {
+        "text": "La casa ara està neta.",
+        "romanization": "La casa ara està neta.",
+        "phonetic": "La casa ara està neta."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Το"
+          },
+          "catalan": {
+            "word": "La"
+          }
+        },
+        {
+          "greek": {
+            "word": "σπίτι"
+          },
+          "catalan": {
+            "word": "casa"
+          }
+        },
+        {
+          "greek": {
+            "word": "είναι"
+          },
+          "catalan": {
+            "word": "ara"
+          }
+        },
+        {
+          "greek": {
+            "word": "τώρα"
+          },
+          "catalan": {
+            "word": "està"
+          }
+        },
+        {
+          "greek": {
+            "word": "καθαρό"
+          },
+          "catalan": {
+            "word": "neta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc2_020",
+      "type": "phrase",
+      "category": "routine",
+      "difficulty": 2,
+      "greek": {
+        "text": "Κάνουμε γενική καθαριότητα κάθε βδομάδα.",
+        "romanization": "Kánoume genikí kathariótita káthe vdomada.",
+        "phonetic": "Kánoume genikí kathariótita káthe vdomada."
+      },
+      "catalan": {
+        "text": "Fem dissabte cada setmana.",
+        "romanization": "Fem dissabte cada setmana.",
+        "phonetic": "Fem dissabte cada setmana."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Κάνουμε"
+          },
+          "catalan": {
+            "word": "Fem"
+          }
+        },
+        {
+          "greek": {
+            "word": "γενική"
+          },
+          "catalan": {
+            "word": "dissabte"
+          }
+        },
+        {
+          "greek": {
+            "word": "καθαριότητα"
+          },
+          "catalan": {
+            "word": "cada"
+          }
+        },
+        {
+          "greek": {
+            "word": "κάθε"
+          },
+          "catalan": {
+            "word": "setmana"
+          }
+        },
+        {
+          "greek": {
+            "word": "βδομάδα"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    }
+  ]
+}

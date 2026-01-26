@@ -1,0 +1,1233 @@
+{
+  "deckId": "house_tools_diy_a2",
+  "deckName": {
+    "en": "House Tools & DIY (A2)",
+    "el": "Εργαλεία Σπιτιού & Μαστορέματα (A2)",
+    "ca": "Eines de la llar i bricolatge (A2)"
+  },
+  "version": 1,
+  "languagePair": "el-ca",
+  "level": "A2",
+  "description": {
+    "en": "Using tools at home: fixing small problems, assembling furniture, and giving simple instructions.",
+    "el": "Χρήση εργαλείων στο σπίτι: μικροεπισκευές, συναρμολόγηση επίπλων και απλές οδηγίες.",
+    "ca": "Ús d’eines a casa: petites reparacions, muntar mobles i donar instruccions senzilles."
+  },
+  "itemCount": 30,
+  "metadata": {
+    "tags": [
+      "tools",
+      "diy",
+      "house",
+      "repair",
+      "a2"
+    ],
+    "source": "custom"
+  },
+  "items": [
+    {
+      "id": "td2_001",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "εργαλείο",
+        "romanization": "ergalío",
+        "phonetic": "ergalío"
+      },
+      "catalan": {
+        "text": "eina",
+        "romanization": "eina",
+        "phonetic": "eina"
+      }
+    },
+    {
+      "id": "td2_002",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "σφυρί",
+        "romanization": "sfyrí",
+        "phonetic": "sfyrí"
+      },
+      "catalan": {
+        "text": "martell",
+        "romanization": "martell",
+        "phonetic": "martell"
+      }
+    },
+    {
+      "id": "td2_003",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "κατσαβίδι",
+        "romanization": "katsavídi",
+        "phonetic": "katsavídi"
+      },
+      "catalan": {
+        "text": "tornavís",
+        "romanization": "tornavís",
+        "phonetic": "tornavís"
+      }
+    },
+    {
+      "id": "td2_004",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "πένσα",
+        "romanization": "pénsa",
+        "phonetic": "pénsa"
+      },
+      "catalan": {
+        "text": "alicates",
+        "romanization": "alicates",
+        "phonetic": "alicates"
+      }
+    },
+    {
+      "id": "td2_005",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "βίδα",
+        "romanization": "vída",
+        "phonetic": "vída"
+      },
+      "catalan": {
+        "text": "cargol",
+        "romanization": "cargol",
+        "phonetic": "cargol"
+      }
+    },
+    {
+      "id": "td2_006",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "καρφί",
+        "romanization": "karfí",
+        "phonetic": "karfí"
+      },
+      "catalan": {
+        "text": "clau",
+        "romanization": "clau",
+        "phonetic": "clau"
+      }
+    },
+    {
+      "id": "td2_007",
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "ξύλο",
+        "romanization": "xýlo",
+        "phonetic": "xýlo"
+      },
+      "catalan": {
+        "text": "fusta",
+        "romanization": "fusta",
+        "phonetic": "fusta"
+      }
+    },
+    {
+      "id": "td2_008",
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "μέταλλο",
+        "romanization": "métallo",
+        "phonetic": "métallo"
+      },
+      "catalan": {
+        "text": "metall",
+        "romanization": "metall",
+        "phonetic": "metall"
+      }
+    },
+    {
+      "id": "td2_009",
+      "type": "vocab",
+      "category": "plumbing",
+      "difficulty": 2,
+      "greek": {
+        "text": "νεροχύτης",
+        "romanization": "nerochýtis",
+        "phonetic": "nerochýtis"
+      },
+      "catalan": {
+        "text": "pica",
+        "romanization": "pica",
+        "phonetic": "pica"
+      }
+    },
+    {
+      "id": "td2_010",
+      "type": "vocab",
+      "category": "plumbing",
+      "difficulty": 2,
+      "greek": {
+        "text": "βρύση",
+        "romanization": "vrýsi",
+        "phonetic": "vrýsi"
+      },
+      "catalan": {
+        "text": "aixeta",
+        "romanization": "aixeta",
+        "phonetic": "aixeta"
+      }
+    },
+    {
+      "id": "td2_011",
+      "type": "phrase",
+      "category": "problem",
+      "difficulty": 2,
+      "greek": {
+        "text": "Ο νεροχύτης έχει πρόβλημα.",
+        "romanization": "O nerochýtis échi próvlima.",
+        "phonetic": "O nerochýtis échi próvlima."
+      },
+      "catalan": {
+        "text": "La pica té un problema.",
+        "romanization": "La pica té un problema.",
+        "phonetic": "La pica té un problema."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Ο"
+          },
+          "catalan": {
+            "word": "La"
+          }
+        },
+        {
+          "greek": {
+            "word": "νεροχύτης"
+          },
+          "catalan": {
+            "word": "pica"
+          }
+        },
+        {
+          "greek": {
+            "word": "έχει"
+          },
+          "catalan": {
+            "word": "té"
+          }
+        },
+        {
+          "greek": {
+            "word": "πρόβλημα"
+          },
+          "catalan": {
+            "word": "un"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "problema"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_012",
+      "type": "phrase",
+      "category": "problem",
+      "difficulty": 2,
+      "greek": {
+        "text": "Η βρύση στάζει.",
+        "romanization": "I vrýsi stázi.",
+        "phonetic": "I vrýsi stázi."
+      },
+      "catalan": {
+        "text": "L’aixeta degota.",
+        "romanization": "L’aixeta degota.",
+        "phonetic": "L’aixeta degota."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Η"
+          },
+          "catalan": {
+            "word": "L’aixeta"
+          }
+        },
+        {
+          "greek": {
+            "word": "βρύση"
+          },
+          "catalan": {
+            "word": "degota"
+          }
+        },
+        {
+          "greek": {
+            "word": "στάζει"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_013",
+      "type": "phrase",
+      "category": "action",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πρέπει να τη φτιάξουμε.",
+        "romanization": "Prépi na ti ftiáxoume.",
+        "phonetic": "Prépi na ti ftiáxoume."
+      },
+      "catalan": {
+        "text": "L’hem d’arreglar.",
+        "romanization": "L’hem d’arreglar.",
+        "phonetic": "L’hem d’arreglar."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πρέπει"
+          },
+          "catalan": {
+            "word": "L’hem"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": "d’arreglar"
+          }
+        },
+        {
+          "greek": {
+            "word": "τη"
+          },
+          "catalan": {
+            "word": ""
+          }
+        },
+        {
+          "greek": {
+            "word": "φτιάξουμε"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_014",
+      "type": "phrase",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "Χρειάζομαι ένα κατσαβίδι.",
+        "romanization": "Chriázomai éna katsavídi.",
+        "phonetic": "Chriázomai éna katsavídi."
+      },
+      "catalan": {
+        "text": "Necessito un tornavís.",
+        "romanization": "Necessito un tornavís.",
+        "phonetic": "Necessito un tornavís."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Χρειάζομαι"
+          },
+          "catalan": {
+            "word": "Necessito"
+          }
+        },
+        {
+          "greek": {
+            "word": "ένα"
+          },
+          "catalan": {
+            "word": "un"
+          }
+        },
+        {
+          "greek": {
+            "word": "κατσαβίδι"
+          },
+          "catalan": {
+            "word": "tornavís"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_015",
+      "type": "phrase",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πιάσε το σφυρί, σε παρακαλώ.",
+        "romanization": "Piáse to sfyrí, se parakaló.",
+        "phonetic": "Piáse to sfyrí, se parakaló."
+      },
+      "catalan": {
+        "text": "Agafa el martell, si us plau.",
+        "romanization": "Agafa el martell, si us plau.",
+        "phonetic": "Agafa el martell, si us plau."
+      },
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πιάσε"
+          },
+          "catalan": {
+            "word": "Agafa"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "el"
+          }
+        },
+        {
+          "greek": {
+            "word": "σφυρί"
+          },
+          "catalan": {
+            "word": "martell"
+          }
+        },
+        {
+          "greek": {
+            "word": "σε"
+          },
+          "catalan": {
+            "word": "si"
+          }
+        },
+        {
+          "greek": {
+            "word": "παρακαλώ"
+          },
+          "catalan": {
+            "word": "us"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "plau"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_016",
+      "type": "phrase",
+      "category": "furniture",
+      "difficulty": 2,
+      "greek": {
+        "text": "Συναρμολογούμε το έπιπλο.",
+        "romanization": "Synarmologoúme to épiplo.",
+        "phonetic": "Synarmologoúme to épiplo."
+      },
+      "catalan": {
+        "text": "Muntem el moble.",
+        "romanization": "Muntem el moble.",
+        "phonetic": "Muntem el moble."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Συναρμολογούμε"
+          },
+          "catalan": {
+            "word": "Muntem"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "el"
+          }
+        },
+        {
+          "greek": {
+            "word": "έπιπλο"
+          },
+          "catalan": {
+            "word": "moble"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_017",
+      "type": "phrase",
+      "category": "instructions",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πρώτα βάζουμε τις βίδες.",
+        "romanization": "Próta vázoume tis vídes.",
+        "phonetic": "Próta vázoume tis vídes."
+      },
+      "catalan": {
+        "text": "Primer posem els cargols.",
+        "romanization": "Primer posem els cargols.",
+        "phonetic": "Primer posem els cargols."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πρώτα"
+          },
+          "catalan": {
+            "word": "Primer"
+          }
+        },
+        {
+          "greek": {
+            "word": "βάζουμε"
+          },
+          "catalan": {
+            "word": "posem"
+          }
+        },
+        {
+          "greek": {
+            "word": "τις"
+          },
+          "catalan": {
+            "word": "els"
+          }
+        },
+        {
+          "greek": {
+            "word": "βίδες"
+          },
+          "catalan": {
+            "word": "cargols"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_018",
+      "type": "phrase",
+      "category": "instructions",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μετά σφίγγουμε καλά.",
+        "romanization": "Metá sfíngoume kalá.",
+        "phonetic": "Metá sfíngoume kalá."
+      },
+      "catalan": {
+        "text": "Després estrenyem bé.",
+        "romanization": "Després estrenyem bé.",
+        "phonetic": "Després estrenyem bé."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Μετά"
+          },
+          "catalan": {
+            "word": "Després"
+          }
+        },
+        {
+          "greek": {
+            "word": "σφίγγουμε"
+          },
+          "catalan": {
+            "word": "estrenyem"
+          }
+        },
+        {
+          "greek": {
+            "word": "καλά"
+          },
+          "catalan": {
+            "word": "bé"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_019",
+      "type": "phrase",
+      "category": "difficulty",
+      "difficulty": 2,
+      "greek": {
+        "text": "Δεν είναι εύκολο.",
+        "romanization": "Den eínai éfkolo.",
+        "phonetic": "Den eínai éfkolo."
+      },
+      "catalan": {
+        "text": "No és fàcil.",
+        "romanization": "No és fàcil.",
+        "phonetic": "No és fàcil."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Δεν"
+          },
+          "catalan": {
+            "word": "No"
+          }
+        },
+        {
+          "greek": {
+            "word": "είναι"
+          },
+          "catalan": {
+            "word": "és"
+          }
+        },
+        {
+          "greek": {
+            "word": "εύκολο"
+          },
+          "catalan": {
+            "word": "fàcil"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_020",
+      "type": "phrase",
+      "category": "help",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μπορείς να με βοηθήσεις;",
+        "romanization": "Borís na me voithíseis?",
+        "phonetic": "Borís na me voithíseis?"
+      },
+      "catalan": {
+        "text": "Em pots ajudar?",
+        "romanization": "Em pots ajudar?",
+        "phonetic": "Em pots ajudar?"
+      },
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Μπορείς"
+          },
+          "catalan": {
+            "word": "Em"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": "pots"
+          }
+        },
+        {
+          "greek": {
+            "word": "με"
+          },
+          "catalan": {
+            "word": "ajudar"
+          }
+        },
+        {
+          "greek": {
+            "word": "βοηθήσεις"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_021",
+      "type": "phrase",
+      "category": "mistake",
+      "difficulty": 2,
+      "greek": {
+        "text": "Κάναμε ένα λάθος.",
+        "romanization": "Káname éna láthos.",
+        "phonetic": "Káname éna láthos."
+      },
+      "catalan": {
+        "text": "Hem fet un error.",
+        "romanization": "Hem fet un error.",
+        "phonetic": "Hem fet un error."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Κάναμε"
+          },
+          "catalan": {
+            "word": "Hem"
+          }
+        },
+        {
+          "greek": {
+            "word": "ένα"
+          },
+          "catalan": {
+            "word": "fet"
+          }
+        },
+        {
+          "greek": {
+            "word": "λάθος"
+          },
+          "catalan": {
+            "word": "un"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "error"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_022",
+      "type": "phrase",
+      "category": "solution",
+      "difficulty": 2,
+      "greek": {
+        "text": "Δεν πειράζει, το διορθώνουμε.",
+        "romanization": "Den peirázi, to diorthónoume.",
+        "phonetic": "Den peirázi, to diorthónoume."
+      },
+      "catalan": {
+        "text": "No passa res, ho arreglem.",
+        "romanization": "No passa res, ho arreglem.",
+        "phonetic": "No passa res, ho arreglem."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Δεν"
+          },
+          "catalan": {
+            "word": "No"
+          }
+        },
+        {
+          "greek": {
+            "word": "πειράζει"
+          },
+          "catalan": {
+            "word": "passa"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "res"
+          }
+        },
+        {
+          "greek": {
+            "word": "διορθώνουμε"
+          },
+          "catalan": {
+            "word": "ho"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "arreglem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_023",
+      "type": "phrase",
+      "category": "completion",
+      "difficulty": 2,
+      "greek": {
+        "text": "Τελειώσαμε.",
+        "romanization": "Teliósame.",
+        "phonetic": "Teliósame."
+      },
+      "catalan": {
+        "text": "Ja hem acabat.",
+        "romanization": "Ja hem acabat.",
+        "phonetic": "Ja hem acabat."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Τελειώσαμε"
+          },
+          "catalan": {
+            "word": "Ja"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "hem"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "acabat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_024",
+      "type": "phrase",
+      "category": "result",
+      "difficulty": 2,
+      "greek": {
+        "text": "Το έπιπλο είναι έτοιμο.",
+        "romanization": "To épiplo eínai étoimo.",
+        "phonetic": "To épiplo eínai étoimo."
+      },
+      "catalan": {
+        "text": "El moble està llest.",
+        "romanization": "El moble està llest.",
+        "phonetic": "El moble està llest."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Το"
+          },
+          "catalan": {
+            "word": "El"
+          }
+        },
+        {
+          "greek": {
+            "word": "έπιπλο"
+          },
+          "catalan": {
+            "word": "moble"
+          }
+        },
+        {
+          "greek": {
+            "word": "είναι"
+          },
+          "catalan": {
+            "word": "està"
+          }
+        },
+        {
+          "greek": {
+            "word": "έτοιμο"
+          },
+          "catalan": {
+            "word": "llest"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_025",
+      "type": "phrase",
+      "category": "result",
+      "difficulty": 2,
+      "greek": {
+        "text": "Η βρύση δεν στάζει πια.",
+        "romanization": "I vrýsi den stázi pia.",
+        "phonetic": "I vrýsi den stázi pia."
+      },
+      "catalan": {
+        "text": "L’aixeta ja no degota.",
+        "romanization": "L’aixeta ja no degota.",
+        "phonetic": "L’aixeta ja no degota."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Η"
+          },
+          "catalan": {
+            "word": "L’aixeta"
+          }
+        },
+        {
+          "greek": {
+            "word": "βρύση"
+          },
+          "catalan": {
+            "word": "ja"
+          }
+        },
+        {
+          "greek": {
+            "word": "δεν"
+          },
+          "catalan": {
+            "word": "no"
+          }
+        },
+        {
+          "greek": {
+            "word": "στάζει"
+          },
+          "catalan": {
+            "word": "degota"
+          }
+        },
+        {
+          "greek": {
+            "word": "πια"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_026",
+      "type": "phrase",
+      "category": "confidence",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μπορούμε να το κάνουμε μόνοι μας.",
+        "romanization": "Borúme na to kánoume mónoi mas.",
+        "phonetic": "Borúme na to kánoume mónoi mas."
+      },
+      "catalan": {
+        "text": "Ho podem fer nosaltres sols.",
+        "romanization": "Ho podem fer nosaltres sols.",
+        "phonetic": "Ho podem fer nosaltres sols."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Μπορούμε"
+          },
+          "catalan": {
+            "word": "Ho"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": "podem"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "fer"
+          }
+        },
+        {
+          "greek": {
+            "word": "κάνουμε"
+          },
+          "catalan": {
+            "word": "nosaltres"
+          }
+        },
+        {
+          "greek": {
+            "word": "μόνοι"
+          },
+          "catalan": {
+            "word": "sols"
+          }
+        },
+        {
+          "greek": {
+            "word": "μας"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_027",
+      "type": "phrase",
+      "category": "decision",
+      "difficulty": 2,
+      "greek": {
+        "text": "Ας καλέσουμε έναν τεχνικό.",
+        "romanization": "As kalésoume énan technikó.",
+        "phonetic": "As kalésoume énan technikó."
+      },
+      "catalan": {
+        "text": "Millor truquem a un tècnic.",
+        "romanization": "Millor truquem a un tècnic.",
+        "phonetic": "Millor truquem a un tècnic."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Ας"
+          },
+          "catalan": {
+            "word": "Millor"
+          }
+        },
+        {
+          "greek": {
+            "word": "καλέσουμε"
+          },
+          "catalan": {
+            "word": "truquem"
+          }
+        },
+        {
+          "greek": {
+            "word": "έναν"
+          },
+          "catalan": {
+            "word": "a"
+          }
+        },
+        {
+          "greek": {
+            "word": "τεχνικό"
+          },
+          "catalan": {
+            "word": "un"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "tècnic"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_028",
+      "type": "phrase",
+      "category": "evaluation",
+      "difficulty": 2,
+      "greek": {
+        "text": "Δεν ήταν τόσο δύσκολο.",
+        "romanization": "Den ítan tóso dýskolo.",
+        "phonetic": "Den ítan tóso dýskolo."
+      },
+      "catalan": {
+        "text": "No era tan difícil.",
+        "romanization": "No era tan difícil.",
+        "phonetic": "No era tan difícil."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Δεν"
+          },
+          "catalan": {
+            "word": "No"
+          }
+        },
+        {
+          "greek": {
+            "word": "ήταν"
+          },
+          "catalan": {
+            "word": "era"
+          }
+        },
+        {
+          "greek": {
+            "word": "τόσο"
+          },
+          "catalan": {
+            "word": "tan"
+          }
+        },
+        {
+          "greek": {
+            "word": "δύσκολο"
+          },
+          "catalan": {
+            "word": "difícil"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_029",
+      "type": "phrase",
+      "category": "evaluation",
+      "difficulty": 2,
+      "greek": {
+        "text": "Χρειάστηκε πολύ χρόνο.",
+        "romanization": "Chriástike polí chrόno.",
+        "phonetic": "Chriástike polí chrόno."
+      },
+      "catalan": {
+        "text": "Ha costat molt temps.",
+        "romanization": "Ha costat molt temps.",
+        "phonetic": "Ha costat molt temps."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Χρειάστηκε"
+          },
+          "catalan": {
+            "word": "Ha"
+          }
+        },
+        {
+          "greek": {
+            "word": "πολύ"
+          },
+          "catalan": {
+            "word": "costat"
+          }
+        },
+        {
+          "greek": {
+            "word": "χρόνο"
+          },
+          "catalan": {
+            "word": "molt"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "temps"
+          }
+        }
+      ]
+    },
+    {
+      "id": "td2_030",
+      "type": "phrase",
+      "category": "satisfaction",
+      "difficulty": 2,
+      "greek": {
+        "text": "Είμαι ευχαριστημένος με το αποτέλεσμα.",
+        "romanization": "Ímai efcharistiménos me to apotélesma.",
+        "phonetic": "Ímai efcharistiménos me to apotélesma."
+      },
+      "catalan": {
+        "text": "Estic content amb el resultat.",
+        "romanization": "Estic content amb el resultat.",
+        "phonetic": "Estic content amb el resultat."
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Είμαι"
+          },
+          "catalan": {
+            "word": "Estic"
+          }
+        },
+        {
+          "greek": {
+            "word": "ευχαριστημένος"
+          },
+          "catalan": {
+            "word": "content"
+          }
+        },
+        {
+          "greek": {
+            "word": "με"
+          },
+          "catalan": {
+            "word": "amb"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "el"
+          }
+        },
+        {
+          "greek": {
+            "word": "αποτέλεσμα"
+          },
+          "catalan": {
+            "word": "resultat"
+          }
+        }
+      ]
+    }
+  ]
+}

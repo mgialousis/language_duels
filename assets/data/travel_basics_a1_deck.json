@@ -1,0 +1,817 @@
+{
+  "deckId": "travel_basics_a1",
+  "deckName": {
+    "en": "Travel Basics (A1)",
+    "el": "Ταξίδι – Βασικά (A1)",
+    "ca": "Viatge – Bàsics (A1)"
+  },
+  "version": 1,
+  "languagePair": "el-ca",
+  "level": "A1",
+  "description": {
+    "en": "Essential words and short phrases for getting around (greetings, directions, transport, food).",
+    "el": "Απαραίτητες λέξεις και μικρές φράσεις για μετακινήσεις (χαιρετισμοί, οδηγίες, μεταφορά, φαγητό).",
+    "ca": "Paraules essencials i frases curtes per moure’t (salutacions, direccions, transport, menjar)."
+  },
+  "itemCount": 30,
+  "metadata": {
+    "tags": [
+      "travel",
+      "basics",
+      "directions",
+      "transport",
+      "food"
+    ],
+    "source": "custom"
+  },
+  "items": [
+    {
+      "id": "tb_001",
+      "type": "vocab",
+      "category": "greetings",
+      "difficulty": 1,
+      "greek": {
+        "text": "Γεια σας",
+        "romanization": "Yia sas",
+        "phonetic": "yah sas"
+      },
+      "catalan": {
+        "text": "Hola",
+        "romanization": "Òla",
+        "phonetic": "oh-lah"
+      }
+    },
+    {
+      "id": "tb_002",
+      "type": "vocab",
+      "category": "politeness",
+      "difficulty": 1,
+      "greek": {
+        "text": "Παρακαλώ",
+        "romanization": "Parakaló",
+        "phonetic": "pah-rah-kah-LOH"
+      },
+      "catalan": {
+        "text": "Si us plau",
+        "romanization": "Si us plau",
+        "phonetic": "see oos plow"
+      }
+    },
+    {
+      "id": "tb_003",
+      "type": "vocab",
+      "category": "politeness",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ευχαριστώ",
+        "romanization": "Efcharistó",
+        "phonetic": "ef-ha-ri-STOH"
+      },
+      "catalan": {
+        "text": "Gràcies",
+        "romanization": "Gràcies",
+        "phonetic": "GRAH-syes"
+      }
+    },
+    {
+      "id": "tb_004",
+      "type": "vocab",
+      "category": "politeness",
+      "difficulty": 1,
+      "greek": {
+        "text": "Συγγνώμη",
+        "romanization": "Signómi",
+        "phonetic": "see-GNOH-mee"
+      },
+      "catalan": {
+        "text": "Perdó",
+        "romanization": "Perdó",
+        "phonetic": "per-DOH"
+      }
+    },
+    {
+      "id": "tb_005",
+      "type": "vocab",
+      "category": "basics",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ναι",
+        "romanization": "Nai",
+        "phonetic": "neh"
+      },
+      "catalan": {
+        "text": "Sí",
+        "romanization": "Sí",
+        "phonetic": "see"
+      }
+    },
+    {
+      "id": "tb_006",
+      "type": "vocab",
+      "category": "basics",
+      "difficulty": 1,
+      "greek": {
+        "text": "Όχι",
+        "romanization": "Óchi",
+        "phonetic": "OH-hee"
+      },
+      "catalan": {
+        "text": "No",
+        "romanization": "No",
+        "phonetic": "noh"
+      }
+    },
+    {
+      "id": "tb_007",
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "εδώ",
+        "romanization": "edó",
+        "phonetic": "eh-THOH"
+      },
+      "catalan": {
+        "text": "aquí",
+        "romanization": "aquí",
+        "phonetic": "ah-KEE"
+      }
+    },
+    {
+      "id": "tb_008",
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "εκεί",
+        "romanization": "ekeí",
+        "phonetic": "eh-KEE"
+      },
+      "catalan": {
+        "text": "allà",
+        "romanization": "allà",
+        "phonetic": "ah-YAH"
+      }
+    },
+    {
+      "id": "tb_009",
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "αριστερά",
+        "romanization": "aristerá",
+        "phonetic": "ah-ree-steh-RAH"
+      },
+      "catalan": {
+        "text": "a l'esquerra",
+        "romanization": "a l'esquerra",
+        "phonetic": "ah les-KEH-rra"
+      }
+    },
+    {
+      "id": "tb_010",
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "δεξιά",
+        "romanization": "dexiá",
+        "phonetic": "thek-SYAH"
+      },
+      "catalan": {
+        "text": "a la dreta",
+        "romanization": "a la dreta",
+        "phonetic": "ah lah DREH-tah"
+      }
+    },
+    {
+      "id": "tb_011",
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "σταθμός",
+        "romanization": "stathmós",
+        "phonetic": "stath-MOHS"
+      },
+      "catalan": {
+        "text": "estació",
+        "romanization": "estació",
+        "phonetic": "es-tah-SYOH"
+      }
+    },
+    {
+      "id": "tb_012",
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "λεωφορείο",
+        "romanization": "leoforeío",
+        "phonetic": "leh-oh-fo-REE-oh"
+      },
+      "catalan": {
+        "text": "autobús",
+        "romanization": "autobús",
+        "phonetic": "ow-toh-BOOS"
+      }
+    },
+    {
+      "id": "tb_013",
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "μετρό",
+        "romanization": "metrό",
+        "phonetic": "meh-TROH"
+      },
+      "catalan": {
+        "text": "metro",
+        "romanization": "metro",
+        "phonetic": "MEH-tro"
+      }
+    },
+    {
+      "id": "tb_014",
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "ταξί",
+        "romanization": "taxí",
+        "phonetic": "tah-KSEE"
+      },
+      "catalan": {
+        "text": "taxi",
+        "romanization": "taxi",
+        "phonetic": "TAK-see"
+      }
+    },
+    {
+      "id": "tb_015",
+      "type": "vocab",
+      "category": "money",
+      "difficulty": 1,
+      "greek": {
+        "text": "εισιτήριο",
+        "romanization": "eisitírio",
+        "phonetic": "ee-see-TEE-ree-oh"
+      },
+      "catalan": {
+        "text": "bitllet",
+        "romanization": "bitllet",
+        "phonetic": "beet-YET"
+      }
+    },
+    {
+      "id": "tb_016",
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "ξενοδοχείο",
+        "romanization": "xenodochείο",
+        "phonetic": "kseh-no-do-KHEE-oh"
+      },
+      "catalan": {
+        "text": "hotel",
+        "romanization": "hotel",
+        "phonetic": "oh-TEL"
+      }
+    },
+    {
+      "id": "tb_017",
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "εστιατόριο",
+        "romanization": "estiatório",
+        "phonetic": "es-tee-AH-toh-ree-oh"
+      },
+      "catalan": {
+        "text": "restaurant",
+        "romanization": "restaurant",
+        "phonetic": "res-taw-RANT"
+      }
+    },
+    {
+      "id": "tb_018",
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "τουαλέτα",
+        "romanization": "toualéta",
+        "phonetic": "too-ah-LEH-tah"
+      },
+      "catalan": {
+        "text": "lavabo",
+        "romanization": "lavabo",
+        "phonetic": "lah-VAH-voh"
+      }
+    },
+    {
+      "id": "tb_019",
+      "type": "phrase",
+      "category": "greetings",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλημέρα",
+        "romanization": "Kaliméra",
+        "phonetic": "kah-lee-MEH-rah"
+      },
+      "catalan": {
+        "text": "Bon dia",
+        "romanization": "Bon dia",
+        "phonetic": "bon DEE-ah"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Καλημέρα"
+          },
+          "catalan": {
+            "word": "Bon"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "dia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_020",
+      "type": "phrase",
+      "category": "help",
+      "difficulty": 1,
+      "greek": {
+        "text": "Μπορείτε να με βοηθήσετε;",
+        "romanization": "Boreíte na me voithísete?",
+        "phonetic": "bo-REE-teh nah meh vo-ee-THEE-seh-teh"
+      },
+      "catalan": {
+        "text": "Em pot ajudar?",
+        "romanization": "Em pot ajudar?",
+        "phonetic": "em pot ah-joo-DAH"
+      },
+      "formalityLevel": "formal",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Μπορείτε"
+          },
+          "catalan": {
+            "word": "Em"
+          }
+        },
+        {
+          "greek": {
+            "word": "να"
+          },
+          "catalan": {
+            "word": "pot"
+          }
+        },
+        {
+          "greek": {
+            "word": "με"
+          },
+          "catalan": {
+            "word": "ajudar"
+          }
+        },
+        {
+          "greek": {
+            "word": "βοηθήσετε"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_021",
+      "type": "phrase",
+      "category": "language",
+      "difficulty": 1,
+      "greek": {
+        "text": "Μιλάτε αγγλικά;",
+        "romanization": "Miláte angliká?",
+        "phonetic": "mee-LAH-teh an-glee-KAH"
+      },
+      "catalan": {
+        "text": "Parla anglès?",
+        "romanization": "Parla anglès?",
+        "phonetic": "PAR-lah an-GLESS"
+      },
+      "formalityLevel": "formal",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Μιλάτε"
+          },
+          "catalan": {
+            "word": "Parla"
+          }
+        },
+        {
+          "greek": {
+            "word": "αγγλικά"
+          },
+          "catalan": {
+            "word": "anglès"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_022",
+      "type": "phrase",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "Πού είναι το μετρό;",
+        "romanization": "Poú eínai to metrό?",
+        "phonetic": "poo EE-neh toh meh-TROH"
+      },
+      "catalan": {
+        "text": "On és el metro?",
+        "romanization": "On és el metro?",
+        "phonetic": "on es el MEH-tro"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πού"
+          },
+          "catalan": {
+            "word": "On"
+          }
+        },
+        {
+          "greek": {
+            "word": "είναι"
+          },
+          "catalan": {
+            "word": "és"
+          }
+        },
+        {
+          "greek": {
+            "word": "το"
+          },
+          "catalan": {
+            "word": "el"
+          }
+        },
+        {
+          "greek": {
+            "word": "μετρό"
+          },
+          "catalan": {
+            "word": "metro"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_023",
+      "type": "phrase",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "Πόσο μακριά είναι;",
+        "romanization": "Póso makriá eínai?",
+        "phonetic": "POH-soh mah-KRYAH EE-neh"
+      },
+      "catalan": {
+        "text": "És lluny?",
+        "romanization": "És lluny?",
+        "phonetic": "es LYUNY"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πόσο"
+          },
+          "catalan": {
+            "word": "És"
+          }
+        },
+        {
+          "greek": {
+            "word": "μακριά"
+          },
+          "catalan": {
+            "word": "lluny"
+          }
+        },
+        {
+          "greek": {
+            "word": "είναι"
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_024",
+      "type": "phrase",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ένα εισιτήριο, παρακαλώ.",
+        "romanization": "Éna eisitírio, parakaló.",
+        "phonetic": "EH-nah ee-see-TEE-ree-oh pah-rah-kah-LOH"
+      },
+      "catalan": {
+        "text": "Un bitllet, si us plau.",
+        "romanization": "Un bitllet, si us plau.",
+        "phonetic": "oon beet-YET see oos plow"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Ένα"
+          },
+          "catalan": {
+            "word": "Un"
+          }
+        },
+        {
+          "greek": {
+            "word": "εισιτήριο"
+          },
+          "catalan": {
+            "word": "bitllet"
+          }
+        },
+        {
+          "greek": {
+            "word": "παρακαλώ"
+          },
+          "catalan": {
+            "word": "si"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "us"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "plau"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_025",
+      "type": "phrase",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "Πόσο κοστίζει;",
+        "romanization": "Póso kostízei?",
+        "phonetic": "POH-soh kos-TEE-zee"
+      },
+      "catalan": {
+        "text": "Quant costa?",
+        "romanization": "Quant costa?",
+        "phonetic": "kwant KOS-tah"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πόσο"
+          },
+          "catalan": {
+            "word": "Quant"
+          }
+        },
+        {
+          "greek": {
+            "word": "κοστίζει"
+          },
+          "catalan": {
+            "word": "costa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_026",
+      "type": "phrase",
+      "category": "food",
+      "difficulty": 1,
+      "greek": {
+        "text": "Θέλω νερό.",
+        "romanization": "Thélo neró.",
+        "phonetic": "THEH-loh neh-ROH"
+      },
+      "catalan": {
+        "text": "Vull aigua.",
+        "romanization": "Vull aigua.",
+        "phonetic": "vuy AY-gwah"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Θέλω"
+          },
+          "catalan": {
+            "word": "Vull"
+          }
+        },
+        {
+          "greek": {
+            "word": "νερό"
+          },
+          "catalan": {
+            "word": "aigua"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_027",
+      "type": "phrase",
+      "category": "food",
+      "difficulty": 1,
+      "greek": {
+        "text": "Έχετε μενού;",
+        "romanization": "Échete menoú?",
+        "phonetic": "EH-heh-teh meh-NOO"
+      },
+      "catalan": {
+        "text": "Tenen menú?",
+        "romanization": "Tenen menú?",
+        "phonetic": "TEH-nen meh-NOO"
+      },
+      "formalityLevel": "formal",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Έχετε"
+          },
+          "catalan": {
+            "word": "Tenen"
+          }
+        },
+        {
+          "greek": {
+            "word": "μενού"
+          },
+          "catalan": {
+            "word": "menú"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_028",
+      "type": "phrase",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "Πού είναι η τουαλέτα;",
+        "romanization": "Poú eínai i toualéta?",
+        "phonetic": "poo EE-neh ee too-ah-LEH-tah"
+      },
+      "catalan": {
+        "text": "On és el lavabo?",
+        "romanization": "On és el lavabo?",
+        "phonetic": "on es el lah-VAH-voh"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Πού"
+          },
+          "catalan": {
+            "word": "On"
+          }
+        },
+        {
+          "greek": {
+            "word": "είναι"
+          },
+          "catalan": {
+            "word": "és"
+          }
+        },
+        {
+          "greek": {
+            "word": "η"
+          },
+          "catalan": {
+            "word": "el"
+          }
+        },
+        {
+          "greek": {
+            "word": "τουαλέτα"
+          },
+          "catalan": {
+            "word": "lavabo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_029",
+      "type": "phrase",
+      "category": "hotel",
+      "difficulty": 1,
+      "greek": {
+        "text": "Έχω κράτηση.",
+        "romanization": "Écho krátisi.",
+        "phonetic": "EH-hoh KRAH-tee-see"
+      },
+      "catalan": {
+        "text": "Tinc una reserva.",
+        "romanization": "Tinc una reserva.",
+        "phonetic": "ting ooh-nah reh-ZER-vah"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Έχω"
+          },
+          "catalan": {
+            "word": "Tinc"
+          }
+        },
+        {
+          "greek": {
+            "word": "κράτηση"
+          },
+          "catalan": {
+            "word": "una"
+          }
+        },
+        {
+          "greek": {
+            "word": ""
+          },
+          "catalan": {
+            "word": "reserva"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tb_030",
+      "type": "phrase",
+      "category": "farewell",
+      "difficulty": 1,
+      "greek": {
+        "text": "Αντίο!",
+        "romanization": "Adío!",
+        "phonetic": "ah-DYOH"
+      },
+      "catalan": {
+        "text": "Adéu!",
+        "romanization": "Adéu!",
+        "phonetic": "ah-DEH-oo"
+      },
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "greek": {
+            "word": "Αντίο"
+          },
+          "catalan": {
+            "word": "Adéu"
+          }
+        }
+      ]
+    }
+  ]
+}

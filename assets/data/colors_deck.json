@@ -1,0 +1,554 @@
+{
+  "deckId": "colors",
+  "deckName": {
+    "en": "Colors",
+    "el": "Χρώματα",
+    "ca": "Colors"
+  },
+  "version": "1.0.0",
+  "languagePair": {
+    "source": "el",
+    "target": "ca"
+  },
+  "level": "A1",
+  "description": {
+    "en": "Common colors and simple color phrases",
+    "el": "Κοινά χρώματα και απλές φράσεις",
+    "ca": "Colors comuns i frases simples"
+  },
+  "itemCount": 16,
+  "items": [
+    {
+      "id": "col_001",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "κόκκινο",
+        "romanization": "kokkino",
+        "phonetic": "KOH-kee-no"
+      },
+      "catalan": {
+        "text": "vermell",
+        "phonetic": "vehr-MELL"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_002",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "μπλε",
+        "romanization": "ble",
+        "phonetic": "bleh"
+      },
+      "catalan": {
+        "text": "blau",
+        "phonetic": "blow"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_003",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "πράσινο",
+        "romanization": "prasino",
+        "phonetic": "PRAH-see-no"
+      },
+      "catalan": {
+        "text": "verd",
+        "phonetic": "vehrd"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_004",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "κίτρινο",
+        "romanization": "kitrino",
+        "phonetic": "KEE-tree-no"
+      },
+      "catalan": {
+        "text": "groc",
+        "phonetic": "grohk"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_005",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "μαύρο",
+        "romanization": "mavro",
+        "phonetic": "MAV-roh"
+      },
+      "catalan": {
+        "text": "negre",
+        "phonetic": "NEH-greh"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_006",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "άσπρο",
+        "romanization": "aspro",
+        "phonetic": "AS-proh"
+      },
+      "catalan": {
+        "text": "blanc",
+        "phonetic": "blahngk"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_007",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 2,
+      "greek": {
+        "text": "πορτοκαλί",
+        "romanization": "portokali",
+        "phonetic": "por-toh-kah-LEE"
+      },
+      "catalan": {
+        "text": "taronja",
+        "phonetic": "tah-ROHN-jah"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_008",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 2,
+      "greek": {
+        "text": "ροζ",
+        "romanization": "roz",
+        "phonetic": "rohz"
+      },
+      "catalan": {
+        "text": "rosa",
+        "phonetic": "ROH-sah"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_009",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 2,
+      "greek": {
+        "text": "καφέ",
+        "romanization": "kafe",
+        "phonetic": "kah-FEH"
+      },
+      "catalan": {
+        "text": "marró",
+        "phonetic": "mah-ROH"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_010",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 2,
+      "greek": {
+        "text": "μοβ",
+        "romanization": "mov",
+        "phonetic": "mohv"
+      },
+      "catalan": {
+        "text": "lila",
+        "phonetic": "LEE-lah"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_011",
+      "type": "phrase",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "Κόκκινο χρώμα",
+        "romanization": "Kokkino hroma",
+        "phonetic": "KOH-kee-no HROH-ma"
+      },
+      "catalan": {
+        "text": "Color vermell",
+        "phonetic": "kuh-LOR vehr-MELL"
+      },
+      "tags": [
+        "color"
+      ],
+      "words": [
+        {
+          "greek": "Κόκκινο",
+          "catalan": "Color"
+        },
+        {
+          "greek": "χρώμα",
+          "catalan": "vermell"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Κόκκινο",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Color"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "χρώμα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "vermell"
+          }
+        }
+      ]
+    },
+    {
+      "id": "col_012",
+      "type": "phrase",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "Μπλε χρώμα",
+        "romanization": "Ble hroma",
+        "phonetic": "bleh HROH-ma"
+      },
+      "catalan": {
+        "text": "Color blau",
+        "phonetic": "kuh-LOR blow"
+      },
+      "tags": [
+        "color"
+      ],
+      "words": [
+        {
+          "greek": "Μπλε",
+          "catalan": "Color"
+        },
+        {
+          "greek": "χρώμα",
+          "catalan": "blau"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Μπλε",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Color"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "χρώμα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "blau"
+          }
+        }
+      ]
+    },
+    {
+      "id": "col_013",
+      "type": "phrase",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "Πράσινο χρώμα",
+        "romanization": "Prasino hroma",
+        "phonetic": "PRAH-see-no HROH-ma"
+      },
+      "catalan": {
+        "text": "Color verd",
+        "phonetic": "kuh-LOR vehrd"
+      },
+      "tags": [
+        "color"
+      ],
+      "words": [
+        {
+          "greek": "Πράσινο",
+          "catalan": "Color"
+        },
+        {
+          "greek": "χρώμα",
+          "catalan": "verd"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Πράσινο",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Color"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "χρώμα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "verd"
+          }
+        }
+      ]
+    },
+    {
+      "id": "col_014",
+      "type": "phrase",
+      "category": "colors",
+      "difficulty": 2,
+      "greek": {
+        "text": "Κίτρινος ήλιος",
+        "romanization": "Kitrinos ilios",
+        "phonetic": "KEE-tree-nos EE-lee-os"
+      },
+      "catalan": {
+        "text": "Sol groc",
+        "phonetic": "sol grohk"
+      },
+      "tags": [
+        "color"
+      ],
+      "words": [
+        {
+          "greek": "Κίτρινος",
+          "catalan": "Sol"
+        },
+        {
+          "greek": "ήλιος",
+          "catalan": "groc"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Κίτρινος",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Sol"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "ήλιος",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "groc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "col_015",
+      "type": "phrase",
+      "category": "colors",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μαύρο και άσπρο",
+        "romanization": "Mavro ke aspro",
+        "phonetic": "MAV-roh keh AS-proh"
+      },
+      "catalan": {
+        "text": "Negre i blanc",
+        "phonetic": "NEH-greh ee blahngk"
+      },
+      "tags": [
+        "color"
+      ],
+      "words": [
+        {
+          "greek": "Μαύρο",
+          "catalan": "Negre"
+        },
+        {
+          "greek": "και",
+          "catalan": "i"
+        },
+        {
+          "greek": "άσπρο",
+          "catalan": "blanc"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Μαύρο",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Negre"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "και",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "i"
+          }
+        },
+        {
+          "position": 2,
+          "greek": {
+            "word": "άσπρο",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "blanc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "col_016",
+      "type": "phrase",
+      "category": "colors",
+      "difficulty": 2,
+      "greek": {
+        "text": "Μου αρέσει το μπλε",
+        "romanization": "Mou aresi to ble",
+        "phonetic": "moo ah-REH-see toh bleh"
+      },
+      "catalan": {
+        "text": "M'agrada el blau",
+        "phonetic": "mah-GRAH-dah el blow"
+      },
+      "tags": [
+        "color"
+      ],
+      "words": [
+        {
+          "greek": "Μου",
+          "catalan": "M'agrada"
+        },
+        {
+          "greek": "αρέσει",
+          "catalan": "el"
+        },
+        {
+          "greek": "το",
+          "catalan": "blau"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Μου",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "M'agrada"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "αρέσει",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "el"
+          }
+        },
+        {
+          "position": 2,
+          "greek": {
+            "word": "το",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "blau"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "Language Duel",
+    "createdAt": "2026-01-26T00:00:00Z",
+    "tags": [
+      "colors",
+      "a1"
+    ]
+  }
+}

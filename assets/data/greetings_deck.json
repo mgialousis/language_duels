@@ -1,0 +1,1080 @@
+{
+  "deckId": "greetings",
+  "deckName": {
+    "en": "Greetings",
+    "el": "Χαιρετισμοί",
+    "ca": "Salutacions"
+  },
+  "version": "1.0.0",
+  "languagePair": {
+    "source": "el",
+    "target": "ca"
+  },
+  "level": "A1",
+  "description": {
+    "en": "Basic greetings, farewells, pleasantries, and common questions",
+    "el": "Βασικοί χαιρετισμοί, αποχαιρετισμοί, ευγένειες και κοινές ερωτήσεις",
+    "ca": "Salutacions basiques, comiats, cortesies i preguntes comunes"
+  },
+  "itemCount": 30,
+  "items": [
+    {
+      "id": "greet_001",
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλημέρα",
+        "romanization": "Kalimera",
+        "phonetic": "kah-lee-MEH-rah"
+      },
+      "catalan": {
+        "text": "Bon dia",
+        "phonetic": "bon DEE-ah"
+      },
+      "tags": [
+        "morning",
+        "formal",
+        "common"
+      ],
+      "formalityLevel": "formal"
+    },
+    {
+      "id": "greet_002",
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλησπέρα",
+        "romanization": "Kalispera",
+        "phonetic": "kah-lee-SPEH-rah"
+      },
+      "catalan": {
+        "text": "Bona tarda",
+        "phonetic": "BOH-nah TAR-dah"
+      },
+      "tags": [
+        "afternoon",
+        "formal",
+        "common"
+      ],
+      "formalityLevel": "formal"
+    },
+    {
+      "id": "greet_003",
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 2,
+      "greek": {
+        "text": "Καλησπέρα",
+        "romanization": "Kalispera",
+        "phonetic": "kah-lee-SPEH-rah"
+      },
+      "catalan": {
+        "text": "Bon vespre",
+        "phonetic": "bon BEHS-preh"
+      },
+      "tags": [
+        "evening",
+        "formal"
+      ],
+      "formalityLevel": "formal"
+    },
+    {
+      "id": "greet_004",
+      "type": "vocabulary",
+      "category": "farewell",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καληνύχτα",
+        "romanization": "Kalinihta",
+        "phonetic": "kah-lee-NEEKH-tah"
+      },
+      "catalan": {
+        "text": "Bona nit",
+        "phonetic": "BOH-nah neet"
+      },
+      "tags": [
+        "night",
+        "farewell",
+        "common"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_005",
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 1,
+      "greek": {
+        "text": "Γεια σου",
+        "romanization": "Yia sou",
+        "phonetic": "YAH soo"
+      },
+      "catalan": {
+        "text": "Hola",
+        "phonetic": "OH-lah"
+      },
+      "tags": [
+        "informal",
+        "common",
+        "casual"
+      ],
+      "formalityLevel": "informal"
+    },
+    {
+      "id": "greet_006",
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 1,
+      "greek": {
+        "text": "Γεια",
+        "romanization": "Yia",
+        "phonetic": "YAH"
+      },
+      "catalan": {
+        "text": "Hola",
+        "phonetic": "OH-lah"
+      },
+      "tags": [
+        "informal",
+        "casual",
+        "short"
+      ],
+      "formalityLevel": "informal"
+    },
+    {
+      "id": "greet_007",
+      "type": "vocabulary",
+      "category": "farewell",
+      "difficulty": 1,
+      "greek": {
+        "text": "Αντίο",
+        "romanization": "Adio",
+        "phonetic": "ah-DEE-oh"
+      },
+      "catalan": {
+        "text": "Adeu",
+        "phonetic": "ah-DEH-oo"
+      },
+      "tags": [
+        "farewell",
+        "formal",
+        "common"
+      ],
+      "formalityLevel": "formal"
+    },
+    {
+      "id": "greet_008",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ναι",
+        "romanization": "Nai",
+        "phonetic": "neh"
+      },
+      "catalan": {
+        "text": "Si",
+        "phonetic": "see"
+      },
+      "tags": [
+        "basic",
+        "essential",
+        "common"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_009",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Όχι",
+        "romanization": "Ohi",
+        "phonetic": "OH-khee"
+      },
+      "catalan": {
+        "text": "No",
+        "phonetic": "noh"
+      },
+      "tags": [
+        "basic",
+        "essential",
+        "common"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_010",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Παρακαλώ",
+        "romanization": "Parakalo",
+        "phonetic": "pah-rah-kah-LOH"
+      },
+      "catalan": {
+        "text": "Si us plau",
+        "phonetic": "see oos PLOW"
+      },
+      "tags": [
+        "polite",
+        "essential",
+        "formal"
+      ],
+      "formalityLevel": "formal"
+    },
+    {
+      "id": "greet_011",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ευχαριστώ",
+        "romanization": "Efharisto",
+        "phonetic": "ef-khah-ree-STOH"
+      },
+      "catalan": {
+        "text": "Gracies",
+        "phonetic": "GRAH-see-ehs"
+      },
+      "tags": [
+        "polite",
+        "essential",
+        "common"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_012",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Παρακαλώ",
+        "romanization": "Parakalo",
+        "phonetic": "pah-rah-kah-LOH"
+      },
+      "catalan": {
+        "text": "De res",
+        "phonetic": "deh rehs"
+      },
+      "tags": [
+        "polite",
+        "response"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_013",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Συγγνώμη",
+        "romanization": "Signomi",
+        "phonetic": "see-GNOH-mee"
+      },
+      "catalan": {
+        "text": "Perdoni",
+        "phonetic": "pehr-DOH-nee"
+      },
+      "tags": [
+        "polite",
+        "apology",
+        "attention"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_014",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Λυπάμαι",
+        "romanization": "Lipame",
+        "phonetic": "lee-PAH-meh"
+      },
+      "catalan": {
+        "text": "Ho sento",
+        "phonetic": "oh SEHN-toh"
+      },
+      "tags": [
+        "polite",
+        "apology"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_015",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλά",
+        "romanization": "Kala",
+        "phonetic": "kah-LAH"
+      },
+      "catalan": {
+        "text": "Be",
+        "phonetic": "beh"
+      },
+      "tags": [
+        "response",
+        "common",
+        "casual"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_016",
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 3,
+      "greek": {
+        "text": "Καλώς ήρθατε",
+        "romanization": "Kalos irthate",
+        "phonetic": "kah-LOHS EER-thah-teh"
+      },
+      "catalan": {
+        "text": "Benvingut",
+        "phonetic": "behn-veen-GOOT"
+      },
+      "tags": [
+        "formal",
+        "welcoming",
+        "hospitality"
+      ],
+      "formalityLevel": "formal"
+    },
+    {
+      "id": "greet_017",
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 2,
+      "greek": {
+        "text": "Γεια σας",
+        "romanization": "Yia sas",
+        "phonetic": "YAH sahs"
+      },
+      "catalan": {
+        "text": "Hola",
+        "phonetic": "OH-lah"
+      },
+      "tags": [
+        "formal",
+        "polite",
+        "common"
+      ],
+      "formalityLevel": "formal"
+    },
+    {
+      "id": "greet_018",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πολύ καλά",
+        "romanization": "Poli kala",
+        "phonetic": "poh-LEE kah-LAH"
+      },
+      "catalan": {
+        "text": "Molt be",
+        "phonetic": "mohlt beh"
+      },
+      "tags": [
+        "response",
+        "positive"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_019",
+      "type": "phrase",
+      "category": "question",
+      "difficulty": 2,
+      "greek": {
+        "text": "Τι κάνεις;",
+        "romanization": "Ti kanis?",
+        "phonetic": "tee KAH-nees"
+      },
+      "catalan": {
+        "text": "Com estas?",
+        "phonetic": "kohm ehs-TAHS"
+      },
+      "tags": [
+        "informal",
+        "question",
+        "common"
+      ],
+      "words": [
+        {
+          "greek": "Τι",
+          "catalan": "Com"
+        },
+        {
+          "greek": "κάνεις",
+          "catalan": "estas"
+        }
+      ],
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Τι",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Com"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "κάνεις",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "estas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_020",
+      "type": "phrase",
+      "category": "question",
+      "difficulty": 2,
+      "greek": {
+        "text": "Τι κάνετε;",
+        "romanization": "Ti kanete?",
+        "phonetic": "tee KAH-neh-teh"
+      },
+      "catalan": {
+        "text": "Com esta?",
+        "phonetic": "kohm ehs-TAH"
+      },
+      "tags": [
+        "formal",
+        "question",
+        "polite"
+      ],
+      "words": [
+        {
+          "greek": "Τι",
+          "catalan": "Com"
+        },
+        {
+          "greek": "κάνετε",
+          "catalan": "esta"
+        }
+      ],
+      "formalityLevel": "formal",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Τι",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Com"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "κάνετε",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "esta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_021",
+      "type": "phrase",
+      "category": "pleasantry",
+      "difficulty": 3,
+      "greek": {
+        "text": "Είμαι καλά, ευχαριστώ",
+        "romanization": "Ime kala, efharisto",
+        "phonetic": "EE-meh kah-LAH ef-khah-ree-STOH"
+      },
+      "catalan": {
+        "text": "Estic be, gracies",
+        "phonetic": "ehs-TEEK beh GRAH-see-ehs"
+      },
+      "tags": [
+        "response",
+        "polite",
+        "complete"
+      ],
+      "words": [
+        {
+          "greek": "Είμαι",
+          "catalan": "Estic"
+        },
+        {
+          "greek": "καλά",
+          "catalan": "be"
+        },
+        {
+          "greek": "ευχαριστώ",
+          "catalan": "gracies"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Είμαι",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Estic"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "καλά",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "be"
+          }
+        },
+        {
+          "position": 2,
+          "greek": {
+            "word": "ευχαριστώ",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "gracies"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_022",
+      "type": "phrase",
+      "category": "question",
+      "difficulty": 2,
+      "greek": {
+        "text": "Πώς σε λένε;",
+        "romanization": "Pos se lene?",
+        "phonetic": "pohs seh LEH-neh"
+      },
+      "catalan": {
+        "text": "Com et dius?",
+        "phonetic": "kohm eht DEE-oos"
+      },
+      "tags": [
+        "informal",
+        "question",
+        "introduction"
+      ],
+      "words": [
+        {
+          "greek": "Πώς",
+          "catalan": "Com"
+        },
+        {
+          "greek": "σε",
+          "catalan": "et"
+        },
+        {
+          "greek": "λένε",
+          "catalan": "dius"
+        }
+      ],
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Πώς",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Com"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "σε",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "et"
+          }
+        },
+        {
+          "position": 2,
+          "greek": {
+            "word": "λένε",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "dius"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_023",
+      "type": "phrase",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Με λένε...",
+        "romanization": "Me lene...",
+        "phonetic": "meh LEH-neh"
+      },
+      "catalan": {
+        "text": "Em dic...",
+        "phonetic": "ehm DEEK"
+      },
+      "tags": [
+        "introduction",
+        "response",
+        "common"
+      ],
+      "words": [
+        {
+          "greek": "Με",
+          "catalan": "Em"
+        },
+        {
+          "greek": "λένε",
+          "catalan": "dic"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Με",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Em"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "λένε",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "dic"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_024",
+      "type": "phrase",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Χάρηκα πολύ",
+        "romanization": "Harika poli",
+        "phonetic": "KHAH-ree-kah poh-LEE"
+      },
+      "catalan": {
+        "text": "Molt de gust",
+        "phonetic": "mohlt deh goost"
+      },
+      "tags": [
+        "introduction",
+        "polite",
+        "meeting"
+      ],
+      "words": [
+        {
+          "greek": "Χάρηκα",
+          "catalan": "Molt"
+        },
+        {
+          "greek": "πολύ",
+          "catalan": "de gust"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Χάρηκα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Molt"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "πολύ",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "de gust"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_025",
+      "type": "phrase",
+      "category": "farewell",
+      "difficulty": 2,
+      "greek": {
+        "text": "Τα λέμε",
+        "romanization": "Ta leme",
+        "phonetic": "tah LEH-meh"
+      },
+      "catalan": {
+        "text": "Fins despres",
+        "phonetic": "feens dehs-PREHS"
+      },
+      "tags": [
+        "informal",
+        "farewell",
+        "casual"
+      ],
+      "words": [
+        {
+          "greek": "Τα",
+          "catalan": "Fins"
+        },
+        {
+          "greek": "λέμε",
+          "catalan": "despres"
+        }
+      ],
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Τα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Fins"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "λέμε",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "despres"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_026",
+      "type": "phrase",
+      "category": "farewell",
+      "difficulty": 2,
+      "greek": {
+        "text": "Τα λέμε αύριο",
+        "romanization": "Ta leme avrio",
+        "phonetic": "tah LEH-meh AHV-ree-oh"
+      },
+      "catalan": {
+        "text": "Fins dema",
+        "phonetic": "feens deh-MAH"
+      },
+      "tags": [
+        "informal",
+        "farewell"
+      ],
+      "words": [
+        {
+          "greek": "Τα",
+          "catalan": "Fins"
+        },
+        {
+          "greek": "λέμε",
+          "catalan": "dema"
+        },
+        {
+          "greek": "αύριο",
+          "catalan": ""
+        }
+      ],
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Τα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Fins"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "λέμε",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "dema"
+          }
+        },
+        {
+          "position": 2,
+          "greek": {
+            "word": "αύριο",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_027",
+      "type": "phrase",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Καλή μέρα",
+        "romanization": "Kali mera",
+        "phonetic": "kah-LEE MEH-rah"
+      },
+      "catalan": {
+        "text": "Que tinguis bon dia",
+        "phonetic": "keh TEEN-gees bon DEE-ah"
+      },
+      "tags": [
+        "farewell",
+        "polite",
+        "wishes"
+      ],
+      "words": [
+        {
+          "greek": "Καλή",
+          "catalan": "Que tinguis"
+        },
+        {
+          "greek": "μέρα",
+          "catalan": "bon dia"
+        }
+      ],
+      "formalityLevel": "neutral",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Καλή",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Que tinguis"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "μέρα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "bon dia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_028",
+      "type": "phrase",
+      "category": "farewell",
+      "difficulty": 2,
+      "greek": {
+        "text": "Να προσέχεις",
+        "romanization": "Na prosehis",
+        "phonetic": "nah proh-SEH-khees"
+      },
+      "catalan": {
+        "text": "Cuida't",
+        "phonetic": "KWEE-daht"
+      },
+      "tags": [
+        "farewell",
+        "informal",
+        "caring"
+      ],
+      "words": [
+        {
+          "greek": "Να",
+          "catalan": "Cuida"
+        },
+        {
+          "greek": "προσέχεις",
+          "catalan": "t"
+        }
+      ],
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Να",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Cuida"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "προσέχεις",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "t"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_029",
+      "type": "phrase",
+      "category": "question",
+      "difficulty": 1,
+      "greek": {
+        "text": "Εσύ;",
+        "romanization": "Esi?",
+        "phonetic": "eh-SEE"
+      },
+      "catalan": {
+        "text": "I tu?",
+        "phonetic": "ee too"
+      },
+      "tags": [
+        "informal",
+        "follow-up",
+        "question"
+      ],
+      "words": [
+        {
+          "greek": "Εσύ",
+          "catalan": "I tu"
+        }
+      ],
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Εσύ",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "I tu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greet_030",
+      "type": "phrase",
+      "category": "farewell",
+      "difficulty": 2,
+      "greek": {
+        "text": "Τα λέμε σύντομα",
+        "romanization": "Ta leme sindoma",
+        "phonetic": "tah LEH-meh SEEN-toh-mah"
+      },
+      "catalan": {
+        "text": "Fins aviat",
+        "phonetic": "feens ah-vee-AHT"
+      },
+      "tags": [
+        "informal",
+        "farewell"
+      ],
+      "words": [
+        {
+          "greek": "Τα",
+          "catalan": "Fins"
+        },
+        {
+          "greek": "λέμε",
+          "catalan": "aviat"
+        },
+        {
+          "greek": "σύντομα",
+          "catalan": ""
+        }
+      ],
+      "formalityLevel": "informal",
+      "wordBreakdown": [
+        {
+          "position": 0,
+          "greek": {
+            "word": "Τα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "Fins"
+          }
+        },
+        {
+          "position": 1,
+          "greek": {
+            "word": "λέμε",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": "aviat"
+          }
+        },
+        {
+          "position": 2,
+          "greek": {
+            "word": "σύντομα",
+            "romanization": ""
+          },
+          "catalan": {
+            "word": ""
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "Language Duel",
+    "createdAt": "2026-01-26T00:00:00Z",
+    "tags": [
+      "greetings",
+      "a1"
+    ]
+  }
+}
