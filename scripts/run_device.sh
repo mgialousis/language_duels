@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MODE="--debug"
+MODE_ARGS=(--debug)
 POSTHOG_KEY=""
 POSTHOG_HOST=""
 POSTHOG_DEBUG=""
@@ -10,11 +10,11 @@ DEVICE_ID=""
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --debug)
-      MODE="--debug"
+      MODE_ARGS=(--debug --verbose)
       shift
       ;;
     --release)
-      MODE="--release"
+      MODE_ARGS=(--release)
       shift
       ;;
     --posthog-key)
@@ -75,6 +75,6 @@ if [[ -d "ios" ]]; then
   popd >/dev/null
 fi
 
-flutter run -d "${DEVICE_ID}" "${MODE}" ${DART_DEFINES[@]+"${DART_DEFINES[@]}"}
+flutter run -d "${DEVICE_ID}" "${MODE_ARGS[@]}" ${DART_DEFINES[@]+"${DART_DEFINES[@]}"}
 
 # RELEASE APK -  flutter build apk --release

@@ -8,6 +8,8 @@ import 'interfaces.dart';
 
 class ContentRepository implements IContentRepository {
   static const String _cacheBoxName = 'deck_cache';
+  static const int _cacheVersion = 1;
+  static const String _cacheVersionKey = '__cacheVersion';
   static const Map<String, String> _deckAssets = {
     'greetings': 'assets/data/greetings_deck.json',
     'numbers': 'assets/data/numbers_deck.json',
@@ -21,9 +23,21 @@ class ContentRepository implements IContentRepository {
 
   Future<Box<dynamic>> _openCacheBox() async {
     if (Hive.isBoxOpen(_cacheBoxName)) {
-      return Hive.box<dynamic>(_cacheBoxName);
+      final box = Hive.box<dynamic>(_cacheBoxName);
+      await _ensureCacheVersion(box);
+      return box;
     }
-    return Hive.openBox<dynamic>(_cacheBoxName);
+    final box = await Hive.openBox<dynamic>(_cacheBoxName);
+    await _ensureCacheVersion(box);
+    return box;
+  }
+
+  Future<void> _ensureCacheVersion(Box<dynamic> box) async {
+    final cachedVersion = box.get(_cacheVersionKey) as int?;
+    if (cachedVersion != _cacheVersion) {
+      await box.clear();
+      await box.put(_cacheVersionKey, _cacheVersion);
+    }
   }
 
   @override

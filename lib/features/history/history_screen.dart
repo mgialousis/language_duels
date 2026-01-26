@@ -12,7 +12,40 @@ class HistoryScreen extends ConsumerWidget {
     final history = ref.watch(historyProvider);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Match History')),
+      appBar: AppBar(
+        title: const Text('Match History'),
+        actions: [
+          if (history.isNotEmpty)
+            IconButton(
+              tooltip: 'Clear history',
+              icon: const Icon(Icons.delete_outline),
+              onPressed: () async {
+                final shouldClear = await showDialog<bool>(
+                  context: context,
+                  builder: (context) => AlertDialog(
+                    title: const Text('Clear match history?'),
+                    content: const Text(
+                      'This removes all past duel results from this device.',
+                    ),
+                    actions: [
+                      TextButton(
+                        onPressed: () => Navigator.of(context).pop(false),
+                        child: const Text('Cancel'),
+                      ),
+                      TextButton(
+                        onPressed: () => Navigator.of(context).pop(true),
+                        child: const Text('Clear'),
+                      ),
+                    ],
+                  ),
+                );
+                if (shouldClear == true) {
+                  await ref.read(historyProvider.notifier).clear();
+                }
+              },
+            ),
+        ],
+      ),
       body: Padding(
         padding: const EdgeInsets.all(24),
         child: history.isEmpty

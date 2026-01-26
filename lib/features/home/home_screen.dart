@@ -157,13 +157,6 @@ class HomeScreen extends ConsumerWidget {
                               ),
                               actions: [
                                 TextButton(
-                                  onPressed: () {
-                                    ref.read(historyProvider.notifier).clear();
-                                    Navigator.of(context).pop();
-                                  },
-                                  child: const Text('Clear History'),
-                                ),
-                                TextButton(
                                   onPressed: () => Navigator.of(context).pop(),
                                   child: const Text('Got it'),
                                 ),
