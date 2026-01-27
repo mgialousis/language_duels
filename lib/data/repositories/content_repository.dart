@@ -63,4 +63,11 @@ class ContentRepository implements IContentRepository {
     }
     return decks;
   }
+
+  @override
+  Future<void> clearCache() async {
+    final box = await _openCacheBox();
+    await box.clear();
+    await box.put(_cacheVersionKey, _cacheVersion);
+  }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../data/providers/content_provider.dart';
 import '../../data/providers/settings_provider.dart';
 
 class SettingsScreen extends ConsumerWidget {
@@ -10,6 +11,7 @@ class SettingsScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final settings = ref.watch(settingsProvider);
     final controller = ref.read(settingsProvider.notifier);
+    final contentRepository = ref.read(contentRepositoryProvider);
 
     return Scaffold(
       appBar: AppBar(title: const Text('Settings')),
@@ -58,8 +60,48 @@ class SettingsScreen extends ConsumerWidget {
             onChanged: controller.setTimersEnabled,
           ),
           const SizedBox(height: 12),
+          const SizedBox(height: 12),
           const Text(
-            'Note: Sound effects are not wired yet, but this setting is stored.',
+            'Data',
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+          ),
+          const SizedBox(height: 8),
+          OutlinedButton.icon(
+            onPressed: () async {
+              final shouldClear = await showDialog<bool>(
+                context: context,
+                builder: (context) => AlertDialog(
+                  title: const Text('Clear deck cache?'),
+                  content: const Text(
+                    'Forces a reload of deck assets on next use.',
+                  ),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.of(context).pop(false),
+                      child: const Text('Cancel'),
+                    ),
+                    TextButton(
+                      onPressed: () => Navigator.of(context).pop(true),
+                      child: const Text('Clear'),
+                    ),
+                  ],
+                ),
+              );
+              if (shouldClear == true) {
+                await contentRepository.clearCache();
+                ref.invalidate(deckListProvider);
+                ref.invalidate(deckProvider);
+                if (context.mounted) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('Deck cache cleared.'),
+                    ),
+                  );
+                }
+              }
+            },
+            icon: const Icon(Icons.restart_alt),
+            label: const Text('Clear deck cache'),
           ),
         ],
       ),

@@ -5,6 +5,7 @@ import '../models/settings_state.dart';
 abstract class IContentRepository {
   Future<Deck> loadDeck(String deckId);
   Future<List<DeckInfo>> listDecks();
+  Future<void> clearCache();
 }
 
 abstract class ISettingsRepository {
