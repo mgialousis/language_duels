@@ -21,7 +21,7 @@ class LessonViewScreen extends ConsumerStatefulWidget {
 class _LessonViewScreenState extends ConsumerState<LessonViewScreen>
     with SingleTickerProviderStateMixin {
   late final TabController _tabController;
-  bool _showRomanization = true;
+  bool _showRomanization = false;
 
   @override
   void initState() {
@@ -61,9 +61,7 @@ class _LessonViewScreenState extends ConsumerState<LessonViewScreen>
             title: Text(lesson.title.defaultText),
             actions: [
               IconButton(
-                tooltip: _showRomanization
-                    ? 'Hide romanization'
-                    : 'Show romanization',
+                tooltip: _showRomanization ? 'Hide IPA' : 'Show IPA',
                 onPressed: () {
                   setState(() {
                     _showRomanization = !_showRomanization;

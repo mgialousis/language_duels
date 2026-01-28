@@ -45,13 +45,31 @@
         "el": "Αόριστα Άρθρα",
         "ca": "Articles Indefinits"
       },
-      "columnHeaders": ["Αρσενικό", "Θηλυκό", "Ουδέτερο"],
-      "rowHeaders": ["Ενικός"],
+      "columnHeaders": [
+        "Αρσενικό",
+        "Θηλυκό",
+        "Ουδέτερο"
+      ],
+      "rowHeaders": [
+        "Ενικός"
+      ],
       "cells": [
         [
-          {"greek": "ένας", "romanization": "enas", "translation": "a (m)"},
-          {"greek": "μία", "romanization": "mia", "translation": "a (f)"},
-          {"greek": "ένα", "romanization": "ena", "translation": "a (n)"}
+          {
+            "greek": "ένας",
+            "romanization": "ˈenas",
+            "translation": "a (m)"
+          },
+          {
+            "greek": "μία",
+            "romanization": "mˈia",
+            "translation": "a (f)"
+          },
+          {
+            "greek": "ένα",
+            "romanization": "ˈena",
+            "translation": "a (n)"
+          }
         ]
       ]
     }
@@ -60,17 +78,21 @@
     {
       "id": "ex_401",
       "greek": "Έχω ένα μήλο.",
-      "romanization": "Eho ena milo.",
+      "romanization": "ˈexo ˈena mˈilo.",
       "catalan": "Tinc una poma.",
       "englishLiteral": "Have an apple.",
       "highlights": [
-        {"startIndex": 4, "endIndex": 7, "explanation": "Neuter article"}
+        {
+          "startIndex": 4,
+          "endIndex": 7,
+          "explanation": "Neuter article"
+        }
       ]
     },
     {
       "id": "ex_402",
       "greek": "Μία φίλη μου είναι εδώ.",
-      "romanization": "Mia fili mou ine edo.",
+      "romanization": "mˈia fˈili mu ˈine eðˈo.",
       "catalan": "Una amiga meva és aquí.",
       "englishLiteral": "A friend of mine is here."
     }
@@ -86,9 +108,11 @@
         "ca": "Completa la frase"
       },
       "prompt": "Έχω ____ βιβλίο.",
-      "promptRomanization": "Eho ____ vivlio.",
+      "promptRomanization": "ˈexo ____ vivlˈio.",
       "correctAnswer": "ένα",
-      "acceptableAnswers": ["ενα"],
+      "acceptableAnswers": [
+        "ενα"
+      ],
       "explanation": {
         "en": "βιβλίο is neuter, so use ένα.",
         "el": "Το βιβλίο είναι ουδέτερο, άρα ένα.",
@@ -105,10 +129,17 @@
         "ca": "Tria l'article correcte"
       },
       "prompt": "____ φίλη μου μένει εδώ.",
-      "promptRomanization": "____ fili mou meni edo.",
+      "promptRomanization": "____ fˈili mu mˈeni eðˈo.",
       "correctAnswer": "Μία",
-      "options": ["Ένας", "Μία", "Ένα"],
-      "acceptableAnswers": ["μία", "μια"],
+      "options": [
+        "Ένας",
+        "Μία",
+        "Ένα"
+      ],
+      "acceptableAnswers": [
+        "μία",
+        "μια"
+      ],
       "explanation": {
         "en": "φίλη is feminine, so use μία.",
         "el": "Η φίλη είναι θηλυκό, άρα μία.",
@@ -125,15 +156,30 @@
         "ca": "Relaciona el substantiu amb l'article correcte"
       },
       "prompt": "Σύνδεσε κάθε ουσιαστικό με το άρθρο.",
-      "promptRomanization": "Syndese kathe ousiastiko me to arthro.",
+      "promptRomanization": "sˈindese kˈaθe usiastikˈo me to ˈarθro.",
       "correctAnswer": "",
       "pairs": [
-        {"left": "άντρας", "right": "ένας"},
-        {"left": "γυναίκα", "right": "μία"},
-        {"left": "παιδί", "right": "ένα"}
+        {
+          "left": "άντρας",
+          "right": "ένας"
+        },
+        {
+          "left": "γυναίκα",
+          "right": "μία"
+        },
+        {
+          "left": "παιδί",
+          "right": "ένα"
+        }
       ]
     }
   ],
-  "prerequisites": ["a1_g03_definite_articles"],
-  "tags": ["articles", "indefinite", "gender"]
+  "prerequisites": [
+    "a1_g03_definite_articles"
+  ],
+  "tags": [
+    "articles",
+    "indefinite",
+    "gender"
+  ]
 }

@@ -40,18 +40,49 @@
         "el": "Προσωπικές Αντωνυμίες",
         "ca": "Pronoms Personals"
       },
-      "columnHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
-      "rowHeaders": ["Ενικός", "Πληθυντικός"],
+      "columnHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "rowHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
       "cells": [
         [
-          {"greek": "εγώ", "romanization": "ego", "translation": "I"},
-          {"greek": "εσύ", "romanization": "esy", "translation": "you"},
-          {"greek": "αυτός/αυτή/αυτό", "romanization": "aftos/afti/afto", "translation": "he/she/it"}
+          {
+            "greek": "εγώ",
+            "romanization": "eɣˈo",
+            "translation": "I"
+          },
+          {
+            "greek": "εσύ",
+            "romanization": "esˈi",
+            "translation": "you"
+          },
+          {
+            "greek": "αυτός/αυτή/αυτό",
+            "romanization": "aftˈos/aftˈi/aftˈo",
+            "translation": "he/she/it"
+          }
         ],
         [
-          {"greek": "εμείς", "romanization": "emeis", "translation": "we"},
-          {"greek": "εσείς", "romanization": "eseis", "translation": "you (pl)"},
-          {"greek": "αυτοί/αυτές/αυτά", "romanization": "aftoi/aftes/afta", "translation": "they"}
+          {
+            "greek": "εμείς",
+            "romanization": "emˈis",
+            "translation": "we"
+          },
+          {
+            "greek": "εσείς",
+            "romanization": "esˈis",
+            "translation": "you (pl)"
+          },
+          {
+            "greek": "αυτοί/αυτές/αυτά",
+            "romanization": "aftˈi/aftˈes/aftˈa",
+            "translation": "they"
+          }
         ]
       ]
     }
@@ -60,21 +91,29 @@
     {
       "id": "ex_501",
       "greek": "Εγώ είμαι η Μαρία.",
-      "romanization": "Ego íme i María.",
+      "romanization": "eɣˈo ˈime i marˈia.",
       "catalan": "Jo soc la Maria.",
       "englishLiteral": "I am Maria.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 3, "explanation": "Subject pronoun"}
+        {
+          "startIndex": 0,
+          "endIndex": 3,
+          "explanation": "Subject pronoun"
+        }
       ]
     },
     {
       "id": "ex_502",
       "greek": "Εμείς είμαστε εδώ.",
-      "romanization": "Emís ímaste edó.",
+      "romanization": "emˈis ˈimaste eðˈo.",
       "catalan": "Nosaltres som aquí.",
       "englishLiteral": "We are here.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 4, "explanation": "Plural pronoun"}
+        {
+          "startIndex": 0,
+          "endIndex": 4,
+          "explanation": "Plural pronoun"
+        }
       ]
     }
   ],
@@ -89,9 +128,11 @@
         "ca": "Completa la frase"
       },
       "prompt": "____ είμαι ο Γιάννης.",
-      "promptRomanization": "____ íme o Giánnis.",
+      "promptRomanization": "____ ˈime o ˈjanis.",
       "correctAnswer": "Εγώ",
-      "acceptableAnswers": ["εγώ"],
+      "acceptableAnswers": [
+        "εγώ"
+      ],
       "explanation": {
         "en": "Use εγώ for the first person singular.",
         "el": "Χρησιμοποίησε εγώ για το πρώτο πρόσωπο ενικού.",
@@ -108,10 +149,16 @@
         "ca": "Tria el pronom correcte"
       },
       "prompt": "____ είσαι έτοιμος.",
-      "promptRomanization": "____ íse étimos.",
+      "promptRomanization": "____ ˈise ˈetimos.",
       "correctAnswer": "Εσύ",
-      "options": ["Εγώ", "Εσύ", "Εμείς"],
-      "acceptableAnswers": ["εσύ"],
+      "options": [
+        "Εγώ",
+        "Εσύ",
+        "Εμείς"
+      ],
+      "acceptableAnswers": [
+        "εσύ"
+      ],
       "explanation": {
         "en": "Use εσύ for the second person singular.",
         "el": "Χρησιμοποίησε εσύ για το δεύτερο πρόσωπο ενικού.",
@@ -128,15 +175,29 @@
         "ca": "Relaciona el pronom amb el significat"
       },
       "prompt": "Σύνδεσε κάθε αντωνυμία.",
-      "promptRomanization": "Syndese kathe antonymia.",
+      "promptRomanization": "sˈindese kˈaθe andoniˈmia.",
       "correctAnswer": "",
       "pairs": [
-        {"left": "εγώ", "right": "I"},
-        {"left": "εμείς", "right": "we"},
-        {"left": "αυτοί", "right": "they"}
+        {
+          "left": "εγώ",
+          "right": "I"
+        },
+        {
+          "left": "εμείς",
+          "right": "we"
+        },
+        {
+          "left": "αυτοί",
+          "right": "they"
+        }
       ]
     }
   ],
-  "prerequisites": ["a1_g01_verb_to_be"],
-  "tags": ["pronouns", "subject"]
+  "prerequisites": [
+    "a1_g01_verb_to_be"
+  ],
+  "tags": [
+    "pronouns",
+    "subject"
+  ]
 }

@@ -45,20 +45,51 @@
         "el": "Σύντομες Κτητικές Αντωνυμίες",
         "ca": "Pronoms Possessius Curts"
       },
-      "columnHeaders": ["Ενικός", "Πληθυντικός"],
-      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
       "cells": [
         [
-          {"greek": "μου", "romanization": "mou", "translation": "my"},
-          {"greek": "μας", "romanization": "mas", "translation": "our"}
+          {
+            "greek": "μου",
+            "romanization": "mu",
+            "translation": "my"
+          },
+          {
+            "greek": "μας",
+            "romanization": "mas",
+            "translation": "our"
+          }
         ],
         [
-          {"greek": "σου", "romanization": "sou", "translation": "your"},
-          {"greek": "σας", "romanization": "sas", "translation": "your (pl)"}
+          {
+            "greek": "σου",
+            "romanization": "su",
+            "translation": "your"
+          },
+          {
+            "greek": "σας",
+            "romanization": "sas",
+            "translation": "your (pl)"
+          }
         ],
         [
-          {"greek": "του/της/του", "romanization": "tou/tis/tou", "translation": "his/her/its"},
-          {"greek": "τους", "romanization": "tous", "translation": "their"}
+          {
+            "greek": "του/της/του",
+            "romanization": "tu/tis/tu",
+            "translation": "his/her/its"
+          },
+          {
+            "greek": "τους",
+            "romanization": "tus",
+            "translation": "their"
+          }
         ]
       ]
     }
@@ -67,21 +98,29 @@
     {
       "id": "ex_701",
       "greek": "Το βιβλίο μου είναι εδώ.",
-      "romanization": "To vivlio mou einai edo.",
+      "romanization": "to vivlˈio mu ˈine eðˈo.",
       "catalan": "El meu llibre es aquí.",
       "englishLiteral": "My book is here.",
       "highlights": [
-        {"startIndex": 10, "endIndex": 12, "explanation": "Possessive pronoun"}
+        {
+          "startIndex": 10,
+          "endIndex": 12,
+          "explanation": "Possessive pronoun"
+        }
       ]
     },
     {
       "id": "ex_702",
       "greek": "Οι φίλοι τους είναι καλοί.",
-      "romanization": "Oi filoi tous einai kaloi.",
+      "romanization": "i fˈili tus ˈine kalˈi.",
       "catalan": "Els seus amics són bons.",
       "englishLiteral": "Their friends are good.",
       "highlights": [
-        {"startIndex": 9, "endIndex": 12, "explanation": "Possessive pronoun"}
+        {
+          "startIndex": 9,
+          "endIndex": 12,
+          "explanation": "Possessive pronoun"
+        }
       ]
     }
   ],
@@ -96,10 +135,12 @@
         "ca": "Completa la frase"
       },
       "prompt": "Αυτό είναι το σπίτι ____.",
-      "promptRomanization": "Afto einai to spiti ____.",
+      "promptRomanization": "aftˈo ˈine to spˈiti ____.",
       "hint": "Translation: This is my house.",
       "correctAnswer": "μου",
-      "acceptableAnswers": ["μου"],
+      "acceptableAnswers": [
+        "μου"
+      ],
       "explanation": {
         "en": "Use μου for 'my' after the noun.",
         "el": "Χρησιμοποίησε μου για το «δικό μου».",
@@ -116,11 +157,17 @@
         "ca": "Tria el pronom correcte"
       },
       "prompt": "Το αυτοκίνητο ____ είναι μεγάλο.",
-      "promptRomanization": "To aftokinito ____ einai megalo.",
+      "promptRomanization": "to aftokˈinito ____ ˈine meɣˈalo.",
       "hint": "Translation: Your car is big.",
       "correctAnswer": "σου",
-      "options": ["μου", "σου", "μας"],
-      "acceptableAnswers": ["σου"],
+      "options": [
+        "μου",
+        "σου",
+        "μας"
+      ],
+      "acceptableAnswers": [
+        "σου"
+      ],
       "explanation": {
         "en": "Use σου for 'your' singular.",
         "el": "Χρησιμοποίησε σου για το «δικό σου».",
@@ -137,16 +184,30 @@
         "ca": "Relaciona el pronom amb el significat"
       },
       "prompt": "Σύνδεσε κάθε αντωνυμία.",
-      "promptRomanization": "Syndese kathe antonymia.",
+      "promptRomanization": "sˈindese kˈaθe andoniˈmia.",
       "hint": "Use the English meaning (my/your/their) to match.",
       "correctAnswer": "",
       "pairs": [
-        {"left": "μου", "right": "my"},
-        {"left": "σας", "right": "your (pl)"},
-        {"left": "τους", "right": "their"}
+        {
+          "left": "μου",
+          "right": "my"
+        },
+        {
+          "left": "σας",
+          "right": "your (pl)"
+        },
+        {
+          "left": "τους",
+          "right": "their"
+        }
       ]
     }
   ],
-  "prerequisites": ["a1_g05_subject_pronouns"],
-  "tags": ["pronouns", "possessive"]
+  "prerequisites": [
+    "a1_g05_subject_pronouns"
+  ],
+  "tags": [
+    "pronouns",
+    "possessive"
+  ]
 }

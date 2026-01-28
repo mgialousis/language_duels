@@ -45,18 +45,49 @@
         "el": "Οριστικά Άρθρα",
         "ca": "Articles Definits"
       },
-      "columnHeaders": ["Αρσενικό", "Θηλυκό", "Ουδέτερο"],
-      "rowHeaders": ["Ενικός", "Πληθυντικός"],
+      "columnHeaders": [
+        "Αρσενικό",
+        "Θηλυκό",
+        "Ουδέτερο"
+      ],
+      "rowHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
       "cells": [
         [
-          {"greek": "ο", "romanization": "o", "translation": "the (m)"},
-          {"greek": "η", "romanization": "i", "translation": "the (f)"},
-          {"greek": "το", "romanization": "to", "translation": "the (n)"}
+          {
+            "greek": "ο",
+            "romanization": "o",
+            "translation": "the (m)"
+          },
+          {
+            "greek": "η",
+            "romanization": "i",
+            "translation": "the (f)"
+          },
+          {
+            "greek": "το",
+            "romanization": "to",
+            "translation": "the (n)"
+          }
         ],
         [
-          {"greek": "οι", "romanization": "i", "translation": "the (m pl)"},
-          {"greek": "οι", "romanization": "i", "translation": "the (f pl)"},
-          {"greek": "τα", "romanization": "ta", "translation": "the (n pl)"}
+          {
+            "greek": "οι",
+            "romanization": "i",
+            "translation": "the (m pl)"
+          },
+          {
+            "greek": "οι",
+            "romanization": "i",
+            "translation": "the (f pl)"
+          },
+          {
+            "greek": "τα",
+            "romanization": "ta",
+            "translation": "the (n pl)"
+          }
         ]
       ]
     }
@@ -65,21 +96,29 @@
     {
       "id": "ex_301",
       "greek": "Ο άντρας είναι εδώ.",
-      "romanization": "O antras ine edo.",
+      "romanization": "o ˈandras ˈine eðˈo.",
       "catalan": "L'home és aquí.",
       "englishLiteral": "The man is here.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 1, "explanation": "Masculine singular"}
+        {
+          "startIndex": 0,
+          "endIndex": 1,
+          "explanation": "Masculine singular"
+        }
       ]
     },
     {
       "id": "ex_302",
       "greek": "Το παιδί είναι μικρό.",
-      "romanization": "To pedi ine mikro.",
+      "romanization": "to peðˈi ˈine mikrˈo.",
       "catalan": "El nen és petit.",
       "englishLiteral": "The child is small.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 2, "explanation": "Neuter singular"}
+        {
+          "startIndex": 0,
+          "endIndex": 2,
+          "explanation": "Neuter singular"
+        }
       ]
     }
   ],
@@ -94,9 +133,11 @@
         "ca": "Completa la frase"
       },
       "prompt": "____ γάτα είναι στο σπίτι.",
-      "promptRomanization": "____ gata ine sto spiti.",
+      "promptRomanization": "____ ɣˈata ˈine sto spˈiti.",
       "correctAnswer": "Η",
-      "acceptableAnswers": ["η"],
+      "acceptableAnswers": [
+        "η"
+      ],
       "explanation": {
         "en": "γάτα is feminine, so use η.",
         "el": "Η γάτα είναι θηλυκό, άρα βάζουμε η.",
@@ -113,10 +154,16 @@
         "ca": "Tria l'article correcte"
       },
       "prompt": "____ παιδί κοιμάται.",
-      "promptRomanization": "____ pedi kimatai.",
+      "promptRomanization": "____ peðˈi kimˈate.",
       "correctAnswer": "Το",
-      "options": ["Ο", "Η", "Το"],
-      "acceptableAnswers": ["το"],
+      "options": [
+        "Ο",
+        "Η",
+        "Το"
+      ],
+      "acceptableAnswers": [
+        "το"
+      ],
       "explanation": {
         "en": "παιδί is neuter, so use το.",
         "el": "Το παιδί είναι ουδέτερο, άρα το.",
@@ -133,15 +180,30 @@
         "ca": "Relaciona el substantiu amb l'article correcte"
       },
       "prompt": "Σύνδεσε κάθε ουσιαστικό με το άρθρο.",
-      "promptRomanization": "Syndese kathe ousiastiko me to arthro.",
+      "promptRomanization": "sˈindese kˈaθe usiastikˈo me to ˈarθro.",
       "correctAnswer": "",
       "pairs": [
-        {"left": "άντρας", "right": "ο"},
-        {"left": "γυναίκα", "right": "η"},
-        {"left": "παιδί", "right": "το"}
+        {
+          "left": "άντρας",
+          "right": "ο"
+        },
+        {
+          "left": "γυναίκα",
+          "right": "η"
+        },
+        {
+          "left": "παιδί",
+          "right": "το"
+        }
       ]
     }
   ],
-  "prerequisites": ["a1_g01_verb_to_be"],
-  "tags": ["articles", "definite", "gender"]
+  "prerequisites": [
+    "a1_g01_verb_to_be"
+  ],
+  "tags": [
+    "articles",
+    "definite",
+    "gender"
+  ]
 }

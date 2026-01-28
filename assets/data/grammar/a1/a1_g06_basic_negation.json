@@ -37,21 +37,29 @@
     {
       "id": "ex_601",
       "greek": "Δεν είμαι εδώ.",
-      "romanization": "Den eimai edo.",
+      "romanization": "ðen ˈime eðˈo.",
       "catalan": "No soc aqui.",
       "englishLiteral": "I am not here.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 3, "explanation": "Negation marker"}
+        {
+          "startIndex": 0,
+          "endIndex": 3,
+          "explanation": "Negation marker"
+        }
       ]
     },
     {
       "id": "ex_602",
       "greek": "Δεν έχουμε χρόνο.",
-      "romanization": "Den ehoume chrono.",
+      "romanization": "ðen ˈexume xrˈono.",
       "catalan": "No tenim temps.",
       "englishLiteral": "We do not have time.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 3, "explanation": "Negation marker"}
+        {
+          "startIndex": 0,
+          "endIndex": 3,
+          "explanation": "Negation marker"
+        }
       ]
     }
   ],
@@ -66,9 +74,11 @@
         "ca": "Completa la frase"
       },
       "prompt": "____ έχω βιβλίο.",
-      "promptRomanization": "____ eho vivlio.",
+      "promptRomanization": "____ ˈexo vivlˈio.",
       "correctAnswer": "Δεν",
-      "acceptableAnswers": ["δεν"],
+      "acceptableAnswers": [
+        "δεν"
+      ],
       "explanation": {
         "en": "Use δεν before the verb έχω.",
         "el": "Βάζουμε δεν πριν από το ρήμα έχω.",
@@ -85,10 +95,16 @@
         "ca": "Tria la negació correcta"
       },
       "prompt": "____ είμαστε έτοιμοι.",
-      "promptRomanization": "____ eimaste etoimoi.",
+      "promptRomanization": "____ ˈimaste ˈetimi.",
       "correctAnswer": "Δεν",
-      "options": ["Δεν", "Ναι", "Μην"],
-      "acceptableAnswers": ["δεν"],
+      "options": [
+        "Δεν",
+        "Ναι",
+        "Μην"
+      ],
+      "acceptableAnswers": [
+        "δεν"
+      ],
       "explanation": {
         "en": "Use δεν to negate a statement.",
         "el": "Χρησιμοποίησε το δεν για άρνηση.",
@@ -105,9 +121,13 @@
         "ca": "Corregeix la frase"
       },
       "prompt": "Είμαι δεν κουρασμένος.",
-      "promptRomanization": "Íme den kourasmenos.",
+      "promptRomanization": "ˈime ðen kurasmˈenos.",
       "correctAnswer": "Δεν είμαι κουρασμένος.",
-      "acceptableAnswers": ["Δεν ειμαι κουρασμενος", "Δεν είμαι κουρασμενος", "Δεν ειμαι κουρασμένος"],
+      "acceptableAnswers": [
+        "Δεν ειμαι κουρασμενος",
+        "Δεν είμαι κουρασμενος",
+        "Δεν ειμαι κουρασμένος"
+      ],
       "explanation": {
         "en": "δεν comes before the verb.",
         "el": "Το δεν μπαίνει πριν από το ρήμα.",
@@ -115,6 +135,12 @@
       }
     }
   ],
-  "prerequisites": ["a1_g01_verb_to_be", "a1_g02_verb_to_have"],
-  "tags": ["negation", "basic"]
+  "prerequisites": [
+    "a1_g01_verb_to_be",
+    "a1_g02_verb_to_have"
+  ],
+  "tags": [
+    "negation",
+    "basic"
+  ]
 }

@@ -22,56 +22,73 @@
           "file": "a1/a1_g02_verb_to_have.json",
           "category": "verb_conjugation",
           "order": 2,
-          "prerequisites": ["a1_g01_verb_to_be"]
+          "prerequisites": [
+            "a1_g01_verb_to_be"
+          ]
         },
         {
           "id": "a1_g03_definite_articles",
           "file": "a1/a1_g03_definite_articles.json",
           "category": "articles",
           "order": 3,
-          "prerequisites": ["a1_g01_verb_to_be"]
+          "prerequisites": [
+            "a1_g01_verb_to_be"
+          ]
         },
         {
           "id": "a1_g04_indefinite_articles",
           "file": "a1/a1_g04_indefinite_articles.json",
           "category": "articles",
           "order": 4,
-          "prerequisites": ["a1_g03_definite_articles"]
+          "prerequisites": [
+            "a1_g03_definite_articles"
+          ]
         },
         {
           "id": "a1_g05_subject_pronouns",
           "file": "a1/a1_g05_subject_pronouns.json",
           "category": "pronouns",
           "order": 5,
-          "prerequisites": ["a1_g01_verb_to_be"]
+          "prerequisites": [
+            "a1_g01_verb_to_be"
+          ]
         },
         {
           "id": "a1_g06_basic_negation",
           "file": "a1/a1_g06_basic_negation.json",
           "category": "negation",
           "order": 6,
-          "prerequisites": ["a1_g01_verb_to_be", "a1_g02_verb_to_have"]
+          "prerequisites": [
+            "a1_g01_verb_to_be",
+            "a1_g02_verb_to_have"
+          ]
         },
         {
           "id": "a1_g07_possessive_pronouns",
           "file": "a1/a1_g07_possessive_pronouns.json",
           "category": "pronouns",
           "order": 7,
-          "prerequisites": ["a1_g05_subject_pronouns"]
+          "prerequisites": [
+            "a1_g05_subject_pronouns"
+          ]
         },
         {
           "id": "a1_g08_present_tense_regular",
           "file": "a1/a1_g08_present_tense_regular.json",
           "category": "verb_conjugation",
           "order": 8,
-          "prerequisites": ["a1_g01_verb_to_be"]
+          "prerequisites": [
+            "a1_g01_verb_to_be"
+          ]
         },
         {
           "id": "a1_g09_present_tense_common_irregular",
           "file": "a1/a1_g09_present_tense_common_irregular.json",
           "category": "verb_conjugation",
           "order": 9,
-          "prerequisites": ["a1_g08_present_tense_regular"]
+          "prerequisites": [
+            "a1_g08_present_tense_regular"
+          ]
         }
       ]
     },
@@ -88,7 +105,9 @@
           "file": "a2/a2_g01_simple_past.json",
           "category": "verb_conjugation",
           "order": 1,
-          "prerequisites": ["a1_g02_verb_to_have"]
+          "prerequisites": [
+            "a1_g02_verb_to_have"
+          ]
         }
       ]
     }
@@ -132,4 +151,3 @@
     }
   ]
 }
-

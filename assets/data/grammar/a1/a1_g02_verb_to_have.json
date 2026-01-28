@@ -47,20 +47,51 @@
         "el": "Ενεστώτας του Έχω",
         "ca": "Present d'Έχω"
       },
-      "columnHeaders": ["Ενικός", "Πληθυντικός"],
-      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
       "cells": [
         [
-          {"greek": "έχω", "romanization": "eho", "translation": "I have"},
-          {"greek": "έχουμε", "romanization": "ehume", "translation": "we have"}
+          {
+            "greek": "έχω",
+            "romanization": "ˈexo",
+            "translation": "I have"
+          },
+          {
+            "greek": "έχουμε",
+            "romanization": "ˈexume",
+            "translation": "we have"
+          }
         ],
         [
-          {"greek": "έχεις", "romanization": "ehis", "translation": "you have"},
-          {"greek": "έχετε", "romanization": "ehete", "translation": "you have (pl/formal)"}
+          {
+            "greek": "έχεις",
+            "romanization": "ˈexis",
+            "translation": "you have"
+          },
+          {
+            "greek": "έχετε",
+            "romanization": "ˈexete",
+            "translation": "you have (pl/formal)"
+          }
         ],
         [
-          {"greek": "έχει", "romanization": "ehi", "translation": "he/she/it has"},
-          {"greek": "έχουν", "romanization": "ehun", "translation": "they have"}
+          {
+            "greek": "έχει",
+            "romanization": "ˈexi",
+            "translation": "he/she/it has"
+          },
+          {
+            "greek": "έχουν",
+            "romanization": "ˈexun",
+            "translation": "they have"
+          }
         ]
       ]
     }
@@ -69,17 +100,21 @@
     {
       "id": "ex_201",
       "greek": "Έχω ένα βιβλίο.",
-      "romanization": "Eho ena vivlio.",
+      "romanization": "ˈexo ˈena vivlˈio.",
       "catalan": "Tinc un llibre.",
       "englishLiteral": "Have a book.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 3, "explanation": "1st person singular"}
+        {
+          "startIndex": 0,
+          "endIndex": 3,
+          "explanation": "1st person singular"
+        }
       ]
     },
     {
       "id": "ex_202",
       "greek": "Έχετε παιδιά;",
-      "romanization": "Ehete paidia?",
+      "romanization": "ˈexete peðiˈa;",
       "catalan": "Teniu fills?",
       "englishLiteral": "Have you (pl) children?"
     }
@@ -95,9 +130,11 @@
         "ca": "Completa la frase"
       },
       "prompt": "Εμείς ____ δύο σκύλους.",
-      "promptRomanization": "Emis ____ dyo skylous.",
+      "promptRomanization": "emˈis ____ ðˈio skˈilus.",
       "correctAnswer": "έχουμε",
-      "acceptableAnswers": ["εχουμε"],
+      "acceptableAnswers": [
+        "εχουμε"
+      ],
       "explanation": {
         "en": "Use έχουμε for 1st person plural.",
         "el": "Χρησιμοποίησε έχουμε για το 1ο πληθυντικό.",
@@ -114,10 +151,17 @@
         "ca": "Tria la forma correcta"
       },
       "prompt": "Αυτός ____ ένα αυτοκίνητο.",
-      "promptRomanization": "Aftos ____ ena aftokinito.",
+      "promptRomanization": "aftˈos ____ ˈena aftokˈinito.",
       "correctAnswer": "έχει",
-      "options": ["έχω", "έχεις", "έχει", "έχουν"],
-      "acceptableAnswers": ["εχει"],
+      "options": [
+        "έχω",
+        "έχεις",
+        "έχει",
+        "έχουν"
+      ],
+      "acceptableAnswers": [
+        "εχει"
+      ],
       "explanation": {
         "en": "Use έχει for 3rd person singular.",
         "el": "Χρησιμοποίησε έχει για το 3ο ενικό.",
@@ -134,15 +178,57 @@
         "ca": "Conjuga έχω al present"
       },
       "prompt": "Συμπλήρωσε όλους τους τύπους.",
-      "promptRomanization": "Symplirosse olous tous typous.",
+      "promptRomanization": "siblˈirose ˈolus tus tˈipus.",
       "correctAnswer": "",
       "conjugations": [
-        {"label": "Εγώ", "answer": "έχω", "romanization": "eho", "acceptableAnswers": ["εχω"]},
-        {"label": "Εσύ", "answer": "έχεις", "romanization": "ehis", "acceptableAnswers": ["εχεις"]},
-        {"label": "Αυτός/Αυτή/Αυτό", "answer": "έχει", "romanization": "ehi", "acceptableAnswers": ["εχει"]},
-        {"label": "Εμείς", "answer": "έχουμε", "romanization": "ehume", "acceptableAnswers": ["εχουμε"]},
-        {"label": "Εσείς", "answer": "έχετε", "romanization": "ehete", "acceptableAnswers": ["εχετε"]},
-        {"label": "Αυτοί/Αυτές/Αυτά", "answer": "έχουν", "romanization": "ehun", "acceptableAnswers": ["εχουν"]}
+        {
+          "label": "Εγώ",
+          "answer": "έχω",
+          "romanization": "ˈexo",
+          "acceptableAnswers": [
+            "εχω"
+          ]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "έχεις",
+          "romanization": "ˈexis",
+          "acceptableAnswers": [
+            "εχεις"
+          ]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "έχει",
+          "romanization": "ˈexi",
+          "acceptableAnswers": [
+            "εχει"
+          ]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "έχουμε",
+          "romanization": "ˈexume",
+          "acceptableAnswers": [
+            "εχουμε"
+          ]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "έχετε",
+          "romanization": "ˈexete",
+          "acceptableAnswers": [
+            "εχετε"
+          ]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "έχουν",
+          "romanization": "ˈexun",
+          "acceptableAnswers": [
+            "εχουν"
+          ]
+        }
       ],
       "explanation": {
         "en": "Plural forms end in -ουμε, -ετε, -ουν.",
@@ -160,18 +246,42 @@
         "ca": "Relaciona el pronom amb la forma correcta"
       },
       "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα.",
-      "promptRomanization": "Syndese kathe prosopo me to rima.",
+      "promptRomanization": "sˈindese kˈaθe prˈosopo me to rˈima.",
       "correctAnswer": "",
       "pairs": [
-        {"left": "Εγώ", "right": "έχω"},
-        {"left": "Εσύ", "right": "έχεις"},
-        {"left": "Αυτός/Αυτή/Αυτό", "right": "έχει"},
-        {"left": "Εμείς", "right": "έχουμε"},
-        {"left": "Εσείς", "right": "έχετε"},
-        {"left": "Αυτοί/Αυτές/Αυτά", "right": "έχουν"}
+        {
+          "left": "Εγώ",
+          "right": "έχω"
+        },
+        {
+          "left": "Εσύ",
+          "right": "έχεις"
+        },
+        {
+          "left": "Αυτός/Αυτή/Αυτό",
+          "right": "έχει"
+        },
+        {
+          "left": "Εμείς",
+          "right": "έχουμε"
+        },
+        {
+          "left": "Εσείς",
+          "right": "έχετε"
+        },
+        {
+          "left": "Αυτοί/Αυτές/Αυτά",
+          "right": "έχουν"
+        }
       ]
     }
   ],
-  "prerequisites": ["a1_g01_verb_to_be"],
-  "tags": ["verb", "present", "to_have"]
+  "prerequisites": [
+    "a1_g01_verb_to_be"
+  ],
+  "tags": [
+    "verb",
+    "present",
+    "to_have"
+  ]
 }

@@ -35,20 +35,51 @@
         "el": "Καταλήξεις ενεστώτα για ρήματα σε -ω",
         "ca": "Terminacions de present per a verbs en -ω"
       },
-      "columnHeaders": ["Ενικός", "Πληθυντικός"],
-      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
       "cells": [
         [
-          {"greek": "-ω", "romanization": "-o", "translation": "I"},
-          {"greek": "-ουμε", "romanization": "-oume", "translation": "we"}
+          {
+            "greek": "-ω",
+            "romanization": "-o",
+            "translation": "I"
+          },
+          {
+            "greek": "-ουμε",
+            "romanization": "-ume",
+            "translation": "we"
+          }
         ],
         [
-          {"greek": "-εις", "romanization": "-eis", "translation": "you"},
-          {"greek": "-ετε", "romanization": "-ete", "translation": "you (pl)"}
+          {
+            "greek": "-εις",
+            "romanization": "-is",
+            "translation": "you"
+          },
+          {
+            "greek": "-ετε",
+            "romanization": "-ete",
+            "translation": "you (pl)"
+          }
         ],
         [
-          {"greek": "-ει", "romanization": "-ei", "translation": "he/she"},
-          {"greek": "-ουν(ε)", "romanization": "-oun(e)", "translation": "they"}
+          {
+            "greek": "-ει",
+            "romanization": "-i",
+            "translation": "he/she"
+          },
+          {
+            "greek": "-ουν(ε)",
+            "romanization": "-un(e)",
+            "translation": "they"
+          }
         ]
       ]
     }
@@ -57,11 +88,15 @@
     {
       "id": "ex_801",
       "greek": "Μιλάω ελληνικά.",
-      "romanization": "Milao ellinika.",
+      "romanization": "milˈao ellinikˈa.",
       "catalan": "Parlo grec.",
       "englishLiteral": "I speak Greek.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 5, "explanation": "Present tense"}
+        {
+          "startIndex": 0,
+          "endIndex": 5,
+          "explanation": "Present tense"
+        }
       ]
     }
   ],
@@ -76,10 +111,12 @@
         "ca": "Completa la frase"
       },
       "prompt": "Εγώ ____ (μιλάω) καταλανικά.",
-      "promptRomanization": "Ego ____ (milao) katalanika.",
+      "promptRomanization": "eɣˈo ____ (milˈao) katalanikˈa.",
       "hint": "Translation: I speak Catalan.",
       "correctAnswer": "μιλάω",
-      "acceptableAnswers": ["μιλάω"],
+      "acceptableAnswers": [
+        "μιλάω"
+      ],
       "explanation": {
         "en": "First person singular present of μιλάω is μιλάω.",
         "el": "Ο ενεστώτας του μιλάω στο α' ενικό είναι μιλάω.",
@@ -96,11 +133,17 @@
         "ca": "Tria la forma correcta"
       },
       "prompt": "Εσύ ____ (παίζω) μπάλα.",
-      "promptRomanization": "Esy ____ (paizo) bala.",
+      "promptRomanization": "esˈi ____ (pˈezo) bˈala.",
       "hint": "Translation: You play ball.",
       "correctAnswer": "παίζεις",
-      "options": ["παίζω", "παίζεις", "παίζει"],
-      "acceptableAnswers": ["παίζεις"],
+      "options": [
+        "παίζω",
+        "παίζεις",
+        "παίζει"
+      ],
+      "acceptableAnswers": [
+        "παίζεις"
+      ],
       "explanation": {
         "en": "Second person singular present of παίζω is παίζεις.",
         "el": "Ο ενεστώτας του παίζω στο β' ενικό είναι παίζεις.",
@@ -117,10 +160,13 @@
         "ca": "Completa la frase"
       },
       "prompt": "Αυτοί ____ (δουλεύω) εδώ.",
-      "promptRomanization": "Aftoi ____ (doulevo) edo.",
+      "promptRomanization": "aftˈi ____ (ðulˈevo) eðˈo.",
       "hint": "Translation: They work here.",
       "correctAnswer": "δουλεύουν",
-      "acceptableAnswers": ["δουλεύουν", "δουλεύουνε"],
+      "acceptableAnswers": [
+        "δουλεύουν",
+        "δουλεύουνε"
+      ],
       "explanation": {
         "en": "Third person plural present of δουλεύω is δουλεύουν.",
         "el": "Ο ενεστώτας του δουλεύω στο γ' πληθυντικό είναι δουλεύουν.",
@@ -128,6 +174,11 @@
       }
     }
   ],
-  "prerequisites": ["a1_g01_verb_to_be"],
-  "tags": ["verbs", "present"]
+  "prerequisites": [
+    "a1_g01_verb_to_be"
+  ],
+  "tags": [
+    "verbs",
+    "present"
+  ]
 }

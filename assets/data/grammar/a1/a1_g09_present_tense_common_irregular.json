@@ -37,21 +37,29 @@
     {
       "id": "ex_901",
       "greek": "Πάω στο σχολείο.",
-      "romanization": "Pao sto scholeio.",
+      "romanization": "pˈao sto sxolˈio.",
       "catalan": "Vaig a l'escola.",
       "englishLiteral": "I go to school.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 3, "explanation": "Irregular present"}
+        {
+          "startIndex": 0,
+          "endIndex": 3,
+          "explanation": "Irregular present"
+        }
       ]
     },
     {
       "id": "ex_902",
       "greek": "Τρώνε μαζί.",
-      "romanization": "Trone mazi.",
+      "romanization": "trˈone mazˈi.",
       "catalan": "Mengen junts.",
       "englishLiteral": "They eat together.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 5, "explanation": "Irregular present"}
+        {
+          "startIndex": 0,
+          "endIndex": 5,
+          "explanation": "Irregular present"
+        }
       ]
     }
   ],
@@ -66,10 +74,12 @@
         "ca": "Completa la frase"
       },
       "prompt": "Εσύ ____ (πάω) στη δουλειά;",
-      "promptRomanization": "Esy ____ (pao) sti douleia?",
+      "promptRomanization": "esˈi ____ (pˈao) sti ðuliˈa;",
       "hint": "Translation: Do you go to work?",
       "correctAnswer": "πας",
-      "acceptableAnswers": ["πας"],
+      "acceptableAnswers": [
+        "πας"
+      ],
       "explanation": {
         "en": "Second person singular of πάω is πας.",
         "el": "Ο ενεστώτας του πάω στο β' ενικό είναι πας.",
@@ -86,11 +96,17 @@
         "ca": "Tria la forma correcta"
       },
       "prompt": "Αυτός ____ (τρώω) τώρα.",
-      "promptRomanization": "Aftos ____ (troo) tora.",
+      "promptRomanization": "aftˈos ____ (trˈoo) tˈora.",
       "hint": "Translation: He eats now.",
       "correctAnswer": "τρώει",
-      "options": ["τρώω", "τρώει", "τρώτε"],
-      "acceptableAnswers": ["τρώει"],
+      "options": [
+        "τρώω",
+        "τρώει",
+        "τρώτε"
+      ],
+      "acceptableAnswers": [
+        "τρώει"
+      ],
       "explanation": {
         "en": "Third person singular of τρώω is τρώει.",
         "el": "Ο ενεστώτας του τρώω στο γ' ενικό είναι τρώει.",
@@ -107,10 +123,12 @@
         "ca": "Completa la frase"
       },
       "prompt": "Εμείς ____ (πάω) στο πάρκο.",
-      "promptRomanization": "Emis ____ (pao) sto parko.",
+      "promptRomanization": "emˈis ____ (pˈao) sto pˈarko.",
       "hint": "Translation: We go to the park.",
       "correctAnswer": "πάμε",
-      "acceptableAnswers": ["πάμε"],
+      "acceptableAnswers": [
+        "πάμε"
+      ],
       "explanation": {
         "en": "First person plural of πάω is πάμε.",
         "el": "Ο ενεστώτας του πάω στο α' πληθυντικό είναι πάμε.",
@@ -118,6 +136,12 @@
       }
     }
   ],
-  "prerequisites": ["a1_g08_present_tense_regular"],
-  "tags": ["verbs", "present", "irregular"]
+  "prerequisites": [
+    "a1_g08_present_tense_regular"
+  ],
+  "tags": [
+    "verbs",
+    "present",
+    "irregular"
+  ]
 }

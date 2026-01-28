@@ -54,20 +54,52 @@
         "el": "Ενεστώτας του Είμαι",
         "ca": "Present d'Είμαι"
       },
-      "columnHeaders": ["Ενικός", "Πληθυντικός"],
-      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
       "cells": [
         [
-          {"greek": "είμαι", "romanization": "ime", "translation": "I am"},
-          {"greek": "είμαστε", "romanization": "imaste", "translation": "we are"}
+          {
+            "greek": "είμαι",
+            "romanization": "ˈime",
+            "translation": "I am"
+          },
+          {
+            "greek": "είμαστε",
+            "romanization": "ˈimaste",
+            "translation": "we are"
+          }
         ],
         [
-          {"greek": "είσαι", "romanization": "ise", "translation": "you are"},
-          {"greek": "είστε", "romanization": "iste", "translation": "you are (pl/formal)"}
+          {
+            "greek": "είσαι",
+            "romanization": "ˈise",
+            "translation": "you are"
+          },
+          {
+            "greek": "είστε",
+            "romanization": "ˈiste",
+            "translation": "you are (pl/formal)"
+          }
         ],
         [
-          {"greek": "είναι", "romanization": "ine", "translation": "he/she/it is"},
-          {"greek": "είναι", "romanization": "ine", "translation": "they are", "isHighlighted": true}
+          {
+            "greek": "είναι",
+            "romanization": "ˈine",
+            "translation": "he/she/it is"
+          },
+          {
+            "greek": "είναι",
+            "romanization": "ˈine",
+            "translation": "they are",
+            "isHighlighted": true
+          }
         ]
       ],
       "footnote": "Note: 3rd person singular and plural are identical"
@@ -77,7 +109,7 @@
     {
       "id": "ex_001",
       "greek": "Είμαι μαθητής.",
-      "romanization": "Ime mathitis.",
+      "romanization": "ˈime maθitˈis.",
       "catalan": "Sóc estudiant.",
       "englishLiteral": "Am student.",
       "highlights": [
@@ -91,7 +123,7 @@
     {
       "id": "ex_002",
       "greek": "Εσύ είσαι από την Ελλάδα;",
-      "romanization": "Esi ise apo tin Ellada?",
+      "romanization": "esˈi ˈise apˈo tin ellˈaða;",
       "catalan": "Tu ets de Grècia?",
       "englishLiteral": "You are from the Greece?"
     }
@@ -107,9 +139,11 @@
         "ca": "Completa la frase"
       },
       "prompt": "Εγώ ____ μαθητής.",
-      "promptRomanization": "Ego ____ mathitis.",
+      "promptRomanization": "eɣˈo ____ maθitˈis.",
       "correctAnswer": "είμαι",
-      "acceptableAnswers": ["ειμαι"],
+      "acceptableAnswers": [
+        "ειμαι"
+      ],
       "explanation": {
         "en": "Use είμαι for 1st person singular.",
         "el": "Χρησιμοποίησε είμαι για το 1ο ενικό.",
@@ -126,10 +160,17 @@
         "ca": "Tria la forma correcta"
       },
       "prompt": "Αυτοί ____ φίλοι.",
-      "promptRomanization": "Afti ____ filoi.",
+      "promptRomanization": "aftˈi ____ fˈili.",
       "correctAnswer": "είναι",
-      "options": ["είμαι", "είσαι", "είναι", "είμαστε"],
-      "acceptableAnswers": ["ειναι"],
+      "options": [
+        "είμαι",
+        "είσαι",
+        "είναι",
+        "είμαστε"
+      ],
+      "acceptableAnswers": [
+        "ειναι"
+      ],
       "explanation": {
         "en": "The 3rd person plural is είναι.",
         "el": "Το 3ο πληθυντικό είναι είναι.",
@@ -146,44 +187,56 @@
         "ca": "Conjuga είμαι al present"
       },
       "prompt": "Συμπλήρωσε όλους τους τύπους.",
-      "promptRomanization": "Symplirosse olous tous typous.",
+      "promptRomanization": "simblˈirose ˈolus tus tˈipus.",
       "correctAnswer": "",
       "conjugations": [
         {
           "label": "Εγώ",
           "answer": "είμαι",
-          "romanization": "ime",
-          "acceptableAnswers": ["ειμαι"]
+          "romanization": "ˈime",
+          "acceptableAnswers": [
+            "ειμαι"
+          ]
         },
         {
           "label": "Εσύ",
           "answer": "είσαι",
-          "romanization": "ise",
-          "acceptableAnswers": ["εισαι"]
+          "romanization": "ˈise",
+          "acceptableAnswers": [
+            "εισαι"
+          ]
         },
         {
           "label": "Αυτός/Αυτή/Αυτό",
           "answer": "είναι",
-          "romanization": "ine",
-          "acceptableAnswers": ["ειναι"]
+          "romanization": "ˈine",
+          "acceptableAnswers": [
+            "ειναι"
+          ]
         },
         {
           "label": "Εμείς",
           "answer": "είμαστε",
-          "romanization": "imaste",
-          "acceptableAnswers": ["ειμαστε"]
+          "romanization": "ˈimaste",
+          "acceptableAnswers": [
+            "ειμαστε"
+          ]
         },
         {
           "label": "Εσείς",
           "answer": "είστε",
-          "romanization": "iste",
-          "acceptableAnswers": ["ειστε"]
+          "romanization": "ˈiste",
+          "acceptableAnswers": [
+            "ειστε"
+          ]
         },
         {
           "label": "Αυτοί/Αυτές/Αυτά",
           "answer": "είναι",
-          "romanization": "ine",
-          "acceptableAnswers": ["ειναι"]
+          "romanization": "ˈine",
+          "acceptableAnswers": [
+            "ειναι"
+          ]
         }
       ],
       "explanation": {
@@ -202,15 +255,33 @@
         "ca": "Relaciona el pronom amb la forma correcta"
       },
       "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα.",
-      "promptRomanization": "Syndese kathe prosopo me to rima.",
+      "promptRomanization": "sˈindese kˈaθe prˈosopo me to rˈima.",
       "correctAnswer": "",
       "pairs": [
-        {"left": "Εγώ", "right": "είμαι"},
-        {"left": "Εσύ", "right": "είσαι"},
-        {"left": "Αυτός/Αυτή/Αυτό", "right": "είναι"},
-        {"left": "Εμείς", "right": "είμαστε"},
-        {"left": "Εσείς", "right": "είστε"},
-        {"left": "Αυτοί/Αυτές/Αυτά", "right": "είναι"}
+        {
+          "left": "Εγώ",
+          "right": "είμαι"
+        },
+        {
+          "left": "Εσύ",
+          "right": "είσαι"
+        },
+        {
+          "left": "Αυτός/Αυτή/Αυτό",
+          "right": "είναι"
+        },
+        {
+          "left": "Εμείς",
+          "right": "είμαστε"
+        },
+        {
+          "left": "Εσείς",
+          "right": "είστε"
+        },
+        {
+          "left": "Αυτοί/Αυτές/Αυτά",
+          "right": "είναι"
+        }
       ],
       "explanation": {
         "en": "Remember: είναι is used for both 3rd singular and plural.",
@@ -228,9 +299,11 @@
         "ca": "Completa la frase"
       },
       "prompt": "Εσείς ____ δάσκαλοι.",
-      "promptRomanization": "Esis ____ daskaloi.",
+      "promptRomanization": "esˈis ____ ðˈaskali.",
       "correctAnswer": "είστε",
-      "acceptableAnswers": ["ειστε"],
+      "acceptableAnswers": [
+        "ειστε"
+      ],
       "explanation": {
         "en": "Use είστε for 2nd person plural/formal.",
         "el": "Χρησιμοποίησε είστε για το 2ο πληθυντικό.",
@@ -247,10 +320,17 @@
         "ca": "Tria la forma correcta"
       },
       "prompt": "Η Μαρία ____ από την Κρήτη.",
-      "promptRomanization": "I Maria ____ apo tin Kriti.",
+      "promptRomanization": "i marˈia ____ apˈo tin krˈiti.",
       "correctAnswer": "είναι",
-      "options": ["είμαι", "είσαι", "είναι", "είμαστε"],
-      "acceptableAnswers": ["ειναι"],
+      "options": [
+        "είμαι",
+        "είσαι",
+        "είναι",
+        "είμαστε"
+      ],
+      "acceptableAnswers": [
+        "ειναι"
+      ],
       "explanation": {
         "en": "Use είναι for 3rd person singular.",
         "el": "Χρησιμοποίησε είναι για το 3ο ενικό.",
@@ -259,5 +339,9 @@
     }
   ],
   "prerequisites": [],
-  "tags": ["verb", "present", "to_be"]
+  "tags": [
+    "verb",
+    "present",
+    "to_be"
+  ]
 }

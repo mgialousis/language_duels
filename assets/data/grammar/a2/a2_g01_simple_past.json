@@ -45,20 +45,51 @@
         "el": "Σιγματικός Αόριστος: μιλάω → μίλησα",
         "ca": "Aorist Sigmàtic: μιλάω → μίλησα"
       },
-      "columnHeaders": ["Ενικός", "Πληθυντικός"],
-      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
       "cells": [
         [
-          {"greek": "μίλησα", "romanization": "mílisa", "translation": "I spoke"},
-          {"greek": "μιλήσαμε", "romanization": "milísame", "translation": "we spoke"}
+          {
+            "greek": "μίλησα",
+            "romanization": "mˈilisa",
+            "translation": "I spoke"
+          },
+          {
+            "greek": "μιλήσαμε",
+            "romanization": "milˈisame",
+            "translation": "we spoke"
+          }
         ],
         [
-          {"greek": "μίλησες", "romanization": "mílises", "translation": "you spoke"},
-          {"greek": "μιλήσατε", "romanization": "milísate", "translation": "you spoke (pl)"}
+          {
+            "greek": "μίλησες",
+            "romanization": "mˈilises",
+            "translation": "you spoke"
+          },
+          {
+            "greek": "μιλήσατε",
+            "romanization": "milˈisate",
+            "translation": "you spoke (pl)"
+          }
         ],
         [
-          {"greek": "μίλησε", "romanization": "mílise", "translation": "he/she spoke"},
-          {"greek": "μίλησαν", "romanization": "mílisan", "translation": "they spoke"}
+          {
+            "greek": "μίλησε",
+            "romanization": "mˈilise",
+            "translation": "he/she spoke"
+          },
+          {
+            "greek": "μίλησαν",
+            "romanization": "mˈilisan",
+            "translation": "they spoke"
+          }
         ]
       ]
     }
@@ -67,21 +98,29 @@
     {
       "id": "ex_a2_101",
       "greek": "Χτες έπαιξα ποδόσφαιρο.",
-      "romanization": "Chtes epexa podosfairo.",
+      "romanization": "xtes ˈepeksa poðˈosfero.",
       "catalan": "Ahir vaig jugar a futbol.",
       "englishLiteral": "Yesterday I played football.",
       "highlights": [
-        {"startIndex": 5, "endIndex": 9, "explanation": "Aorist form"}
+        {
+          "startIndex": 5,
+          "endIndex": 9,
+          "explanation": "Aorist form"
+        }
       ]
     },
     {
       "id": "ex_a2_102",
       "greek": "Μίλησε με τη φίλη του.",
-      "romanization": "Milise me ti fili tou.",
+      "romanization": "mˈilise me ti fˈili tu.",
       "catalan": "Va parlar amb la seva amiga.",
       "englishLiteral": "He/She spoke with his friend.",
       "highlights": [
-        {"startIndex": 0, "endIndex": 6, "explanation": "Aorist form"}
+        {
+          "startIndex": 0,
+          "endIndex": 6,
+          "explanation": "Aorist form"
+        }
       ]
     }
   ],
@@ -96,10 +135,12 @@
         "ca": "Completa la frase"
       },
       "prompt": "Χτες ____ (παίζω) τένις.",
-      "promptRomanization": "Chtes ____ (paizo) tenis.",
+      "promptRomanization": "xtes ____ (pˈezo) tˈenis.",
       "hint": "Translation: Yesterday I played tennis.",
       "correctAnswer": "έπαιξα",
-      "acceptableAnswers": ["έπαιξα"],
+      "acceptableAnswers": [
+        "έπαιξα"
+      ],
       "explanation": {
         "en": "First person singular aorist of παίζω is έπαιξα.",
         "el": "Ο αόριστος του παίζω στο α' ενικό είναι έπαιξα.",
@@ -116,11 +157,17 @@
         "ca": "Tria la forma correcta"
       },
       "prompt": "Αυτός ____ (μιλάω) με τη δασκάλα.",
-      "promptRomanization": "Aftos ____ (milao) me ti daskala.",
+      "promptRomanization": "aftˈos ____ (milˈao) me ti ðaskˈala.",
       "hint": "Translation: He spoke with the teacher.",
       "correctAnswer": "μίλησε",
-      "options": ["μιλά", "μίλησε", "μιλούσε"],
-      "acceptableAnswers": ["μίλησε"],
+      "options": [
+        "μιλά",
+        "μίλησε",
+        "μιλούσε"
+      ],
+      "acceptableAnswers": [
+        "μίλησε"
+      ],
       "explanation": {
         "en": "Third person singular aorist of μιλάω is μίλησε.",
         "el": "Ο αόριστος του μιλάω στο γ' ενικό είναι μίλησε.",
@@ -137,10 +184,12 @@
         "ca": "Completa la frase"
       },
       "prompt": "Εμείς ____ (δουλεύω) μέχρι αργά.",
-      "promptRomanization": "Emis ____ (doulevo) mechri arga.",
+      "promptRomanization": "emˈis ____ (ðulˈevo) mˈexri arɣˈa.",
       "hint": "Translation: We worked until late.",
       "correctAnswer": "δουλέψαμε",
-      "acceptableAnswers": ["δουλέψαμε"],
+      "acceptableAnswers": [
+        "δουλέψαμε"
+      ],
       "explanation": {
         "en": "First person plural aorist of δουλεύω is δουλέψαμε.",
         "el": "Ο αόριστος του δουλεύω στο α' πληθυντικό είναι δουλέψαμε.",
@@ -148,6 +197,12 @@
       }
     }
   ],
-  "prerequisites": ["a1_g02_verb_to_have"],
-  "tags": ["verbs", "past", "aorist"]
+  "prerequisites": [
+    "a1_g02_verb_to_have"
+  ],
+  "tags": [
+    "verbs",
+    "past",
+    "aorist"
+  ]
 }
