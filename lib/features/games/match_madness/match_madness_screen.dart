@@ -31,12 +31,24 @@ class _MatchMadnessScreenState extends ConsumerState<MatchMadnessScreen>
   int _remainingSeconds = _totalSeconds;
   bool _showPauseOverlay = false;
   bool _isFinishing = false;
-  bool _listenerRegistered = false;
+  ProviderSubscription<MatchMadnessState>? _completionSub;
+  bool _roundReady = false;
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
+    _completionSub = ref.listenManual<MatchMadnessState>(
+      matchMadnessControllerProvider,
+      (previous, next) {
+        if (_isFinishing) return;
+        if (!_roundReady) return;
+        final wasComplete = previous?.isComplete ?? false;
+        if (!wasComplete && next.isComplete) {
+          _finishRound(allMatched: true);
+        }
+      },
+    );
     WidgetsBinding.instance.addPostFrameCallback((_) {
       ref.read(matchMadnessControllerProvider.notifier).reset();
       _prepareRound();
@@ -47,6 +59,7 @@ class _MatchMadnessScreenState extends ConsumerState<MatchMadnessScreen>
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
     _timer?.cancel();
+    _completionSub?.close();
     super.dispose();
   }
 
@@ -124,6 +137,7 @@ class _MatchMadnessScreenState extends ConsumerState<MatchMadnessScreen>
           )
           .toList();
       ref.read(matchMadnessControllerProvider.notifier).initialize(pairs);
+      _roundReady = true;
       if (!mounted) return;
       _startTimer();
     });
@@ -190,20 +204,19 @@ class _MatchMadnessScreenState extends ConsumerState<MatchMadnessScreen>
 
   @override
   Widget build(BuildContext context) {
-    if (!_listenerRegistered) {
-      _listenerRegistered = true;
-      ref.listen<MatchMadnessState>(matchMadnessControllerProvider,
-          (previous, next) {
-        if (_isFinishing) return;
-        final wasComplete = previous?.isComplete ?? false;
-        if (!wasComplete && next.isComplete) {
+    final deckAsync = ref.watch(deckProvider);
+    final session = ref.watch(gameSessionProvider);
+    final gameState = ref.watch(matchMadnessControllerProvider);
+    if (_roundReady &&
+        !_isFinishing &&
+        gameState.pairs.isNotEmpty &&
+        gameState.matchedCount >= gameState.pairs.length) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (!_isFinishing && mounted) {
           _finishRound(allMatched: true);
         }
       });
     }
-    final deckAsync = ref.watch(deckProvider);
-    final session = ref.watch(gameSessionProvider);
-    final gameState = ref.watch(matchMadnessControllerProvider);
 
     return deckAsync.when(
       data: (_) {

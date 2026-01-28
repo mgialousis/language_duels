@@ -122,12 +122,17 @@ class MatchMadnessController extends StateNotifier<MatchMadnessState> {
 
   void selectSource(String id) {
     if (state.isComplete || state.pairForId(id).isMatched) return;
-    state = state.copyWith(
-      selectedSourceId: id,
-      wrongSourceId: null,
-      wrongTargetId: null,
-      feedback: null,
-    );
+    final selectedTargetId = state.selectedTargetId;
+    if (selectedTargetId == null) {
+      state = state.copyWith(
+        selectedSourceId: id,
+        wrongSourceId: null,
+        wrongTargetId: null,
+        feedback: null,
+      );
+      return;
+    }
+    _handleMatchAttempt(sourceId: id, targetId: selectedTargetId);
   }
 
   MatchAttemptResult selectTarget(String id) {
@@ -145,10 +150,31 @@ class MatchMadnessController extends StateNotifier<MatchMadnessState> {
       return MatchAttemptResult.ignored;
     }
 
-    if (selectedSourceId == id) {
+    return _handleMatchAttempt(sourceId: selectedSourceId, targetId: id);
+  }
+
+  void applyTimeBonus(int bonus) {
+    if (bonus <= 0) return;
+    state = state.copyWith(score: state.score + bonus);
+  }
+
+  void reset() {
+    state = const MatchMadnessState(
+      pairs: [],
+      sourceOrder: [],
+      targetOrder: [],
+    );
+  }
+
+  MatchAttemptResult _handleMatchAttempt({
+    required String sourceId,
+    required String targetId,
+  }) {
+    if (sourceId == targetId) {
       final updatedPairs = state.pairs
           .map(
-            (pair) => pair.id == id ? pair.copyWith(isMatched: true) : pair,
+            (pair) =>
+                pair.id == sourceId ? pair.copyWith(isMatched: true) : pair,
           )
           .toList();
       final matchedCount = state.matchedCount + 1;
@@ -170,8 +196,8 @@ class MatchMadnessController extends StateNotifier<MatchMadnessState> {
 
     state = state.copyWith(
       feedback: MatchFeedback.wrong,
-      wrongSourceId: selectedSourceId,
-      wrongTargetId: id,
+      wrongSourceId: sourceId,
+      wrongTargetId: targetId,
       selectedSourceId: null,
       selectedTargetId: null,
     );
@@ -188,19 +214,6 @@ class MatchMadnessController extends StateNotifier<MatchMadnessState> {
     });
 
     return MatchAttemptResult.wrong;
-  }
-
-  void applyTimeBonus(int bonus) {
-    if (bonus <= 0) return;
-    state = state.copyWith(score: state.score + bonus);
-  }
-
-  void reset() {
-    state = const MatchMadnessState(
-      pairs: [],
-      sourceOrder: [],
-      targetOrder: [],
-    );
   }
 }
 
