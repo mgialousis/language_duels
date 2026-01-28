@@ -1,0 +1,408 @@
+{
+  "id": "a2_g04_object_pronouns",
+  "category": "pronouns",
+  "subcategory": "object",
+  "level": "A2",
+  "order": 4,
+  "title": {
+    "en": "Object Pronouns (Αντικειμενικές Αντωνυμίες)",
+    "el": "Αντικειμενικές Αντωνυμίες",
+    "ca": "Pronoms Objecte (Αντικειμενικές Αντωνυμίες)"
+  },
+  "description": {
+    "en": "Use weak object pronouns for direct and indirect objects.",
+    "el": "Χρήση αδύνατων αντικειμενικών αντωνυμιών.",
+    "ca": "Usa pronoms febles per a objectes directes i indirectes."
+  },
+  "explanation": {
+    "content": {
+      "en": "Greek has weak (clitic) object pronouns that come before the verb. They can be accusative (direct object) or genitive (indirect object). The pronouns are: με, σε, τον/την/το, μας, σας, τους/τις/τα.",
+      "el": "Τα ελληνικά έχουν αδύνατες αντικειμενικές αντωνυμίες που μπαίνουν πριν από το ρήμα. Μπορεί να είναι σε αιτιατική (άμεσο αντικείμενο) ή γενική (έμμεσο αντικείμενο).",
+      "ca": "El grec té pronoms febles que van abans del verb. Poden ser acusatiu (objecte directe) o genitiu (objecte indirecte)."
+    },
+    "rules": [
+      {
+        "en": "Accusative (direct): με (me), σε (you), τον/την/το (him/her/it), μας (us), σας (you), τους/τις/τα (them)",
+        "el": "Αιτιατική: με, σε, τον/την/το, μας, σας, τους/τις/τα",
+        "ca": "Acusatiu: με, σε, τον/την/το, μας, σας, τους/τις/τα"
+      },
+      {
+        "en": "Genitive (indirect): μου (to me), σου (to you), του/της/του (to him/her/it), μας (to us), σας (to you), τους (to them)",
+        "el": "Γενική: μου, σου, του/της/του, μας, σας, τους",
+        "ca": "Genitiu: μου, σου, του/της/του, μας, σας, τους"
+      },
+      {
+        "en": "Order: Genitive before Accusative (Μου το δίνει = He gives it to me)",
+        "el": "Σειρά: Γενική πριν από Αιτιατική (Μου το δίνει)",
+        "ca": "Ordre: Genitiu abans d'Acusatiu (Μου το δίνει)"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Weak Object Pronouns",
+        "el": "Αδύνατες Αντικειμενικές Αντωνυμίες",
+        "ca": "Pronoms Febles Objecte"
+      },
+      "columnHeaders": [
+        "Αιτιατική",
+        "Γενική"
+      ],
+      "rowHeaders": [
+        "1ο Ενικό",
+        "2ο Ενικό",
+        "3ο Ενικό (αρσ/θηλ/ουδ)",
+        "1ο Πληθ.",
+        "2ο Πληθ.",
+        "3ο Πληθ."
+      ],
+      "cells": [
+        [
+          {
+            "greek": "με",
+            "romanization": "me",
+            "translation": "me"
+          },
+          {
+            "greek": "μου",
+            "romanization": "mu",
+            "translation": "to me"
+          }
+        ],
+        [
+          {
+            "greek": "σε",
+            "romanization": "se",
+            "translation": "you"
+          },
+          {
+            "greek": "σου",
+            "romanization": "su",
+            "translation": "to you"
+          }
+        ],
+        [
+          {
+            "greek": "τον/την/το",
+            "romanization": "ton/tin/to",
+            "translation": "him/her/it"
+          },
+          {
+            "greek": "του/της/του",
+            "romanization": "tu/tis/tu",
+            "translation": "to him/her/it"
+          }
+        ],
+        [
+          {
+            "greek": "μας",
+            "romanization": "mas",
+            "translation": "us"
+          },
+          {
+            "greek": "μας",
+            "romanization": "mas",
+            "translation": "to us"
+          }
+        ],
+        [
+          {
+            "greek": "σας",
+            "romanization": "sas",
+            "translation": "you (pl)"
+          },
+          {
+            "greek": "σας",
+            "romanization": "sas",
+            "translation": "to you (pl)"
+          }
+        ],
+        [
+          {
+            "greek": "τους/τις/τα",
+            "romanization": "tus/tis/ta",
+            "translation": "them"
+          },
+          {
+            "greek": "τους",
+            "romanization": "tus",
+            "translation": "to them"
+          }
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_a2_401",
+      "greek": "Σε βλέπω κάθε μέρα.",
+      "romanization": "se vlˈepo kˈaθe mˈera.",
+      "catalan": "Et veig cada dia.",
+      "englishLiteral": "I see you every day.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 2,
+          "explanation": "Accusative object pronoun"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_402",
+      "greek": "Μου δίνει το βιβλίο.",
+      "romanization": "mu ðˈini to vivlˈio.",
+      "catalan": "Em dóna el llibre.",
+      "englishLiteral": "He/She gives me the book.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 3,
+          "explanation": "Genitive object pronoun"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_403",
+      "greek": "Θα σου το πω αύριο.",
+      "romanization": "θa su to po ˈavrio.",
+      "catalan": "T'ho diré demà.",
+      "englishLiteral": "I will tell it to you tomorrow.",
+      "highlights": [
+        {
+          "startIndex": 3,
+          "endIndex": 9,
+          "explanation": "Double pronouns: genitive + accusative"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2_ex_fill_401",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ αγαπώ πολύ. (I love you very much)",
+      "promptRomanization": "____ aɣapˈo polˈi. (I love you very much)",
+      "hint": "Use the accusative pronoun for 'you'",
+      "correctAnswer": "Σε",
+      "acceptableAnswers": [
+        "Σε",
+        "σε"
+      ],
+      "explanation": {
+        "en": "Use σε for 'you' as direct object.",
+        "el": "Χρησιμοποίησε σε για το «σε» ως άμεσο αντικείμενο.",
+        "ca": "Usa σε per a 'et' com a objecte directe."
+      }
+    },
+    {
+      "id": "a2_ex_mc_401",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "____ λέει την αλήθεια. (He tells us the truth)",
+      "promptRomanization": "____ lˈei tin alˈiθia. (He tells us the truth)",
+      "hint": "Who does he tell? Us = indirect object",
+      "correctAnswer": "Μας",
+      "options": [
+        "Μας",
+        "Εμάς",
+        "Με"
+      ],
+      "acceptableAnswers": [
+        "Μας",
+        "μας"
+      ],
+      "explanation": {
+        "en": "Use μας for 'to us' as indirect object.",
+        "el": "Χρησιμοποίησε μας για το «μας» ως έμμεσο αντικείμενο.",
+        "ca": "Usa μας per a 'ens' com a objecte indirecte."
+      }
+    },
+    {
+      "id": "a2_ex_fill_402",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with both pronouns",
+        "el": "Συμπλήρωσε με δύο αντωνυμίες",
+        "ca": "Completa amb dos pronoms"
+      },
+      "prompt": "____  ____ δίνει. (She gives it to me)",
+      "promptRomanization": "____  ____ ðˈini. (She gives it to me)",
+      "hint": "Order: genitive (to me) + accusative (it)",
+      "correctAnswer": "Μου το",
+      "acceptableAnswers": [
+        "Μου το",
+        "μου το"
+      ],
+      "explanation": {
+        "en": "Genitive μου comes before accusative το.",
+        "el": "Η γενική μου μπαίνει πριν από την αιτιατική το.",
+        "ca": "El genitiu μου va abans de l'acusatiu το."
+      }
+    },
+    {
+      "id": "a2_ex_fill_403",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ βλέπω κάθε Κυριακή. (I see him every Sunday)",
+      "promptRomanization": "____ vlˈepo kˈaθe kiriakˈi.",
+      "hint": "Use the accusative pronoun for 'him' (masculine)",
+      "correctAnswer": "Τον",
+      "acceptableAnswers": ["Τον", "τον"],
+      "explanation": {
+        "en": "Use τον for 'him' as direct object (masculine accusative).",
+        "el": "Χρησιμοποίησε τον για αρσενικό άμεσο αντικείμενο.",
+        "ca": "Usa τον per a 'el' com a objecte directe masculí."
+      }
+    },
+    {
+      "id": "a2_ex_mc_402",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "____ δίνω το δώρο. (I give you the gift)",
+      "promptRomanization": "____ ðˈino to ðˈoro.",
+      "hint": "Who do I give the gift to? You = indirect object",
+      "correctAnswer": "Σου",
+      "options": ["Σε", "Σου", "Εσένα"],
+      "acceptableAnswers": ["Σου", "σου"],
+      "explanation": {
+        "en": "Use σου for 'to you' as indirect object (genitive).",
+        "el": "Χρησιμοποίησε σου για έμμεσο αντικείμενο (γενική).",
+        "ca": "Usa σου per a 'et' com a objecte indirecte (genitiu)."
+      }
+    },
+    {
+      "id": "a2_ex_fill_404",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the correct pronouns",
+        "el": "Συμπλήρωσε με τις σωστές αντωνυμίες",
+        "ca": "Completa amb els pronoms correctes"
+      },
+      "prompt": "____ ____ στέλνει. (She sends them to us)",
+      "promptRomanization": "____ ____ stˈelni.",
+      "hint": "Order: genitive (to us) + accusative (them)",
+      "correctAnswer": "Μας τα",
+      "acceptableAnswers": ["Μας τα", "μας τα"],
+      "explanation": {
+        "en": "Genitive μας comes before accusative τα.",
+        "el": "Η γενική μας μπαίνει πριν από την αιτιατική τα.",
+        "ca": "El genitiu μας va abans de l'acusatiu τα."
+      }
+    },
+    {
+      "id": "a2_ex_fill_405",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ βλέπει κάθε πρωί. (She sees us)",
+      "promptRomanization": "____ vlˈepi kˈaθe proˈi.",
+      "hint": "Use the accusative pronoun for 'us'",
+      "correctAnswer": "Μας",
+      "acceptableAnswers": ["Μας", "μας"],
+      "explanation": {
+        "en": "Use μας for 'us' as direct object.",
+        "el": "Χρησιμοποίησε μας για άμεσο αντικείμενο.",
+        "ca": "Usa μας per a 'ens' com a objecte directe."
+      }
+    },
+    {
+      "id": "a2_ex_mc_403",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "____ φέρνει ένα δώρο. (He brings her)",
+      "promptRomanization": "____ fˈerni ˈena ðˈoro.",
+      "hint": "Who does he bring? Her = indirect object",
+      "correctAnswer": "Της",
+      "options": ["Την", "Της", "Τους"],
+      "acceptableAnswers": ["Της", "της"],
+      "explanation": {
+        "en": "Use της for 'to her' as indirect object (genitive).",
+        "el": "Χρησιμοποίησε της για έμμεσο αντικείμενο (γενική).",
+        "ca": "Usa της per a 'li' com a objecte indirecte (genitiu)."
+      }
+    },
+    {
+      "id": "a2_ex_fill_406",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the correct pronoun",
+        "el": "Συμπλήρωσε με τη σωστή αντωνυμία",
+        "ca": "Completa amb el pronom correcte"
+      },
+      "prompt": "____ βοηθάει. (She helps them)",
+      "promptRomanization": "____ voiθˈai.",
+      "hint": "Use the accusative plural pronoun",
+      "correctAnswer": "Τους",
+      "acceptableAnswers": ["Τους", "τους"],
+      "explanation": {
+        "en": "Use τους for 'them' as direct object (masculine/feminine).",
+        "el": "Χρησιμοποίησε τους για αιτιατική πληθυντικού.",
+        "ca": "Usa τους per a 'els' com a objecte directe."
+      }
+    },
+    {
+      "id": "a2_ex_mc_404",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct pronouns",
+        "el": "Διάλεξε τις σωστές αντωνυμίες",
+        "ca": "Tria els pronoms correctes"
+      },
+      "prompt": "____ ____ λέει. (He tells it to them)",
+      "promptRomanization": "____ ____ lˈei.",
+      "hint": "Order: genitive (to them) + accusative (it)",
+      "correctAnswer": "Τους το",
+      "options": ["Το τους", "Τους το", "Τα τους"],
+      "acceptableAnswers": ["Τους το", "τους το"],
+      "explanation": {
+        "en": "Genitive τους (to them) comes before accusative το (it).",
+        "el": "Η γενική τους μπαίνει πριν από την αιτιατική το.",
+        "ca": "El genitiu τους va abans de l'acusatiu το."
+      }
+    }
+  ],
+  "prerequisites": [
+    "a1_g07_possessive_pronouns"
+  ],
+  "tags": [
+    "pronouns",
+    "object",
+    "accusative",
+    "genitive"
+  ]
+}

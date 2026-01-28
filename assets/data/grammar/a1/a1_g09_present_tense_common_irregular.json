@@ -134,6 +134,159 @@
         "el": "Ο ενεστώτας του πάω στο α' πληθυντικό είναι πάμε.",
         "ca": "El present de πάω en 1a persona plural és πάμε."
       }
+    },
+    {
+      "id": "ex_fill_903",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσύ ____ (τρώω) στο σπίτι.",
+      "promptRomanization": "esˈi ____ (trˈoo) sto spˈiti.",
+      "hint": "Translation: You eat at home.",
+      "correctAnswer": "τρως",
+      "acceptableAnswers": [
+        "τρως"
+      ],
+      "explanation": {
+        "en": "Second person singular of τρώω is τρως.",
+        "el": "Ο ενεστώτας του τρώω στο β' ενικό είναι τρως.",
+        "ca": "El present de τρώω en 2a persona és τρως."
+      }
+    },
+    {
+      "id": "ex_mc_902",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτοί ____ (πάω) στο σχολείο.",
+      "promptRomanization": "aftˈi ____ (pˈao) sto sxolˈio.",
+      "hint": "Translation: They go to school.",
+      "correctAnswer": "πάνε",
+      "options": [
+        "πάμε",
+        "πάνε",
+        "πάτε"
+      ],
+      "acceptableAnswers": [
+        "πανε"
+      ],
+      "explanation": {
+        "en": "Third person plural of πάω is πάνε.",
+        "el": "Ο ενεστώτας του πάω στο γ' πληθυντικό είναι πάνε.",
+        "ca": "El present de πάω en 3a persona plural és πάνε."
+      }
+    },
+    {
+      "id": "ex_fill_904",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ (τρώω) μαζί.",
+      "promptRomanization": "emˈis ____ (trˈoo) mazˈi.",
+      "hint": "Translation: We eat together.",
+      "correctAnswer": "τρώμε",
+      "acceptableAnswers": [
+        "τρωμε"
+      ],
+      "explanation": {
+        "en": "First person plural of τρώω is τρώμε.",
+        "el": "Ο ενεστώτας του τρώω στο α' πληθυντικό είναι τρώμε.",
+        "ca": "El present de τρώω en 1a persona plural és τρώμε."
+      }
+    },
+    {
+      "id": "ex_fill_905",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσείς ____ (πάω) στο σούπερ μάρκετ;",
+      "promptRomanization": "esˈis ____ (pˈao) sto sˈuper mˈarket;",
+      "hint": "Translation: Are you (pl) going to the supermarket?",
+      "correctAnswer": "πάτε",
+      "acceptableAnswers": ["πάτε", "πατε"],
+      "explanation": {
+        "en": "Second person plural of πάω is πάτε.",
+        "el": "Ο ενεστώτας του πάω στο β' πληθυντικό είναι πάτε.",
+        "ca": "El present de πάω en 2a persona plural és πάτε."
+      }
+    },
+    {
+      "id": "ex_mc_903",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτές ____ (τρώω) στο εστιατόριο.",
+      "promptRomanization": "aftˈes ____ (trˈoo) sto estiatˈorio.",
+      "hint": "Translation: They (fem) eat at the restaurant.",
+      "correctAnswer": "τρώνε",
+      "options": ["τρώει", "τρώμε", "τρώνε"],
+      "acceptableAnswers": ["τρώνε", "τρωνε"],
+      "explanation": {
+        "en": "Third person plural of τρώω is τρώνε.",
+        "el": "Ο ενεστώτας του τρώω στο γ' πληθυντικό είναι τρώνε.",
+        "ca": "El present de τρώω en 3a persona plural és τρώνε."
+      }
+    },
+    {
+      "id": "ex_fill_906",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ (πάω) σπίτι τώρα.",
+      "promptRomanization": "eɣˈo ____ (pˈao) spˈiti tˈora.",
+      "hint": "Translation: I am going home now.",
+      "correctAnswer": "πάω",
+      "acceptableAnswers": ["πάω", "παω"],
+      "explanation": {
+        "en": "First person singular of πάω is πάω.",
+        "el": "Ο ενεστώτας του πάω στο α' ενικό είναι πάω.",
+        "ca": "El present de πάω en 1a persona és πάω."
+      }
+    },
+    {
+      "id": "ex_mc_904",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτός ____ (τρώω) γρήγορα.",
+      "promptRomanization": "aftˈos ____ (trˈoo) ɣrˈiɣora.",
+      "hint": "Translation: He eats fast.",
+      "correctAnswer": "τρώει",
+      "options": ["τρώω", "τρώει", "τρως"],
+      "acceptableAnswers": ["τρώει", "τρωει"],
+      "explanation": {
+        "en": "Third person singular of τρώω is τρώει.",
+        "el": "Ο ενεστώτας του τρώω στο γ' ενικό είναι τρώει.",
+        "ca": "El present de τρώω en 3a persona és τρώει."
+      }
     }
   ],
   "prerequisites": [

@@ -172,6 +172,159 @@
         "el": "Ο ενεστώτας του δουλεύω στο γ' πληθυντικό είναι δουλεύουν.",
         "ca": "El present de δουλεύω en 3a persona plural es δουλεύουν."
       }
+    },
+    {
+      "id": "ex_fill_803",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ (αγαπάω) τη μουσική.",
+      "promptRomanization": "emˈis ____ (aɣapˈao) ti musikˈi.",
+      "hint": "Translation: We love music.",
+      "correctAnswer": "αγαπάμε",
+      "acceptableAnswers": [
+        "αγαπαμε"
+      ],
+      "explanation": {
+        "en": "First person plural present of αγαπάω is αγαπάμε.",
+        "el": "Ο ενεστώτας του αγαπάω στο α' πληθυντικό είναι αγαπάμε.",
+        "ca": "El present d'αγαπάω en 1a persona plural és αγαπάμε."
+      }
+    },
+    {
+      "id": "ex_mc_803",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσείς ____ (δουλεύω) πολύ.",
+      "promptRomanization": "esˈis ____ (ðulˈevo) polˈi.",
+      "hint": "Translation: You (pl) work a lot.",
+      "correctAnswer": "δουλεύετε",
+      "options": [
+        "δουλεύω",
+        "δουλεύετε",
+        "δουλεύουν"
+      ],
+      "acceptableAnswers": [
+        "δουλευετε"
+      ],
+      "explanation": {
+        "en": "Second person plural present of δουλεύω is δουλεύετε.",
+        "el": "Ο ενεστώτας του δουλεύω στο β' πληθυντικό είναι δουλεύετε.",
+        "ca": "El present de δουλεύω en 2a persona plural és δουλεύετε."
+      }
+    },
+    {
+      "id": "ex_fill_804",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτός ____ (μένω) εδώ.",
+      "promptRomanization": "aftˈos ____ (mˈeno) eðˈo.",
+      "hint": "Translation: He lives here.",
+      "correctAnswer": "μένει",
+      "acceptableAnswers": [
+        "μενει"
+      ],
+      "explanation": {
+        "en": "Third person singular present of μένω is μένει.",
+        "el": "Ο ενεστώτας του μένω στο γ' ενικό είναι μένει.",
+        "ca": "El present de μένω en 3a persona és μένει."
+      }
+    },
+    {
+      "id": "ex_fill_805",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσείς ____ (διαβάζω) πολύ.",
+      "promptRomanization": "esˈis ____ (ðiavˈazo) polˈi.",
+      "hint": "Translation: You (pl) read a lot.",
+      "correctAnswer": "διαβάζετε",
+      "acceptableAnswers": ["διαβάζετε", "διαβαζετε"],
+      "explanation": {
+        "en": "Second person plural present of διαβάζω is διαβάζετε.",
+        "el": "Ο ενεστώτας του διαβάζω στο β' πληθυντικό είναι διαβάζετε.",
+        "ca": "El present de διαβάζω en 2a persona plural és διαβάζετε."
+      }
+    },
+    {
+      "id": "ex_mc_804",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτή ____ (γράφω) ένα γράμμα.",
+      "promptRomanization": "aftˈi ____ (ɣrˈafo) ˈena ɣrˈama.",
+      "hint": "Translation: She writes a letter.",
+      "correctAnswer": "γράφει",
+      "options": ["γράφω", "γράφει", "γράφουν"],
+      "acceptableAnswers": ["γράφει", "γραφει"],
+      "explanation": {
+        "en": "Third person singular present of γράφω is γράφει.",
+        "el": "Ο ενεστώτας του γράφω στο γ' ενικό είναι γράφει.",
+        "ca": "El present de γράφω en 3a persona és γράφει."
+      }
+    },
+    {
+      "id": "ex_fill_806",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ (ακούω) μουσική.",
+      "promptRomanization": "eɣˈo ____ (akˈuo) musikˈi.",
+      "hint": "Translation: I listen to music.",
+      "correctAnswer": "ακούω",
+      "acceptableAnswers": ["ακούω", "ακουω"],
+      "explanation": {
+        "en": "First person singular present of ακούω is ακούω.",
+        "el": "Ο ενεστώτας του ακούω στο α' ενικό είναι ακούω.",
+        "ca": "El present d'ακούω en 1a persona és ακούω."
+      }
+    },
+    {
+      "id": "ex_mc_805",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτοί ____ (βλέπω) τηλεόραση.",
+      "promptRomanization": "aftˈi ____ (vlˈepo) tileˈorasi.",
+      "hint": "Translation: They watch television.",
+      "correctAnswer": "βλέπουν",
+      "options": ["βλέπει", "βλέπουμε", "βλέπουν"],
+      "acceptableAnswers": ["βλέπουν", "βλεπουν"],
+      "explanation": {
+        "en": "Third person plural present of βλέπω is βλέπουν.",
+        "el": "Ο ενεστώτας του βλέπω στο γ' πληθυντικό είναι βλέπουν.",
+        "ca": "El present de βλέπω en 3a persona plural és βλέπουν."
+      }
     }
   ],
   "prerequisites": [

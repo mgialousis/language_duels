@@ -1,0 +1,352 @@
+{
+  "id": "a2_g02_imperfect_tense",
+  "category": "verb_conjugation",
+  "subcategory": "past_tense",
+  "level": "A2",
+  "order": 2,
+  "title": {
+    "en": "Imperfect Tense (Παρατατικός)",
+    "el": "Παρατατικός",
+    "ca": "Imperfet (Παρατατικός)"
+  },
+  "description": {
+    "en": "Describe ongoing or habitual actions in the past.",
+    "el": "Περιγραφή συνεχών ή επαναλαμβανόμενων πράξεων στο παρελθόν.",
+    "ca": "Descriu accions contínues o habituals en el passat."
+  },
+  "explanation": {
+    "content": {
+      "en": "The imperfect (Παρατατικός) describes past actions that were ongoing, repeated, or habitual. It is formed with the past stem + imperfect endings: -α, -ες, -ε, -αμε, -ατε, -αν. The augment ε- is added before the stem when the verb is stressed on the ending.",
+      "el": "Ο παρατατικός περιγράφει πράξεις που ήταν συνεχείς, επαναλαμβανόμενες ή συνηθισμένες. Σχηματίζεται με το θέμα + καταλήξεις: -α, -ες, -ε, -αμε, -ατε, -αν. Προστίθεται η αύξηση ε- όταν ο τόνος πέφτει στην κατάληξη.",
+      "ca": "L'imperfet (Παρατατικός) descriu accions passades contínues, repetides o habituals. Es forma amb el tema + terminacions: -α, -ες, -ε, -αμε, -ατε, -αν."
+    },
+    "rules": [
+      {
+        "en": "Use for ongoing past actions: Έγραφα ένα γράμμα (I was writing a letter)",
+        "el": "Για συνεχείς πράξεις: Έγραφα ένα γράμμα",
+        "ca": "Per a accions contínues: Έγραφα ένα γράμμα"
+      },
+      {
+        "en": "Use for habitual past: Κάθε μέρα διάβαζα (Every day I used to read)",
+        "el": "Για συνήθειες: Κάθε μέρα διάβαζα",
+        "ca": "Per a hàbits: Κάθε μέρα διάβαζα"
+      },
+      {
+        "en": "Augment ε-: γράφω → έγραφα, διαβάζω → διάβαζα",
+        "el": "Αύξηση ε-: γράφω → έγραφα, διαβάζω → διάβαζα",
+        "ca": "Augment ε-: γράφω → έγραφα, διαβάζω → διάβαζα"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Imperfect Tense: γράφω → έγραφα",
+        "el": "Παρατατικός: γράφω → έγραφα",
+        "ca": "Imperfet: γράφω → έγραφα"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "έγραφα",
+            "romanization": "ˈeɣrafa",
+            "translation": "I was writing"
+          },
+          {
+            "greek": "γράφαμε",
+            "romanization": "ɣrˈafame",
+            "translation": "we were writing"
+          }
+        ],
+        [
+          {
+            "greek": "έγραφες",
+            "romanization": "ˈeɣrafes",
+            "translation": "you were writing"
+          },
+          {
+            "greek": "γράφατε",
+            "romanization": "ɣrˈafate",
+            "translation": "you were writing (pl)"
+          }
+        ],
+        [
+          {
+            "greek": "έγραφε",
+            "romanization": "ˈeɣrafe",
+            "translation": "he/she was writing"
+          },
+          {
+            "greek": "έγραφαν",
+            "romanization": "ˈeɣrafan",
+            "translation": "they were writing"
+          }
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_a2_201",
+      "greek": "Όταν ήμουν μικρός, έπαιζα κάθε μέρα.",
+      "romanization": "ˈotan ˈimun mikrˈos, ˈepeza kˈaθe mˈera.",
+      "catalan": "Quan era petit, jugava cada dia.",
+      "englishLiteral": "When I was small, I used to play every day.",
+      "highlights": [
+        {
+          "startIndex": 22,
+          "endIndex": 28,
+          "explanation": "Imperfect form"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_202",
+      "greek": "Τι έκανες χτες το βράδυ;",
+      "romanization": "ti ˈekanes xtes to vrˈaði;",
+      "catalan": "Què feies ahir a la nit?",
+      "englishLiteral": "What were you doing yesterday evening?",
+      "highlights": [
+        {
+          "startIndex": 3,
+          "endIndex": 9,
+          "explanation": "Imperfect form"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2_ex_fill_201",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Κάθε καλοκαίρι ____ (πηγαίνω) στη θάλασσα.",
+      "promptRomanization": "kˈaθe kalokˈeri ____ (piɣˈeno) sti θˈalassa.",
+      "hint": "Translation: Every summer I used to go to the sea.",
+      "correctAnswer": "πήγαινα",
+      "acceptableAnswers": [
+        "πήγαινα"
+      ],
+      "explanation": {
+        "en": "First person singular imperfect of πηγαίνω is πήγαινα.",
+        "el": "Ο παρατατικός του πηγαίνω στο α' ενικό είναι πήγαινα.",
+        "ca": "L'imperfet de πηγαίνω en 1a persona és πήγαινα."
+      }
+    },
+    {
+      "id": "a2_ex_mc_201",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εκείνη ____ (διαβάζω) όταν χτύπησε το τηλέφωνο.",
+      "promptRomanization": "ekˈini ____ (ðiavˈazo) ˈotan xtˈipise to tilˈefono.",
+      "hint": "Translation: She was reading when the phone rang.",
+      "correctAnswer": "διάβαζε",
+      "options": [
+        "διαβάζει",
+        "διάβαζε",
+        "διάβασε"
+      ],
+      "acceptableAnswers": [
+        "διάβαζε"
+      ],
+      "explanation": {
+        "en": "Third person singular imperfect of διαβάζω is διάβαζε.",
+        "el": "Ο παρατατικός του διαβάζω στο γ' ενικό είναι διάβαζε.",
+        "ca": "L'imperfet de διαβάζω en 3a persona és διάβαζε."
+      }
+    },
+    {
+      "id": "a2_ex_fill_202",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ (μένω) στην Αθήνα.",
+      "promptRomanization": "emˈis ____ (mˈeno) stin aθˈina.",
+      "hint": "Translation: We used to live in Athens.",
+      "correctAnswer": "μέναμε",
+      "acceptableAnswers": [
+        "μέναμε"
+      ],
+      "explanation": {
+        "en": "First person plural imperfect of μένω is μέναμε.",
+        "el": "Ο παρατατικός του μένω στο α' πληθυντικό είναι μέναμε.",
+        "ca": "L'imperfet de μένω en 1a persona plural és μέναμε."
+      }
+    },
+    {
+      "id": "a2_ex_fill_203",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσύ ____ (τρώω) πάντα σοκολάτα.",
+      "promptRomanization": "esˈi ____ (trˈoo) ˈpanda sokolˈata.",
+      "hint": "Translation: You used to always eat chocolate.",
+      "correctAnswer": "έτρωγες",
+      "acceptableAnswers": ["έτρωγες"],
+      "explanation": {
+        "en": "Second person singular imperfect of τρώω is έτρωγες.",
+        "el": "Ο παρατατικός του τρώω στο β' ενικό είναι έτρωγες.",
+        "ca": "L'imperfet de τρώω en 2a persona és έτρωγες."
+      }
+    },
+    {
+      "id": "a2_ex_mc_202",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτοί ____ (δουλεύω) στο εργοστάσιο.",
+      "promptRomanization": "aftˈi ____ (ðulˈevo) sto erɣostˈasio.",
+      "hint": "Translation: They used to work at the factory.",
+      "correctAnswer": "δούλευαν",
+      "options": ["δουλεύουν", "δούλευαν", "δούλεψαν"],
+      "acceptableAnswers": ["δούλευαν"],
+      "explanation": {
+        "en": "Third person plural imperfect of δουλεύω is δούλευαν.",
+        "el": "Ο παρατατικός του δουλεύω στο γ' πληθυντικό είναι δούλευαν.",
+        "ca": "L'imperfet de δουλεύω en 3a persona plural és δούλευαν."
+      }
+    },
+    {
+      "id": "a2_ex_fill_204",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Όταν ____ (είμαι) παιδί, ____ (παίζω) στο πάρκο.",
+      "promptRomanization": "ˈotan ____ (ˈime) peðˈi, ____ (pˈezo) sto pˈarko.",
+      "hint": "Translation: When I was a child, I used to play in the park.",
+      "correctAnswer": "ήμουν, έπαιζα",
+      "acceptableAnswers": ["ήμουν, έπαιζα", "ημουν, επαιζα"],
+      "explanation": {
+        "en": "Imperfect of είμαι is ήμουν; imperfect of παίζω is έπαιζα.",
+        "el": "Ο παρατατικός του είμαι είναι ήμουν και του παίζω είναι έπαιζα.",
+        "ca": "L'imperfet de είμαι és ήμουν i de παίζω és έπαιζα."
+      }
+    },
+    {
+      "id": "a2_ex_fill_205",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσείς ____ (μιλάω) πολύ χτες το βράδυ.",
+      "promptRomanization": "esˈis ____ (milˈao) polˈi xtes to vrˈaði.",
+      "hint": "Translation: You (pl) were talking a lot yesterday evening.",
+      "correctAnswer": "μιλούσατε",
+      "acceptableAnswers": ["μιλούσατε", "μιλουσατε"],
+      "explanation": {
+        "en": "Second person plural imperfect of μιλάω is μιλούσατε.",
+        "el": "Ο παρατατικός του μιλάω στο β' πληθυντικό είναι μιλούσατε.",
+        "ca": "L'imperfet de μιλάω en 2a persona plural és μιλούσατε."
+      }
+    },
+    {
+      "id": "a2_ex_mc_203",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εγώ ____ (έχω) πονοκέφαλο.",
+      "promptRomanization": "eɣˈo ____ (ˈexo) ponokˈefalo.",
+      "hint": "Translation: I had a headache (ongoing state).",
+      "correctAnswer": "είχα",
+      "options": ["έχω", "είχα", "έχασα"],
+      "acceptableAnswers": ["είχα", "ειχα"],
+      "explanation": {
+        "en": "Imperfect of έχω is είχα.",
+        "el": "Ο παρατατικός του έχω είναι είχα.",
+        "ca": "L'imperfet de έχω és είχα."
+      }
+    },
+    {
+      "id": "a2_ex_fill_206",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτά τα παιδιά ____ (τρέχω) στο πάρκο.",
+      "promptRomanization": "aftˈa ta peðiˈa ____ (trˈexo) sto pˈarko.",
+      "hint": "Translation: Those children were running in the park.",
+      "correctAnswer": "έτρεχαν",
+      "acceptableAnswers": ["έτρεχαν", "ετρεχαν"],
+      "explanation": {
+        "en": "Third person plural imperfect of τρέχω is έτρεχαν.",
+        "el": "Ο παρατατικός του τρέχω στο γ' πληθυντικό είναι έτρεχαν.",
+        "ca": "L'imperfet de τρέχω en 3a persona plural és έτρεχαν."
+      }
+    },
+    {
+      "id": "a2_ex_mc_204",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσύ ____ (κάνω) τι όταν τηλεφώνησα;",
+      "promptRomanization": "esˈi ____ (kˈano) ti ˈotan tilefˈonisa;",
+      "hint": "Translation: What were you doing when I called?",
+      "correctAnswer": "έκανες",
+      "options": ["κάνεις", "έκανες", "έκανες"],
+      "acceptableAnswers": ["έκανες", "εκανες"],
+      "explanation": {
+        "en": "Second person singular imperfect of κάνω is έκανες.",
+        "el": "Ο παρατατικός του κάνω στο β' ενικό είναι έκανες.",
+        "ca": "L'imperfet de κάνω en 2a persona és έκανες."
+      }
+    }
+  ],
+  "prerequisites": [
+    "a2_g01_simple_past"
+  ],
+  "tags": [
+    "verbs",
+    "past",
+    "imperfect",
+    "παρατατικός"
+  ]
+}

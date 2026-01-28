@@ -1,7 +1,7 @@
 # Language Duel MVP - Content & Language Specification
 
 **Version:** 2.0
-**Last Updated:** 2026-01-27
+**Last Updated:** 2026-01-28
 **Document Owner:** Content/Language Agent
 **Project:** Language Duel - Competitive Language Learning Game
 **Mode:** Single-phone hot-seat (two players share one device)
@@ -685,6 +685,8 @@ Use this checklist before any content deck is published:
 ---
 
 ## 5. Phonetic & Pronunciation Notes
+
+Grammar lessons use IPA for pronunciation hints (stored in the `romanization` field of grammar JSON) and can be toggled in the lesson view. Deck content continues to use romanization plus the beginner-friendly `phonetic` field.
 
 ### 4.1 Greek Pronunciation Guide
 

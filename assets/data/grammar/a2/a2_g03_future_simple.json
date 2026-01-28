@@ -1,0 +1,352 @@
+{
+  "id": "a2_g03_future_simple",
+  "category": "verb_conjugation",
+  "subcategory": "future_tense",
+  "level": "A2",
+  "order": 3,
+  "title": {
+    "en": "Simple Future (Μέλλοντας Στιγμιαίος)",
+    "el": "Μέλλοντας Στιγμιαίος",
+    "ca": "Futur Simple (Μέλλοντας Στιγμιαίος)"
+  },
+  "description": {
+    "en": "Express future actions using θα + verb.",
+    "el": "Έκφραση μελλοντικών πράξεων με θα + ρήμα.",
+    "ca": "Expressa accions futures amb θα + verb."
+  },
+  "explanation": {
+    "content": {
+      "en": "The simple future in Greek uses the particle θα followed by the perfective (aorist) stem. This expresses a completed action in the future. θα + aorist stem: θα γράψω (I will write).",
+      "el": "Ο μέλλοντας στιγμιαίος χρησιμοποιεί το θα + αοριστικό θέμα. Εκφράζει ολοκληρωμένη πράξη στο μέλλον. θα + θέμα αορίστου: θα γράψω.",
+      "ca": "El futur simple en grec utilitza la partícula θα + tema de l'aorist. Expressa una acció completada en el futur."
+    },
+    "rules": [
+      {
+        "en": "θα + aorist stem + present endings",
+        "el": "θα + θέμα αορίστου + καταλήξεις ενεστώτα",
+        "ca": "θα + tema aorist + terminacions present"
+      },
+      {
+        "en": "γράφω → θα γράψω (I will write)",
+        "el": "γράφω → θα γράψω",
+        "ca": "γράφω → θα γράψω"
+      },
+      {
+        "en": "μιλάω → θα μιλήσω (I will speak)",
+        "el": "μιλάω → θα μιλήσω",
+        "ca": "μιλάω → θα μιλήσω"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Simple Future: γράφω → θα γράψω",
+        "el": "Μέλλοντας Στιγμιαίος: γράφω → θα γράψω",
+        "ca": "Futur Simple: γράφω → θα γράψω"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "θα γράψω",
+            "romanization": "θa ɣrˈapso",
+            "translation": "I will write"
+          },
+          {
+            "greek": "θα γράψουμε",
+            "romanization": "θa ɣrˈapsume",
+            "translation": "we will write"
+          }
+        ],
+        [
+          {
+            "greek": "θα γράψεις",
+            "romanization": "θa ɣrˈapsis",
+            "translation": "you will write"
+          },
+          {
+            "greek": "θα γράψετε",
+            "romanization": "θa ɣrˈapsete",
+            "translation": "you will write (pl)"
+          }
+        ],
+        [
+          {
+            "greek": "θα γράψει",
+            "romanization": "θa ɣrˈapsi",
+            "translation": "he/she will write"
+          },
+          {
+            "greek": "θα γράψουν",
+            "romanization": "θa ɣrˈapsun",
+            "translation": "they will write"
+          }
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_a2_301",
+      "greek": "Αύριο θα πάω στη δουλειά.",
+      "romanization": "ˈavrio θa pˈao sti ðuliˈa.",
+      "catalan": "Demà aniré a la feina.",
+      "englishLiteral": "Tomorrow I will go to work.",
+      "highlights": [
+        {
+          "startIndex": 6,
+          "endIndex": 13,
+          "explanation": "Future particle + verb"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_302",
+      "greek": "Θα σου τηλεφωνήσω αργότερα.",
+      "romanization": "θa su tilefonˈiso arɣˈotera.",
+      "catalan": "Et trucaré més tard.",
+      "englishLiteral": "I will call you later.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 18,
+          "explanation": "Future with object pronoun"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2_ex_fill_301",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αύριο ____ (τρώω) έξω με φίλους.",
+      "promptRomanization": "ˈavrio ____ (trˈoo) ˈekso me fˈilus.",
+      "hint": "Translation: Tomorrow I will eat out with friends.",
+      "correctAnswer": "θα φάω",
+      "acceptableAnswers": [
+        "θα φάω"
+      ],
+      "explanation": {
+        "en": "Simple future of τρώω is θα φάω (irregular aorist stem).",
+        "el": "Ο μέλλοντας στιγμιαίος του τρώω είναι θα φάω.",
+        "ca": "El futur simple de τρώω és θα φάω."
+      }
+    },
+    {
+      "id": "a2_ex_mc_301",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτοί ____ (έρχομαι) στις 8.",
+      "promptRomanization": "aftˈi ____ (ˈerxome) stis 8.",
+      "hint": "Translation: They will come at 8.",
+      "correctAnswer": "θα έρθουν",
+      "options": [
+        "θα έρχονται",
+        "θα έρθουν",
+        "θα ερχόντουσαν"
+      ],
+      "acceptableAnswers": [
+        "θα έρθουν",
+        "θα 'ρθουν"
+      ],
+      "explanation": {
+        "en": "Simple future of έρχομαι is θα έρθουν (3rd plural).",
+        "el": "Ο μέλλοντας στιγμιαίος του έρχομαι στο γ' πληθυντικό είναι θα έρθουν.",
+        "ca": "El futur simple de έρχομαι en 3a plural és θα έρθουν."
+      }
+    },
+    {
+      "id": "a2_ex_fill_302",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσείς ____ (βλέπω) την ταινία απόψε;",
+      "promptRomanization": "esˈis ____ (vlˈepo) tin tenˈia apˈopse;",
+      "hint": "Translation: Will you (pl) watch the movie tonight?",
+      "correctAnswer": "θα δείτε",
+      "acceptableAnswers": [
+        "θα δείτε"
+      ],
+      "explanation": {
+        "en": "Simple future of βλέπω is θα δείτε (2nd plural).",
+        "el": "Ο μέλλοντας στιγμιαίος του βλέπω στο β' πληθυντικό είναι θα δείτε.",
+        "ca": "El futur simple de βλέπω en 2a plural és θα δείτε."
+      }
+    },
+    {
+      "id": "a2_ex_fill_303",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσύ ____ (γράφω) ένα email.",
+      "promptRomanization": "esˈi ____ (ɣrˈafo) ˈena email.",
+      "hint": "Translation: You will write an email.",
+      "correctAnswer": "θα γράψεις",
+      "acceptableAnswers": ["θα γράψεις"],
+      "explanation": {
+        "en": "Simple future of γράφω is θα γράψεις (2nd singular).",
+        "el": "Ο μέλλοντας στιγμιαίος του γράφω στο β' ενικό είναι θα γράψεις.",
+        "ca": "El futur simple de γράφω en 2a persona és θα γράψεις."
+      }
+    },
+    {
+      "id": "a2_ex_mc_302",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εμείς ____ (πηγαίνω) στην Ελλάδα το καλοκαίρι.",
+      "promptRomanization": "emˈis ____ (piɣˈeno) stin elˈaða to kalokˈeri.",
+      "hint": "Translation: We will go to Greece in the summer.",
+      "correctAnswer": "θα πάμε",
+      "options": ["θα πηγαίνουμε", "θα πάμε", "θα πηγαίναμε"],
+      "acceptableAnswers": ["θα πάμε"],
+      "explanation": {
+        "en": "Simple future of πηγαίνω is θα πάμε (1st plural, irregular stem).",
+        "el": "Ο μέλλοντας στιγμιαίος του πηγαίνω στο α' πληθυντικό είναι θα πάμε.",
+        "ca": "El futur simple de πηγαίνω en 1a plural és θα πάμε."
+      }
+    },
+    {
+      "id": "a2_ex_fill_304",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτή ____ (μιλάω) με τον διευθυντή.",
+      "promptRomanization": "aftˈi ____ (milˈao) me ton ðiefθindˈi.",
+      "hint": "Translation: She will speak with the director.",
+      "correctAnswer": "θα μιλήσει",
+      "acceptableAnswers": ["θα μιλήσει"],
+      "explanation": {
+        "en": "Simple future of μιλάω is θα μιλήσει (3rd singular).",
+        "el": "Ο μέλλοντας στιγμιαίος του μιλάω στο γ' ενικό είναι θα μιλήσει.",
+        "ca": "El futur simple de μιλάω en 3a persona és θα μιλήσει."
+      }
+    },
+    {
+      "id": "a2_ex_fill_305",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ (διαβάζω) το βιβλίο αύριο.",
+      "promptRomanization": "eɣˈo ____ (ðiavˈazo) to vivlˈio ˈavrio.",
+      "hint": "Translation: I will read the book tomorrow.",
+      "correctAnswer": "θα διαβάσω",
+      "acceptableAnswers": ["θα διαβάσω", "θα διαβασω"],
+      "explanation": {
+        "en": "Simple future of διαβάζω is θα διαβάσω (1st singular).",
+        "el": "Ο μέλλοντας στιγμιαίος του διαβάζω στο α' ενικό είναι θα διαβάσω.",
+        "ca": "El futur simple de διαβάζω en 1a persona és θα διαβάσω."
+      }
+    },
+    {
+      "id": "a2_ex_mc_303",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτοί ____ (ακούω) τα νέα.",
+      "promptRomanization": "aftˈi ____ (akˈuo) ta nˈea.",
+      "hint": "Translation: They will hear the news.",
+      "correctAnswer": "θα ακούσουν",
+      "options": ["θα ακούν", "θα ακούσουν", "θα ακούγαν"],
+      "acceptableAnswers": ["θα ακούσουν", "θα ακουσουν"],
+      "explanation": {
+        "en": "Simple future of ακούω is θα ακούσουν (3rd plural).",
+        "el": "Ο μέλλοντας στιγμιαίος του ακούω στο γ' πληθυντικό είναι θα ακούσουν.",
+        "ca": "El futur simple d'ακούω en 3a persona plural és θα ακούσουν."
+      }
+    },
+    {
+      "id": "a2_ex_fill_306",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσείς ____ (παίζω) ποδόσφαιρο αύριο;",
+      "promptRomanization": "esˈis ____ (pˈezo) poðˈosfero ˈavrio;",
+      "hint": "Translation: Will you (pl) play football tomorrow?",
+      "correctAnswer": "θα παίξετε",
+      "acceptableAnswers": ["θα παίξετε", "θα παιξετε"],
+      "explanation": {
+        "en": "Simple future of παίζω is θα παίξετε (2nd plural).",
+        "el": "Ο μέλλοντας στιγμιαίος του παίζω στο β' πληθυντικό είναι θα παίξετε.",
+        "ca": "El futur simple de παίζω en 2a persona plural és θα παίξετε."
+      }
+    },
+    {
+      "id": "a2_ex_mc_304",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτός ____ (κάνω) τα μαθήματά του.",
+      "promptRomanization": "aftˈos ____ (kˈano) ta maθˈimatˈa tu.",
+      "hint": "Translation: He will do his homework.",
+      "correctAnswer": "θα κάνει",
+      "options": ["θα κάνει", "θα κάνουν", "θα έκανε"],
+      "acceptableAnswers": ["θα κάνει", "θα κανει"],
+      "explanation": {
+        "en": "Simple future of κάνω is θα κάνει (3rd singular).",
+        "el": "Ο μέλλοντας στιγμιαίος του κάνω στο γ' ενικό είναι θα κάνει.",
+        "ca": "El futur simple de κάνω en 3a persona és θα κάνει."
+      }
+    }
+  ],
+  "prerequisites": [
+    "a2_g01_simple_past"
+  ],
+  "tags": [
+    "verbs",
+    "future",
+    "μέλλοντας"
+  ]
+}

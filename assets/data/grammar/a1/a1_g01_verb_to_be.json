@@ -187,7 +187,7 @@
         "ca": "Conjuga είμαι al present"
       },
       "prompt": "Συμπλήρωσε όλους τους τύπους.",
-      "promptRomanization": "simblˈirose ˈolus tus tˈipus.",
+      "promptRomanization": "siblˈirose ˈolus tus tˈipus.",
       "correctAnswer": "",
       "conjugations": [
         {
@@ -255,7 +255,7 @@
         "ca": "Relaciona el pronom amb la forma correcta"
       },
       "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα.",
-      "promptRomanization": "sˈindese kˈaθe prˈosopo me to rˈima.",
+      "promptRomanization": "sˈinðese kˈaθe prˈosopo me to rˈima.",
       "correctAnswer": "",
       "pairs": [
         {
@@ -335,6 +335,93 @@
         "en": "Use είναι for 3rd person singular.",
         "el": "Χρησιμοποίησε είναι για το 3ο ενικό.",
         "ca": "Utilitza είναι per a la 3a persona singular."
+      }
+    },
+    {
+      "id": "ex_fill_03",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ στο σπίτι.",
+      "promptRomanization": "emˈis ____ sto spˈiti.",
+      "correctAnswer": "είμαστε",
+      "acceptableAnswers": [
+        "ειμαστε"
+      ],
+      "explanation": {
+        "en": "Use είμαστε for 1st person plural.",
+        "el": "Χρησιμοποίησε είμαστε για το α' πληθυντικό.",
+        "ca": "Utilitza είμαστε per a la 1a persona plural."
+      }
+    },
+    {
+      "id": "ex_fill_04",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσύ ____ έτοιμος.",
+      "promptRomanization": "esˈi ____ ˈetimos.",
+      "correctAnswer": "είσαι",
+      "acceptableAnswers": [
+        "εισαι"
+      ],
+      "explanation": {
+        "en": "Use είσαι for 2nd person singular.",
+        "el": "Χρησιμοποίησε είσαι για το β' ενικό.",
+        "ca": "Utilitza είσαι per a la 2a persona singular."
+      }
+    },
+    {
+      "id": "ex_mc_03",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τη σωστή μορφή",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Το παιδί ____ μικρό.",
+      "promptRomanization": "to peðˈi ____ mikrˈo.",
+      "correctAnswer": "είναι",
+      "options": [
+        "είμαι",
+        "είναι",
+        "είστε"
+      ],
+      "acceptableAnswers": [
+        "ειναι"
+      ],
+      "explanation": {
+        "en": "Use είναι for 3rd person singular.",
+        "el": "Χρησιμοποίησε είναι για το γ' ενικό.",
+        "ca": "Utilitza είναι per a la 3a persona singular."
+      }
+    },
+    {
+      "id": "ex_fill_05",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτές ____ οι αδελφές μου.",
+      "promptRomanization": "aftˈes ____ i aðelfˈes mu.",
+      "correctAnswer": "είναι",
+      "acceptableAnswers": ["είναι", "ειναι"],
+      "explanation": {
+        "en": "Use είναι for 3rd person plural (they are).",
+        "el": "Χρησιμοποίησε είναι για το γ' πληθυντικό.",
+        "ca": "Utilitza είναι per a la 3a persona plural."
       }
     }
   ],

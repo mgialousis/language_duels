@@ -5,7 +5,8 @@ Hot-seat language duel game (Greek ↔ Catalan) with solo practice and spaced re
 ## Features
 - Duel mode with Vocab Flash + Phrase Builder mini-games
 - Solo practice (Timed, Relaxed, SRS Review) + Mixed mode
-- Grammar & Theory module with lessons + exercises (A1)
+- Grammar & Theory module with lessons + exercises (A1–A2)
+- IPA toggle for grammar lesson tables/examples
 - Progress dashboard, weak words review, and practice history
 - Local deck content stored in `assets/data`
 

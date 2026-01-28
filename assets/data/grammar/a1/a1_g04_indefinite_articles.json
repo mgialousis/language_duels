@@ -156,7 +156,7 @@
         "ca": "Relaciona el substantiu amb l'article correcte"
       },
       "prompt": "Σύνδεσε κάθε ουσιαστικό με το άρθρο.",
-      "promptRomanization": "sˈindese kˈaθe usiastikˈo me to ˈarθro.",
+      "promptRomanization": "sˈinðese kˈaθe usiastikˈo me to ˈarθro.",
       "correctAnswer": "",
       "pairs": [
         {
@@ -172,6 +172,152 @@
           "right": "ένα"
         }
       ]
+    },
+    {
+      "id": "ex_fill_04",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Έχω ____ ιδέα.",
+      "promptRomanization": "ˈexo ____ iðˈea.",
+      "correctAnswer": "μια",
+      "acceptableAnswers": [
+        "μια"
+      ],
+      "explanation": {
+        "en": "Use μια for feminine singular.",
+        "el": "Χρησιμοποίησε μια για θηλυκό ενικό.",
+        "ca": "Utilitza μια per al femení singular."
+      }
+    },
+    {
+      "id": "ex_mc_04",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct article",
+        "el": "Διάλεξε το σωστό άρθρο",
+        "ca": "Tria l'article correcte"
+      },
+      "prompt": "Βλέπω ____ άντρα.",
+      "promptRomanization": "vlˈepo ____ ˈadra.",
+      "correctAnswer": "έναν",
+      "options": [
+        "ένα",
+        "μία",
+        "έναν"
+      ],
+      "acceptableAnswers": [
+        "εναν"
+      ],
+      "explanation": {
+        "en": "Use έναν for masculine singular.",
+        "el": "Χρησιμοποίησε έναν για αρσενικό ενικό.",
+        "ca": "Utilitza έναν per al masculí singular."
+      }
+    },
+    {
+      "id": "ex_fill_05",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Χρειάζομαι ____ βιβλίο.",
+      "promptRomanization": "xriˈazome ____ vivlˈio.",
+      "correctAnswer": "ένα",
+      "acceptableAnswers": [
+        "ενα"
+      ],
+      "explanation": {
+        "en": "Use ένα for neuter singular.",
+        "el": "Χρησιμοποίησε ένα για ουδέτερο ενικό.",
+        "ca": "Utilitza ένα per al neutre singular."
+      }
+    },
+    {
+      "id": "ex_fill_06",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Βλέπω ____ σκύλο στον δρόμο.",
+      "promptRomanization": "vlˈepo ____ skˈilo ston ðrˈomo.",
+      "correctAnswer": "έναν",
+      "acceptableAnswers": ["έναν", "εναν"],
+      "explanation": {
+        "en": "Use έναν for masculine singular accusative.",
+        "el": "Χρησιμοποίησε έναν για αρσενικό ενικό σε αιτιατική.",
+        "ca": "Utilitza έναν per al masculí singular acusatiu."
+      }
+    },
+    {
+      "id": "ex_mc_05",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct article",
+        "el": "Διάλεξε το σωστό άρθρο",
+        "ca": "Tria l'article correcte"
+      },
+      "prompt": "Θέλω ____ καφέ.",
+      "promptRomanization": "θˈelo ____ kafˈe.",
+      "correctAnswer": "έναν",
+      "options": ["ένα", "μία", "έναν"],
+      "acceptableAnswers": ["έναν", "εναν"],
+      "explanation": {
+        "en": "καφές is masculine, so use έναν.",
+        "el": "Ο καφές είναι αρσενικό, άρα έναν.",
+        "ca": "καφές és masculí, per tant έναν."
+      }
+    },
+    {
+      "id": "ex_fill_07",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Έχουμε ____ γάτα στο σπίτι.",
+      "promptRomanization": "ˈexume ____ ɣˈata sto spˈiti.",
+      "correctAnswer": "μία",
+      "acceptableAnswers": ["μία", "μια"],
+      "explanation": {
+        "en": "γάτα is feminine, so use μία.",
+        "el": "Η γάτα είναι θηλυκό, άρα μία.",
+        "ca": "γάτα és femení, per tant μία."
+      }
+    },
+    {
+      "id": "ex_mc_06",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct article",
+        "el": "Διάλεξε το σωστό άρθρο",
+        "ca": "Tria l'article correcte"
+      },
+      "prompt": "Αγόρασα ____ τσάντα.",
+      "promptRomanization": "aɣˈorasa ____ tsˈanda.",
+      "correctAnswer": "μία",
+      "options": ["ένας", "μία", "ένα"],
+      "acceptableAnswers": ["μία", "μια"],
+      "explanation": {
+        "en": "τσάντα is feminine, so use μία.",
+        "el": "Η τσάντα είναι θηλυκό, άρα μία.",
+        "ca": "τσάντα és femení, per tant μία."
+      }
     }
   ],
   "prerequisites": [

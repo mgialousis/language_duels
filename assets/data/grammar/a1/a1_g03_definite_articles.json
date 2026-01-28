@@ -96,7 +96,7 @@
     {
       "id": "ex_301",
       "greek": "Ο άντρας είναι εδώ.",
-      "romanization": "o ˈandras ˈine eðˈo.",
+      "romanization": "o ˈadras ˈine eðˈo.",
       "catalan": "L'home és aquí.",
       "englishLiteral": "The man is here.",
       "highlights": [
@@ -180,7 +180,7 @@
         "ca": "Relaciona el substantiu amb l'article correcte"
       },
       "prompt": "Σύνδεσε κάθε ουσιαστικό με το άρθρο.",
-      "promptRomanization": "sˈindese kˈaθe usiastikˈo me to ˈarθro.",
+      "promptRomanization": "sˈinðese kˈaθe usiastikˈo me to ˈarθro.",
       "correctAnswer": "",
       "pairs": [
         {
@@ -196,6 +196,152 @@
           "right": "το"
         }
       ]
+    },
+    {
+      "id": "ex_fill_04",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ σκύλος είναι μεγάλος.",
+      "promptRomanization": "____ skˈilos ˈine meɣˈalos.",
+      "correctAnswer": "Ο",
+      "acceptableAnswers": [
+        "ο"
+      ],
+      "explanation": {
+        "en": "Use Ο for masculine singular.",
+        "el": "Χρησιμοποίησε Ο για αρσενικό ενικό.",
+        "ca": "Utilitza Ο per al masculí singular."
+      }
+    },
+    {
+      "id": "ex_mc_04",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct article",
+        "el": "Διάλεξε το σωστό άρθρο",
+        "ca": "Tria l'article correcte"
+      },
+      "prompt": "____ κορίτσι παίζει.",
+      "promptRomanization": "____ korˈitsi pˈezi.",
+      "correctAnswer": "Το",
+      "options": [
+        "Η",
+        "Το",
+        "Ο"
+      ],
+      "acceptableAnswers": [
+        "το"
+      ],
+      "explanation": {
+        "en": "Use Το for neuter singular.",
+        "el": "Χρησιμοποίησε Το για ουδέτερο ενικό.",
+        "ca": "Utilitza Το per al neutre singular."
+      }
+    },
+    {
+      "id": "ex_fill_05",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ φίλη μου είναι εδώ.",
+      "promptRomanization": "____ fˈili mu ˈine eðˈo.",
+      "correctAnswer": "Η",
+      "acceptableAnswers": [
+        "η"
+      ],
+      "explanation": {
+        "en": "Use Η for feminine singular.",
+        "el": "Χρησιμοποίησε Η για θηλυκό ενικό.",
+        "ca": "Utilitza Η per al femení singular."
+      }
+    },
+    {
+      "id": "ex_fill_06",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ άντρες είναι εδώ.",
+      "promptRomanization": "____ ˈandres ˈine eðˈo.",
+      "correctAnswer": "Οι",
+      "acceptableAnswers": ["Οι", "οι"],
+      "explanation": {
+        "en": "Use Οι for masculine plural.",
+        "el": "Χρησιμοποίησε Οι για αρσενικό πληθυντικό.",
+        "ca": "Utilitza Οι per al masculí plural."
+      }
+    },
+    {
+      "id": "ex_mc_05",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct article",
+        "el": "Διάλεξε το σωστό άρθρο",
+        "ca": "Tria l'article correcte"
+      },
+      "prompt": "____ βιβλία είναι στο τραπέζι.",
+      "promptRomanization": "____ vivlˈia ˈine sto trapˈezi.",
+      "correctAnswer": "Τα",
+      "options": ["Οι", "Τα", "Το"],
+      "acceptableAnswers": ["Τα", "τα"],
+      "explanation": {
+        "en": "Use Τα for neuter plural.",
+        "el": "Χρησιμοποίησε Τα για ουδέτερο πληθυντικό.",
+        "ca": "Utilitza Τα per al neutre plural."
+      }
+    },
+    {
+      "id": "ex_fill_07",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ γυναίκες μιλάνε.",
+      "promptRomanization": "____ ʝinˈekes milˈane.",
+      "correctAnswer": "Οι",
+      "acceptableAnswers": ["Οι", "οι"],
+      "explanation": {
+        "en": "Use Οι for feminine plural.",
+        "el": "Χρησιμοποίησε Οι για θηλυκό πληθυντικό.",
+        "ca": "Utilitza Οι per al femení plural."
+      }
+    },
+    {
+      "id": "ex_mc_06",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct article",
+        "el": "Διάλεξε το σωστό άρθρο",
+        "ca": "Tria l'article correcte"
+      },
+      "prompt": "____ δάσκαλος είναι καλός.",
+      "promptRomanization": "____ ðˈaskalos ˈine kalˈos.",
+      "correctAnswer": "Ο",
+      "options": ["Ο", "Η", "Το"],
+      "acceptableAnswers": ["Ο", "ο"],
+      "explanation": {
+        "en": "Use Ο for masculine singular.",
+        "el": "Χρησιμοποίησε Ο για αρσενικό ενικό.",
+        "ca": "Utilitza Ο per al masculí singular."
+      }
     }
   ],
   "prerequisites": [

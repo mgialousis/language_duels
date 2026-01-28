@@ -184,7 +184,7 @@
         "ca": "Relaciona el pronom amb el significat"
       },
       "prompt": "Σύνδεσε κάθε αντωνυμία.",
-      "promptRomanization": "sˈindese kˈaθe andoniˈmia.",
+      "promptRomanization": "sˈinðese kˈaθe adonimˈia.",
       "hint": "Use the English meaning (my/your/their) to match.",
       "correctAnswer": "",
       "pairs": [
@@ -201,6 +201,159 @@
           "right": "their"
         }
       ]
+    },
+    {
+      "id": "ex_fill_702",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Το βιβλίο ____ είναι καινούργιο.",
+      "promptRomanization": "to vivlˈio ____ ˈine kenˈurɣio.",
+      "hint": "Translation: My book is new.",
+      "correctAnswer": "μου",
+      "acceptableAnswers": [
+        "μου"
+      ],
+      "explanation": {
+        "en": "Use μου for 'my' after the noun.",
+        "el": "Χρησιμοποίησε μου για το «δικό μου».",
+        "ca": "Usa μου per a «el meu»."
+      }
+    },
+    {
+      "id": "ex_mc_702",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "Οι φίλοι ____ έρχονται.",
+      "promptRomanization": "i fˈili ____ ˈerxode.",
+      "hint": "Translation: Our friends are coming.",
+      "correctAnswer": "μας",
+      "options": [
+        "μου",
+        "μας",
+        "τους"
+      ],
+      "acceptableAnswers": [
+        "μας"
+      ],
+      "explanation": {
+        "en": "Use μας for 'our'.",
+        "el": "Χρησιμοποίησε μας για το «δικό μας».",
+        "ca": "Usa μας per a «el nostre»."
+      }
+    },
+    {
+      "id": "ex_fill_703",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Η αδελφή ____ ζει εδώ.",
+      "promptRomanization": "i aðelfˈi ____ zi eðˈo.",
+      "hint": "Translation: Her sister lives here.",
+      "correctAnswer": "της",
+      "acceptableAnswers": [
+        "της"
+      ],
+      "explanation": {
+        "en": "Use της for 'her'.",
+        "el": "Χρησιμοποίησε της για το «δικό της».",
+        "ca": "Usa της per a «la seva»."
+      }
+    },
+    {
+      "id": "ex_fill_704",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Ο σκύλος ____ είναι μεγάλος.",
+      "promptRomanization": "o skˈilos ____ ˈine meɣˈalos.",
+      "hint": "Translation: His dog is big.",
+      "correctAnswer": "του",
+      "acceptableAnswers": ["του"],
+      "explanation": {
+        "en": "Use του for 'his'.",
+        "el": "Χρησιμοποίησε του για το «δικό του».",
+        "ca": "Usa του per a «el seu»."
+      }
+    },
+    {
+      "id": "ex_mc_703",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "Τα παιδιά ____ παίζουν.",
+      "promptRomanization": "ta peðiˈa ____ pˈezun.",
+      "hint": "Translation: Their children are playing.",
+      "correctAnswer": "τους",
+      "options": ["μου", "σας", "τους"],
+      "acceptableAnswers": ["τους"],
+      "explanation": {
+        "en": "Use τους for 'their'.",
+        "el": "Χρησιμοποίησε τους για το «δικό τους».",
+        "ca": "Usa τους per a «el seu» (d'ells)."
+      }
+    },
+    {
+      "id": "ex_fill_705",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Η γάτα ____ κοιμάται.",
+      "promptRomanization": "i ɣˈata ____ kimˈate.",
+      "hint": "Translation: Your (pl) cat is sleeping.",
+      "correctAnswer": "σας",
+      "acceptableAnswers": ["σας"],
+      "explanation": {
+        "en": "Use σας for 'your' (plural/formal).",
+        "el": "Χρησιμοποίησε σας για το «δικό σας».",
+        "ca": "Usa σας per a «el vostre»."
+      }
+    },
+    {
+      "id": "ex_mc_704",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "Το σπίτι ____ είναι μεγάλο.",
+      "promptRomanization": "to spˈiti ____ ˈine meɣˈalo.",
+      "hint": "Translation: Our house is big.",
+      "correctAnswer": "μας",
+      "options": ["μου", "μας", "σου"],
+      "acceptableAnswers": ["μας"],
+      "explanation": {
+        "en": "Use μας for 'our'.",
+        "el": "Χρησιμοποίησε μας για το «δικό μας».",
+        "ca": "Usa μας per a «el nostre»."
+      }
     }
   ],
   "prerequisites": [

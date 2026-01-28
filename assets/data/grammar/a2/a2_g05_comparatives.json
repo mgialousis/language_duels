@@ -1,0 +1,406 @@
+{
+  "id": "a2_g05_comparatives",
+  "category": "adjectives",
+  "subcategory": "comparison",
+  "level": "A2",
+  "order": 5,
+  "title": {
+    "en": "Comparatives (Συγκριτικός Βαθμός)",
+    "el": "Συγκριτικός Βαθμός",
+    "ca": "Comparatius (Συγκριτικός Βαθμός)"
+  },
+  "description": {
+    "en": "Compare people and things using comparative forms.",
+    "el": "Σύγκριση προσώπων και πραγμάτων με τον συγκριτικό βαθμό.",
+    "ca": "Compara persones i coses amb formes comparatives."
+  },
+  "explanation": {
+    "content": {
+      "en": "Greek comparatives can be formed in two ways: (1) πιο + adjective (more common in speech), or (2) adding -τερος/-τερη/-τερο to the stem. Use από for 'than'.",
+      "el": "Ο συγκριτικός σχηματίζεται με δύο τρόπους: (1) πιο + επίθετο (πιο συνηθισμένο στον προφορικό), ή (2) προσθήκη -τερος/-τερη/-τερο. Χρησιμοποίησε από για τη σύγκριση.",
+      "ca": "El comparatiu grec es forma de dues maneres: (1) πιο + adjectiu, o (2) afegint -τερος/-τερη/-τερο. Usa από per a 'que'."
+    },
+    "rules": [
+      {
+        "en": "πιο + adjective: πιο μεγάλος (bigger/older)",
+        "el": "πιο + επίθετο: πιο μεγάλος",
+        "ca": "πιο + adjectiu: πιο μεγάλος"
+      },
+      {
+        "en": "Suffix form: μεγάλος → μεγαλύτερος",
+        "el": "Με κατάληξη: μεγάλος → μεγαλύτερος",
+        "ca": "Amb sufix: μεγάλος → μεγαλύτερος"
+      },
+      {
+        "en": "Comparison: Είναι πιο ψηλός από μένα (He is taller than me)",
+        "el": "Σύγκριση: Είναι πιο ψηλός από μένα",
+        "ca": "Comparació: Είναι πιο ψηλός από μένα"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Common Comparative Forms",
+        "el": "Συνηθισμένοι Συγκριτικοί",
+        "ca": "Comparatius Comuns"
+      },
+      "columnHeaders": [
+        "Θετικός",
+        "Συγκριτικός (πιο)",
+        "Συγκριτικός (-τερος)"
+      ],
+      "rowHeaders": [
+        "big/old",
+        "small/young",
+        "good",
+        "bad",
+        "many/much"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "μεγάλος",
+            "romanization": "meɣˈalos",
+            "translation": "big/old"
+          },
+          {
+            "greek": "πιο μεγάλος",
+            "romanization": "pio meɣˈalos",
+            "translation": "bigger"
+          },
+          {
+            "greek": "μεγαλύτερος",
+            "romanization": "meɣalˈiteros",
+            "translation": "bigger"
+          }
+        ],
+        [
+          {
+            "greek": "μικρός",
+            "romanization": "mikrˈos",
+            "translation": "small/young"
+          },
+          {
+            "greek": "πιο μικρός",
+            "romanization": "pio mikrˈos",
+            "translation": "smaller"
+          },
+          {
+            "greek": "μικρότερος",
+            "romanization": "mikrˈoteros",
+            "translation": "smaller"
+          }
+        ],
+        [
+          {
+            "greek": "καλός",
+            "romanization": "kalˈos",
+            "translation": "good"
+          },
+          {
+            "greek": "πιο καλός",
+            "romanization": "pio kalˈos",
+            "translation": "better"
+          },
+          {
+            "greek": "καλύτερος",
+            "romanization": "kalˈiteros",
+            "translation": "better"
+          }
+        ],
+        [
+          {
+            "greek": "κακός",
+            "romanization": "kakˈos",
+            "translation": "bad"
+          },
+          {
+            "greek": "πιο κακός",
+            "romanization": "pio kakˈos",
+            "translation": "worse"
+          },
+          {
+            "greek": "χειρότερος",
+            "romanization": "xirˈoteros",
+            "translation": "worse"
+          }
+        ],
+        [
+          {
+            "greek": "πολύς",
+            "romanization": "polˈis",
+            "translation": "many/much"
+          },
+          {
+            "greek": "πιο πολύς",
+            "romanization": "pio polˈis",
+            "translation": "more"
+          },
+          {
+            "greek": "περισσότερος",
+            "romanization": "perissˈoteros",
+            "translation": "more"
+          }
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_a2_501",
+      "greek": "Η Μαρία είναι πιο ψηλή από την Ελένη.",
+      "romanization": "i marˈia ˈine pio psilˈi apˈo tin elˈeni.",
+      "catalan": "La Maria és més alta que l'Helena.",
+      "englishLiteral": "Maria is taller than Eleni.",
+      "highlights": [
+        {
+          "startIndex": 14,
+          "endIndex": 22,
+          "explanation": "πιο + adjective"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_502",
+      "greek": "Αυτό το βιβλίο είναι καλύτερο.",
+      "romanization": "aftˈo to vivlˈio ˈine kalˈitero.",
+      "catalan": "Aquest llibre és millor.",
+      "englishLiteral": "This book is better.",
+      "highlights": [
+        {
+          "startIndex": 22,
+          "endIndex": 31,
+          "explanation": "Comparative suffix form"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2_ex_fill_501",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Ο Γιάννης είναι ____ (tall) από τον Πέτρο.",
+      "promptRomanization": "o ɣiˈannis ˈine ____ (tall) apˈo ton pˈetro.",
+      "hint": "Use πιο + ψηλός",
+      "correctAnswer": "πιο ψηλός",
+      "acceptableAnswers": [
+        "πιο ψηλός",
+        "ψηλότερος"
+      ],
+      "explanation": {
+        "en": "Use πιο ψηλός or ψηλότερος for 'taller'.",
+        "el": "Χρησιμοποίησε πιο ψηλός ή ψηλότερος.",
+        "ca": "Usa πιο ψηλός o ψηλότερος per a 'més alt'."
+      }
+    },
+    {
+      "id": "a2_ex_mc_501",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct comparative",
+        "el": "Διάλεξε τον σωστό συγκριτικό",
+        "ca": "Tria el comparatiu correcte"
+      },
+      "prompt": "Αυτή η ταινία είναι ____ από την άλλη.",
+      "promptRomanization": "aftˈi i tenˈia ˈine ____ apˈo tin ˈalli.",
+      "hint": "Translation: This movie is better than the other.",
+      "correctAnswer": "καλύτερη",
+      "options": [
+        "καλή",
+        "καλύτερη",
+        "η καλύτερη"
+      ],
+      "acceptableAnswers": [
+        "καλύτερη",
+        "πιο καλή"
+      ],
+      "explanation": {
+        "en": "Use καλύτερη (fem.) for 'better' with feminine noun ταινία.",
+        "el": "Χρησιμοποίησε καλύτερη (θηλ.) με το θηλυκό ταινία.",
+        "ca": "Usa καλύτερη (fem.) per a 'millor' amb el femení ταινία."
+      }
+    },
+    {
+      "id": "a2_ex_fill_502",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the comparative",
+        "el": "Συμπλήρωσε με τον συγκριτικό",
+        "ca": "Completa amb el comparatiu"
+      },
+      "prompt": "Θέλω ____ καφέ, παρακαλώ. (more coffee)",
+      "promptRomanization": "θˈelo ____ kafˈe, parakalˈo. (more coffee)",
+      "hint": "Use περισσότερο (neuter form)",
+      "correctAnswer": "περισσότερο",
+      "acceptableAnswers": [
+        "περισσότερο",
+        "πιο πολύ"
+      ],
+      "explanation": {
+        "en": "Use περισσότερο or πιο πολύ for 'more'.",
+        "el": "Χρησιμοποίησε περισσότερο ή πιο πολύ.",
+        "ca": "Usa περισσότερο o πιο πολύ per a 'més'."
+      }
+    },
+    {
+      "id": "a2_ex_fill_503",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτό το σπίτι είναι ____ από εκείνο. (bigger)",
+      "promptRomanization": "aftˈo to spˈiti ˈine ____ apˈo ekˈino.",
+      "hint": "Use the -τερο form for neuter",
+      "correctAnswer": "μεγαλύτερο",
+      "acceptableAnswers": ["μεγαλύτερο", "πιο μεγάλο"],
+      "explanation": {
+        "en": "Use μεγαλύτερο (neuter) or πιο μεγάλο for 'bigger'.",
+        "el": "Χρησιμοποίησε μεγαλύτερο (ουδ.) ή πιο μεγάλο.",
+        "ca": "Usa μεγαλύτερο (neutre) o πιο μεγάλο per a 'més gran'."
+      }
+    },
+    {
+      "id": "a2_ex_mc_502",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct comparative",
+        "el": "Διάλεξε τον σωστό συγκριτικό",
+        "ca": "Tria el comparatiu correcte"
+      },
+      "prompt": "Αυτή η κατάσταση είναι ____ από πριν.",
+      "promptRomanization": "aftˈi i katˈastasi ˈine ____ apˈo prin.",
+      "hint": "Translation: This situation is worse than before.",
+      "correctAnswer": "χειρότερη",
+      "options": ["κακή", "χειρότερη", "η χειρότερη"],
+      "acceptableAnswers": ["χειρότερη", "πιο κακή"],
+      "explanation": {
+        "en": "Use χειρότερη (fem.) for 'worse' with feminine noun κατάσταση.",
+        "el": "Χρησιμοποίησε χειρότερη (θηλ.) με το θηλυκό κατάσταση.",
+        "ca": "Usa χειρότερη (fem.) per a 'pitjor' amb el femení κατάσταση."
+      }
+    },
+    {
+      "id": "a2_ex_fill_504",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Ο αδελφός μου είναι ____ από μένα. (younger)",
+      "promptRomanization": "o aðelfˈos mu ˈine ____ apˈo mˈena.",
+      "hint": "Use μικρός for young/small",
+      "correctAnswer": "μικρότερος",
+      "acceptableAnswers": ["μικρότερος", "πιο μικρός"],
+      "explanation": {
+        "en": "Use μικρότερος or πιο μικρός for 'younger/smaller'.",
+        "el": "Χρησιμοποίησε μικρότερος ή πιο μικρός για νεότερος/μικρότερος.",
+        "ca": "Usa μικρότερος o πιο μικρός per a 'més jove/petit'."
+      }
+    },
+    {
+      "id": "a2_ex_fill_505",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτή η τσάντα είναι ____ από εκείνη. (cheaper)",
+      "promptRomanization": "aftˈi i tsˈanda ˈine ____ apˈo ekˈini.",
+      "hint": "Use φτηνός for cheap",
+      "correctAnswer": "φτηνότερη",
+      "acceptableAnswers": ["φτηνότερη", "πιο φτηνή"],
+      "explanation": {
+        "en": "Use φτηνότερη (fem.) or πιο φτηνή for 'cheaper'.",
+        "el": "Χρησιμοποίησε φτηνότερη (θηλ.) ή πιο φτηνή.",
+        "ca": "Usa φτηνότερη (fem.) o πιο φτηνή per a 'més barata'."
+      }
+    },
+    {
+      "id": "a2_ex_mc_503",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct comparative",
+        "el": "Διάλεξε τον σωστό συγκριτικό",
+        "ca": "Tria el comparatiu correcte"
+      },
+      "prompt": "Το αυτοκίνητό του είναι ____ από το δικό μου.",
+      "promptRomanization": "to aftokˈinitˈo tu ˈine ____ apˈo to ðikˈo mu.",
+      "hint": "Translation: His car is faster than mine.",
+      "correctAnswer": "γρηγορότερο",
+      "options": ["γρήγορο", "γρηγορότερο", "το γρηγορότερο"],
+      "acceptableAnswers": ["γρηγορότερο", "πιο γρήγορο"],
+      "explanation": {
+        "en": "Use γρηγορότερο (neut.) or πιο γρήγορο for 'faster'.",
+        "el": "Χρησιμοποίησε γρηγορότερο (ουδ.) ή πιο γρήγορο.",
+        "ca": "Usa γρηγορότερο (neutre) o πιο γρήγορο per a 'més ràpid'."
+      }
+    },
+    {
+      "id": "a2_ex_fill_506",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Η ζωή στο χωριό είναι ____ από την πόλη. (quieter)",
+      "promptRomanization": "i zoˈi sto xoriˈo ˈine ____ apˈo tin pˈoli.",
+      "hint": "Use ήσυχος for quiet",
+      "correctAnswer": "πιο ήσυχη",
+      "acceptableAnswers": ["πιο ήσυχη", "ησυχότερη"],
+      "explanation": {
+        "en": "Use πιο ήσυχη or ησυχότερη for 'quieter' (feminine).",
+        "el": "Χρησιμοποίησε πιο ήσυχη ή ησυχότερη.",
+        "ca": "Usa πιο ήσυχη o ησυχότερη per a 'més tranquil·la'."
+      }
+    },
+    {
+      "id": "a2_ex_mc_504",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct comparative",
+        "el": "Διάλεξε τον σωστό συγκριτικό",
+        "ca": "Tria el comparatiu correcte"
+      },
+      "prompt": "Έχω ____ δουλειές από εσένα.",
+      "promptRomanization": "ˈexo ____ ðuliˈes apˈo esˈena.",
+      "hint": "Translation: I have fewer tasks than you.",
+      "correctAnswer": "λιγότερες",
+      "options": ["λίγες", "λιγότερες", "οι λιγότερες"],
+      "acceptableAnswers": ["λιγότερες", "πιο λίγες"],
+      "explanation": {
+        "en": "Use λιγότερες (fem. pl.) for 'fewer'.",
+        "el": "Χρησιμοποίησε λιγότερες (θηλ. πληθ.) για λιγότερες.",
+        "ca": "Usa λιγότερες (fem. pl.) per a 'menys'."
+      }
+    }
+  ],
+  "prerequisites": [
+    "a1_g03_definite_articles"
+  ],
+  "tags": [
+    "adjectives",
+    "comparison",
+    "comparative"
+  ]
+}

@@ -133,6 +133,151 @@
         "el": "Το δεν μπαίνει πριν από το ρήμα.",
         "ca": "El δεν va abans del verb."
       }
+    },
+    {
+      "id": "ex_fill_04",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ είμαι κουρασμένος.",
+      "promptRomanization": "____ ˈime kurasmˈenos.",
+      "correctAnswer": "Δεν",
+      "acceptableAnswers": [
+        "δεν"
+      ],
+      "explanation": {
+        "en": "Use Δεν to negate the verb.",
+        "el": "Χρησιμοποίησε Δεν για άρνηση.",
+        "ca": "Utilitza Δεν per negar el verb."
+      }
+    },
+    {
+      "id": "ex_mc_04",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct word",
+        "el": "Διάλεξε τη σωστή λέξη",
+        "ca": "Tria la paraula correcta"
+      },
+      "prompt": "Εγώ ____ έχω χρήματα.",
+      "promptRomanization": "eɣˈo ____ ˈexo xrˈimata.",
+      "correctAnswer": "δεν",
+      "options": [
+        "δεν",
+        "μην",
+        "ούτε"
+      ],
+      "acceptableAnswers": [
+        "δεν"
+      ],
+      "explanation": {
+        "en": "Use δεν for simple negation.",
+        "el": "Χρησιμοποίησε δεν για απλή άρνηση.",
+        "ca": "Utilitza δεν per a negació simple."
+      }
+    },
+    {
+      "id": "ex_fill_05",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ τρώμε κρέας.",
+      "promptRomanization": "____ trˈome krˈeas.",
+      "correctAnswer": "Δεν",
+      "acceptableAnswers": [
+        "δεν"
+      ],
+      "explanation": {
+        "en": "Negate with Δεν before the verb.",
+        "el": "Βάλε Δεν πριν το ρήμα.",
+        "ca": "Posa Δεν abans del verb."
+      }
+    },
+    {
+      "id": "ex_fill_06",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ ξέρω τι θέλεις.",
+      "promptRomanization": "____ ksˈero ti θˈelis.",
+      "correctAnswer": "Δεν",
+      "acceptableAnswers": ["Δεν", "δεν"],
+      "explanation": {
+        "en": "Use Δεν to negate 'I know'.",
+        "el": "Βάλε Δεν πριν το ρήμα ξέρω.",
+        "ca": "Posa Δεν abans del verb ξέρω."
+      }
+    },
+    {
+      "id": "ex_mc_05",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct word",
+        "el": "Διάλεξε τη σωστή λέξη",
+        "ca": "Tria la paraula correcta"
+      },
+      "prompt": "Αυτοί ____ μιλάνε ελληνικά.",
+      "promptRomanization": "aftˈi ____ milˈane ellinikˈa.",
+      "correctAnswer": "δεν",
+      "options": ["δεν", "ναι", "και"],
+      "acceptableAnswers": ["δεν", "Δεν"],
+      "explanation": {
+        "en": "Use δεν to negate the verb.",
+        "el": "Χρησιμοποίησε δεν για άρνηση.",
+        "ca": "Utilitza δεν per negar el verb."
+      }
+    },
+    {
+      "id": "ex_error_602",
+      "type": "errorCorrection",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Correct the sentence",
+        "el": "Διόρθωσε την πρόταση",
+        "ca": "Corregeix la frase"
+      },
+      "prompt": "Έχουμε δεν χρόνο.",
+      "promptRomanization": "ˈexume ðen xrˈono.",
+      "correctAnswer": "Δεν έχουμε χρόνο.",
+      "acceptableAnswers": ["Δεν έχουμε χρόνο", "Δεν εχουμε χρονο"],
+      "explanation": {
+        "en": "δεν comes before the verb, not after.",
+        "el": "Το δεν μπαίνει πριν από το ρήμα.",
+        "ca": "El δεν va abans del verb."
+      }
+    },
+    {
+      "id": "ex_fill_07",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Η Μαρία ____ είναι εδώ.",
+      "promptRomanization": "i marˈia ____ ˈine eðˈo.",
+      "correctAnswer": "δεν",
+      "acceptableAnswers": ["δεν", "Δεν"],
+      "explanation": {
+        "en": "Use δεν to negate 'is here'.",
+        "el": "Βάλε δεν πριν το ρήμα είναι.",
+        "ca": "Posa δεν abans del verb είναι."
+      }
     }
   ],
   "prerequisites": [

@@ -195,6 +195,159 @@
         "el": "Ο αόριστος του δουλεύω στο α' πληθυντικό είναι δουλέψαμε.",
         "ca": "L'aorist de δουλεύω en 1a persona plural és δουλέψαμε."
       }
+    },
+    {
+      "id": "a2_ex_fill_103",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσύ ____ (γράφω) ένα γράμμα.",
+      "promptRomanization": "esˈi ____ (ɣrˈafo) ˈena ɣrˈamma.",
+      "hint": "Translation: You wrote a letter.",
+      "correctAnswer": "έγραψες",
+      "acceptableAnswers": [
+        "εγραψες"
+      ],
+      "explanation": {
+        "en": "Second person singular aorist of γράφω is έγραψες.",
+        "el": "Ο αόριστος του γράφω στο β' ενικό είναι έγραψες.",
+        "ca": "L'aorist de γράφω en 2a persona és έγραψες."
+      }
+    },
+    {
+      "id": "a2_ex_mc_102",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Χτες αυτοί ____ (παίζω) μπάλα.",
+      "promptRomanization": "xtes aftˈi ____ (pˈezo) bˈala.",
+      "hint": "Translation: Yesterday they played ball.",
+      "correctAnswer": "έπαιξαν",
+      "options": [
+        "έπαιζαν",
+        "έπαιξαν",
+        "παίζουν"
+      ],
+      "acceptableAnswers": [
+        "επαιξαν"
+      ],
+      "explanation": {
+        "en": "Third person plural aorist of παίζω is έπαιξαν.",
+        "el": "Ο αόριστος του παίζω στο γ' πληθυντικό είναι έπαιξαν.",
+        "ca": "L'aorist de παίζω en 3a persona plural és έπαιξαν."
+      }
+    },
+    {
+      "id": "a2_ex_fill_104",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτή ____ (αγοράζω) ένα βιβλίο.",
+      "promptRomanization": "aftˈi ____ (aɣorˈazo) ˈena vivlˈio.",
+      "hint": "Translation: She bought a book.",
+      "correctAnswer": "αγόρασε",
+      "acceptableAnswers": [
+        "αγορασε"
+      ],
+      "explanation": {
+        "en": "Third person singular aorist of αγοράζω is αγόρασε.",
+        "el": "Ο αόριστος του αγοράζω στο γ' ενικό είναι αγόρασε.",
+        "ca": "L'aorist d'αγοράζω en 3a persona és αγόρασε."
+      }
+    },
+    {
+      "id": "a2_ex_fill_105",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσείς ____ (μιλάω) με τον δάσκαλο.",
+      "promptRomanization": "esˈis ____ (milˈao) me ton ðˈaskalo.",
+      "hint": "Translation: You (pl) spoke with the teacher.",
+      "correctAnswer": "μιλήσατε",
+      "acceptableAnswers": ["μιλήσατε", "μιλησατε"],
+      "explanation": {
+        "en": "Second person plural aorist of μιλάω is μιλήσατε.",
+        "el": "Ο αόριστος του μιλάω στο β' πληθυντικό είναι μιλήσατε.",
+        "ca": "L'aorist de μιλάω en 2a persona plural és μιλήσατε."
+      }
+    },
+    {
+      "id": "a2_ex_mc_103",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εμείς ____ (ακούω) μουσική χτες.",
+      "promptRomanization": "emˈis ____ (akˈuo) musikˈi xtes.",
+      "hint": "Translation: We listened to music yesterday.",
+      "correctAnswer": "ακούσαμε",
+      "options": ["ακούμε", "ακούσαμε", "ακούγαμε"],
+      "acceptableAnswers": ["ακούσαμε", "ακουσαμε"],
+      "explanation": {
+        "en": "First person plural aorist of ακούω is ακούσαμε.",
+        "el": "Ο αόριστος του ακούω στο α' πληθυντικό είναι ακούσαμε.",
+        "ca": "L'aorist d'ακούω en 1a persona plural és ακούσαμε."
+      }
+    },
+    {
+      "id": "a2_ex_fill_106",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσύ ____ (διαβάζω) το βιβλίο;",
+      "promptRomanization": "esˈi ____ (ðiavˈazo) to vivlˈio;",
+      "hint": "Translation: Did you read the book?",
+      "correctAnswer": "διάβασες",
+      "acceptableAnswers": ["διάβασες", "διαβασες"],
+      "explanation": {
+        "en": "Second person singular aorist of διαβάζω is διάβασες.",
+        "el": "Ο αόριστος του διαβάζω στο β' ενικό είναι διάβασες.",
+        "ca": "L'aorist de διαβάζω en 2a persona és διάβασες."
+      }
+    },
+    {
+      "id": "a2_ex_mc_104",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτή ____ (βλέπω) την ταινία.",
+      "promptRomanization": "aftˈi ____ (vlˈepo) tin tenˈia.",
+      "hint": "Translation: She watched the movie.",
+      "correctAnswer": "είδε",
+      "options": ["βλέπει", "έβλεπε", "είδε"],
+      "acceptableAnswers": ["είδε", "ειδε"],
+      "explanation": {
+        "en": "Third person singular aorist of βλέπω is είδε (irregular).",
+        "el": "Ο αόριστος του βλέπω στο γ' ενικό είναι είδε (ανώμαλο).",
+        "ca": "L'aorist de βλέπω en 3a persona és είδε (irregular)."
+      }
     }
   ],
   "prerequisites": [

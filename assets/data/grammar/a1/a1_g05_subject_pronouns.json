@@ -128,7 +128,7 @@
         "ca": "Completa la frase"
       },
       "prompt": "____ είμαι ο Γιάννης.",
-      "promptRomanization": "____ ˈime o ˈjanis.",
+      "promptRomanization": "____ ˈime o ɣiˈannis.",
       "correctAnswer": "Εγώ",
       "acceptableAnswers": [
         "εγώ"
@@ -175,7 +175,7 @@
         "ca": "Relaciona el pronom amb el significat"
       },
       "prompt": "Σύνδεσε κάθε αντωνυμία.",
-      "promptRomanization": "sˈindese kˈaθe andoniˈmia.",
+      "promptRomanization": "sˈinðese kˈaθe adonimˈia.",
       "correctAnswer": "",
       "pairs": [
         {
@@ -191,6 +191,152 @@
           "right": "they"
         }
       ]
+    },
+    {
+      "id": "ex_fill_04",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ είμαστε έτοιμοι.",
+      "promptRomanization": "____ ˈimaste ˈetimi.",
+      "correctAnswer": "Εμείς",
+      "acceptableAnswers": [
+        "εμεις"
+      ],
+      "explanation": {
+        "en": "Use Εμείς for 'we'.",
+        "el": "Χρησιμοποίησε Εμείς για το «εμείς».",
+        "ca": "Utilitza Εμείς per a «nosaltres»."
+      }
+    },
+    {
+      "id": "ex_mc_04",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "____ είναι η Άννα.",
+      "promptRomanization": "____ ˈine i ˈanna.",
+      "correctAnswer": "Αυτή",
+      "options": [
+        "Αυτός",
+        "Αυτή",
+        "Αυτοί"
+      ],
+      "acceptableAnswers": [
+        "αυτη"
+      ],
+      "explanation": {
+        "en": "Use Αυτή for 'she'.",
+        "el": "Χρησιμοποίησε Αυτή για το «αυτή».",
+        "ca": "Utilitza Αυτή per a «ella»."
+      }
+    },
+    {
+      "id": "ex_fill_05",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ παίζετε τώρα.",
+      "promptRomanization": "____ pˈezete tˈora.",
+      "correctAnswer": "Εσείς",
+      "acceptableAnswers": [
+        "εσεις"
+      ],
+      "explanation": {
+        "en": "Use Εσείς for 'you' plural/formal.",
+        "el": "Χρησιμοποίησε Εσείς για το «εσείς».",
+        "ca": "Utilitza Εσείς per a «vosaltres»."
+      }
+    },
+    {
+      "id": "ex_fill_06",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ είναι ο Νίκος.",
+      "promptRomanization": "____ ˈine o nˈikos.",
+      "correctAnswer": "Αυτός",
+      "acceptableAnswers": ["Αυτός", "αυτός"],
+      "explanation": {
+        "en": "Use Αυτός for 'he'.",
+        "el": "Χρησιμοποίησε Αυτός για το «αυτός».",
+        "ca": "Utilitza Αυτός per a «ell»."
+      }
+    },
+    {
+      "id": "ex_mc_05",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "____ τρώνε μαζί.",
+      "promptRomanization": "____ trˈone mazˈi.",
+      "correctAnswer": "Αυτοί",
+      "options": ["Αυτός", "Αυτοί", "Εμείς"],
+      "acceptableAnswers": ["Αυτοί", "αυτοί"],
+      "explanation": {
+        "en": "Use Αυτοί for 'they' (masculine).",
+        "el": "Χρησιμοποίησε Αυτοί για το «αυτοί».",
+        "ca": "Utilitza Αυτοί per a «ells»."
+      }
+    },
+    {
+      "id": "ex_fill_07",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ είναι το παιδί.",
+      "promptRomanization": "____ ˈine to peðˈi.",
+      "correctAnswer": "Αυτό",
+      "acceptableAnswers": ["Αυτό", "αυτό"],
+      "explanation": {
+        "en": "Use Αυτό for 'it' (neuter).",
+        "el": "Χρησιμοποίησε Αυτό για το «αυτό».",
+        "ca": "Utilitza Αυτό per a «això»."
+      }
+    },
+    {
+      "id": "ex_mc_06",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "____ μένουμε στην Αθήνα.",
+      "promptRomanization": "____ mˈenume stin aθˈina.",
+      "correctAnswer": "Εμείς",
+      "options": ["Εγώ", "Εσείς", "Εμείς"],
+      "acceptableAnswers": ["Εμείς", "εμείς"],
+      "explanation": {
+        "en": "Use Εμείς for 'we'.",
+        "el": "Χρησιμοποίησε Εμείς για το «εμείς».",
+        "ca": "Utilitza Εμείς per a «nosaltres»."
+      }
     }
   ],
   "prerequisites": [
