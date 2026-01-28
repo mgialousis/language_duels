@@ -90,6 +90,7 @@ flutter:
     - assets/data/grammar/a1/a1_g04_indefinite_articles.json
     - assets/data/grammar/a1/a1_g05_subject_pronouns.json
     - assets/data/grammar/a1/a1_g06_basic_negation.json
+    - assets/data/grammar/a1/a1_g07_possessive_pronouns.json
     - assets/icons/app_icon.png
 
 flutter_launcher_icons:

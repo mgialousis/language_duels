@@ -1,0 +1,149 @@
+{
+  "id": "a1_g07_possessive_pronouns",
+  "category": "pronouns",
+  "subcategory": "possessive",
+  "level": "A1",
+  "order": 7,
+  "title": {
+    "en": "Possessive Pronouns",
+    "el": "Κτητικές Αντωνυμίες",
+    "ca": "Pronoms Possessius"
+  },
+  "description": {
+    "en": "Use short possessive pronouns after nouns in Greek.",
+    "el": "Χρήση των σύντομων κτητικών αντωνυμιών μετά από ουσιαστικά.",
+    "ca": "Usa els pronoms possessius curts després del nom."
+  },
+  "explanation": {
+    "content": {
+      "en": "In Greek, short possessive pronouns usually come after the noun and do not change for gender or number.",
+      "el": "Στα ελληνικά, οι σύντομες κτητικές αντωνυμίες μπαίνουν συνήθως μετά το ουσιαστικό και δεν αλλάζουν σε γένος ή αριθμό.",
+      "ca": "En grec, els pronoms possessius curts solen anar després del nom i no canvien pel gènere o el nombre."
+    },
+    "rules": [
+      {
+        "en": "Singular: μου (my), σου (your), του/της/του (his/her/its)",
+        "el": "Ενικός: μου, σου, του/της/του",
+        "ca": "Singular: μου, σου, του/της/του"
+      },
+      {
+        "en": "Plural: μας (our), σας (your), τους (their)",
+        "el": "Πληθυντικός: μας, σας, τους",
+        "ca": "Plural: μας, σας, τους"
+      },
+      {
+        "en": "Placement: το βιβλίο μου (my book), οι φίλοι τους (their friends)",
+        "el": "Θέση: το βιβλίο μου, οι φίλοι τους",
+        "ca": "Posicio: το βιβλίο μου, οι φίλοι τους"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Short Possessive Pronouns",
+        "el": "Σύντομες Κτητικές Αντωνυμίες",
+        "ca": "Pronoms Possessius Curts"
+      },
+      "columnHeaders": ["Singular", "Plural"],
+      "rowHeaders": ["1st", "2nd", "3rd"],
+      "cells": [
+        [
+          {"greek": "μου", "romanization": "mou", "translation": "my"},
+          {"greek": "μας", "romanization": "mas", "translation": "our"}
+        ],
+        [
+          {"greek": "σου", "romanization": "sou", "translation": "your"},
+          {"greek": "σας", "romanization": "sas", "translation": "your (pl)"}
+        ],
+        [
+          {"greek": "του/της/του", "romanization": "tou/tis/tou", "translation": "his/her/its"},
+          {"greek": "τους", "romanization": "tous", "translation": "their"}
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_701",
+      "greek": "Το βιβλίο μου είναι εδώ.",
+      "romanization": "To vivlio mou einai edo.",
+      "catalan": "El meu llibre es aquí.",
+      "englishLiteral": "My book is here.",
+      "highlights": [
+        {"startIndex": 10, "endIndex": 12, "explanation": "Possessive pronoun"}
+      ]
+    },
+    {
+      "id": "ex_702",
+      "greek": "Οι φίλοι τους είναι καλοί.",
+      "romanization": "Oi filoi tous einai kaloi.",
+      "catalan": "Els seus amics són bons.",
+      "englishLiteral": "Their friends are good.",
+      "highlights": [
+        {"startIndex": 9, "endIndex": 12, "explanation": "Possessive pronoun"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_701",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτό είναι το σπίτι ____.",
+      "promptRomanization": "Afto einai to spiti ____. ",
+      "correctAnswer": "μου",
+      "acceptableAnswers": ["μου"],
+      "explanation": {
+        "en": "Use μου for 'my' after the noun.",
+        "el": "Χρησιμοποίησε μου για το «δικό μου».",
+        "ca": "Usa μου per a «el meu». "
+      }
+    },
+    {
+      "id": "ex_mc_701",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "Το αυτοκίνητο ____ είναι μεγάλο.",
+      "promptRomanization": "To aftokinito ____ einai megalo.",
+      "correctAnswer": "σου",
+      "options": ["μου", "σου", "μας"],
+      "acceptableAnswers": ["σου"],
+      "explanation": {
+        "en": "Use σου for 'your' singular.",
+        "el": "Χρησιμοποίησε σου για το «δικό σου».",
+        "ca": "Usa σου per a «el teu»."
+      }
+    },
+    {
+      "id": "ex_match_701",
+      "type": "matching",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Match the Greek pronoun with the English meaning",
+        "el": "Ταίριαξε την αντωνυμία με τη σημασία",
+        "ca": "Relaciona el pronom amb el significat"
+      },
+      "prompt": "Σύνδεσε κάθε αντωνυμία.",
+      "promptRomanization": "Syndese kathe antonymia.",
+      "correctAnswer": "",
+      "pairs": [
+        {"left": "μου", "right": "my"},
+        {"left": "σας", "right": "your (pl)"},
+        {"left": "τους", "right": "their"}
+      ]
+    }
+  ],
+  "prerequisites": ["a1_g05_subject_pronouns"],
+  "tags": ["pronouns", "possessive"]
+}

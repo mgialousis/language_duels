@@ -51,6 +51,13 @@
           "category": "negation",
           "order": 6,
           "prerequisites": ["a1_g01_verb_to_be", "a1_g02_verb_to_have"]
+        },
+        {
+          "id": "a1_g07_possessive_pronouns",
+          "file": "a1/a1_g07_possessive_pronouns.json",
+          "category": "pronouns",
+          "order": 7,
+          "prerequisites": ["a1_g05_subject_pronouns"]
         }
       ]
     }
