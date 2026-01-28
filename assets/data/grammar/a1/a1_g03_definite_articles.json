@@ -1,0 +1,147 @@
+{
+  "id": "a1_g03_definite_articles",
+  "category": "articles",
+  "subcategory": "definite",
+  "level": "A1",
+  "order": 3,
+  "title": {
+    "en": "Definite Articles (ο/η/το)",
+    "el": "Οριστικά Άρθρα (ο/η/το)",
+    "ca": "Articles Definits (ο/η/το)"
+  },
+  "description": {
+    "en": "Learn how Greek definite articles change by gender",
+    "el": "Μάθε πώς αλλάζουν τα οριστικά άρθρα ανά γένος",
+    "ca": "Aprèn com canvien els articles definits segons el gènere"
+  },
+  "explanation": {
+    "content": {
+      "en": "Greek nouns have grammatical gender. The definite article changes to match the noun.",
+      "el": "Τα ουσιαστικά στα ελληνικά έχουν γένος. Το άρθρο αλλάζει για να ταιριάζει.",
+      "ca": "Els substantius grecs tenen gènere. L'article canvia per concordar."
+    },
+    "rules": [
+      {
+        "en": "Masculine: ο (singular), οι (plural)",
+        "el": "Αρσενικό: ο (ενικός), οι (πληθυντικός)",
+        "ca": "Masculí: ο (singular), οι (plural)"
+      },
+      {
+        "en": "Feminine: η (singular), οι (plural)",
+        "el": "Θηλυκό: η (ενικός), οι (πληθυντικός)",
+        "ca": "Femení: η (singular), οι (plural)"
+      },
+      {
+        "en": "Neuter: το (singular), τα (plural)",
+        "el": "Ουδέτερο: το (ενικός), τα (πληθυντικός)",
+        "ca": "Neutre: το (singular), τα (plural)"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Definite Articles",
+        "el": "Οριστικά Άρθρα",
+        "ca": "Articles Definits"
+      },
+      "columnHeaders": ["Masculine", "Feminine", "Neuter"],
+      "rowHeaders": ["Singular", "Plural"],
+      "cells": [
+        [
+          {"greek": "ο", "romanization": "o", "translation": "the (m)"},
+          {"greek": "η", "romanization": "i", "translation": "the (f)"},
+          {"greek": "το", "romanization": "to", "translation": "the (n)"}
+        ],
+        [
+          {"greek": "οι", "romanization": "i", "translation": "the (m pl)"},
+          {"greek": "οι", "romanization": "i", "translation": "the (f pl)"},
+          {"greek": "τα", "romanization": "ta", "translation": "the (n pl)"}
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_301",
+      "greek": "Ο άντρας είναι εδώ.",
+      "romanization": "O antras ine edo.",
+      "catalan": "L'home és aquí.",
+      "englishLiteral": "The man is here.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 1, "explanation": "Masculine singular"}
+      ]
+    },
+    {
+      "id": "ex_302",
+      "greek": "Το παιδί είναι μικρό.",
+      "romanization": "To pedi ine mikro.",
+      "catalan": "El nen és petit.",
+      "englishLiteral": "The child is small.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 2, "explanation": "Neuter singular"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_301",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ γάτα είναι στο σπίτι.",
+      "promptRomanization": "____ gata ine sto spiti.",
+      "correctAnswer": "Η",
+      "acceptableAnswers": ["η"],
+      "explanation": {
+        "en": "γάτα is feminine, so use η.",
+        "el": "Η γάτα είναι θηλυκό, άρα βάζουμε η.",
+        "ca": "γάτα és femení, per tant usem η."
+      }
+    },
+    {
+      "id": "ex_mc_301",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct article",
+        "el": "Διάλεξε το σωστό άρθρο",
+        "ca": "Tria l'article correcte"
+      },
+      "prompt": "____ παιδί κοιμάται.",
+      "promptRomanization": "____ pedi kimatai.",
+      "correctAnswer": "Το",
+      "options": ["Ο", "Η", "Το"],
+      "acceptableAnswers": ["το"],
+      "explanation": {
+        "en": "παιδί is neuter, so use το.",
+        "el": "Το παιδί είναι ουδέτερο, άρα το.",
+        "ca": "παιδί és neutre, per tant το."
+      }
+    },
+    {
+      "id": "ex_match_301",
+      "type": "matching",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Match the noun with the correct article",
+        "el": "Ταίριαξε το ουσιαστικό με το σωστό άρθρο",
+        "ca": "Relaciona el substantiu amb l'article correcte"
+      },
+      "prompt": "Σύνδεσε κάθε ουσιαστικό με το άρθρο.",
+      "promptRomanization": "Syndese kathe ousiastiko me to arthro.",
+      "correctAnswer": "",
+      "pairs": [
+        {"left": "άντρας", "right": "ο"},
+        {"left": "γυναίκα", "right": "η"},
+        {"left": "παιδί", "right": "το"}
+      ]
+    }
+  ],
+  "prerequisites": ["a1_g01_verb_to_be"],
+  "tags": ["articles", "definite", "gender"]
+}

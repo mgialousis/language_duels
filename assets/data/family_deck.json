@@ -16,7 +16,7 @@
     "el": "Μέλη οικογένειας και απλές φράσεις",
     "ca": "Membres de la família i frases simples"
   },
-  "itemCount": 16,
+  "itemCount": 26,
   "items": [
     {
       "id": "fam_001",
@@ -541,6 +541,196 @@
           }
         }
       ]
+    },
+    {
+      "id": "fam_017",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "παππούς",
+        "romanization": "pappous",
+        "phonetic": "pah-POOS"
+      },
+      "catalan": {
+        "text": "avi",
+        "phonetic": "AH-vee"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_018",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "γιαγιά",
+        "romanization": "giagia",
+        "phonetic": "yah-YAH"
+      },
+      "catalan": {
+        "text": "àvia",
+        "phonetic": "AH-vyah"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_019",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "θείος",
+        "romanization": "theios",
+        "phonetic": "THEE-os"
+      },
+      "catalan": {
+        "text": "oncle",
+        "phonetic": "ON-kluh"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_020",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "θεία",
+        "romanization": "theia",
+        "phonetic": "THEE-ah"
+      },
+      "catalan": {
+        "text": "tia",
+        "phonetic": "TEE-ah"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_021",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "ξάδερφος",
+        "romanization": "xaderfos",
+        "phonetic": "KSAH-der-fos"
+      },
+      "catalan": {
+        "text": "cosí",
+        "phonetic": "koh-ZEE"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_022",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "ξαδέρφη",
+        "romanization": "xaderfi",
+        "phonetic": "ksa-THER-fee"
+      },
+      "catalan": {
+        "text": "cosina",
+        "phonetic": "koh-ZEE-nah"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_023",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "σύζυγος",
+        "romanization": "syzygos",
+        "phonetic": "SEE-zee-gos"
+      },
+      "catalan": {
+        "text": "cònjuge",
+        "phonetic": "kon-JOO-juh"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_024",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "ανιψιός",
+        "romanization": "anipsios",
+        "phonetic": "ah-neep-SEE-os"
+      },
+      "catalan": {
+        "text": "nebot",
+        "phonetic": "neh-BOT"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_025",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "ανιψιά",
+        "romanization": "anipsia",
+        "phonetic": "ah-neep-SYA"
+      },
+      "catalan": {
+        "text": "neboda",
+        "phonetic": "neh-BOH-dah"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "fam_026",
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "εγγονός",
+        "romanization": "eggonos",
+        "phonetic": "eg-go-NOS"
+      },
+      "catalan": {
+        "text": "nét",
+        "phonetic": "NET"
+      },
+      "tags": [
+        "family"
+      ],
+      "formalityLevel": "neutral"
     }
   ],
   "metadata": {

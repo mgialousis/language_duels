@@ -4,12 +4,13 @@
 **Created:** 2026-01-27
 **Duration:** 2-4 weeks
 **Prerequisites:** Phase 1 (Polish & Analytics) - can run in parallel
-**Status:** Planning
+**Status:** In Progress (features implemented; QA pending)
 
 ---
 
 ## Table of Contents
 
+0. [Implementation Status](#0-implementation-status)
 1. [Overview & Goals](#1-overview--goals)
 2. [Feature Specifications](#2-feature-specifications)
 3. [Data Models](#3-data-models)
@@ -20,6 +21,20 @@
 8. [Migration & Rollout](#8-migration--rollout)
 
 ---
+
+## 0. Implementation Status
+
+**As of:** 2026-01-27
+
+- [x] Solo Hub / Setup / Practice / Results screens
+- [x] SRS Review + Weak Words flow
+- [x] Progress dashboard + recent sessions on Solo Hub
+- [x] Solo History screen + route
+- [x] Phrase Builder + Mixed modes in Solo Practice
+- [x] Unit/integration tests for core solo flow
+- [x] Widget tests for all solo screens
+- [ ] Manual QA checklist pass
+- [ ] Docs/README final update
 
 ## 1. Overview & Goals
 
@@ -197,7 +212,7 @@ part 'learner_profile.g.dart';
 @HiveType(typeId: 20)
 class LearnerProfile extends Equatable {
   @HiveField(0)
-  final String oderId; // Unique identifier (local UUID or future user ID)
+  final String ownerId; // Unique identifier (local UUID or future user ID)
 
   @HiveField(1)
   final DateTime createdAt;
@@ -218,7 +233,7 @@ class LearnerProfile extends Equatable {
   final Map<String, DeckProgress> deckProgress; // deckId -> progress
 
   const LearnerProfile({
-    required this.oderId,
+    required this.ownerId,
     required this.createdAt,
     this.totalReviews = 0,
     this.currentStreak = 0,
@@ -229,7 +244,7 @@ class LearnerProfile extends Equatable {
 
   factory LearnerProfile.create() {
     return LearnerProfile(
-      oderId: DateTime.now().millisecondsSinceEpoch.toString(),
+      ownerId: DateTime.now().millisecondsSinceEpoch.toString(),
       createdAt: DateTime.now(),
     );
   }
@@ -252,7 +267,7 @@ class LearnerProfile extends Equatable {
   }
 
   LearnerProfile copyWith({
-    String? oderId,
+    String? ownerId,
     DateTime? createdAt,
     int? totalReviews,
     int? currentStreak,
@@ -261,7 +276,7 @@ class LearnerProfile extends Equatable {
     Map<String, DeckProgress>? deckProgress,
   }) {
     return LearnerProfile(
-      oderId: oderId ?? this.oderId,
+      ownerId: ownerId ?? this.ownerId,
       createdAt: createdAt ?? this.createdAt,
       totalReviews: totalReviews ?? this.totalReviews,
       currentStreak: currentStreak ?? this.currentStreak,
@@ -273,7 +288,7 @@ class LearnerProfile extends Equatable {
 
   @override
   List<Object?> get props => [
-    oderId, createdAt, totalReviews, currentStreak,
+    ownerId, createdAt, totalReviews, currentStreak,
     lastPracticeDate, longestStreak, deckProgress
   ];
 }
@@ -393,6 +408,12 @@ class SRSItem extends Equatable {
   @HiveField(9)
   final SRSState state;
 
+  @HiveField(10)
+  final int wrongStreak; // Consecutive wrong answers
+
+  @HiveField(11)
+  final int resetCount; // Times interval reset to 1 day
+
   const SRSItem({
     required this.itemId,
     required this.deckId,
@@ -404,6 +425,8 @@ class SRSItem extends Equatable {
     this.totalReviews = 0,
     this.correctReviews = 0,
     this.state = SRSState.newItem,
+    this.wrongStreak = 0,
+    this.resetCount = 0,
   });
 
   factory SRSItem.newItem(String itemId, String deckId) {
@@ -416,9 +439,10 @@ class SRSItem extends Equatable {
     );
   }
 
-  bool get isDue => DateTime.now().isAfter(nextReviewDate);
+  bool get isDue => !DateTime.now().isBefore(nextReviewDate);
 
-  bool get isWeak => easeFactor < 1.8 || repetitions == 0;
+  bool get isWeak =>
+      easeFactor < 1.8 || wrongStreak >= 3 || resetCount >= 2;
 
   bool get isMastered => intervalDays >= 21 && state == SRSState.mastered;
 
@@ -428,7 +452,8 @@ class SRSItem extends Equatable {
   @override
   List<Object?> get props => [
     itemId, deckId, repetitions, easeFactor, intervalDays,
-    nextReviewDate, lastReviewDate, totalReviews, correctReviews, state
+    nextReviewDate, lastReviewDate, totalReviews, correctReviews, state,
+    wrongStreak, resetCount
   ];
 }
 
@@ -452,7 +477,7 @@ enum SRSState {
 // lib/data/models/solo_session.dart
 
 class SoloSession {
-  final String oderId;
+  final String ownerId;
   final String deckId;
   final SoloMode mode;
   final MiniGameType gameType;
@@ -462,7 +487,7 @@ class SoloSession {
   final List<SoloQuestionResult> results;
 
   const SoloSession({
-    required this.oderId,
+    required this.ownerId,
     required this.deckId,
     required this.mode,
     required this.gameType,
@@ -660,6 +685,8 @@ class SRSService {
       totalReviews: item.totalReviews + 1,
       correctReviews: item.correctReviews + (isCorrect ? 1 : 0),
       state: newState,
+      wrongStreak: isCorrect ? 0 : item.wrongStreak + 1,
+      resetCount: isCorrect ? item.resetCount : item.resetCount + 1,
     );
   }
 
@@ -667,6 +694,10 @@ class SRSService {
   int calculateQuality(bool isCorrect, int responseTimeMs, int timerMs) {
     if (!isCorrect) {
       return responseTimeMs == 0 ? 0 : 1; // 0 = timeout, 1 = wrong
+    }
+
+    if (timerMs == 0) {
+      return 2; // Relaxed mode: correct counts as hesitation
     }
 
     // Correct answer - check speed
@@ -1323,10 +1354,11 @@ class MigrationService {
     await _learnerStorage.saveProfile(profile);
 
     // Initialize SRS items for all decks
-    final decks = await _contentRepo.getAllDecks();
-    for (final deck in decks) {
+    final deckInfos = await _contentRepo.listDecks();
+    for (final info in deckInfos) {
+      final deck = await _contentRepo.loadDeck(info.id);
       for (final item in deck.items) {
-        final srsItem = SRSItem.newItem(item.id, deck.id);
+        final srsItem = SRSItem.newItem(item.id, info.id);
         await _srsStorage.saveItem(srsItem);
       }
     }

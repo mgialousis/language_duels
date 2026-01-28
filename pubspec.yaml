@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ^3.10.4
@@ -54,6 +54,9 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
 
+dependency_overrides:
+  path_provider_foundation: 2.5.1
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -78,6 +81,14 @@ flutter:
     - assets/data/travel_instructions_a2_deck.json
     - assets/data/house_cleaning_a2_deck.json
     - assets/data/house_tools_a2_deck.json
+    - assets/data/grammar/
+    - assets/data/grammar/grammar_index.json
+    - assets/data/grammar/a1/a1_g01_verb_to_be.json
+    - assets/data/grammar/a1/a1_g02_verb_to_have.json
+    - assets/data/grammar/a1/a1_g03_definite_articles.json
+    - assets/data/grammar/a1/a1_g04_indefinite_articles.json
+    - assets/data/grammar/a1/a1_g05_subject_pronouns.json
+    - assets/data/grammar/a1/a1_g06_basic_negation.json
     - assets/icons/app_icon.png
 
 flutter_launcher_icons:

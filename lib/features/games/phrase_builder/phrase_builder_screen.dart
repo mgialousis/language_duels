@@ -46,7 +46,9 @@ class _PhraseBuilderScreenState extends ConsumerState<PhraseBuilderScreen>
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    ref.read(phraseBuilderControllerProvider.notifier).reset();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      ref.read(phraseBuilderControllerProvider.notifier).reset();
+    });
   }
 
   @override
@@ -118,9 +120,14 @@ class _PhraseBuilderScreenState extends ConsumerState<PhraseBuilderScreen>
             .read(gameSessionProvider.notifier)
             .completePhraseForPlayer(session.currentPlayer);
         final updated = ref.read(gameSessionProvider);
-        final nextRoute = updated.phraseComplete
-            ? resultsRoute
-            : transitionRoute;
+        if (updated.status == SessionStatus.completed) {
+          if (mounted) {
+            context.go(resultsRoute);
+          }
+          return;
+        }
+        final nextRoute =
+            updated.currentGame == GameType.phrase ? transitionRoute : duelRoute;
         if (mounted) {
           context.go(nextRoute);
         }
@@ -317,7 +324,12 @@ class _PhraseBuilderScreenState extends ConsumerState<PhraseBuilderScreen>
           .read(gameSessionProvider.notifier)
           .completePhraseForPlayer(session.currentPlayer);
       final updated = ref.read(gameSessionProvider);
-      final nextRoute = updated.phraseComplete ? resultsRoute : transitionRoute;
+      if (updated.status == SessionStatus.completed) {
+        context.go(resultsRoute);
+        return;
+      }
+      final nextRoute =
+          updated.currentGame == GameType.phrase ? transitionRoute : duelRoute;
       context.go(nextRoute);
       return;
     }

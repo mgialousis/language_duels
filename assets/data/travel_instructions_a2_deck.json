@@ -13,7 +13,7 @@
     "el": "Συνηθισμένες αλληλεπιδράσεις ταξιδιού: βοήθεια, προβλήματα, κρατήσεις και απλές εξηγήσεις.",
     "ca": "Interaccions habituals de viatge: demanar ajuda, resoldre problemes, reserves i explicacions senzilles."
   },
-  "itemCount": 30,
+  "itemCount": 40,
   "metadata": {
     "tags": [
       "travel",
@@ -1372,6 +1372,166 @@
           }
         }
       ]
+    },
+    {
+      "id": "ta2_031",
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 2,
+      "greek": {
+        "text": "είσοδος",
+        "romanization": "eisodos",
+        "phonetic": "EE-soh-dos"
+      },
+      "catalan": {
+        "text": "entrada",
+        "romanization": "entrada",
+        "phonetic": "en-TRAH-dah"
+      }
+    },
+    {
+      "id": "ta2_032",
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 2,
+      "greek": {
+        "text": "έξοδος",
+        "romanization": "exodos",
+        "phonetic": "EHK-soh-dos"
+      },
+      "catalan": {
+        "text": "sortida",
+        "romanization": "sortida",
+        "phonetic": "sor-TEE-dah"
+      }
+    },
+    {
+      "id": "ta2_033",
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 2,
+      "greek": {
+        "text": "κατεύθυνση",
+        "romanization": "katefthynsi",
+        "phonetic": "kah-tef-THEEN-see"
+      },
+      "catalan": {
+        "text": "direcció",
+        "romanization": "direccio",
+        "phonetic": "dee-rek-SEE-oh"
+      }
+    },
+    {
+      "id": "ta2_034",
+      "type": "vocab",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "παράπονο",
+        "romanization": "parapono",
+        "phonetic": "pah-rah-POH-noh"
+      },
+      "catalan": {
+        "text": "queixa",
+        "romanization": "queixa",
+        "phonetic": "KEH-shah"
+      }
+    },
+    {
+      "id": "ta2_035",
+      "type": "vocab",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "σπασμένο",
+        "romanization": "spasmeno",
+        "phonetic": "spahs-MEH-noh"
+      },
+      "catalan": {
+        "text": "trencat",
+        "romanization": "trencat",
+        "phonetic": "tren-KAHT"
+      }
+    },
+    {
+      "id": "ta2_036",
+      "type": "vocab",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "λάθος",
+        "romanization": "lathos",
+        "phonetic": "LAH-thos"
+      },
+      "catalan": {
+        "text": "error",
+        "romanization": "error",
+        "phonetic": "eh-ROR"
+      }
+    },
+    {
+      "id": "ta2_037",
+      "type": "vocab",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "αλλαγή",
+        "romanization": "allagi",
+        "phonetic": "ah-lah-GHEE"
+      },
+      "catalan": {
+        "text": "canvi",
+        "romanization": "canvi",
+        "phonetic": "KAN-vee"
+      }
+    },
+    {
+      "id": "ta2_038",
+      "type": "vocab",
+      "category": "help",
+      "difficulty": 2,
+      "greek": {
+        "text": "πινακίδα",
+        "romanization": "pinakida",
+        "phonetic": "pee-nah-KEE-dah"
+      },
+      "catalan": {
+        "text": "rètol",
+        "romanization": "retol",
+        "phonetic": "REH-tol"
+      }
+    },
+    {
+      "id": "ta2_039",
+      "type": "vocab",
+      "category": "language",
+      "difficulty": 2,
+      "greek": {
+        "text": "πληροφορίες",
+        "romanization": "plirofories",
+        "phonetic": "plee-roh-fo-REE-es"
+      },
+      "catalan": {
+        "text": "informació",
+        "romanization": "informacio",
+        "phonetic": "in-for-mah-SEE-oh"
+      }
+    },
+    {
+      "id": "ta2_040",
+      "type": "vocab",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "επισκευή",
+        "romanization": "episkevi",
+        "phonetic": "eh-pee-skeh-VEE"
+      },
+      "catalan": {
+        "text": "reparació",
+        "romanization": "reparacio",
+        "phonetic": "reh-pah-rah-SEE-oh"
+      }
     }
   ]
 }

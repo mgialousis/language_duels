@@ -14,12 +14,22 @@ class DuelHubScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final session = ref.watch(gameSessionProvider);
 
-    final nextGameLabel = session.currentGame == GameType.vocab
-        ? 'Vocab Flash Duel'
-        : 'Phrase Builder';
-    final nextRoute = session.currentGame == GameType.vocab
-        ? vocabRoute
-        : phraseRoute;
+    final nextGameLabel = switch (session.currentGame) {
+      GameType.vocab => 'Vocab Flash Duel',
+      GameType.phrase => 'Phrase Builder',
+      GameType.speedRound => 'Speed Round',
+      GameType.matchMadness => 'Match Madness',
+      GameType.spellingBee => 'Spelling Bee',
+      GameType.listening => 'Listening Challenge',
+    };
+    final nextRoute = switch (session.currentGame) {
+      GameType.vocab => vocabRoute,
+      GameType.phrase => phraseRoute,
+      GameType.speedRound => speedRoundRoute,
+      GameType.matchMadness => matchMadnessRoute,
+      GameType.spellingBee => spellingBeeRoute,
+      GameType.listening => listeningRoute,
+    };
 
     return Scaffold(
       appBar: AppBar(title: const Text('Duel Hub')),
@@ -36,9 +46,7 @@ class DuelHubScreen extends ConsumerWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              session.currentGame == GameType.vocab
-                  ? 'Round 1 of 2'
-                  : 'Round 2 of 2',
+              'Round ${session.currentGameIndex + 1} of ${session.gameOrder.length}',
               style: const TextStyle(fontSize: 18),
             ),
             const SizedBox(height: 8),

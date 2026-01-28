@@ -13,7 +13,7 @@
     "el": "Χρήση εργαλείων στο σπίτι: μικροεπισκευές, συναρμολόγηση επίπλων και απλές οδηγίες.",
     "ca": "Ús d’eines a casa: petites reparacions, muntar mobles i donar instruccions senzilles."
   },
-  "itemCount": 30,
+  "itemCount": 40,
   "metadata": {
     "tags": [
       "tools",
@@ -1228,6 +1228,166 @@
           }
         }
       ]
+    },
+    {
+      "id": "td2_031",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "τρυπάνι",
+        "romanization": "trypani",
+        "phonetic": "tree-PAH-nee"
+      },
+      "catalan": {
+        "text": "trepant",
+        "romanization": "trepant",
+        "phonetic": "treh-PAHNT"
+      }
+    },
+    {
+      "id": "td2_032",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "πριόνι",
+        "romanization": "prioni",
+        "phonetic": "pree-OH-nee"
+      },
+      "catalan": {
+        "text": "serra",
+        "romanization": "serra",
+        "phonetic": "SEH-rah"
+      }
+    },
+    {
+      "id": "td2_033",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "μέτρο",
+        "romanization": "metro",
+        "phonetic": "MEH-troh"
+      },
+      "catalan": {
+        "text": "cinta mètrica",
+        "romanization": "cinta mètrica",
+        "phonetic": "SEEN-tah MEH-tree-kah"
+      }
+    },
+    {
+      "id": "td2_034",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "σκάλα",
+        "romanization": "skala",
+        "phonetic": "SKAH-lah"
+      },
+      "catalan": {
+        "text": "escala",
+        "romanization": "escala",
+        "phonetic": "es-KAH-lah"
+      }
+    },
+    {
+      "id": "td2_035",
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "κόλλα",
+        "romanization": "kolla",
+        "phonetic": "KOH-lah"
+      },
+      "catalan": {
+        "text": "cola",
+        "romanization": "cola",
+        "phonetic": "KOH-lah"
+      }
+    },
+    {
+      "id": "td2_036",
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "ταινία",
+        "romanization": "tainia",
+        "phonetic": "teh-NEE-ah"
+      },
+      "catalan": {
+        "text": "cinta",
+        "romanization": "cinta",
+        "phonetic": "SEEN-tah"
+      }
+    },
+    {
+      "id": "td2_037",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "πινέλο",
+        "romanization": "pinelo",
+        "phonetic": "pee-NEH-loh"
+      },
+      "catalan": {
+        "text": "pinzell",
+        "romanization": "pinzell",
+        "phonetic": "peen-ZEHL"
+      }
+    },
+    {
+      "id": "td2_038",
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "ρολό",
+        "romanization": "rolo",
+        "phonetic": "roh-LOH"
+      },
+      "catalan": {
+        "text": "rodet",
+        "romanization": "rodet",
+        "phonetic": "roh-DET"
+      }
+    },
+    {
+      "id": "td2_039",
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "βερνίκι",
+        "romanization": "verniki",
+        "phonetic": "ver-NEE-kee"
+      },
+      "catalan": {
+        "text": "vernís",
+        "romanization": "vernis",
+        "phonetic": "ver-NEES"
+      }
+    },
+    {
+      "id": "td2_040",
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "γυαλόχαρτο",
+        "romanization": "gyaloharto",
+        "phonetic": "yah-LOH-har-toh"
+      },
+      "catalan": {
+        "text": "paper de vidre",
+        "romanization": "paper de vidre",
+        "phonetic": "pah-PER deh VEE-dreh"
+      }
     }
   ]
 }

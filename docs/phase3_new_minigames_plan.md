@@ -4,7 +4,7 @@
 **Created:** 2026-01-27
 **Duration:** 3-4 weeks
 **Prerequisites:** Phase 1 (Polish), Phase 4 (Audio) for Listening Challenge
-**Status:** Planning
+**Status:** In Progress (duel flow implemented for Speed Round, Match Madness, Spelling Bee, Listening Challenge; listening uses audio fallback)
 
 ---
 

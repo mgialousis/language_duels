@@ -55,7 +55,9 @@ class _VocabFlashScreenState extends ConsumerState<VocabFlashScreen>
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    ref.read(vocabFlashControllerProvider.notifier).reset();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      ref.read(vocabFlashControllerProvider.notifier).reset();
+    });
   }
 
   @override
@@ -152,7 +154,12 @@ class _VocabFlashScreenState extends ConsumerState<VocabFlashScreen>
           .read(gameSessionProvider.notifier)
           .completeVocabForPlayer(session.currentPlayer);
       final updated = ref.read(gameSessionProvider);
-      final nextRoute = updated.vocabComplete ? duelRoute : transitionRoute;
+      if (updated.status == SessionStatus.completed) {
+        context.go(resultsRoute);
+        return;
+      }
+      final nextRoute =
+          updated.currentGame == GameType.vocab ? transitionRoute : duelRoute;
       context.go(nextRoute);
       return;
     }
@@ -172,30 +179,48 @@ class _VocabFlashScreenState extends ConsumerState<VocabFlashScreen>
     final timersEnabled = ref.read(settingsProvider).timersEnabled;
     final controller = ref.read(vocabFlashControllerProvider.notifier);
     deckAsync.whenData((deck) {
-      final currentIndex = _currentIndexForPlayer(session);
+      ref.read(gameSessionProvider.notifier).ensureVocabIds(deck);
+      final refreshedSession = ref.read(gameSessionProvider);
+      final currentIndex = _currentIndexForPlayer(refreshedSession);
       controller.setQuestionIndex(currentIndex);
       if (currentIndex >= _questionsPerPlayer) {
         ref
             .read(gameSessionProvider.notifier)
             .completeVocabForPlayer(session.currentPlayer);
         final updated = ref.read(gameSessionProvider);
-        final nextRoute = updated.vocabComplete ? duelRoute : transitionRoute;
+        if (updated.status == SessionStatus.completed) {
+          if (mounted) {
+            context.go(resultsRoute);
+          }
+          return;
+        }
+        final nextRoute =
+            updated.currentGame == GameType.vocab ? transitionRoute : duelRoute;
         if (mounted) {
           context.go(nextRoute);
         }
         return;
       }
-      final ids = session.currentPlayer == 1
-          ? session.vocabPlayerOneIds
-          : session.vocabPlayerTwoIds;
+      final ids = refreshedSession.currentPlayer == 1
+          ? refreshedSession.vocabPlayerOneIds
+          : refreshedSession.vocabPlayerTwoIds;
+      final itemsById = {
+        for (final item in deck.items) item.id: item,
+      };
       final questionItems = ids
-          .map((id) => deck.items.firstWhere((item) => item.id == id))
+          .map((id) => itemsById[id])
+          .whereType<ContentItem>()
           .toList();
+      if (questionItems.isEmpty) {
+        return;
+      }
       final safeIndex = currentIndex.clamp(0, questionItems.length - 1);
       final current = questionItems[safeIndex];
-      final targetIsGreek = session.currentPlayer == 1
-          ? session.playerOne.direction == LanguageDirection.catalanToGreek
-          : session.playerTwo.direction == LanguageDirection.catalanToGreek;
+      final targetIsGreek = refreshedSession.currentPlayer == 1
+          ? refreshedSession.playerOne.direction ==
+              LanguageDirection.catalanToGreek
+          : refreshedSession.playerTwo.direction ==
+              LanguageDirection.catalanToGreek;
       final options = _buildOptions(
         current,
         deck.vocabularyItems,

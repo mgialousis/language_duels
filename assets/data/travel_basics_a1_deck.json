@@ -13,7 +13,7 @@
     "el": "Απαραίτητες λέξεις και μικρές φράσεις για μετακινήσεις (χαιρετισμοί, οδηγίες, μεταφορά, φαγητό).",
     "ca": "Paraules essencials i frases curtes per moure’t (salutacions, direccions, transport, menjar)."
   },
-  "itemCount": 30,
+  "itemCount": 40,
   "metadata": {
     "tags": [
       "travel",
@@ -812,6 +812,166 @@
           }
         }
       ]
+    },
+    {
+      "id": "tb_031",
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "αεροδρόμιο",
+        "romanization": "aerodromio",
+        "phonetic": "ah-eh-roh-DROH-mee-oh"
+      },
+      "catalan": {
+        "text": "aeroport",
+        "romanization": "aeroport",
+        "phonetic": "ah-eh-roh-PORT"
+      }
+    },
+    {
+      "id": "tb_032",
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "αεροπλάνο",
+        "romanization": "aeroplano",
+        "phonetic": "ah-eh-roh-PLAH-noh"
+      },
+      "catalan": {
+        "text": "avió",
+        "romanization": "avió",
+        "phonetic": "ah-vee-OH"
+      }
+    },
+    {
+      "id": "tb_033",
+      "type": "vocab",
+      "category": "basics",
+      "difficulty": 1,
+      "greek": {
+        "text": "διαβατήριο",
+        "romanization": "diavatirio",
+        "phonetic": "thee-vah-TEE-ree-oh"
+      },
+      "catalan": {
+        "text": "passaport",
+        "romanization": "passaport",
+        "phonetic": "pah-sah-PORT"
+      }
+    },
+    {
+      "id": "tb_034",
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "χάρτης",
+        "romanization": "chartis",
+        "phonetic": "HAR-tees"
+      },
+      "catalan": {
+        "text": "mapa",
+        "romanization": "mapa",
+        "phonetic": "MAH-pah"
+      }
+    },
+    {
+      "id": "tb_035",
+      "type": "vocab",
+      "category": "hotel",
+      "difficulty": 1,
+      "greek": {
+        "text": "κράτηση",
+        "romanization": "kratisi",
+        "phonetic": "KRAH-tee-see"
+      },
+      "catalan": {
+        "text": "reserva",
+        "romanization": "reserva",
+        "phonetic": "reh-ZER-vah"
+      }
+    },
+    {
+      "id": "tb_036",
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "βαλίτσα",
+        "romanization": "valitsa",
+        "phonetic": "vah-LEE-tsah"
+      },
+      "catalan": {
+        "text": "maleta",
+        "romanization": "maleta",
+        "phonetic": "mah-LEH-tah"
+      }
+    },
+    {
+      "id": "tb_037",
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "αποσκευές",
+        "romanization": "aposkeves",
+        "phonetic": "ah-poh-skeh-VES"
+      },
+      "catalan": {
+        "text": "equipatge",
+        "romanization": "equipatge",
+        "phonetic": "eh-kee-PAHT-juh"
+      }
+    },
+    {
+      "id": "tb_038",
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "πλοίο",
+        "romanization": "ploio",
+        "phonetic": "PLOH-ee-oh"
+      },
+      "catalan": {
+        "text": "vaixell",
+        "romanization": "vaixell",
+        "phonetic": "bye-SHEHL"
+      }
+    },
+    {
+      "id": "tb_039",
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "παραλία",
+        "romanization": "paralia",
+        "phonetic": "pah-rah-LEE-ah"
+      },
+      "catalan": {
+        "text": "platja",
+        "romanization": "platja",
+        "phonetic": "PLAHT-jah"
+      }
+    },
+    {
+      "id": "tb_040",
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "μουσείο",
+        "romanization": "mouseio",
+        "phonetic": "moo-SEH-oh"
+      },
+      "catalan": {
+        "text": "museu",
+        "romanization": "museu",
+        "phonetic": "moo-ZEU"
+      }
     }
   ]
 }

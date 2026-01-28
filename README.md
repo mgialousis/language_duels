@@ -1,16 +1,36 @@
-# language_duels
+# Language Duels
 
-Language Duels Flutter project.
+Hot-seat language duel game (Greek ↔ Catalan) with solo practice and spaced repetition. Built with Flutter + Riverpod + Hive.
 
-## Getting Started
+## Features
+- Duel mode with Vocab Flash + Phrase Builder mini-games
+- Solo practice (Timed, Relaxed, SRS Review) + Mixed mode
+- Grammar & Theory module with lessons + exercises (A1)
+- Progress dashboard, weak words review, and practice history
+- Local deck content stored in `assets/data`
 
-This project is a starting point for a Flutter application.
+## Run
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Tests
+```bash
+flutter test
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Content Decks
+- Deck JSON lives in `assets/data/*.json`
+- Add new decks and update `pubspec.yaml` assets + `ContentRepository` deck map
+- Run validation: `dart run scripts/validate_decks.dart`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Solo + Grammar Data
+- Solo data uses Hive boxes: `learner_profile`, `srs_items`, `solo_history`
+- Grammar progress uses `grammar_progress` and feeds SRS as `grammar:<lessonId>`
+- Settings provides “Clear deck cache” and “Reset solo progress”
+
+## Project Structure
+- `lib/features` screens and flows
+- `lib/data` models, repositories, providers, services
+- `lib/shared` reusable widgets and animations

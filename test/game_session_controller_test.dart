@@ -149,7 +149,7 @@ void main() {
     expect(state.phrasePlayerTwoScore, 6);
   });
 
-  test('completing phrase rounds records match history', () async {
+  test('completing all rounds records match history', () async {
     final sessionStorage = FakeSessionStorage();
     final historyStorage = FakeHistoryRepository();
     final container = ProviderContainer(
@@ -169,10 +169,19 @@ void main() {
       playerTwoDirection: LanguageDirection.catalanToGreek,
     );
 
+    // Complete all 6 games for both players
     controller.completeVocabForPlayer(1);
     controller.completeVocabForPlayer(2);
     controller.completePhraseForPlayer(1);
     controller.completePhraseForPlayer(2);
+    controller.completeSpeedRoundForPlayer(1);
+    controller.completeSpeedRoundForPlayer(2);
+    controller.completeMatchMadnessForPlayer(1);
+    controller.completeMatchMadnessForPlayer(2);
+    controller.completeSpellingBeeForPlayer(1);
+    controller.completeSpellingBeeForPlayer(2);
+    controller.completeListeningForPlayer(1);
+    controller.completeListeningForPlayer(2);
 
     final state = container.read(gameSessionProvider);
     expect(state.status, SessionStatus.completed);

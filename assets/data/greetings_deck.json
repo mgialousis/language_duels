@@ -16,7 +16,7 @@
     "el": "Βασικοί χαιρετισμοί, αποχαιρετισμοί, ευγένειες και κοινές ερωτήσεις",
     "ca": "Salutacions basiques, comiats, cortesies i preguntes comunes"
   },
-  "itemCount": 30,
+  "itemCount": 40,
   "items": [
     {
       "id": "greet_001",
@@ -1067,6 +1067,197 @@
           }
         }
       ]
+    },
+    {
+      "id": "greet_031",
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλό απόγευμα",
+        "romanization": "Kalo apogevma",
+        "phonetic": "kah-LOH ah-poh-GEV-mah"
+      },
+      "catalan": {
+        "text": "Bona tarda",
+        "phonetic": "BOH-nah TAR-dah"
+      },
+      "tags": [
+        "afternoon",
+        "greeting"
+      ],
+      "formalityLevel": "formal"
+    },
+    {
+      "id": "greet_032",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Χρόνια πολλά",
+        "romanization": "Chronia polla",
+        "phonetic": "HROH-nyah poh-LAH"
+      },
+      "catalan": {
+        "text": "Per molts anys",
+        "phonetic": "per MOLTS ANS"
+      },
+      "tags": [
+        "celebration"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_033",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλή τύχη",
+        "romanization": "Kali tychi",
+        "phonetic": "kah-LEE TEE-hee"
+      },
+      "catalan": {
+        "text": "Bona sort",
+        "phonetic": "BOH-nah SORT"
+      },
+      "tags": [
+        "wish"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_034",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλή όρεξη",
+        "romanization": "Kali orexi",
+        "phonetic": "kah-LEE OH-reh-ksee"
+      },
+      "catalan": {
+        "text": "Bon profit",
+        "phonetic": "bon pro-FEET"
+      },
+      "tags": [
+        "food"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_035",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Συγχαρητήρια",
+        "romanization": "Syncharitiria",
+        "phonetic": "seen-hah-ree-TEE-ree-ah"
+      },
+      "catalan": {
+        "text": "Felicitats",
+        "phonetic": "feh-lee-see-TAHTS"
+      },
+      "tags": [
+        "congratulations"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_036",
+      "type": "vocabulary",
+      "category": "farewell",
+      "difficulty": 1,
+      "greek": {
+        "text": "Να είστε καλά",
+        "romanization": "Na iste kala",
+        "phonetic": "nah EE-steh kah-LAH"
+      },
+      "catalan": {
+        "text": "Que vagi bé",
+        "phonetic": "keh VAH-jee BEH"
+      },
+      "tags": [
+        "farewell"
+      ],
+      "formalityLevel": "formal"
+    },
+    {
+      "id": "greet_037",
+      "type": "vocabulary",
+      "category": "farewell",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλή συνέχεια",
+        "romanization": "Kali synecheia",
+        "phonetic": "kah-LEE see-NEH-hee-ah"
+      },
+      "catalan": {
+        "text": "Que continuï bé",
+        "phonetic": "keh kon-tee-NEW-ee BEH"
+      },
+      "tags": [
+        "farewell"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_038",
+      "type": "vocabulary",
+      "category": "farewell",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλό ταξίδι",
+        "romanization": "Kalo taxidi",
+        "phonetic": "kah-LOH tahk-SEE-thee"
+      },
+      "catalan": {
+        "text": "Bon viatge",
+        "phonetic": "bon vee-AHZH"
+      },
+      "tags": [
+        "travel"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_039",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλές γιορτές",
+        "romanization": "Kales giortes",
+        "phonetic": "kah-LES YOR-tes"
+      },
+      "catalan": {
+        "text": "Bones festes",
+        "phonetic": "BOH-nes FES-tes"
+      },
+      "tags": [
+        "holiday"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "greet_040",
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Χαίρω πολύ",
+        "romanization": "Chairo poly",
+        "phonetic": "HEH-roh poh-LEE"
+      },
+      "catalan": {
+        "text": "Molt de gust",
+        "phonetic": "molt de GOOST"
+      },
+      "tags": [
+        "meeting"
+      ],
+      "formalityLevel": "neutral"
     }
   ],
   "metadata": {

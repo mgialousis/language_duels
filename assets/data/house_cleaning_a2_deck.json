@@ -822,6 +822,166 @@
           }
         }
       ]
+    },
+    {
+      "id": "hc2_021",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "σφουγγάρι",
+        "romanization": "sfoungari",
+        "phonetic": "sfoo-GAH-ree"
+      },
+      "catalan": {
+        "text": "esponja",
+        "romanization": "esponja",
+        "phonetic": "es-PON-jah"
+      }
+    },
+    {
+      "id": "hc2_022",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "κουβάς",
+        "romanization": "kouvas",
+        "phonetic": "koo-VAHS"
+      },
+      "catalan": {
+        "text": "cubell",
+        "romanization": "cubell",
+        "phonetic": "koo-BEHLL"
+      }
+    },
+    {
+      "id": "hc2_023",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "σκούπα",
+        "romanization": "skoupa",
+        "phonetic": "SKOO-pah"
+      },
+      "catalan": {
+        "text": "escombra",
+        "romanization": "escombra",
+        "phonetic": "es-KOM-brah"
+      }
+    },
+    {
+      "id": "hc2_024",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "πανί",
+        "romanization": "pani",
+        "phonetic": "pah-NEE"
+      },
+      "catalan": {
+        "text": "drap",
+        "romanization": "drap",
+        "phonetic": "DRAP"
+      }
+    },
+    {
+      "id": "hc2_025",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "σκόνη",
+        "romanization": "skoni",
+        "phonetic": "SKOH-nee"
+      },
+      "catalan": {
+        "text": "pols",
+        "romanization": "pols",
+        "phonetic": "POLSS"
+      }
+    },
+    {
+      "id": "hc2_026",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "σαπούνι",
+        "romanization": "sapouni",
+        "phonetic": "sah-POO-nee"
+      },
+      "catalan": {
+        "text": "sabó",
+        "romanization": "sabo",
+        "phonetic": "sah-BOH"
+      }
+    },
+    {
+      "id": "hc2_027",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "καθαριστικό",
+        "romanization": "katharistiko",
+        "phonetic": "kah-thah-rees-TEE-koh"
+      },
+      "catalan": {
+        "text": "netejador",
+        "romanization": "netejador",
+        "phonetic": "neh-teh-jah-DOR"
+      }
+    },
+    {
+      "id": "hc2_028",
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "γάντια",
+        "romanization": "gantia",
+        "phonetic": "GAHN-tyah"
+      },
+      "catalan": {
+        "text": "guants",
+        "romanization": "guants",
+        "phonetic": "GWAHNTs"
+      }
+    },
+    {
+      "id": "hc2_029",
+      "type": "vocab",
+      "category": "house",
+      "difficulty": 2,
+      "greek": {
+        "text": "παράθυρο",
+        "romanization": "parathyro",
+        "phonetic": "pah-RAH-thee-roh"
+      },
+      "catalan": {
+        "text": "finestra",
+        "romanization": "finestra",
+        "phonetic": "fee-NES-trah"
+      }
+    },
+    {
+      "id": "hc2_030",
+      "type": "vocab",
+      "category": "house",
+      "difficulty": 2,
+      "greek": {
+        "text": "πάτωμα",
+        "romanization": "patoma",
+        "phonetic": "PAH-toh-mah"
+      },
+      "catalan": {
+        "text": "terra",
+        "romanization": "terra",
+        "phonetic": "TEH-rah"
+      }
     }
   ]
 }

@@ -16,7 +16,7 @@
     "el": "Κοινά χρώματα και απλές φράσεις",
     "ca": "Colors comuns i frases simples"
   },
-  "itemCount": 16,
+  "itemCount": 26,
   "items": [
     {
       "id": "col_001",
@@ -541,6 +541,200 @@
           }
         }
       ]
+    },
+    {
+      "id": "col_017",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "γκρι",
+        "romanization": "gri",
+        "phonetic": "gree"
+      },
+      "catalan": {
+        "text": "gris",
+        "phonetic": "grees"
+      },
+      "tags": [
+        "basic",
+        "color"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_018",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "χρυσό",
+        "romanization": "chryso",
+        "phonetic": "khree-SOH"
+      },
+      "catalan": {
+        "text": "daurat",
+        "phonetic": "dah-oo-RAHT"
+      },
+      "tags": [
+        "color",
+        "metallic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_019",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "ασημί",
+        "romanization": "asimi",
+        "phonetic": "ah-see-MEE"
+      },
+      "catalan": {
+        "text": "platejat",
+        "phonetic": "plah-teh-JAHT"
+      },
+      "tags": [
+        "color",
+        "metallic"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_020",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "μπορντό",
+        "romanization": "borndo",
+        "phonetic": "bor-NDOH"
+      },
+      "catalan": {
+        "text": "bordeus",
+        "phonetic": "bor-DEWS"
+      },
+      "tags": [
+        "color"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_021",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "γαλάζιο",
+        "romanization": "galazio",
+        "phonetic": "gah-LAH-zee-oh"
+      },
+      "catalan": {
+        "text": "blau cel",
+        "phonetic": "blow SELL"
+      },
+      "tags": [
+        "color",
+        "light"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_022",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "μπεζ",
+        "romanization": "bez",
+        "phonetic": "behz"
+      },
+      "catalan": {
+        "text": "beix",
+        "phonetic": "baysh"
+      },
+      "tags": [
+        "color"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_023",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "χακί",
+        "romanization": "chaki",
+        "phonetic": "hah-KEE"
+      },
+      "catalan": {
+        "text": "caqui",
+        "phonetic": "KAH-kee"
+      },
+      "tags": [
+        "color"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_024",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "τιρκουάζ",
+        "romanization": "tirkuaz",
+        "phonetic": "teer-koo-AHZ"
+      },
+      "catalan": {
+        "text": "turquesa",
+        "phonetic": "toor-KEH-zah"
+      },
+      "tags": [
+        "color"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_025",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "βυσσινί",
+        "romanization": "vissini",
+        "phonetic": "vee-see-NEE"
+      },
+      "catalan": {
+        "text": "granat",
+        "phonetic": "grah-NAHT"
+      },
+      "tags": [
+        "color"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "col_026",
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "ιβουάρ",
+        "romanization": "ivouar",
+        "phonetic": "ee-voo-AR"
+      },
+      "catalan": {
+        "text": "ivori",
+        "phonetic": "ee-VOH-ree"
+      },
+      "tags": [
+        "color"
+      ],
+      "formalityLevel": "neutral"
     }
   ],
   "metadata": {

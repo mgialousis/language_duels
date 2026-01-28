@@ -1,0 +1,177 @@
+{
+  "id": "a1_g02_verb_to_have",
+  "category": "verb_conjugation",
+  "subcategory": "present_tense",
+  "level": "A1",
+  "order": 2,
+  "title": {
+    "en": "The Verb \"To Have\" (Έχω)",
+    "el": "Το Ρήμα «Έχω»",
+    "ca": "El Verb \"Tenir\" (Έχω)"
+  },
+  "description": {
+    "en": "Learn to conjugate the verb έχω and talk about possession",
+    "el": "Μάθε να κλίνεις το ρήμα έχω για κατοχή",
+    "ca": "Aprèn a conjugar el verb έχω per parlar de possessió"
+  },
+  "explanation": {
+    "content": {
+      "en": "The verb **έχω** (to have) is used to talk about possession, family, and objects you own.",
+      "el": "Το ρήμα **έχω** χρησιμοποιείται για να μιλάμε για κατοχή, οικογένεια και αντικείμενα.",
+      "ca": "El verb **έχω** s'utilitza per parlar de possessió, família i objectes."
+    },
+    "rules": [
+      {
+        "en": "Use έχω for 1st person singular (I have).",
+        "el": "Χρησιμοποίησε έχω για το 1ο ενικό.",
+        "ca": "Utilitza έχω per a la 1a persona singular."
+      },
+      {
+        "en": "Plural forms end in -ουμε, -ετε, -ουν.",
+        "el": "Οι πληθυντικοί τύποι τελειώνουν σε -ουμε, -ετε, -ουν.",
+        "ca": "Els plurals acaben en -ουμε, -ετε, -ουν."
+      }
+    ],
+    "tips": [
+      {
+        "en": "Try simple phrases: Έχω ένα βιβλίο.",
+        "el": "Δοκίμασε απλές φράσεις: Έχω ένα βιβλίο.",
+        "ca": "Prova frases simples: Έχω ένα βιβλίο."
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Present Tense of Έχω",
+        "el": "Ενεστώτας του Έχω",
+        "ca": "Present d'Έχω"
+      },
+      "columnHeaders": ["Singular", "Plural"],
+      "rowHeaders": ["1st Person", "2nd Person", "3rd Person"],
+      "cells": [
+        [
+          {"greek": "έχω", "romanization": "eho", "translation": "I have"},
+          {"greek": "έχουμε", "romanization": "ehume", "translation": "we have"}
+        ],
+        [
+          {"greek": "έχεις", "romanization": "ehis", "translation": "you have"},
+          {"greek": "έχετε", "romanization": "ehete", "translation": "you have (pl/formal)"}
+        ],
+        [
+          {"greek": "έχει", "romanization": "ehi", "translation": "he/she/it has"},
+          {"greek": "έχουν", "romanization": "ehun", "translation": "they have"}
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_201",
+      "greek": "Έχω ένα βιβλίο.",
+      "romanization": "Eho ena vivlio.",
+      "catalan": "Tinc un llibre.",
+      "englishLiteral": "Have a book.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 3, "explanation": "1st person singular"}
+      ]
+    },
+    {
+      "id": "ex_202",
+      "greek": "Έχετε παιδιά;",
+      "romanization": "Ehete paidia?",
+      "catalan": "Teniu fills?",
+      "englishLiteral": "Have you (pl) children?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_201",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ δύο σκύλους.",
+      "promptRomanization": "Emis ____ dyo skylous.",
+      "correctAnswer": "έχουμε",
+      "acceptableAnswers": ["εχουμε"],
+      "explanation": {
+        "en": "Use έχουμε for 1st person plural.",
+        "el": "Χρησιμοποίησε έχουμε για το 1ο πληθυντικό.",
+        "ca": "Utilitza έχουμε per a la 1a persona plural."
+      }
+    },
+    {
+      "id": "ex_mc_201",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τη σωστή μορφή",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτός ____ ένα αυτοκίνητο.",
+      "promptRomanization": "Aftos ____ ena aftokinito.",
+      "correctAnswer": "έχει",
+      "options": ["έχω", "έχεις", "έχει", "έχουν"],
+      "acceptableAnswers": ["εχει"],
+      "explanation": {
+        "en": "Use έχει for 3rd person singular.",
+        "el": "Χρησιμοποίησε έχει για το 3ο ενικό.",
+        "ca": "Utilitza έχει per a la 3a persona singular."
+      }
+    },
+    {
+      "id": "ex_conj_201",
+      "type": "conjugation",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Conjugate έχω in the present tense",
+        "el": "Κλίσε το έχω στον ενεστώτα",
+        "ca": "Conjuga έχω al present"
+      },
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "promptRomanization": "Symplirosse olous tous typous.",
+      "correctAnswer": "",
+      "conjugations": [
+        {"label": "Εγώ", "answer": "έχω", "romanization": "eho", "acceptableAnswers": ["εχω"]},
+        {"label": "Εσύ", "answer": "έχεις", "romanization": "ehis", "acceptableAnswers": ["εχεις"]},
+        {"label": "Αυτός/Αυτή/Αυτό", "answer": "έχει", "romanization": "ehi", "acceptableAnswers": ["εχει"]},
+        {"label": "Εμείς", "answer": "έχουμε", "romanization": "ehume", "acceptableAnswers": ["εχουμε"]},
+        {"label": "Εσείς", "answer": "έχετε", "romanization": "ehete", "acceptableAnswers": ["εχετε"]},
+        {"label": "Αυτοί/Αυτές/Αυτά", "answer": "έχουν", "romanization": "ehun", "acceptableAnswers": ["εχουν"]}
+      ],
+      "explanation": {
+        "en": "Plural forms end in -ουμε, -ετε, -ουν.",
+        "el": "Οι πληθυντικοί τύποι τελειώνουν σε -ουμε, -ετε, -ουν.",
+        "ca": "Els plurals acaben en -ουμε, -ετε, -ουν."
+      }
+    },
+    {
+      "id": "ex_match_201",
+      "type": "matching",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Match the pronoun with the correct form",
+        "el": "Ταίριαξε την αντωνυμία με τον σωστό τύπο",
+        "ca": "Relaciona el pronom amb la forma correcta"
+      },
+      "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα.",
+      "promptRomanization": "Syndese kathe prosopo me to rima.",
+      "correctAnswer": "",
+      "pairs": [
+        {"left": "Εγώ", "right": "έχω"},
+        {"left": "Εσύ", "right": "έχεις"},
+        {"left": "Αυτός/Αυτή/Αυτό", "right": "έχει"},
+        {"left": "Εμείς", "right": "έχουμε"},
+        {"left": "Εσείς", "right": "έχετε"},
+        {"left": "Αυτοί/Αυτές/Αυτά", "right": "έχουν"}
+      ]
+    }
+  ],
+  "prerequisites": ["a1_g01_verb_to_be"],
+  "tags": ["verb", "present", "to_have"]
+}

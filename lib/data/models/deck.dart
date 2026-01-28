@@ -17,6 +17,14 @@ class LocalizedString extends Equatable {
     );
   }
 
+  Map<String, dynamic> toJson() {
+    return {
+      'en': en,
+      'el': el,
+      'ca': ca,
+    };
+  }
+
   String get defaultText => en ?? el ?? ca ?? '';
 
   @override
@@ -51,13 +59,21 @@ class DeckInfo extends Equatable {
   }
 
   factory DeckInfo.fromRoot(Map<String, dynamic> json) {
+    Map<String, dynamic> asStringMap(Object? value) {
+      if (value is Map<String, dynamic>) return value;
+      if (value is Map) {
+        return value.map((key, val) => MapEntry(key.toString(), val));
+      }
+      return const <String, dynamic>{};
+    }
+
     return DeckInfo(
       id: json['deckId'] as String,
       name: LocalizedString.fromJson(
-        (json['deckName'] as Map<String, dynamic>?) ?? {},
+        asStringMap(json['deckName']),
       ),
       description: LocalizedString.fromJson(
-        (json['description'] as Map<String, dynamic>?) ?? {},
+        asStringMap(json['description']),
       ),
       level: json['level'] as String? ?? 'A1',
       itemCount: (json['itemCount'] as int?) ?? 0,
@@ -83,10 +99,19 @@ class Deck extends Equatable {
   factory Deck.fromJson(Map<String, dynamic> json) {
     final itemsJson = json['items'] as List<dynamic>;
     final deckJson = json['deck'] as Map<String, dynamic>?;
+    Map<String, dynamic> asStringMap(Object? value) {
+      if (value is Map<String, dynamic>) return value;
+      if (value is Map) {
+        return value.map((key, val) => MapEntry(key.toString(), val));
+      }
+      return const <String, dynamic>{};
+    }
     return Deck(
-      info: deckJson != null ? DeckInfo.fromJson(deckJson) : DeckInfo.fromRoot(json),
-      items: itemsJson
-          .map((item) => ContentItem.fromJson(item as Map<String, dynamic>))
+      info: deckJson != null
+          ? DeckInfo.fromJson(asStringMap(deckJson))
+          : DeckInfo.fromRoot(json),
+    items: itemsJson
+          .map((item) => ContentItem.fromJson(asStringMap(item)))
           .toList(),
     );
   }

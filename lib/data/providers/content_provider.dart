@@ -20,3 +20,23 @@ final deckProvider = FutureProvider<Deck>((ref) async {
   final deckId = ref.watch(selectedDeckProvider);
   return repo.loadDeck(deckId);
 });
+
+final allDecksProvider = FutureProvider<List<Deck>>((ref) async {
+  final repo = ref.read(contentRepositoryProvider);
+  final infos = await repo.listDecks();
+  final decks = <Deck>[];
+  for (final info in infos) {
+    decks.add(await repo.loadDeck(info.id));
+  }
+  return decks;
+});
+
+final decksByIdsProvider =
+    FutureProvider.family<List<Deck>, List<String>>((ref, ids) async {
+  final repo = ref.read(contentRepositoryProvider);
+  final decks = <Deck>[];
+  for (final id in ids) {
+    decks.add(await repo.loadDeck(id));
+  }
+  return decks;
+});

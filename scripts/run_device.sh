@@ -6,6 +6,8 @@ POSTHOG_KEY=""
 POSTHOG_HOST=""
 POSTHOG_DEBUG=""
 DEVICE_ID=""
+RESET_APP="false"
+BUNDLE_ID="com.languageduels.languageDuels"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
@@ -29,6 +31,10 @@ while [[ $# -gt 0 ]]; do
       POSTHOG_DEBUG="true"
       shift
       ;;
+    --reset-app)
+      RESET_APP="true"
+      shift
+      ;;
     -*)
       echo "Unknown option: $1"
       exit 1
@@ -41,7 +47,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 if [[ -z "${DEVICE_ID}" ]]; then
-  echo "Usage: $(basename "$0") [--debug|--release] [--posthog-key <key>] [--posthog-host <host>] [--posthog-debug] <device-id>"
+  echo "Usage: $(basename "$0") [--debug|--release] [--posthog-key <key>] [--posthog-host <host>] [--posthog-debug] [--reset-app] <device-id>"
   echo "Tip: flutter devices"
   exit 1
 fi
@@ -73,6 +79,14 @@ if [[ -d "ios" ]]; then
   pushd ios >/dev/null
   pod install
   popd >/dev/null
+fi
+
+if [[ "${RESET_APP}" == "true" ]]; then
+  if xcrun simctl list devices | grep -q "${DEVICE_ID}"; then
+    xcrun simctl uninstall "${DEVICE_ID}" "${BUNDLE_ID}" || true
+  else
+    echo "Warning: --reset-app only supports iOS simulators via simctl."
+  fi
 fi
 
 flutter run -d "${DEVICE_ID}" "${MODE_ARGS[@]}" ${DART_DEFINES[@]+"${DART_DEFINES[@]}"}

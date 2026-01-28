@@ -45,6 +45,15 @@ class DeckSelectScreen extends ConsumerWidget {
     final playerTwo = ref.read(playerTwoNameProvider);
     final playerOneDirection = ref.read(playerOneDirectionProvider);
     final playerTwoDirection = ref.read(playerTwoDirectionProvider);
+    final selectedGames = ref.read(selectedGameTypesProvider);
+
+    if (selectedGames.isEmpty) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Select at least one mini-game.')),
+      );
+      return;
+    }
 
     ref
         .read(gameSessionProvider.notifier)
@@ -54,10 +63,45 @@ class DeckSelectScreen extends ConsumerWidget {
           playerTwoName: playerTwo,
           playerOneDirection: playerOneDirection,
           playerTwoDirection: playerTwoDirection,
+          gameOrder: selectedGames,
         );
 
     if (!context.mounted) return;
     context.go(duelRoute);
+  }
+
+  String _labelForGame(GameType type) {
+    switch (type) {
+      case GameType.vocab:
+        return 'Vocab Flash';
+      case GameType.phrase:
+        return 'Phrase Builder';
+      case GameType.speedRound:
+        return 'Speed Round';
+      case GameType.matchMadness:
+        return 'Match Madness';
+      case GameType.spellingBee:
+        return 'Spelling Bee';
+      case GameType.listening:
+        return 'Listening';
+    }
+  }
+
+  IconData _iconForGame(GameType type) {
+    switch (type) {
+      case GameType.vocab:
+        return Icons.flash_on_rounded;
+      case GameType.phrase:
+        return Icons.translate_rounded;
+      case GameType.speedRound:
+        return Icons.timer_rounded;
+      case GameType.matchMadness:
+        return Icons.grid_on_rounded;
+      case GameType.spellingBee:
+        return Icons.spellcheck_rounded;
+      case GameType.listening:
+        return Icons.headphones_rounded;
+    }
   }
 
   @override
@@ -67,6 +111,15 @@ class DeckSelectScreen extends ConsumerWidget {
     final selectedDeck = ref.watch(selectedDeckProvider);
 
     final theme = Theme.of(context);
+    final selectedGames = ref.watch(selectedGameTypesProvider);
+    final gameOptions = [
+      GameType.vocab,
+      GameType.phrase,
+      GameType.speedRound,
+      GameType.matchMadness,
+      GameType.spellingBee,
+      GameType.listening,
+    ];
 
     return Scaffold(
       appBar: AppBar(title: const Text('Select Deck')),
@@ -132,6 +185,33 @@ class DeckSelectScreen extends ConsumerWidget {
                         ),
                       ),
                     ],
+                    const SizedBox(height: 16),
+                    const Text('Mini-games', style: TextStyle(fontSize: 18)),
+                    const SizedBox(height: 8),
+                    ...gameOptions.map(
+                      (game) {
+                        final selected = selectedGames.contains(game);
+                        return CheckboxListTile(
+                          value: selected,
+                          onChanged: (value) {
+                            final updatedSet = {...selectedGames};
+                            if (value == true) {
+                              updatedSet.add(game);
+                            } else {
+                              updatedSet.remove(game);
+                            }
+                            final updated =
+                                gameOptions.where(updatedSet.contains).toList();
+                            ref.read(selectedGameTypesProvider.notifier).state =
+                                updated;
+                          },
+                          activeColor: theme.colorScheme.primary,
+                          title: Text(_labelForGame(game)),
+                          secondary: Icon(_iconForGame(game)),
+                          controlAffinity: ListTileControlAffinity.trailing,
+                        );
+                      },
+                    ),
                   ],
                 ),
                 loading: () => const LoadingState(

@@ -16,7 +16,7 @@
     "el": "Βασικοί αριθμοί και απλές φράσεις μέτρησης",
     "ca": "Nombres bàsics i frases simples de comptatge"
   },
-  "itemCount": 16,
+  "itemCount": 26,
   "items": [
     {
       "id": "num_001",
@@ -522,6 +522,206 @@
           }
         }
       ]
+    },
+    {
+      "id": "num_017",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "δεκαεπτά",
+        "romanization": "dekaepta",
+        "phonetic": "theh-kah-ep-TAH"
+      },
+      "catalan": {
+        "text": "disset",
+        "phonetic": "dee-SET"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_018",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "δεκαοκτώ",
+        "romanization": "dekaokto",
+        "phonetic": "theh-kah-ok-TOH"
+      },
+      "catalan": {
+        "text": "divuit",
+        "phonetic": "dee-VOOT"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_019",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "δεκαεννέα",
+        "romanization": "dekaennea",
+        "phonetic": "theh-kah-en-NEH-ah"
+      },
+      "catalan": {
+        "text": "dinou",
+        "phonetic": "dee-NOH"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_020",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι",
+        "romanization": "ikosi",
+        "phonetic": "EE-koh-see"
+      },
+      "catalan": {
+        "text": "vint",
+        "phonetic": "VEENT"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_021",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι ένα",
+        "romanization": "ikosi ena",
+        "phonetic": "EE-koh-see EH-nah"
+      },
+      "catalan": {
+        "text": "vint-i-u",
+        "phonetic": "VEENT-ee-OO"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_022",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι δύο",
+        "romanization": "ikosi dyo",
+        "phonetic": "EE-koh-see DHEE-oh"
+      },
+      "catalan": {
+        "text": "vint-i-dos",
+        "phonetic": "VEENT-ee-DOHS"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_023",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι τρία",
+        "romanization": "ikosi tria",
+        "phonetic": "EE-koh-see TREE-ah"
+      },
+      "catalan": {
+        "text": "vint-i-tres",
+        "phonetic": "VEENT-ee-TRESS"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_024",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι τέσσερα",
+        "romanization": "ikosi tessera",
+        "phonetic": "EE-koh-see TESS-er-ah"
+      },
+      "catalan": {
+        "text": "vint-i-quatre",
+        "phonetic": "VEENT-ee-KWAH-treh"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_025",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι πέντε",
+        "romanization": "ikosi pente",
+        "phonetic": "EE-koh-see PEN-deh"
+      },
+      "catalan": {
+        "text": "vint-i-cinc",
+        "phonetic": "VEENT-ee-SEENK"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
+    },
+    {
+      "id": "num_026",
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι έξι",
+        "romanization": "ikosi exi",
+        "phonetic": "EE-koh-see EK-see"
+      },
+      "catalan": {
+        "text": "vint-i-sis",
+        "phonetic": "VEENT-ee-SEES"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral"
     }
   ],
   "metadata": {

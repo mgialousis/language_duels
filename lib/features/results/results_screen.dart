@@ -40,21 +40,7 @@ class ResultsScreen extends ConsumerWidget {
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
             const SizedBox(height: 8),
-            _BreakdownRow(
-              label: 'Vocab Flash Duel',
-              playerOneScore: session.vocabPlayerOneScore,
-              playerTwoScore: session.vocabPlayerTwoScore,
-              playerOneName: session.playerOneName,
-              playerTwoName: session.playerTwoName,
-            ),
-            const SizedBox(height: 8),
-            _BreakdownRow(
-              label: 'Phrase Builder',
-              playerOneScore: session.phrasePlayerOneScore,
-              playerTwoScore: session.phrasePlayerTwoScore,
-              playerOneName: session.playerOneName,
-              playerTwoName: session.playerTwoName,
-            ),
+            ..._buildBreakdownRows(session),
             const Spacer(),
             DuelButton(
               label: 'Play Again',
@@ -101,6 +87,81 @@ Future<void> _confirmClearHistory(BuildContext context, WidgetRef ref) async {
   if (shouldClear == true) {
     await ref.read(historyProvider.notifier).clear();
   }
+}
+
+List<Widget> _buildBreakdownRows(GameSessionState session) {
+  final rows = <Widget>[];
+  for (final game in session.gameOrder) {
+    switch (game) {
+      case GameType.vocab:
+        rows.add(
+          _BreakdownRow(
+            label: 'Vocab Flash Duel',
+            playerOneScore: session.vocabPlayerOneScore,
+            playerTwoScore: session.vocabPlayerTwoScore,
+            playerOneName: session.playerOneName,
+            playerTwoName: session.playerTwoName,
+          ),
+        );
+      case GameType.phrase:
+        rows.add(
+          _BreakdownRow(
+            label: 'Phrase Builder',
+            playerOneScore: session.phrasePlayerOneScore,
+            playerTwoScore: session.phrasePlayerTwoScore,
+            playerOneName: session.playerOneName,
+            playerTwoName: session.playerTwoName,
+          ),
+        );
+      case GameType.speedRound:
+        rows.add(
+          _BreakdownRow(
+            label: 'Speed Round',
+            playerOneScore: session.speedRoundPlayerOneScore,
+            playerTwoScore: session.speedRoundPlayerTwoScore,
+            playerOneName: session.playerOneName,
+            playerTwoName: session.playerTwoName,
+          ),
+        );
+      case GameType.matchMadness:
+        rows.add(
+          _BreakdownRow(
+            label: 'Match Madness',
+            playerOneScore: session.matchMadnessPlayerOneScore,
+            playerTwoScore: session.matchMadnessPlayerTwoScore,
+            playerOneName: session.playerOneName,
+            playerTwoName: session.playerTwoName,
+          ),
+        );
+      case GameType.spellingBee:
+        rows.add(
+          _BreakdownRow(
+            label: 'Spelling Bee',
+            playerOneScore: session.spellingBeePlayerOneScore,
+            playerTwoScore: session.spellingBeePlayerTwoScore,
+            playerOneName: session.playerOneName,
+            playerTwoName: session.playerTwoName,
+          ),
+        );
+      case GameType.listening:
+        rows.add(
+          _BreakdownRow(
+            label: 'Listening Challenge',
+            playerOneScore: session.listeningPlayerOneScore,
+            playerTwoScore: session.listeningPlayerTwoScore,
+            playerOneName: session.playerOneName,
+            playerTwoName: session.playerTwoName,
+          ),
+        );
+    }
+  }
+
+  return [
+    for (var i = 0; i < rows.length; i++) ...[
+      rows[i],
+      if (i != rows.length - 1) const SizedBox(height: 8),
+    ],
+  ];
 }
 
 class _ResultBanner extends StatelessWidget {

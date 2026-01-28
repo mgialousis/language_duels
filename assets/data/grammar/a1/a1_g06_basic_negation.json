@@ -1,0 +1,120 @@
+{
+  "id": "a1_g06_basic_negation",
+  "category": "negation",
+  "subcategory": "basic",
+  "level": "A1",
+  "order": 6,
+  "title": {
+    "en": "Basic Negation (δεν)",
+    "el": "Άρνηση (δεν)",
+    "ca": "Negacio Basica (δεν)"
+  },
+  "description": {
+    "en": "Use δεν to make simple negative sentences",
+    "el": "Χρησιμοποίησε το δεν για απλές αρνητικές προτάσεις",
+    "ca": "Fes frases negatives amb δεν"
+  },
+  "explanation": {
+    "content": {
+      "en": "To negate a sentence, place δεν before the verb.",
+      "el": "Για άρνηση, βάλε το δεν πριν από το ρήμα.",
+      "ca": "Per negar una frase, posa δεν abans del verb."
+    },
+    "rules": [
+      {
+        "en": "δεν + verb",
+        "el": "δεν + ρήμα",
+        "ca": "δεν + verb"
+      },
+      {
+        "en": "The verb usually stays the same form.",
+        "el": "Το ρήμα μένει στην ίδια μορφή.",
+        "ca": "El verb normalment no canvia."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "id": "ex_601",
+      "greek": "Δεν είμαι εδώ.",
+      "romanization": "Den eimai edo.",
+      "catalan": "No soc aqui.",
+      "englishLiteral": "I am not here.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 3, "explanation": "Negation marker"}
+      ]
+    },
+    {
+      "id": "ex_602",
+      "greek": "Δεν έχουμε χρόνο.",
+      "romanization": "Den ehoume chrono.",
+      "catalan": "No tenim temps.",
+      "englishLiteral": "We do not have time.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 3, "explanation": "Negation marker"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_601",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ έχω βιβλίο.",
+      "promptRomanization": "____ eho vivlio.",
+      "correctAnswer": "Δεν",
+      "acceptableAnswers": ["δεν"],
+      "explanation": {
+        "en": "Use δεν before the verb έχω.",
+        "el": "Βάζουμε δεν πριν από το ρήμα έχω.",
+        "ca": "Posem δεν abans del verb έχω."
+      }
+    },
+    {
+      "id": "ex_mc_601",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct negation",
+        "el": "Διάλεξε τη σωστή άρνηση",
+        "ca": "Tria la negacio correcta"
+      },
+      "prompt": "____ είμαστε έτοιμοι.",
+      "promptRomanization": "____ eimaste etoimoi.",
+      "correctAnswer": "Δεν",
+      "options": ["Δεν", "Ναι", "Μην"],
+      "acceptableAnswers": ["δεν"],
+      "explanation": {
+        "en": "Use δεν to negate a statement.",
+        "el": "Χρησιμοποίησε το δεν για άρνηση.",
+        "ca": "Usa δεν per negar una afirmacio."
+      }
+    },
+    {
+      "id": "ex_error_601",
+      "type": "errorCorrection",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Correct the sentence",
+        "el": "Διόρθωσε την πρόταση",
+        "ca": "Corregeix la frase"
+      },
+      "prompt": "Είμαι δεν κουρασμενος.",
+      "promptRomanization": "Eimai den kourasmenos.",
+      "correctAnswer": "Δεν ειμαι κουρασμενος.",
+      "acceptableAnswers": ["Δεν ειμαι κουρασμενος", "Δεν είμαι κουρασμενος"],
+      "explanation": {
+        "en": "δεν comes before the verb.",
+        "el": "Το δεν μπαίνει πριν από το ρήμα.",
+        "ca": "El δεν va abans del verb."
+      }
+    }
+  ],
+  "prerequisites": ["a1_g01_verb_to_be", "a1_g02_verb_to_have"],
+  "tags": ["negation", "basic"]
+}

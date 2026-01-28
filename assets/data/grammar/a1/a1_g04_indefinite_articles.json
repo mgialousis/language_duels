@@ -1,0 +1,139 @@
+{
+  "id": "a1_g04_indefinite_articles",
+  "category": "articles",
+  "subcategory": "indefinite",
+  "level": "A1",
+  "order": 4,
+  "title": {
+    "en": "Indefinite Articles (ένας/μία/ένα)",
+    "el": "Αόριστα Άρθρα (ένας/μία/ένα)",
+    "ca": "Articles Indefinits (ένας/μία/ένα)"
+  },
+  "description": {
+    "en": "Use indefinite articles to talk about one of something",
+    "el": "Χρησιμοποίησε αόριστα άρθρα για κάτι αόριστο",
+    "ca": "Fes servir articles indefinits per parlar d'alguna cosa"
+  },
+  "explanation": {
+    "content": {
+      "en": "Indefinite articles correspond to 'a/an'. They agree with the noun's gender.",
+      "el": "Τα αόριστα άρθρα αντιστοιχούν στο 'ένας/μία/ένα' και συμφωνούν με το γένος.",
+      "ca": "Els articles indefinits equivalen a 'un/una' i concorden amb el gènere."
+    },
+    "rules": [
+      {
+        "en": "Masculine: ένας",
+        "el": "Αρσενικό: ένας",
+        "ca": "Masculí: ένας"
+      },
+      {
+        "en": "Feminine: μία",
+        "el": "Θηλυκό: μία",
+        "ca": "Femení: μία"
+      },
+      {
+        "en": "Neuter: ένα",
+        "el": "Ουδέτερο: ένα",
+        "ca": "Neutre: ένα"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Indefinite Articles",
+        "el": "Αόριστα Άρθρα",
+        "ca": "Articles Indefinits"
+      },
+      "columnHeaders": ["Masculine", "Feminine", "Neuter"],
+      "rowHeaders": ["Singular"],
+      "cells": [
+        [
+          {"greek": "ένας", "romanization": "enas", "translation": "a (m)"},
+          {"greek": "μία", "romanization": "mia", "translation": "a (f)"},
+          {"greek": "ένα", "romanization": "ena", "translation": "a (n)"}
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_401",
+      "greek": "Έχω ένα μήλο.",
+      "romanization": "Eho ena milo.",
+      "catalan": "Tinc una poma.",
+      "englishLiteral": "Have an apple.",
+      "highlights": [
+        {"startIndex": 4, "endIndex": 7, "explanation": "Neuter article"}
+      ]
+    },
+    {
+      "id": "ex_402",
+      "greek": "Μία φίλη μου είναι εδώ.",
+      "romanization": "Mia fili mou ine edo.",
+      "catalan": "Una amiga meva és aquí.",
+      "englishLiteral": "A friend of mine is here."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_401",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Έχω ____ βιβλίο.",
+      "promptRomanization": "Eho ____ vivlio.",
+      "correctAnswer": "ένα",
+      "acceptableAnswers": ["ενα"],
+      "explanation": {
+        "en": "βιβλίο is neuter, so use ένα.",
+        "el": "Το βιβλίο είναι ουδέτερο, άρα ένα.",
+        "ca": "βιβλίο és neutre, per tant ένα."
+      }
+    },
+    {
+      "id": "ex_mc_401",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct article",
+        "el": "Διάλεξε το σωστό άρθρο",
+        "ca": "Tria l'article correcte"
+      },
+      "prompt": "____ φίλη μου μένει εδώ.",
+      "promptRomanization": "____ fili mou meni edo.",
+      "correctAnswer": "Μία",
+      "options": ["Ένας", "Μία", "Ένα"],
+      "acceptableAnswers": ["μία", "μια"],
+      "explanation": {
+        "en": "φίλη is feminine, so use μία.",
+        "el": "Η φίλη είναι θηλυκό, άρα μία.",
+        "ca": "φίλη és femení, per tant μία."
+      }
+    },
+    {
+      "id": "ex_match_401",
+      "type": "matching",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Match the noun with the correct article",
+        "el": "Ταίριαξε το ουσιαστικό με το σωστό άρθρο",
+        "ca": "Relaciona el substantiu amb l'article correcte"
+      },
+      "prompt": "Σύνδεσε κάθε ουσιαστικό με το άρθρο.",
+      "promptRomanization": "Syndese kathe ousiastiko me to arthro.",
+      "correctAnswer": "",
+      "pairs": [
+        {"left": "άντρας", "right": "ένας"},
+        {"left": "γυναίκα", "right": "μία"},
+        {"left": "παιδί", "right": "ένα"}
+      ]
+    }
+  ],
+  "prerequisites": ["a1_g03_definite_articles"],
+  "tags": ["articles", "indefinite", "gender"]
+}

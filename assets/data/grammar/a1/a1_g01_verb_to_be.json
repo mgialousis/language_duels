@@ -1,0 +1,263 @@
+{
+  "id": "a1_g01_verb_to_be",
+  "category": "verb_conjugation",
+  "subcategory": "present_tense",
+  "level": "A1",
+  "order": 1,
+  "title": {
+    "en": "The Verb \"To Be\" (Είμαι)",
+    "el": "Το Ρήμα «Είμαι»",
+    "ca": "El Verb \"Ser\" (Είμαι)"
+  },
+  "description": {
+    "en": "Learn to conjugate the most essential Greek verb",
+    "el": "Μάθε να κλίνεις το πιο βασικό ελληνικό ρήμα",
+    "ca": "Aprèn a conjugar el verb grec més essencial"
+  },
+  "explanation": {
+    "content": {
+      "en": "The verb **είμαι** (to be) is irregular and must be memorized. It is used to describe people, states, and locations.",
+      "el": "Το ρήμα **είμαι** είναι ανώμαλο και πρέπει να απομνημονευτεί. Χρησιμοποιείται για περιγραφές, καταστάσεις και τοποθεσία.",
+      "ca": "El verb **είμαι** és irregular i s'ha de memoritzar. S'utilitza per descriure persones, estats i ubicació."
+    },
+    "rules": [
+      {
+        "en": "3rd person singular and plural are the same: είναι",
+        "el": "Το τρίτο πρόσωπο ενικού και πληθυντικού είναι ίδιο: είναι",
+        "ca": "La 3a persona singular i plural són iguals: είναι"
+      },
+      {
+        "en": "Subject pronouns are optional in Greek",
+        "el": "Τα υποκείμενα είναι προαιρετικά στα ελληνικά",
+        "ca": "Els pronoms subjecte són opcionals en grec"
+      }
+    ],
+    "tips": [
+      {
+        "en": "Practice by describing yourself: Είμαι μαθητής",
+        "el": "Εξάσκησε περιγράφοντας τον εαυτό σου: Είμαι μαθητής",
+        "ca": "Practica descrivint-te: Είμαι μαθητής"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "en": "Do not confuse είναι (is/are) with έχει (has)",
+        "el": "Μην μπερδεύεις το είναι με το έχει",
+        "ca": "No confonguis είναι (és/són) amb έχει (té)"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Present Tense of Είμαι",
+        "el": "Ενεστώτας του Είμαι",
+        "ca": "Present d'Είμαι"
+      },
+      "columnHeaders": ["Singular", "Plural"],
+      "rowHeaders": ["1st Person", "2nd Person", "3rd Person"],
+      "cells": [
+        [
+          {"greek": "είμαι", "romanization": "ime", "translation": "I am"},
+          {"greek": "είμαστε", "romanization": "imaste", "translation": "we are"}
+        ],
+        [
+          {"greek": "είσαι", "romanization": "ise", "translation": "you are"},
+          {"greek": "είστε", "romanization": "iste", "translation": "you are (pl/formal)"}
+        ],
+        [
+          {"greek": "είναι", "romanization": "ine", "translation": "he/she/it is"},
+          {"greek": "είναι", "romanization": "ine", "translation": "they are", "isHighlighted": true}
+        ]
+      ],
+      "footnote": "Note: 3rd person singular and plural are identical"
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_001",
+      "greek": "Είμαι μαθητής.",
+      "romanization": "Ime mathitis.",
+      "catalan": "Sóc estudiant.",
+      "englishLiteral": "Am student.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 5,
+          "explanation": "1st person singular form"
+        }
+      ]
+    },
+    {
+      "id": "ex_002",
+      "greek": "Εσύ είσαι από την Ελλάδα;",
+      "romanization": "Esi ise apo tin Ellada?",
+      "catalan": "Tu ets de Grècia?",
+      "englishLiteral": "You are from the Greece?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_01",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ μαθητής.",
+      "promptRomanization": "Ego ____ mathitis.",
+      "correctAnswer": "είμαι",
+      "acceptableAnswers": ["ειμαι"],
+      "explanation": {
+        "en": "Use είμαι for 1st person singular.",
+        "el": "Χρησιμοποίησε είμαι για το 1ο ενικό.",
+        "ca": "Utilitza είμαι per a la 1a persona singular."
+      }
+    },
+    {
+      "id": "ex_mc_01",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τη σωστή μορφή",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτοί ____ φίλοι.",
+      "promptRomanization": "Afti ____ filoi.",
+      "correctAnswer": "είναι",
+      "options": ["είμαι", "είσαι", "είναι", "είμαστε"],
+      "acceptableAnswers": ["ειναι"],
+      "explanation": {
+        "en": "The 3rd person plural is είναι.",
+        "el": "Το 3ο πληθυντικό είναι είναι.",
+        "ca": "La 3a persona plural és είναι."
+      }
+    },
+    {
+      "id": "ex_conj_01",
+      "type": "conjugation",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Conjugate είμαι in the present tense",
+        "el": "Κλίσε το είμαι στον ενεστώτα",
+        "ca": "Conjuga είμαι al present"
+      },
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "promptRomanization": "Symplirosse olous tous typous.",
+      "correctAnswer": "",
+      "conjugations": [
+        {
+          "label": "Εγώ",
+          "answer": "είμαι",
+          "romanization": "ime",
+          "acceptableAnswers": ["ειμαι"]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "είσαι",
+          "romanization": "ise",
+          "acceptableAnswers": ["εισαι"]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "είναι",
+          "romanization": "ine",
+          "acceptableAnswers": ["ειναι"]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "είμαστε",
+          "romanization": "imaste",
+          "acceptableAnswers": ["ειμαστε"]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "είστε",
+          "romanization": "iste",
+          "acceptableAnswers": ["ειστε"]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "είναι",
+          "romanization": "ine",
+          "acceptableAnswers": ["ειναι"]
+        }
+      ],
+      "explanation": {
+        "en": "Third person singular and plural share the same form.",
+        "el": "Το τρίτο πρόσωπο ενικού και πληθυντικού είναι ίδιο.",
+        "ca": "La 3a persona singular i plural és igual."
+      }
+    },
+    {
+      "id": "ex_match_01",
+      "type": "matching",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Match the pronoun with the correct form",
+        "el": "Ταίριαξε την αντωνυμία με τον σωστό τύπο",
+        "ca": "Relaciona el pronom amb la forma correcta"
+      },
+      "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα.",
+      "promptRomanization": "Syndese kathe prosopo me to rima.",
+      "correctAnswer": "",
+      "pairs": [
+        {"left": "Εγώ", "right": "είμαι"},
+        {"left": "Εσύ", "right": "είσαι"},
+        {"left": "Αυτός/Αυτή/Αυτό", "right": "είναι"},
+        {"left": "Εμείς", "right": "είμαστε"},
+        {"left": "Εσείς", "right": "είστε"},
+        {"left": "Αυτοί/Αυτές/Αυτά", "right": "είναι"}
+      ],
+      "explanation": {
+        "en": "Remember: είναι is used for both 3rd singular and plural.",
+        "el": "Θυμήσου: το είναι είναι ίδιο στον ενικό και πληθυντικό.",
+        "ca": "Recorda: είναι és igual en singular i plural."
+      }
+    },
+    {
+      "id": "ex_fill_02",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσείς ____ δάσκαλοι.",
+      "promptRomanization": "Esis ____ daskaloi.",
+      "correctAnswer": "είστε",
+      "acceptableAnswers": ["ειστε"],
+      "explanation": {
+        "en": "Use είστε for 2nd person plural/formal.",
+        "el": "Χρησιμοποίησε είστε για το 2ο πληθυντικό.",
+        "ca": "Utilitza είστε per a la 2a persona plural."
+      }
+    },
+    {
+      "id": "ex_mc_02",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τη σωστή μορφή",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Η Μαρία ____ από την Κρήτη.",
+      "promptRomanization": "I Maria ____ apo tin Kriti.",
+      "correctAnswer": "είναι",
+      "options": ["είμαι", "είσαι", "είναι", "είμαστε"],
+      "acceptableAnswers": ["ειναι"],
+      "explanation": {
+        "en": "Use είναι for 3rd person singular.",
+        "el": "Χρησιμοποίησε είναι για το 3ο ενικό.",
+        "ca": "Utilitza είναι per a la 3a persona singular."
+      }
+    }
+  ],
+  "prerequisites": [],
+  "tags": ["verb", "present", "to_be"]
+}

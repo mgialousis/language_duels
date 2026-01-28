@@ -1,0 +1,96 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-28",
+  "levels": [
+    {
+      "id": "A1",
+      "name": {
+        "en": "A1 - Beginner",
+        "el": "A1 - Αρχάριος",
+        "ca": "A1 - Principiant"
+      },
+      "lessons": [
+        {
+          "id": "a1_g01_verb_to_be",
+          "file": "a1/a1_g01_verb_to_be.json",
+          "category": "verb_conjugation",
+          "order": 1,
+          "prerequisites": []
+        },
+        {
+          "id": "a1_g02_verb_to_have",
+          "file": "a1/a1_g02_verb_to_have.json",
+          "category": "verb_conjugation",
+          "order": 2,
+          "prerequisites": ["a1_g01_verb_to_be"]
+        },
+        {
+          "id": "a1_g03_definite_articles",
+          "file": "a1/a1_g03_definite_articles.json",
+          "category": "articles",
+          "order": 3,
+          "prerequisites": ["a1_g01_verb_to_be"]
+        },
+        {
+          "id": "a1_g04_indefinite_articles",
+          "file": "a1/a1_g04_indefinite_articles.json",
+          "category": "articles",
+          "order": 4,
+          "prerequisites": ["a1_g03_definite_articles"]
+        },
+        {
+          "id": "a1_g05_subject_pronouns",
+          "file": "a1/a1_g05_subject_pronouns.json",
+          "category": "pronouns",
+          "order": 5,
+          "prerequisites": ["a1_g01_verb_to_be"]
+        },
+        {
+          "id": "a1_g06_basic_negation",
+          "file": "a1/a1_g06_basic_negation.json",
+          "category": "negation",
+          "order": 6,
+          "prerequisites": ["a1_g01_verb_to_be", "a1_g02_verb_to_have"]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "verb_conjugation",
+      "name": {
+        "en": "Verb Conjugation",
+        "el": "Κλίση Ρημάτων",
+        "ca": "Conjugació de Verbs"
+      },
+      "icon": "verb_icon"
+    },
+    {
+      "id": "articles",
+      "name": {
+        "en": "Articles",
+        "el": "Άρθρα",
+        "ca": "Articles"
+      },
+      "icon": "articles_icon"
+    },
+    {
+      "id": "pronouns",
+      "name": {
+        "en": "Pronouns",
+        "el": "Αντωνυμίες",
+        "ca": "Pronoms"
+      },
+      "icon": "pronouns_icon"
+    },
+    {
+      "id": "negation",
+      "name": {
+        "en": "Negation",
+        "el": "Άρνηση",
+        "ca": "Negacio"
+      },
+      "icon": "negation_icon"
+    }
+  ]
+}

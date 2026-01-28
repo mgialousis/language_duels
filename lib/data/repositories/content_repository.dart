@@ -40,17 +40,22 @@ class ContentRepository implements IContentRepository {
     }
   }
 
-  @override
-  Future<Deck> loadDeck(String deckId) async {
+  Future<Map<String, dynamic>> _loadDeckMap(String deckId) async {
     final asset = _deckAssets[deckId] ?? _deckAssets['greetings']!;
     final cache = await _openCacheBox();
     final cached = cache.get(deckId);
     if (cached is Map) {
-      return Deck.fromJson(cached.cast<String, dynamic>());
+      return cached.cast<String, dynamic>();
     }
     final jsonString = await rootBundle.loadString(asset);
     final jsonMap = json.decode(jsonString) as Map<String, dynamic>;
     await cache.put(deckId, jsonMap);
+    return jsonMap;
+  }
+
+  @override
+  Future<Deck> loadDeck(String deckId) async {
+    final jsonMap = await _loadDeckMap(deckId);
     return Deck.fromJson(jsonMap);
   }
 
@@ -58,8 +63,19 @@ class ContentRepository implements IContentRepository {
   Future<List<DeckInfo>> listDecks() async {
     final decks = <DeckInfo>[];
     for (final id in _deckAssets.keys) {
-      final deck = await loadDeck(id);
-      decks.add(deck.info);
+      try {
+        final jsonMap = await _loadDeckMap(id);
+        final deckJson = jsonMap['deck'];
+        final info = deckJson is Map
+            ? DeckInfo.fromJson(deckJson.cast<String, dynamic>())
+            : DeckInfo.fromRoot(jsonMap);
+        decks.add(info);
+      } catch (_) {
+        continue;
+      }
+    }
+    if (decks.isEmpty) {
+      throw StateError('No valid decks loaded.');
     }
     return decks;
   }

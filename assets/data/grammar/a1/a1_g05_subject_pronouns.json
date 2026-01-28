@@ -1,0 +1,142 @@
+{
+  "id": "a1_g05_subject_pronouns",
+  "category": "pronouns",
+  "subcategory": "subject",
+  "level": "A1",
+  "order": 5,
+  "title": {
+    "en": "Subject Pronouns",
+    "el": "Προσωπικές Αντωνυμίες",
+    "ca": "Pronoms Personals"
+  },
+  "description": {
+    "en": "Learn the basic subject pronouns in Greek",
+    "el": "Μάθε τις βασικές προσωπικές αντωνυμίες στα ελληνικά",
+    "ca": "Aprèn els pronoms personals bàsics en grec"
+  },
+  "explanation": {
+    "content": {
+      "en": "Subject pronouns are often optional in Greek, but it is useful to recognize and use them.",
+      "el": "Οι προσωπικές αντωνυμίες συχνά παραλείπονται στα ελληνικά, αλλά είναι χρήσιμο να τις γνωρίζεις.",
+      "ca": "Els pronoms personals sovint s'ometen en grec, però és útil conèixer-los."
+    },
+    "rules": [
+      {
+        "en": "Singular: εγώ (I), εσύ (you), αυτός/αυτή/αυτό (he/she/it)",
+        "el": "Ενικός: εγώ, εσύ, αυτός/αυτή/αυτό",
+        "ca": "Singular: εγώ, εσύ, αυτός/αυτή/αυτό"
+      },
+      {
+        "en": "Plural: εμείς (we), εσείς (you), αυτοί/αυτές/αυτά (they)",
+        "el": "Πληθυντικός: εμείς, εσείς, αυτοί/αυτές/αυτά",
+        "ca": "Plural: εμείς, εσείς, αυτοί/αυτές/αυτά"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Subject Pronouns",
+        "el": "Προσωπικές Αντωνυμίες",
+        "ca": "Pronoms Personals"
+      },
+      "columnHeaders": ["1st", "2nd", "3rd"],
+      "rowHeaders": ["Singular", "Plural"],
+      "cells": [
+        [
+          {"greek": "εγώ", "romanization": "ego", "translation": "I"},
+          {"greek": "εσύ", "romanization": "esy", "translation": "you"},
+          {"greek": "αυτός/αυτή/αυτό", "romanization": "aftos/afti/afto", "translation": "he/she/it"}
+        ],
+        [
+          {"greek": "εμείς", "romanization": "emeis", "translation": "we"},
+          {"greek": "εσείς", "romanization": "eseis", "translation": "you (pl)"},
+          {"greek": "αυτοί/αυτές/αυτά", "romanization": "aftoi/aftes/afta", "translation": "they"}
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_501",
+      "greek": "Εγώ είμαι η Μαρία.",
+      "romanization": "Ego eimai i Maria.",
+      "catalan": "Jo soc la Maria.",
+      "englishLiteral": "I am Maria.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 3, "explanation": "Subject pronoun"}
+      ]
+    },
+    {
+      "id": "ex_502",
+      "greek": "Εμείς είμαστε εδώ.",
+      "romanization": "Emeis eimaste edo.",
+      "catalan": "Nosaltres som aquí.",
+      "englishLiteral": "We are here.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 4, "explanation": "Plural pronoun"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_501",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "____ είμαι ο Γιάννης.",
+      "promptRomanization": "____ eimai o Giannis.",
+      "correctAnswer": "Εγώ",
+      "acceptableAnswers": ["εγώ"],
+      "explanation": {
+        "en": "Use εγώ for the first person singular.",
+        "el": "Χρησιμοποίησε εγώ για το πρώτο πρόσωπο ενικού.",
+        "ca": "Usa εγώ per a la primera persona del singular."
+      }
+    },
+    {
+      "id": "ex_mc_501",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct pronoun",
+        "el": "Διάλεξε τη σωστή αντωνυμία",
+        "ca": "Tria el pronom correcte"
+      },
+      "prompt": "____ είσαι έτοιμος.",
+      "promptRomanization": "____ eisai etoimos.",
+      "correctAnswer": "Εσύ",
+      "options": ["Εγώ", "Εσύ", "Εμείς"],
+      "acceptableAnswers": ["εσύ"],
+      "explanation": {
+        "en": "Use εσύ for the second person singular.",
+        "el": "Χρησιμοποίησε εσύ για το δεύτερο πρόσωπο ενικού.",
+        "ca": "Usa εσύ per a la segona persona del singular."
+      }
+    },
+    {
+      "id": "ex_match_501",
+      "type": "matching",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Match the Greek pronoun with the English meaning",
+        "el": "Ταίριαξε την αντωνυμία με τη σημασία",
+        "ca": "Relaciona el pronom amb el significat"
+      },
+      "prompt": "Σύνδεσε κάθε αντωνυμία.",
+      "promptRomanization": "Syndese kathe antonymia.",
+      "correctAnswer": "",
+      "pairs": [
+        {"left": "εγώ", "right": "I"},
+        {"left": "εμείς", "right": "we"},
+        {"left": "αυτοί", "right": "they"}
+      ]
+    }
+  ],
+  "prerequisites": ["a1_g01_verb_to_be"],
+  "tags": ["pronouns", "subject"]
+}

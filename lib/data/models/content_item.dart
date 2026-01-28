@@ -58,18 +58,27 @@ class ContentItem extends Equatable {
   bool get isPhrase => type == 'phrase';
 
   factory ContentItem.fromJson(Map<String, dynamic> json) {
+    Map<String, dynamic> asStringMap(Object? value) {
+      if (value is Map<String, dynamic>) return value;
+      if (value is Map) {
+        return value.map((key, val) => MapEntry(key.toString(), val));
+      }
+      return const <String, dynamic>{};
+    }
+
     final wordsJson = json['words'] as List<dynamic>?;
     final breakdownJson = json['wordBreakdown'] as List<dynamic>?;
-    final derivedWords =
-        (wordsJson ?? []).map((entry) => ContentWord.fromJson(entry as Map<String, dynamic>)).toList();
+    final derivedWords = (wordsJson ?? [])
+        .map((entry) => ContentWord.fromJson(asStringMap(entry)))
+        .toList();
     final breakdownWords = (breakdownJson ?? [])
         .map((entry) {
-          final map = entry as Map<String, dynamic>;
-          final greek = (map['greek'] as Map<String, dynamic>?);
-          final catalan = (map['catalan'] as Map<String, dynamic>?);
+          final map = asStringMap(entry);
+          final greek = asStringMap(map['greek']);
+          final catalan = asStringMap(map['catalan']);
           return ContentWord(
-            greek: (greek?['word'] as String?) ?? '',
-            catalan: (catalan?['word'] as String?) ?? '',
+            greek: (greek['word'] as String?) ?? '',
+            catalan: (catalan['word'] as String?) ?? '',
           );
         })
         .toList();
@@ -78,8 +87,8 @@ class ContentItem extends Equatable {
       type: json['type'] as String,
       category: json['category'] as String,
       difficulty: json['difficulty'] as int,
-      greek: LanguageEntry.fromJson(json['greek'] as Map<String, dynamic>),
-      catalan: LanguageEntry.fromJson(json['catalan'] as Map<String, dynamic>),
+      greek: LanguageEntry.fromJson(asStringMap(json['greek'])),
+      catalan: LanguageEntry.fromJson(asStringMap(json['catalan'])),
       words: derivedWords.isNotEmpty ? derivedWords : breakdownWords,
     );
   }
