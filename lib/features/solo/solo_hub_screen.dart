@@ -84,8 +84,8 @@ class SoloHubScreen extends ConsumerWidget {
                   icon: Icons.bolt,
                   title: 'Quick Review',
                   subtitle: dueItems.isEmpty
-                      ? 'No items due for review'
-                      : '${dueItems.length} items due today',
+                      ? 'Fast mixed session across recent items'
+                      : '${dueItems.length} items due today · fast mixed review',
                   buttonLabel: 'Start Review',
                   onPressed: dueItems.isEmpty
                       ? null
@@ -100,7 +100,7 @@ class SoloHubScreen extends ConsumerWidget {
                 _ActionCard(
                   icon: Icons.library_books,
                   title: 'Practice a Deck',
-                  subtitle: 'Choose a deck and practice mode',
+                  subtitle: 'Focus on one deck with full control',
                   buttonLabel: 'Choose Deck',
                   onPressed: () => context.push(soloSetupRoute),
                 ),

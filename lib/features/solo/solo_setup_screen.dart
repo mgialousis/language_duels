@@ -27,6 +27,7 @@ class _SoloSetupScreenState extends ConsumerState<SoloSetupScreen> {
     final decksAsync = ref.watch(deckListProvider);
     final extra = GoRouterState.of(context).extra as Map<String, dynamic>?;
     final presetMode = extra?['mode'] as String?;
+    final reviewOnly = presetMode == 'srsReview' || presetMode == 'weakWords';
 
     // Handle preset modes
     if (presetMode == 'srsReview' && _mode != SoloMode.srsReview) {
@@ -119,39 +120,41 @@ class _SoloSetupScreenState extends ConsumerState<SoloSetupScreen> {
                   ),
                   const SizedBox(height: 24),
 
-                  // Mode
-                  _SectionTitle('Mode'),
-                  const SizedBox(height: 8),
-                  _OptionChips<SoloMode>(
-                    options: SoloMode.values,
-                    selected: _mode,
-                    labelBuilder: (mode) => switch (mode) {
-                      SoloMode.timed => 'Timed',
-                      SoloMode.relaxed => 'Relaxed',
-                      SoloMode.srsReview => 'SRS Review',
-                    },
-                    onSelected: (mode) => setState(() => _mode = mode),
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    _modeDescription,
-                    style: TextStyle(fontSize: 13, color: Colors.grey[600]),
-                  ),
-                  const SizedBox(height: 24),
-
-                  // Question Count
-                  if (_mode != SoloMode.srsReview) ...[
-                    _SectionTitle('Questions'),
+                  if (!reviewOnly) ...[
+                    // Mode
+                    _SectionTitle('Mode'),
                     const SizedBox(height: 8),
-                    _OptionChips<int>(
-                      options: const [5, 10, 15, 20],
-                      selected: _questionCount,
-                      labelBuilder: (count) => '$count',
-                      onSelected: (count) =>
-                          setState(() => _questionCount = count),
+                    _OptionChips<SoloMode>(
+                      options: SoloMode.values,
+                      selected: _mode,
+                      labelBuilder: (mode) => switch (mode) {
+                        SoloMode.timed => 'Timed',
+                        SoloMode.relaxed => 'Relaxed',
+                        SoloMode.srsReview => 'SRS Review',
+                      },
+                      onSelected: (mode) => setState(() => _mode = mode),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      _modeDescription,
+                      style: TextStyle(fontSize: 13, color: Colors.grey[600]),
                     ),
                     const SizedBox(height: 24),
                   ],
+
+                  // Question Count
+                  _SectionTitle('Questions'),
+                  const SizedBox(height: 8),
+                  _OptionChips<int>(
+                    options: reviewOnly
+                        ? const [10, 15, 20, 30]
+                        : const [5, 10, 15, 20],
+                    selected: _questionCount,
+                    labelBuilder: (count) => '$count',
+                    onSelected: (count) =>
+                        setState(() => _questionCount = count),
+                  ),
+                  const SizedBox(height: 24),
 
                   // Direction
                   _SectionTitle('Direction'),
@@ -186,9 +189,7 @@ class _SoloSetupScreenState extends ConsumerState<SoloSetupScreen> {
                                   'gameType': _gameType,
                                   'mode': _mode,
                                   'weakWords': isWeakWords,
-                                  'questionCount': _mode == SoloMode.srsReview
-                                      ? null
-                                      : _questionCount,
+                                  'questionCount': _questionCount,
                                   'direction': _direction,
                                 },
                               );

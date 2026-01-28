@@ -290,6 +290,7 @@ class _SoloPracticeScreenState extends ConsumerState<SoloPracticeScreen>
         final options = _buildOptions(
           currentItem,
           deck.vocabularyItems,
+          sourceIsGreek,
           !sourceIsGreek,
         );
         setState(() {
@@ -326,6 +327,7 @@ class _SoloPracticeScreenState extends ConsumerState<SoloPracticeScreen>
         final options = _buildOptions(
           currentItem,
           deck.vocabularyItems,
+          sourceIsGreek,
           !sourceIsGreek, // target is opposite of source
         );
         setState(() {
@@ -391,29 +393,39 @@ class _SoloPracticeScreenState extends ConsumerState<SoloPracticeScreen>
   List<ContentItem> _buildOptions(
     ContentItem correct,
     List<ContentItem> pool,
+    bool sourceIsGreek,
     bool targetIsGreek,
   ) {
     final random = Random();
+    String sourceText(ContentItem item) =>
+        sourceIsGreek ? item.greek.text : item.catalan.text;
     String targetText(ContentItem item) =>
         targetIsGreek ? item.greek.text : item.catalan.text;
 
-    final sameCategory = pool
-        .where(
-          (item) => item.category == correct.category && item.id != correct.id,
-        )
-        .toList()
-      ..shuffle(random);
-
-    final sameDifficulty = pool
+    final filteredPool = pool
         .where(
           (item) =>
-              item.difficulty == correct.difficulty && item.id != correct.id,
+              item.id != correct.id &&
+              sourceText(item) != sourceText(correct),
         )
         .toList()
       ..shuffle(random);
 
-    final others = pool.where((item) => item.id != correct.id).toList()
+    final sameCategory = filteredPool
+        .where(
+          (item) => item.category == correct.category,
+        )
+        .toList()
       ..shuffle(random);
+
+    final sameDifficulty = filteredPool
+        .where(
+          (item) => item.difficulty == correct.difficulty,
+        )
+        .toList()
+      ..shuffle(random);
+
+    final others = filteredPool;
 
     final options = <ContentItem>[correct];
     final usedTexts = {targetText(correct)};
