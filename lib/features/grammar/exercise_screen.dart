@@ -132,6 +132,15 @@ class _GrammarExerciseScreenState
                     style: Theme.of(context).textTheme.bodySmall,
                   ),
                 ],
+                if (exercise.hint != null && exercise.hint!.isNotEmpty) ...[
+                  const SizedBox(height: 6),
+                  Text(
+                    exercise.hint!,
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: Theme.of(context).colorScheme.secondary,
+                        ),
+                  ),
+                ],
                 const SizedBox(height: 16),
                 _ExerciseBody(
                   exercise: exercise,

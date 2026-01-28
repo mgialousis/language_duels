@@ -96,7 +96,8 @@
         "ca": "Completa la frase"
       },
       "prompt": "Αυτό είναι το σπίτι ____.",
-      "promptRomanization": "Afto einai to spiti ____. ",
+      "promptRomanization": "Afto einai to spiti ____.",
+      "hint": "Translation: This is my house.",
       "correctAnswer": "μου",
       "acceptableAnswers": ["μου"],
       "explanation": {
@@ -116,6 +117,7 @@
       },
       "prompt": "Το αυτοκίνητο ____ είναι μεγάλο.",
       "promptRomanization": "To aftokinito ____ einai megalo.",
+      "hint": "Translation: Your car is big.",
       "correctAnswer": "σου",
       "options": ["μου", "σου", "μας"],
       "acceptableAnswers": ["σου"],
@@ -136,6 +138,7 @@
       },
       "prompt": "Σύνδεσε κάθε αντωνυμία.",
       "promptRomanization": "Syndese kathe antonymia.",
+      "hint": "Use the English meaning (my/your/their) to match.",
       "correctAnswer": "",
       "pairs": [
         {"left": "μου", "right": "my"},
