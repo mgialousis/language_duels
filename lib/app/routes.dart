@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import '../features/home/home_screen.dart';
 import '../features/setup/player_setup_screen.dart';
 import '../features/setup/deck_select_screen.dart';
+import '../features/setup/minigame_select_screen.dart';
 import '../features/duel/duel_hub_screen.dart';
 import '../features/games/vocab_flash/vocab_flash_screen.dart';
 import '../features/games/phrase_builder/phrase_builder_screen.dart';
@@ -34,6 +35,7 @@ import '../shared/widgets/async_state.dart';
 const String homeRoute = '/';
 const String setupRoute = '/setup';
 const String deckRoute = '/deck';
+const String miniGameRoute = '/mini-games';
 const String duelRoute = '/duel';
 const String vocabRoute = '/vocab';
 const String phraseRoute = '/phrase';
@@ -71,6 +73,10 @@ final goRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: deckRoute,
         builder: (context, state) => const DeckSelectScreen(),
+      ),
+      GoRoute(
+        path: miniGameRoute,
+        builder: (context, state) => const MiniGameSelectScreen(),
       ),
       GoRoute(
         path: duelRoute,

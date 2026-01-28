@@ -32,7 +32,14 @@ class DuelHubScreen extends ConsumerWidget {
     };
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Duel Hub')),
+      appBar: AppBar(
+        title: const Text('Duel Hub'),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          tooltip: 'Change deck',
+          onPressed: () => _confirmExit(context, ref),
+        ),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(24.0),
         child: Column(
@@ -66,5 +73,31 @@ class DuelHubScreen extends ConsumerWidget {
         ),
       ),
     );
+  }
+}
+
+Future<void> _confirmExit(BuildContext context, WidgetRef ref) async {
+  final shouldExit = await showDialog<bool>(
+    context: context,
+    builder: (context) => AlertDialog(
+      title: const Text('Change deck?'),
+      content: const Text(
+        'This will reset the current duel setup.',
+      ),
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.of(context).pop(false),
+          child: const Text('Cancel'),
+        ),
+        TextButton(
+          onPressed: () => Navigator.of(context).pop(true),
+          child: const Text('Change deck'),
+        ),
+      ],
+    ),
+  );
+  if (shouldExit == true && context.mounted) {
+    ref.read(gameSessionProvider.notifier).reset();
+    context.go(deckRoute);
   }
 }
