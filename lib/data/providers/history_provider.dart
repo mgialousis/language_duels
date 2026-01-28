@@ -1,4 +1,5 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod/legacy.dart';
+import 'package:riverpod/riverpod.dart';
 
 import '../models/match_record.dart';
 import '../repositories/history_storage.dart';

@@ -1,7 +1,8 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod/legacy.dart';
+import 'package:riverpod/riverpod.dart';
 
 import '../models/content_item.dart';
 import '../models/deck.dart';

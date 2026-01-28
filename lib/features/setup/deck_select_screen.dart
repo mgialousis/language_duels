@@ -194,7 +194,7 @@ class DeckSelectScreen extends ConsumerWidget {
                         return CheckboxListTile(
                           value: selected,
                           onChanged: (value) {
-                            final updatedSet = {...selectedGames};
+                            final updatedSet = selectedGames.toSet();
                             if (value == true) {
                               updatedSet.add(game);
                             } else {

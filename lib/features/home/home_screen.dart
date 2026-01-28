@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 import '../../app/routes.dart';
 import '../../data/providers/game_session_provider.dart';
@@ -172,10 +173,7 @@ class HomeScreen extends ConsumerWidget {
                   ),
                   const SizedBox(height: 12),
                   const Center(
-                    child: Text(
-                      'v1.0.0 MVP',
-                      style: TextStyle(color: Colors.black54),
-                    ),
+                    child: _VersionLabel(),
                   ),
                 ],
               ),
@@ -201,6 +199,41 @@ class HomeScreen extends ConsumerWidget {
       case GameType.listening:
         return session.listeningComplete ? duelRoute : listeningRoute;
     }
+  }
+}
+
+
+class _VersionLabel extends StatefulWidget {
+  const _VersionLabel();
+
+  @override
+  State<_VersionLabel> createState() => _VersionLabelState();
+}
+
+class _VersionLabelState extends State<_VersionLabel> {
+  String? _label;
+
+  @override
+  void initState() {
+    super.initState();
+    _load();
+  }
+
+  Future<void> _load() async {
+    final info = await PackageInfo.fromPlatform();
+    if (!mounted) return;
+    setState(() {
+      _label = 'v${info.version} MVP';
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final text = _label ?? 'v...';
+    return Text(
+      text,
+      style: const TextStyle(color: Colors.black54),
+    );
   }
 }
 

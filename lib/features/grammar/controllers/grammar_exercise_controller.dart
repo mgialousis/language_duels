@@ -1,4 +1,4 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod/legacy.dart';
 
 import '../../../data/models/grammar_exercise.dart';
 import '../../games/spelling_bee/spelling_validator.dart';

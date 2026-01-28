@@ -1,4 +1,4 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod/legacy.dart';
 
 import '../../../data/models/content_item.dart';
 import '../../../data/models/player.dart';
