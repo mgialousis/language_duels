@@ -1,0 +1,153 @@
+{
+  "id": "a2_g01_simple_past",
+  "category": "verb_conjugation",
+  "subcategory": "past_tense",
+  "level": "A2",
+  "order": 1,
+  "title": {
+    "en": "Simple Past (Αόριστος) - Regular Verbs",
+    "el": "Αόριστος - Κανονικά Ρήματα",
+    "ca": "Passat Simple (Αόριστος) - Verbs Regulars"
+  },
+  "description": {
+    "en": "Form and use the simple past for regular Greek verbs.",
+    "el": "Σχημάτισε και χρησιμοποίησε τον αόριστο για κανονικά ρήματα.",
+    "ca": "Forma i utilitza el passat simple per a verbs grecs regulars."
+  },
+  "explanation": {
+    "content": {
+      "en": "The aorist (Αόριστος) is used for completed actions in the past. The sigmatic aorist adds -σ- to the stem, plus personal endings: -α, -ες, -ε, -αμε, -ατε, -αν. Note: Some consonants combine with σ: κ/γ/χ+σ→ξ, π/β/φ+σ→ψ.",
+      "el": "Ο αόριστος χρησιμοποιείται για ολοκληρωμένες πράξεις στο παρελθόν. Ο σιγματικός αόριστος προσθέτει -σ- στο θέμα, και καταλήξεις: -α, -ες, -ε, -αμε, -ατε, -αν. Προσοχή: κ/γ/χ+σ→ξ, π/β/φ+σ→ψ.",
+      "ca": "L'aorist (Αόριστος) s'utilitza per a accions completades en el passat. L'aorist sigmàtic afegeix -σ- al tema, més terminacions: -α, -ες, -ε, -αμε, -ατε, -αν."
+    },
+    "rules": [
+      {
+        "en": "Stem + σ + -α (μίλησα, I spoke, from μιλάω)",
+        "el": "Θέμα + σ + -α (μίλησα, από το μιλάω)",
+        "ca": "Tema + σ + -α (μίλησα, de μιλάω)"
+      },
+      {
+        "en": "With ζ→ξ: παίζω → έπαιξα (I played)",
+        "el": "Με ζ→ξ: παίζω → έπαιξα",
+        "ca": "Amb ζ→ξ: παίζω → έπαιξα"
+      },
+      {
+        "en": "With φ→ψ: γράφω → έγραψα (I wrote)",
+        "el": "Με φ→ψ: γράφω → έγραψα",
+        "ca": "Amb φ→ψ: γράφω → έγραψα"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Sigmatic Aorist: μιλάω → μίλησα",
+        "el": "Σιγματικός Αόριστος: μιλάω → μίλησα",
+        "ca": "Aorist Sigmàtic: μιλάω → μίλησα"
+      },
+      "columnHeaders": ["Ενικός", "Πληθυντικός"],
+      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "cells": [
+        [
+          {"greek": "μίλησα", "romanization": "mílisa", "translation": "I spoke"},
+          {"greek": "μιλήσαμε", "romanization": "milísame", "translation": "we spoke"}
+        ],
+        [
+          {"greek": "μίλησες", "romanization": "mílises", "translation": "you spoke"},
+          {"greek": "μιλήσατε", "romanization": "milísate", "translation": "you spoke (pl)"}
+        ],
+        [
+          {"greek": "μίλησε", "romanization": "mílise", "translation": "he/she spoke"},
+          {"greek": "μίλησαν", "romanization": "mílisan", "translation": "they spoke"}
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_a2_101",
+      "greek": "Χτες έπαιξα ποδόσφαιρο.",
+      "romanization": "Chtes epexa podosfairo.",
+      "catalan": "Ahir vaig jugar a futbol.",
+      "englishLiteral": "Yesterday I played football.",
+      "highlights": [
+        {"startIndex": 5, "endIndex": 9, "explanation": "Aorist form"}
+      ]
+    },
+    {
+      "id": "ex_a2_102",
+      "greek": "Μίλησε με τη φίλη του.",
+      "romanization": "Milise me ti fili tou.",
+      "catalan": "Va parlar amb la seva amiga.",
+      "englishLiteral": "He/She spoke with his friend.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 6, "explanation": "Aorist form"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2_ex_fill_101",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Χτες ____ (παίζω) τένις.",
+      "promptRomanization": "Chtes ____ (paizo) tenis.",
+      "hint": "Translation: Yesterday I played tennis.",
+      "correctAnswer": "έπαιξα",
+      "acceptableAnswers": ["έπαιξα"],
+      "explanation": {
+        "en": "First person singular aorist of παίζω is έπαιξα.",
+        "el": "Ο αόριστος του παίζω στο α' ενικό είναι έπαιξα.",
+        "ca": "L'aorist de παίζω en 1a persona és έπαιξα."
+      }
+    },
+    {
+      "id": "a2_ex_mc_101",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτός ____ (μιλάω) με τη δασκάλα.",
+      "promptRomanization": "Aftos ____ (milao) me ti daskala.",
+      "hint": "Translation: He spoke with the teacher.",
+      "correctAnswer": "μίλησε",
+      "options": ["μιλά", "μίλησε", "μιλούσε"],
+      "acceptableAnswers": ["μίλησε"],
+      "explanation": {
+        "en": "Third person singular aorist of μιλάω is μίλησε.",
+        "el": "Ο αόριστος του μιλάω στο γ' ενικό είναι μίλησε.",
+        "ca": "L'aorist de μιλάω en 3a persona és μίλησε."
+      }
+    },
+    {
+      "id": "a2_ex_fill_102",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ (δουλεύω) μέχρι αργά.",
+      "promptRomanization": "Emis ____ (doulevo) mechri arga.",
+      "hint": "Translation: We worked until late.",
+      "correctAnswer": "δουλέψαμε",
+      "acceptableAnswers": ["δουλέψαμε"],
+      "explanation": {
+        "en": "First person plural aorist of δουλεύω is δουλέψαμε.",
+        "el": "Ο αόριστος του δουλεύω στο α' πληθυντικό είναι δουλέψαμε.",
+        "ca": "L'aorist de δουλεύω en 1a persona plural és δουλέψαμε."
+      }
+    }
+  ],
+  "prerequisites": ["a1_g02_verb_to_have"],
+  "tags": ["verbs", "past", "aorist"]
+}

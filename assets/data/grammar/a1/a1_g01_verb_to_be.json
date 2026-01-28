@@ -54,8 +54,8 @@
         "el": "Ενεστώτας του Είμαι",
         "ca": "Present d'Είμαι"
       },
-      "columnHeaders": ["Singular", "Plural"],
-      "rowHeaders": ["1st Person", "2nd Person", "3rd Person"],
+      "columnHeaders": ["Ενικός", "Πληθυντικός"],
+      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
       "cells": [
         [
           {"greek": "είμαι", "romanization": "ime", "translation": "I am"},

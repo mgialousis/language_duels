@@ -40,8 +40,8 @@
         "el": "Προσωπικές Αντωνυμίες",
         "ca": "Pronoms Personals"
       },
-      "columnHeaders": ["1st", "2nd", "3rd"],
-      "rowHeaders": ["Singular", "Plural"],
+      "columnHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "rowHeaders": ["Ενικός", "Πληθυντικός"],
       "cells": [
         [
           {"greek": "εγώ", "romanization": "ego", "translation": "I"},
@@ -60,7 +60,7 @@
     {
       "id": "ex_501",
       "greek": "Εγώ είμαι η Μαρία.",
-      "romanization": "Ego eimai i Maria.",
+      "romanization": "Ego íme i María.",
       "catalan": "Jo soc la Maria.",
       "englishLiteral": "I am Maria.",
       "highlights": [
@@ -70,7 +70,7 @@
     {
       "id": "ex_502",
       "greek": "Εμείς είμαστε εδώ.",
-      "romanization": "Emeis eimaste edo.",
+      "romanization": "Emís ímaste edó.",
       "catalan": "Nosaltres som aquí.",
       "englishLiteral": "We are here.",
       "highlights": [
@@ -89,7 +89,7 @@
         "ca": "Completa la frase"
       },
       "prompt": "____ είμαι ο Γιάννης.",
-      "promptRomanization": "____ eimai o Giannis.",
+      "promptRomanization": "____ íme o Giánnis.",
       "correctAnswer": "Εγώ",
       "acceptableAnswers": ["εγώ"],
       "explanation": {
@@ -108,7 +108,7 @@
         "ca": "Tria el pronom correcte"
       },
       "prompt": "____ είσαι έτοιμος.",
-      "promptRomanization": "____ eisai etoimos.",
+      "promptRomanization": "____ íse étimos.",
       "correctAnswer": "Εσύ",
       "options": ["Εγώ", "Εσύ", "Εμείς"],
       "acceptableAnswers": ["εσύ"],

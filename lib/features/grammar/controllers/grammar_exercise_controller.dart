@@ -73,7 +73,10 @@ class GrammarExerciseController extends StateNotifier<GrammarExerciseState> {
   void nextExercise() {
     final nextIndex = state.currentIndex + 1;
     if (nextIndex >= state.exercises.length) {
-      state = state.copyWith(isComplete: true);
+      state = state.copyWith(
+        isComplete: true,
+        isSubmitted: false,
+      );
     } else {
       state = state.copyWith(
         currentIndex: nextIndex,

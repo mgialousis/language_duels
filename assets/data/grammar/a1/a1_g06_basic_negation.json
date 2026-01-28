@@ -7,7 +7,7 @@
   "title": {
     "en": "Basic Negation (δεν)",
     "el": "Άρνηση (δεν)",
-    "ca": "Negacio Basica (δεν)"
+    "ca": "Negació Bàsica (δεν)"
   },
   "description": {
     "en": "Use δεν to make simple negative sentences",
@@ -82,7 +82,7 @@
       "instruction": {
         "en": "Choose the correct negation",
         "el": "Διάλεξε τη σωστή άρνηση",
-        "ca": "Tria la negacio correcta"
+        "ca": "Tria la negació correcta"
       },
       "prompt": "____ είμαστε έτοιμοι.",
       "promptRomanization": "____ eimaste etoimoi.",
@@ -92,7 +92,7 @@
       "explanation": {
         "en": "Use δεν to negate a statement.",
         "el": "Χρησιμοποίησε το δεν για άρνηση.",
-        "ca": "Usa δεν per negar una afirmacio."
+        "ca": "Usa δεν per negar una afirmació."
       }
     },
     {
@@ -104,10 +104,10 @@
         "el": "Διόρθωσε την πρόταση",
         "ca": "Corregeix la frase"
       },
-      "prompt": "Είμαι δεν κουρασμενος.",
-      "promptRomanization": "Eimai den kourasmenos.",
-      "correctAnswer": "Δεν ειμαι κουρασμενος.",
-      "acceptableAnswers": ["Δεν ειμαι κουρασμενος", "Δεν είμαι κουρασμενος"],
+      "prompt": "Είμαι δεν κουρασμένος.",
+      "promptRomanization": "Íme den kourasmenos.",
+      "correctAnswer": "Δεν είμαι κουρασμένος.",
+      "acceptableAnswers": ["Δεν ειμαι κουρασμενος", "Δεν είμαι κουρασμενος", "Δεν ειμαι κουρασμένος"],
       "explanation": {
         "en": "δεν comes before the verb.",
         "el": "Το δεν μπαίνει πριν από το ρήμα.",

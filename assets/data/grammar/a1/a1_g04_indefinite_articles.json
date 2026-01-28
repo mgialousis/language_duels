@@ -45,8 +45,8 @@
         "el": "Αόριστα Άρθρα",
         "ca": "Articles Indefinits"
       },
-      "columnHeaders": ["Masculine", "Feminine", "Neuter"],
-      "rowHeaders": ["Singular"],
+      "columnHeaders": ["Αρσενικό", "Θηλυκό", "Ουδέτερο"],
+      "rowHeaders": ["Ενικός"],
       "cells": [
         [
           {"greek": "ένας", "romanization": "enas", "translation": "a (m)"},

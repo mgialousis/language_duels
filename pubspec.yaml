@@ -91,6 +91,9 @@ flutter:
     - assets/data/grammar/a1/a1_g05_subject_pronouns.json
     - assets/data/grammar/a1/a1_g06_basic_negation.json
     - assets/data/grammar/a1/a1_g07_possessive_pronouns.json
+    - assets/data/grammar/a1/a1_g08_present_tense_regular.json
+    - assets/data/grammar/a1/a1_g09_present_tense_common_irregular.json
+    - assets/data/grammar/a2/a2_g01_simple_past.json
     - assets/icons/app_icon.png
 
 flutter_launcher_icons:

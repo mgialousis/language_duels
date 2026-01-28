@@ -1,0 +1,123 @@
+{
+  "id": "a1_g09_present_tense_common_irregular",
+  "category": "verb_conjugation",
+  "subcategory": "present_tense",
+  "level": "A1",
+  "order": 9,
+  "title": {
+    "en": "Present Tense - Common Irregular Verbs",
+    "el": "Ενεστώτας - Συχνά Ανώμαλα Ρήματα",
+    "ca": "Present - Verbs Irregulars Comuns"
+  },
+  "description": {
+    "en": "Practice the present tense of common irregular verbs.",
+    "el": "Εξάσκηση στον ενεστώτα συχνών ανώμαλων ρημάτων.",
+    "ca": "Practica el present de verbs irregulars comuns."
+  },
+  "explanation": {
+    "content": {
+      "en": "Some high-frequency verbs are irregular in the present: πάω (go) and τρώω (eat). Memorize their forms.",
+      "el": "Μερικά συχνά ρήματα είναι ανώμαλα στον ενεστώτα: πάω και τρώω. Αποστήθισε τους τύπους.",
+      "ca": "Alguns verbs freqüents són irregulars en present: πάω i τρώω. Memoritzane les formes."
+    },
+    "rules": [
+      {
+        "en": "πάω: πάω, πας, πάει, πάμε, πάτε, πάνε",
+        "el": "πάω: πάω, πας, πάει, πάμε, πάτε, πάνε",
+        "ca": "πάω: πάω, πας, πάει, πάμε, πάτε, πάνε"
+      },
+      {
+        "en": "τρώω: τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε",
+        "el": "τρώω: τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε",
+        "ca": "τρώω: τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "id": "ex_901",
+      "greek": "Πάω στο σχολείο.",
+      "romanization": "Pao sto scholeio.",
+      "catalan": "Vaig a l'escola.",
+      "englishLiteral": "I go to school.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 3, "explanation": "Irregular present"}
+      ]
+    },
+    {
+      "id": "ex_902",
+      "greek": "Τρώνε μαζί.",
+      "romanization": "Trone mazi.",
+      "catalan": "Mengen junts.",
+      "englishLiteral": "They eat together.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 5, "explanation": "Irregular present"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_901",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εσύ ____ (πάω) στη δουλειά;",
+      "promptRomanization": "Esy ____ (pao) sti douleia?",
+      "hint": "Translation: Do you go to work?",
+      "correctAnswer": "πας",
+      "acceptableAnswers": ["πας"],
+      "explanation": {
+        "en": "Second person singular of πάω is πας.",
+        "el": "Ο ενεστώτας του πάω στο β' ενικό είναι πας.",
+        "ca": "El present de πάω en 2a persona és πας."
+      }
+    },
+    {
+      "id": "ex_mc_901",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Αυτός ____ (τρώω) τώρα.",
+      "promptRomanization": "Aftos ____ (troo) tora.",
+      "hint": "Translation: He eats now.",
+      "correctAnswer": "τρώει",
+      "options": ["τρώω", "τρώει", "τρώτε"],
+      "acceptableAnswers": ["τρώει"],
+      "explanation": {
+        "en": "Third person singular of τρώω is τρώει.",
+        "el": "Ο ενεστώτας του τρώω στο γ' ενικό είναι τρώει.",
+        "ca": "El present de τρώω en 3a persona és τρώει."
+      }
+    },
+    {
+      "id": "ex_fill_902",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ (πάω) στο πάρκο.",
+      "promptRomanization": "Emis ____ (pao) sto parko.",
+      "hint": "Translation: We go to the park.",
+      "correctAnswer": "πάμε",
+      "acceptableAnswers": ["πάμε"],
+      "explanation": {
+        "en": "First person plural of πάω is πάμε.",
+        "el": "Ο ενεστώτας του πάω στο α' πληθυντικό είναι πάμε.",
+        "ca": "El present de πάω en 1a persona plural és πάμε."
+      }
+    }
+  ],
+  "prerequisites": ["a1_g08_present_tense_regular"],
+  "tags": ["verbs", "present", "irregular"]
+}

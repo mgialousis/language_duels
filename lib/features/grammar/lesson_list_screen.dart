@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/routes.dart';
+import '../../data/models/grammar_progress.dart';
 import '../../data/providers/grammar_provider.dart';
 import '../../shared/widgets/async_state.dart';
 

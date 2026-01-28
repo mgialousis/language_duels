@@ -101,6 +101,9 @@ class _GrammarExerciseScreenState
               });
             }
           });
+          return const Scaffold(
+            body: LoadingState(message: 'Finishing up...'),
+          );
         }
 
         final exercise = state.currentExercise;

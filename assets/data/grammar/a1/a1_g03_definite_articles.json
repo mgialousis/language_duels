@@ -45,8 +45,8 @@
         "el": "Οριστικά Άρθρα",
         "ca": "Articles Definits"
       },
-      "columnHeaders": ["Masculine", "Feminine", "Neuter"],
-      "rowHeaders": ["Singular", "Plural"],
+      "columnHeaders": ["Αρσενικό", "Θηλυκό", "Ουδέτερο"],
+      "rowHeaders": ["Ενικός", "Πληθυντικός"],
       "cells": [
         [
           {"greek": "ο", "romanization": "o", "translation": "the (m)"},

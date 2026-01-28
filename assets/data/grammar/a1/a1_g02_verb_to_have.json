@@ -47,8 +47,8 @@
         "el": "Ενεστώτας του Έχω",
         "ca": "Present d'Έχω"
       },
-      "columnHeaders": ["Singular", "Plural"],
-      "rowHeaders": ["1st Person", "2nd Person", "3rd Person"],
+      "columnHeaders": ["Ενικός", "Πληθυντικός"],
+      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
       "cells": [
         [
           {"greek": "έχω", "romanization": "eho", "translation": "I have"},

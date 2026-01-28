@@ -34,7 +34,7 @@
       {
         "en": "Placement: το βιβλίο μου (my book), οι φίλοι τους (their friends)",
         "el": "Θέση: το βιβλίο μου, οι φίλοι τους",
-        "ca": "Posicio: το βιβλίο μου, οι φίλοι τους"
+        "ca": "Posició: το βιβλίο μου, οι φίλοι τους"
       }
     ]
   },
@@ -45,8 +45,8 @@
         "el": "Σύντομες Κτητικές Αντωνυμίες",
         "ca": "Pronoms Possessius Curts"
       },
-      "columnHeaders": ["Singular", "Plural"],
-      "rowHeaders": ["1st", "2nd", "3rd"],
+      "columnHeaders": ["Ενικός", "Πληθυντικός"],
+      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
       "cells": [
         [
           {"greek": "μου", "romanization": "mou", "translation": "my"},

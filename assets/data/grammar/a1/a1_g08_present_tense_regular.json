@@ -1,0 +1,133 @@
+{
+  "id": "a1_g08_present_tense_regular",
+  "category": "verb_conjugation",
+  "subcategory": "present_tense",
+  "level": "A1",
+  "order": 8,
+  "title": {
+    "en": "Present Tense - Regular -ω Verbs",
+    "el": "Ενεστώτας - Κανονικά Ρήματα σε -ω",
+    "ca": "Present - Verbs Regulars en -ω"
+  },
+  "description": {
+    "en": "Conjugate regular verbs in the present tense.",
+    "el": "Κλίση κανονικών ρημάτων στον ενεστώτα.",
+    "ca": "Conjugació de verbs regulars en present."
+  },
+  "explanation": {
+    "content": {
+      "en": "Regular -ω verbs take standard present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε).",
+      "el": "Τα κανονικά ρήματα σε -ω παίρνουν τις καταλήξεις: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε).",
+      "ca": "Els verbs regulars en -ω prenen les terminacions: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε)."
+    },
+    "rules": [
+      {
+        "en": "μιλάω: μιλάω, μιλάς, μιλά, μιλάμε, μιλάτε, μιλάνε",
+        "el": "μιλάω: μιλάω, μιλάς, μιλά, μιλάμε, μιλάτε, μιλάνε",
+        "ca": "μιλάω: μιλάω, μιλάς, μιλά, μιλάμε, μιλάτε, μιλάνε"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Present endings for -ω verbs",
+        "el": "Καταλήξεις ενεστώτα για ρήματα σε -ω",
+        "ca": "Terminacions de present per a verbs en -ω"
+      },
+      "columnHeaders": ["Ενικός", "Πληθυντικός"],
+      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "cells": [
+        [
+          {"greek": "-ω", "romanization": "-o", "translation": "I"},
+          {"greek": "-ουμε", "romanization": "-oume", "translation": "we"}
+        ],
+        [
+          {"greek": "-εις", "romanization": "-eis", "translation": "you"},
+          {"greek": "-ετε", "romanization": "-ete", "translation": "you (pl)"}
+        ],
+        [
+          {"greek": "-ει", "romanization": "-ei", "translation": "he/she"},
+          {"greek": "-ουν(ε)", "romanization": "-oun(e)", "translation": "they"}
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_801",
+      "greek": "Μιλάω ελληνικά.",
+      "romanization": "Milao ellinika.",
+      "catalan": "Parlo grec.",
+      "englishLiteral": "I speak Greek.",
+      "highlights": [
+        {"startIndex": 0, "endIndex": 5, "explanation": "Present tense"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_801",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ (μιλάω) καταλανικά.",
+      "promptRomanization": "Ego ____ (milao) katalanika.",
+      "hint": "Translation: I speak Catalan.",
+      "correctAnswer": "μιλάω",
+      "acceptableAnswers": ["μιλάω"],
+      "explanation": {
+        "en": "First person singular present of μιλάω is μιλάω.",
+        "el": "Ο ενεστώτας του μιλάω στο α' ενικό είναι μιλάω.",
+        "ca": "El present de μιλάω en 1a persona és μιλάω."
+      }
+    },
+    {
+      "id": "ex_mc_801",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσύ ____ (παίζω) μπάλα.",
+      "promptRomanization": "Esy ____ (paizo) bala.",
+      "hint": "Translation: You play ball.",
+      "correctAnswer": "παίζεις",
+      "options": ["παίζω", "παίζεις", "παίζει"],
+      "acceptableAnswers": ["παίζεις"],
+      "explanation": {
+        "en": "Second person singular present of παίζω is παίζεις.",
+        "el": "Ο ενεστώτας του παίζω στο β' ενικό είναι παίζεις.",
+        "ca": "El present de παίζω en 2a persona és παίζεις."
+      }
+    },
+    {
+      "id": "ex_fill_802",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτοί ____ (δουλεύω) εδώ.",
+      "promptRomanization": "Aftoi ____ (doulevo) edo.",
+      "hint": "Translation: They work here.",
+      "correctAnswer": "δουλεύουν",
+      "acceptableAnswers": ["δουλεύουν", "δουλεύουνε"],
+      "explanation": {
+        "en": "Third person plural present of δουλεύω is δουλεύουν.",
+        "el": "Ο ενεστώτας του δουλεύω στο γ' πληθυντικό είναι δουλεύουν.",
+        "ca": "El present de δουλεύω en 3a persona plural es δουλεύουν."
+      }
+    }
+  ],
+  "prerequisites": ["a1_g01_verb_to_be"],
+  "tags": ["verbs", "present"]
+}
