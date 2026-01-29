@@ -117,7 +117,7 @@ void main() {
               .overrideWithValue(FakeSettingsRepository(SettingsState.defaults)),
           learnerStorageProvider
               .overrideWithValue(FakeLearnerRepository(profile)),
-          allDueItemsProvider.overrideWithValue(<SRSItem>[]),
+          vocabDueItemsProvider.overrideWithValue(<SRSItem>[]),
           weakItemsProvider.overrideWithValue(<SRSItem>[]),
           soloHistoryStorageProvider
               .overrideWithValue(FakeSoloHistoryRepository(sessions)),

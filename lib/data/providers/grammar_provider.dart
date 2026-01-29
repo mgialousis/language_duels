@@ -5,6 +5,8 @@ import '../models/grammar_lesson.dart';
 import '../models/grammar_progress.dart';
 import '../repositories/grammar_repository.dart';
 import '../repositories/interfaces.dart';
+import '../services/srs_helpers.dart';
+import 'srs_provider.dart';
 
 final grammarRepositoryProvider = Provider<IGrammarRepository>((ref) {
   return GrammarRepository();
@@ -20,6 +22,23 @@ final grammarLessonProvider =
     FutureProvider.family<GrammarLesson?, String>((ref, id) {
   final repo = ref.read(grammarRepositoryProvider);
   return repo.loadLesson(id);
+});
+
+final grammarDueLessonsProvider =
+    FutureProvider<List<GrammarLesson>>((ref) async {
+  final dueItems = ref.watch(grammarDueItemsProvider);
+  if (dueItems.isEmpty) return const [];
+  final repo = ref.read(grammarRepositoryProvider);
+  final lessons = <GrammarLesson>[];
+  for (final item in dueItems) {
+    final lessonId = grammarLessonIdFromItem(item);
+    if (lessonId == null) continue;
+    final lesson = await repo.loadLesson(lessonId);
+    if (lesson != null) {
+      lessons.add(lesson);
+    }
+  }
+  return lessons;
 });
 
 class GrammarProgressController

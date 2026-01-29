@@ -7,6 +7,7 @@ import '../../data/models/grammar_progress.dart';
 import '../../data/providers/grammar_provider.dart';
 import '../../data/providers/srs_provider.dart';
 import '../../data/services/srs_service.dart';
+import '../../data/services/srs_helpers.dart';
 import '../../data/models/srs_item.dart';
 
 class GrammarExerciseResultsScreen extends ConsumerWidget {
@@ -75,8 +76,9 @@ class GrammarExerciseResultsScreen extends ConsumerWidget {
 void _updateSrs(WidgetRef ref, String lessonId, double accuracy) {
   final srsController = ref.read(srsItemsProvider.notifier);
   final existingItems = ref.read(srsItemsProvider).value ?? {};
-  final itemId = 'grammar:$lessonId';
-  final current = existingItems[itemId] ?? SRSItem.newItem(itemId, 'grammar');
+  final itemId = grammarItemId(lessonId);
+  final current =
+      existingItems[itemId] ?? SRSItem.newItem(itemId, grammarDeckId);
   final quality = _qualityFromAccuracy(accuracy);
   final updated = SrsService().processReview(current, quality, 0);
   srsController.saveItem(updated);

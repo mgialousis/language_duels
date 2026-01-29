@@ -114,7 +114,7 @@ class HomeScreen extends ConsumerWidget {
                   const SizedBox(height: 20),
                   Consumer(
                     builder: (context, ref, _) {
-                      final dueItems = ref.watch(allDueItemsProvider);
+                      final dueItems = ref.watch(vocabDueItemsProvider);
                       return _SecondaryActionCard(
                         title: 'Solo Practice',
                         subtitle: 'Focus on today’s spaced repetition.',

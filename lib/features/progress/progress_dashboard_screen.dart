@@ -16,7 +16,7 @@ class ProgressDashboardScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final profileAsync = ref.watch(learnerProfileProvider);
     final deckProgressAsync = ref.watch(deckProgressListProvider);
-    final dueItems = ref.watch(allDueItemsProvider);
+    final dueItems = ref.watch(vocabDueItemsProvider);
     final weakItems = ref.watch(weakItemsProvider);
     final decksAsync = ref.watch(deckListProvider);
 

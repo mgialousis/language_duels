@@ -4,6 +4,7 @@ import 'package:riverpod/riverpod.dart';
 import '../models/srs_item.dart';
 import '../repositories/interfaces.dart';
 import '../repositories/srs_storage.dart';
+import '../services/srs_helpers.dart';
 
 final srsStorageProvider = Provider<ISrsRepository>((ref) {
   return SrsStorage();
@@ -58,10 +59,34 @@ final dueItemsProvider = Provider.family<List<SRSItem>, String>((ref, deckId) {
     ..sort((a, b) => a.nextReviewDate.compareTo(b.nextReviewDate));
 });
 
-
 final weakItemsProvider = Provider<List<SRSItem>>((ref) {
   final items = ref.watch(srsItemsProvider).value ?? {};
-  return items.values.where((item) => item.isWeak).toList();
+  return items.values
+      .where((item) => !isGrammarSrsItem(item) && item.isWeak)
+      .toList();
+});
+
+final vocabDueItemsProvider = Provider<List<SRSItem>>((ref) {
+  final items = ref.watch(srsItemsProvider).value ?? {};
+  return items.values
+      .where((item) => !isGrammarSrsItem(item) && item.isDue)
+      .toList()
+    ..sort((a, b) => a.nextReviewDate.compareTo(b.nextReviewDate));
+});
+
+final grammarDueItemsProvider = Provider<List<SRSItem>>((ref) {
+  final items = ref.watch(srsItemsProvider).value ?? {};
+  return items.values
+      .where((item) => isGrammarSrsItem(item) && item.isDue)
+      .toList()
+    ..sort((a, b) => a.nextReviewDate.compareTo(b.nextReviewDate));
+});
+
+final grammarWeakItemsProvider = Provider<List<SRSItem>>((ref) {
+  final items = ref.watch(srsItemsProvider).value ?? {};
+  return items.values
+      .where((item) => isGrammarSrsItem(item) && item.isWeak)
+      .toList();
 });
 
 final allDueItemsProvider = Provider<List<SRSItem>>((ref) {

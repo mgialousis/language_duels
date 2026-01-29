@@ -17,7 +17,7 @@ class SoloHubScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final profileAsync = ref.watch(learnerProfileProvider);
-    final dueItems = ref.watch(allDueItemsProvider);
+    final dueItems = ref.watch(vocabDueItemsProvider);
     final weakItems = ref.watch(weakItemsProvider);
     final history = ref.watch(soloHistoryProvider);
     final decksAsync = ref.watch(deckListProvider);

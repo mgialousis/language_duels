@@ -8,6 +8,7 @@ Hot-seat language duel game (Greek ↔ Catalan) with solo practice and spaced re
 - Grammar & Theory module with lessons + exercises (A1–A2)
 - IPA toggle for grammar lesson tables/examples
 - Progress dashboard, weak words review, and practice history
+- Grammar lessons feed SRS with due-review surfaced in Grammar Hub
 - Local deck content stored in `assets/data`
 
 ## Run
