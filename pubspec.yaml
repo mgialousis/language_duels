@@ -93,6 +93,9 @@ flutter:
     - assets/data/grammar/a1/a1_g07_possessive_pronouns.json
     - assets/data/grammar/a1/a1_g08_present_tense_regular.json
     - assets/data/grammar/a1/a1_g09_present_tense_common_irregular.json
+    - assets/data/grammar/a1/a1_g10_present_tense_irregular.json
+    - assets/data/grammar/a1/a1_g11_present_tense_passive_a.json
+    - assets/data/grammar/a1/a1_g12_present_tense_passive_b.json
     - assets/data/grammar/a2/a2_g01_simple_past.json
     - assets/data/grammar/a2/a2_g02_imperfect_tense.json
     - assets/data/grammar/a2/a2_g03_future_simple.json

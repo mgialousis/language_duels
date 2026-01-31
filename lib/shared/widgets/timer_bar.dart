@@ -39,7 +39,10 @@ class TimerBar extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Time: ${remainingSeconds}s'),
+          Text(
+            'Time: ${remainingSeconds}s',
+            style: Theme.of(context).textTheme.bodySmall,
+          ),
           const SizedBox(height: 6),
           if (reduceMotion)
             bar

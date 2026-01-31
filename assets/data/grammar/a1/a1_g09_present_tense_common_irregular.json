@@ -5,67 +5,124 @@
   "level": "A1",
   "order": 9,
   "title": {
-    "en": "Present Tense - Common Irregular Verbs",
-    "el": "Ενεστώτας - Συχνά Ανώμαλα Ρήματα",
-    "ca": "Present - Verbs Irregulars Comuns"
+    "en": "Present Tense - B2 Class (Active Voice)",
+    "el": "Ενεστώτας - Β2 Τάξη (Ενεργητική Φωνή)",
+    "ca": "Present - Classe B2 (Veu Activa)"
   },
   "description": {
-    "en": "Practice the present tense of common irregular verbs.",
-    "el": "Εξάσκηση στον ενεστώτα συχνών ανώμαλων ρημάτων.",
-    "ca": "Practica el present de verbs irregulars comuns."
+    "en": "Conjugate B2 class verbs (accented -ώ with 'ει' in endings). These verbs have stress on the last syllable and use 'ει' in their conjugation.",
+    "el": "Κλίση ρημάτων της Β2 τάξης (τονισμένα -ώ με 'ει' στις καταλήξεις). Αυτά τα ρήματα τονίζονται στην τελευταία συλλαβή και χρησιμοποιούν 'ει' στην κλίση τους.",
+    "ca": "Conjugació de verbs de classe B2 (accentuats -ώ amb 'ει' a les terminacions). Aquests verbs tenen l'accent a l'última síl·laba i usen 'ει' a la seva conjugació."
   },
   "explanation": {
     "content": {
-      "en": "Some high-frequency verbs are irregular in the present: πάω (go) and τρώω (eat). Memorize their forms.",
-      "el": "Μερικά συχνά ρήματα είναι ανώμαλα στον ενεστώτα: πάω και τρώω. Αποστήθισε τους τύπους.",
-      "ca": "Alguns verbs freqüents són irregulars en present: πάω i τρώω. Memoritzane les formes."
+      "en": "B2 class verbs (like θεωρώ, μπορώ) have stress on the final -ώ and use 'ει' in their endings: θεωρώ, θεωρείς, θεωρεί, θεωρούμε, θεωρείτε, θεωρούν. This class represents about 10% of Greek verbs.",
+      "el": "Τα ρήματα της Β2 τάξης (όπως θεωρώ, μπορώ) τονίζονται στο τελικό -ώ και έχουν 'ει' στις καταλήξεις: θεωρώ, θεωρείς, θεωρεί, θεωρούμε, θεωρείτε, θεωρούν. Αυτή η τάξη αποτελεί περίπου το 10% των ελληνικών ρημάτων.",
+      "ca": "Els verbs de classe B2 (com θεωρώ, μπορώ) tenen l'accent al final -ώ i usen 'ει' a les seves terminacions: θεωρώ, θεωρείς, θεωρεί, θεωρούμε, θεωρείτε, θεωρούν. Aquesta classe representa aproximadament el 10% dels verbs grecs."
     },
     "rules": [
       {
-        "en": "πάω: πάω, πας, πάει, πάμε, πάτε, πάνε",
-        "el": "πάω: πάω, πας, πάει, πάμε, πάτε, πάνε",
-        "ca": "πάω: πάω, πας, πάει, πάμε, πάτε, πάνε"
+        "en": "How to recognize B2 verbs: The accent falls on the final -ώ, and endings contain 'ει' (θεωρώ, μπορώ, ξερώ).",
+        "el": "Πώς αναγνωρίζουμε τα Β2 ρήματα: Ο τόνος πέφτει στο τελικό -ώ, και οι καταλήξεις περιέχουν 'ει' (θεωρώ, μπορώ, ξερώ).",
+        "ca": "Com reconèixer els verbs B2: L'accent cau a la final -ώ, i les terminacions contenen 'ει' (θεωρώ, μπορώ, ξερώ)."
       },
       {
-        "en": "τρώω: τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε",
-        "el": "τρώω: τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε",
-        "ca": "τρώω: τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε"
+        "en": "B2 endings: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(ε). Note the 'ει' in 2nd person and 3rd person forms.",
+        "el": "Καταλήξεις Β2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(ε). Παρατήρησε το 'ει' στα β' και γ' πρόσωπα.",
+        "ca": "Terminacions B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(ε). Nota el 'ει' a les 2a i 3a persones."
+      }
+    ],
+    "tips": [
+      {
+        "en": "Other common B2 verbs: μπορώ (can), φορώ (wear), κρατώ (hold), περνώ (pass).",
+        "el": "Άλλα συχνά Β2 ρήματα: μπορώ (μπορώ), φορώ (φορώ), κρατώ (κρατώ), περνώ (περνώ).",
+        "ca": "Altres verbs B2 comuns: μπορώ (poder), φορώ (portar), κρατώ (sostenir), περνώ (passar)."
       }
     ]
   },
+  "tables": [
+    {
+      "title": {
+        "en": "B2 class example: θεωρώ (present) - Verb Family: B2",
+        "el": "Παράδειγμα Β2 τάξης: θεωρώ (ενεστώτας) - Οικογένεια ρήματος: Β2",
+        "ca": "Exemple classe B2: θεωρώ (present) - Família del verb: B2"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "θεωρώ",
+            "romanization": "θe.oˈro",
+            "translation": "I consider"
+          },
+          {
+            "greek": "θεωρούμε",
+            "romanization": "θe.oˈrume",
+            "translation": "we consider"
+          }
+        ],
+        [
+          {
+            "greek": "θεωρείς",
+            "romanization": "θe.oˈris",
+            "translation": "you consider"
+          },
+          {
+            "greek": "θεωρείτε",
+            "romanization": "θe.oˈrite",
+            "translation": "you (pl) consider"
+          }
+        ],
+        [
+          {
+            "greek": "θεωρεί",
+            "romanization": "θe.oˈri",
+            "translation": "he/she considers"
+          },
+          {
+            "greek": "θεωρούν",
+            "romanization": "θe.oˈrun",
+            "translation": "they consider"
+          }
+        ]
+      ],
+      "footnote": "Alternative 3rd plural: θεωρούνε"
+    }
+  ],
   "examples": [
     {
       "id": "ex_901",
-      "greek": "Πάω στο σχολείο.",
-      "romanization": "pˈao sto sxolˈio.",
-      "catalan": "Vaig a l'escola.",
-      "englishLiteral": "I go to school.",
+      "greek": "Θεωρώ το μάθημα εύκολο.",
+      "romanization": "θe.oˈro to mˈaθima ˈefkolo.",
+      "catalan": "Considero la lliçó fàcil.",
+      "englishLiteral": "I consider the lesson easy.",
       "highlights": [
         {
           "startIndex": 0,
-          "endIndex": 3,
-          "explanation": "Irregular present"
+          "endIndex": 6,
+          "explanation": "1st person singular"
         }
       ]
     },
     {
       "id": "ex_902",
-      "greek": "Τρώνε μαζί.",
-      "romanization": "trˈone mazˈi.",
-      "catalan": "Mengen junts.",
-      "englishLiteral": "They eat together.",
-      "highlights": [
-        {
-          "startIndex": 0,
-          "endIndex": 5,
-          "explanation": "Irregular present"
-        }
-      ]
+      "greek": "Αυτοί θεωρούν σωστό αυτό.",
+      "romanization": "aftˈi θe.oˈrun soˈsto aftˈo.",
+      "catalan": "Ells ho consideren correcte.",
+      "englishLiteral": "They consider this correct."
     }
   ],
   "exercises": [
     {
-      "id": "ex_fill_901",
+      "id": "ex_fill_901a",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -73,21 +130,18 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εσύ ____ (πάω) στη δουλειά;",
-      "promptRomanization": "esˈi ____ (pˈao) sti ðuliˈa;",
-      "hint": "Translation: Do you go to work?",
-      "correctAnswer": "πας",
-      "acceptableAnswers": [
-        "πας"
-      ],
+      "prompt": "Εγώ ____ ότι έχεις δίκιο.",
+      "hint": "θεωρώ is a B2 class verb (accented -ώ with 'ει' in endings). Use 1st person singular.",
+      "correctAnswer": "θεωρώ",
+      "acceptableAnswers": ["θεωρώ"],
       "explanation": {
-        "en": "Second person singular of πάω is πας.",
-        "el": "Ο ενεστώτας του πάω στο β' ενικό είναι πας.",
-        "ca": "El present de πάω en 2a persona és πας."
+        "en": "First person singular uses -ώ.",
+        "el": "Το α' ενικό τελειώνει σε -ώ.",
+        "ca": "La 1a persona singular acaba en -ώ."
       }
     },
     {
-      "id": "ex_mc_901",
+      "id": "ex_mc_901a",
       "type": "multipleChoice",
       "difficulty": 1,
       "instruction": {
@@ -95,26 +149,18 @@
         "el": "Διάλεξε τον σωστό τύπο",
         "ca": "Tria la forma correcta"
       },
-      "prompt": "Αυτός ____ (τρώω) τώρα.",
-      "promptRomanization": "aftˈos ____ (trˈoo) tˈora.",
-      "hint": "Translation: He eats now.",
-      "correctAnswer": "τρώει",
-      "options": [
-        "τρώω",
-        "τρώει",
-        "τρώτε"
-      ],
-      "acceptableAnswers": [
-        "τρώει"
-      ],
+      "prompt": "Εσύ ____ αυτό σωστό.",
+      "correctAnswer": "θεωρείς",
+      "options": ["θεωρώ", "θεωρείς", "θεωρεί"],
+      "acceptableAnswers": ["θεωρείς"],
       "explanation": {
-        "en": "Third person singular of τρώω is τρώει.",
-        "el": "Ο ενεστώτας του τρώω στο γ' ενικό είναι τρώει.",
-        "ca": "El present de τρώω en 3a persona és τρώει."
+        "en": "Second person singular ends in -είς.",
+        "el": "Το β' ενικό τελειώνει σε -είς.",
+        "ca": "La 2a persona singular acaba en -είς."
       }
     },
     {
-      "id": "ex_fill_902",
+      "id": "ex_fill_902a",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -122,21 +168,17 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ (πάω) στο πάρκο.",
-      "promptRomanization": "emˈis ____ (pˈao) sto pˈarko.",
-      "hint": "Translation: We go to the park.",
-      "correctAnswer": "πάμε",
-      "acceptableAnswers": [
-        "πάμε"
-      ],
+      "prompt": "Αυτή ____ το σχέδιο καλό.",
+      "correctAnswer": "θεωρεί",
+      "acceptableAnswers": ["θεωρεί"],
       "explanation": {
-        "en": "First person plural of πάω is πάμε.",
-        "el": "Ο ενεστώτας του πάω στο α' πληθυντικό είναι πάμε.",
-        "ca": "El present de πάω en 1a persona plural és πάμε."
+        "en": "Third person singular ends in -εί.",
+        "el": "Το γ' ενικό τελειώνει σε -εί.",
+        "ca": "La 3a persona singular acaba en -εί."
       }
     },
     {
-      "id": "ex_fill_903",
+      "id": "ex_fill_903a",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -144,21 +186,17 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εσύ ____ (τρώω) στο σπίτι.",
-      "promptRomanization": "esˈi ____ (trˈoo) sto spˈiti.",
-      "hint": "Translation: You eat at home.",
-      "correctAnswer": "τρως",
-      "acceptableAnswers": [
-        "τρως"
-      ],
+      "prompt": "Εμείς ____ τις οδηγίες.",
+      "correctAnswer": "θεωρούμε",
+      "acceptableAnswers": ["θεωρούμε"],
       "explanation": {
-        "en": "Second person singular of τρώω is τρως.",
-        "el": "Ο ενεστώτας του τρώω στο β' ενικό είναι τρως.",
-        "ca": "El present de τρώω en 2a persona és τρως."
+        "en": "First person plural ends in -ούμε.",
+        "el": "Το α' πληθυντικό τελειώνει σε -ούμε.",
+        "ca": "La 1a persona plural acaba en -ούμε."
       }
     },
     {
-      "id": "ex_mc_902",
+      "id": "ex_mc_902a",
       "type": "multipleChoice",
       "difficulty": 1,
       "instruction": {
@@ -166,26 +204,18 @@
         "el": "Διάλεξε τον σωστό τύπο",
         "ca": "Tria la forma correcta"
       },
-      "prompt": "Αυτοί ____ (πάω) στο σχολείο.",
-      "promptRomanization": "aftˈi ____ (pˈao) sto sxolˈio.",
-      "hint": "Translation: They go to school.",
-      "correctAnswer": "πάνε",
-      "options": [
-        "πάμε",
-        "πάνε",
-        "πάτε"
-      ],
-      "acceptableAnswers": [
-        "πανε"
-      ],
+      "prompt": "Εσείς ____ αυτήν την ιδέα.",
+      "correctAnswer": "θεωρείτε",
+      "options": ["θεωρείτε", "θεωρούν", "θεωρούμε"],
+      "acceptableAnswers": ["θεωρείτε"],
       "explanation": {
-        "en": "Third person plural of πάω is πάνε.",
-        "el": "Ο ενεστώτας του πάω στο γ' πληθυντικό είναι πάνε.",
-        "ca": "El present de πάω en 3a persona plural és πάνε."
+        "en": "Second person plural ends in -είτε.",
+        "el": "Το β' πληθυντικό τελειώνει σε -είτε.",
+        "ca": "La 2a persona plural acaba en -είτε."
       }
     },
     {
-      "id": "ex_fill_904",
+      "id": "ex_fill_904a",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -193,108 +223,84 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ (τρώω) μαζί.",
-      "promptRomanization": "emˈis ____ (trˈoo) mazˈi.",
-      "hint": "Translation: We eat together.",
-      "correctAnswer": "τρώμε",
-      "acceptableAnswers": [
-        "τρωμε"
-      ],
+      "prompt": "Αυτοί ____ σωστό αυτό.",
+      "correctAnswer": "θεωρούν",
+      "acceptableAnswers": ["θεωρούνε"],
       "explanation": {
-        "en": "First person plural of τρώω is τρώμε.",
-        "el": "Ο ενεστώτας του τρώω στο α' πληθυντικό είναι τρώμε.",
-        "ca": "El present de τρώω en 1a persona plural és τρώμε."
+        "en": "Third person plural ends in -ούν(ε).",
+        "el": "Το γ' πληθυντικό τελειώνει σε -ούν(ε).",
+        "ca": "La 3a persona plural acaba en -ούν(ε)."
       }
     },
     {
-      "id": "ex_fill_905",
-      "type": "fillBlank",
-      "difficulty": 1,
+      "id": "ex_conj_901a",
+      "type": "conjugation",
+      "difficulty": 2,
       "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
+        "en": "Conjugate θεωρώ in the present tense",
+        "el": "Κλίσε το θεωρώ στον ενεστώτα",
+        "ca": "Conjuga θεωρώ en present"
       },
-      "prompt": "Εσείς ____ (πάω) στο σούπερ μάρκετ;",
-      "promptRomanization": "esˈis ____ (pˈao) sto sˈuper mˈarket;",
-      "hint": "Translation: Are you (pl) going to the supermarket?",
-      "correctAnswer": "πάτε",
-      "acceptableAnswers": ["πάτε", "πατε"],
-      "explanation": {
-        "en": "Second person plural of πάω is πάτε.",
-        "el": "Ο ενεστώτας του πάω στο β' πληθυντικό είναι πάτε.",
-        "ca": "El present de πάω en 2a persona plural és πάτε."
-      }
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        {
+          "label": "Εγώ",
+          "answer": "θεωρώ",
+          "romanization": "θe.oˈro",
+          "acceptableAnswers": ["θεωρώ"]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "θεωρείς",
+          "romanization": "θe.oˈris",
+          "acceptableAnswers": ["θεωρείς"]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "θεωρεί",
+          "romanization": "θe.oˈri",
+          "acceptableAnswers": ["θεωρεί"]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "θεωρούμε",
+          "romanization": "θe.oˈrume",
+          "acceptableAnswers": ["θεωρούμε"]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "θεωρείτε",
+          "romanization": "θe.oˈrite",
+          "acceptableAnswers": ["θεωρείτε"]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "θεωρούν",
+          "romanization": "θe.oˈrun",
+          "acceptableAnswers": ["θεωρούνε"]
+        }
+      ]
     },
     {
-      "id": "ex_mc_903",
-      "type": "multipleChoice",
-      "difficulty": 1,
+      "id": "ex_match_901a",
+      "type": "matching",
+      "difficulty": 2,
       "instruction": {
-        "en": "Choose the correct form",
-        "el": "Διάλεξε τον σωστό τύπο",
-        "ca": "Tria la forma correcta"
+        "en": "Match the pronoun with the correct form",
+        "el": "Ταίριαξε την αντωνυμία με τον σωστό τύπο",
+        "ca": "Relaciona el pronom amb la forma correcta"
       },
-      "prompt": "Αυτές ____ (τρώω) στο εστιατόριο.",
-      "promptRomanization": "aftˈes ____ (trˈoo) sto estiatˈorio.",
-      "hint": "Translation: They (fem) eat at the restaurant.",
-      "correctAnswer": "τρώνε",
-      "options": ["τρώει", "τρώμε", "τρώνε"],
-      "acceptableAnswers": ["τρώνε", "τρωνε"],
-      "explanation": {
-        "en": "Third person plural of τρώω is τρώνε.",
-        "el": "Ο ενεστώτας του τρώω στο γ' πληθυντικό είναι τρώνε.",
-        "ca": "El present de τρώω en 3a persona plural és τρώνε."
-      }
-    },
-    {
-      "id": "ex_fill_906",
-      "type": "fillBlank",
-      "difficulty": 1,
-      "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
-      },
-      "prompt": "Εγώ ____ (πάω) σπίτι τώρα.",
-      "promptRomanization": "eɣˈo ____ (pˈao) spˈiti tˈora.",
-      "hint": "Translation: I am going home now.",
-      "correctAnswer": "πάω",
-      "acceptableAnswers": ["πάω", "παω"],
-      "explanation": {
-        "en": "First person singular of πάω is πάω.",
-        "el": "Ο ενεστώτας του πάω στο α' ενικό είναι πάω.",
-        "ca": "El present de πάω en 1a persona és πάω."
-      }
-    },
-    {
-      "id": "ex_mc_904",
-      "type": "multipleChoice",
-      "difficulty": 1,
-      "instruction": {
-        "en": "Choose the correct form",
-        "el": "Διάλεξε τον σωστό τύπο",
-        "ca": "Tria la forma correcta"
-      },
-      "prompt": "Αυτός ____ (τρώω) γρήγορα.",
-      "promptRomanization": "aftˈos ____ (trˈoo) ɣrˈiɣora.",
-      "hint": "Translation: He eats fast.",
-      "correctAnswer": "τρώει",
-      "options": ["τρώω", "τρώει", "τρως"],
-      "acceptableAnswers": ["τρώει", "τρωει"],
-      "explanation": {
-        "en": "Third person singular of τρώω is τρώει.",
-        "el": "Ο ενεστώτας του τρώω στο γ' ενικό είναι τρώει.",
-        "ca": "El present de τρώω en 3a persona és τρώει."
-      }
+      "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα θεωρώ.",
+      "correctAnswer": "",
+      "pairs": [
+        { "left": "Εγώ", "right": "θεωρώ" },
+        { "left": "Εσύ", "right": "θεωρείς" },
+        { "left": "Αυτός/Αυτή/Αυτό", "right": "θεωρεί" },
+        { "left": "Εμείς", "right": "θεωρούμε" },
+        { "left": "Εσείς", "right": "θεωρείτε" },
+        { "left": "Αυτοί/Αυτές/Αυτά", "right": "θεωρούν" }
+      ]
     }
-  ],
-  "prerequisites": [
-    "a1_g08_present_tense_regular"
-  ],
-  "tags": [
-    "verbs",
-    "present",
-    "irregular"
   ]
 }

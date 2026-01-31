@@ -34,30 +34,34 @@ class AnswerFeedback extends StatelessWidget {
         ? Icons.check_circle
         : (state == AnswerFeedbackState.incorrect ? Icons.cancel : Icons.info);
 
-    return AnimatedContainer(
-      duration: const Duration(milliseconds: 250),
-      width: double.infinity,
-      padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(
-        color: background,
-        borderRadius: BorderRadius.circular(8),
-      ),
-      child: Row(
-        children: [
-          Icon(icon, size: 18, color: iconColor),
-          const SizedBox(width: 8),
-          Expanded(
-            child: AnimatedSwitcher(
-              duration: const Duration(milliseconds: 250),
-              transitionBuilder: DuelAnimations.fadeScale,
-              child: Text(
-                message,
-                key: ValueKey(message),
-                style: TextStyle(color: foreground),
+    return Semantics(
+      liveRegion: true,
+      label: message,
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 250),
+        width: double.infinity,
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          color: background,
+          borderRadius: BorderRadius.circular(8),
+        ),
+        child: Row(
+          children: [
+            Icon(icon, size: 18, color: iconColor),
+            const SizedBox(width: 8),
+            Expanded(
+              child: AnimatedSwitcher(
+                duration: const Duration(milliseconds: 250),
+                transitionBuilder: DuelAnimations.fadeScale,
+                child: Text(
+                  message,
+                  key: ValueKey(message),
+                  style: TextStyle(color: foreground),
+                ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

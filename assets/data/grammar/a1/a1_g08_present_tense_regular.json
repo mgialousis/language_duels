@@ -5,35 +5,52 @@
   "level": "A1",
   "order": 8,
   "title": {
-    "en": "Present Tense - Regular -ω Verbs",
-    "el": "Ενεστώτας - Κανονικά Ρήματα σε -ω",
-    "ca": "Present - Verbs Regulars en -ω"
+    "en": "Present Tense - B1 Class (Active Voice)",
+    "el": "Ενεστώτας - Β1 Τάξη (Ενεργητική Φωνή)",
+    "ca": "Present - Classe B1 (Veu Activa)"
   },
   "description": {
-    "en": "Conjugate regular verbs in the present tense.",
-    "el": "Κλίση κανονικών ρημάτων στον ενεστώτα.",
-    "ca": "Conjugació de verbs regulars en present."
+    "en": "Conjugate B1 class verbs (accented -ώ/-άω with 'α' in endings). These verbs are characterized by stress on the last syllable.",
+    "el": "Κλίση ρημάτων της Β1 τάξης (τονισμένα -ώ/-άω με 'α' στις καταλήξεις). Αυτά τα ρήματα τονίζονται στην τελευταία συλλαβή.",
+    "ca": "Conjugació de verbs de classe B1 (accentuats -ώ/-άω amb 'α' a les terminacions). Aquests verbs es caracteritzen per l'accent a l'última síl·laba."
   },
   "explanation": {
     "content": {
-      "en": "Regular -ω verbs take standard present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε).",
-      "el": "Τα κανονικά ρήματα σε -ω παίρνουν τις καταλήξεις: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε).",
-      "ca": "Els verbs regulars en -ω prenen les terminacions: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε)."
+      "en": "B1 class verbs (like χτυπώ, αγαπώ) have stress on the final -ώ/-άω and use 'α' in their endings: χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν. This class represents about 15% of Greek verbs.",
+      "el": "Τα ρήματα της Β1 τάξης (όπως χτυπώ, αγαπώ) τονίζονται στο τελικό -ώ/-άω και έχουν 'α' στις καταλήξεις: χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν. Αυτή η τάξη αποτελεί περίπου το 15% των ελληνικών ρημάτων.",
+      "ca": "Els verbs de classe B1 (com χτυπώ, αγαπώ) tenen l'accent al final -ώ/-άω i usen 'α' a les seves terminacions: χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν. Aquesta classe representa aproximadament el 15% dels verbs grecs."
     },
     "rules": [
       {
-        "en": "μιλάω: μιλάω, μιλάς, μιλά, μιλάμε, μιλάτε, μιλάνε",
-        "el": "μιλάω: μιλάω, μιλάς, μιλά, μιλάμε, μιλάτε, μιλάνε",
-        "ca": "μιλάω: μιλάω, μιλάς, μιλά, μιλάμε, μιλάτε, μιλάνε"
+        "en": "How to recognize B1 verbs: The accent falls on the final -ώ or -άω (e.g., χτυπώ, αγαπώ, ρωτώ).",
+        "el": "Πώς αναγνωρίζουμε τα Β1 ρήματα: Ο τόνος πέφτει στο τελικό -ώ ή -άω (π.χ. χτυπώ, αγαπώ, ρωτώ).",
+        "ca": "Com reconèixer els verbs B1: L'accent cau a la final -ώ o -άω (p. ex., χτυπώ, αγαπώ, ρωτώ)."
+      },
+      {
+        "en": "Common B1 endings: -ώ/-άω, -άς, -ά/-άει, -άμε/-ούμε, -άτε, -ούν(ε)/-άν(ε).",
+        "el": "Συχνές καταλήξεις Β1: -ώ/-άω, -άς, -ά/-άει, -άμε/-ούμε, -άτε, -ούν(ε)/-άν(ε).",
+        "ca": "Terminacions B1 comunes: -ώ/-άω, -άς, -ά/-άει, -άμε/-ούμε, -άτε, -ούν(ε)/-άν(ε)."
+      },
+      {
+        "en": "Note the 'α' sound in most endings (χτυπάς, χτυπά, χτυπάμε, χτυπάτε).",
+        "el": "Παρατήρησε τον ήχο 'α' στις περισσότερες καταλήξεις (χτυπάς, χτυπά, χτυπάμε, χτυπάτε).",
+        "ca": "Nota el so 'α' a la majoria de terminacions (χτυπάς, χτυπά, χτυπάμε, χτυπάτε)."
+      }
+    ],
+    "tips": [
+      {
+        "en": "Other common B1 verbs: αγαπώ (love), ρωτώ (ask), μιλώ (speak), κοιτώ (look).",
+        "el": "Άλλα συχνά Β1 ρήματα: αγαπώ (αγαπώ), ρωτώ (ρωτώ), μιλώ (μιλώ), κοιτώ (κοιτώ).",
+        "ca": "Altres verbs B1 comuns: αγαπώ (estimar), ρωτώ (preguntar), μιλώ (parlar), κοιτώ (mirar)."
       }
     ]
   },
   "tables": [
     {
       "title": {
-        "en": "Present endings for -ω verbs",
-        "el": "Καταλήξεις ενεστώτα για ρήματα σε -ω",
-        "ca": "Terminacions de present per a verbs en -ω"
+        "en": "B1 class example: χτυπώ (present) - Verb Family: B1",
+        "el": "Παράδειγμα Β1 τάξης: χτυπώ (ενεστώτας) - Οικογένεια ρήματος: Β1",
+        "ca": "Exemple classe B1: χτυπώ (present) - Família del verb: B1"
       },
       "columnHeaders": [
         "Ενικός",
@@ -47,62 +64,77 @@
       "cells": [
         [
           {
-            "greek": "-ω",
-            "romanization": "-o",
-            "translation": "I"
+            "greek": "χτυπώ",
+            "romanization": "xtiˈpo",
+            "translation": "I hit/knock"
           },
           {
-            "greek": "-ουμε",
-            "romanization": "-ume",
-            "translation": "we"
+            "greek": "χτυπάμε",
+            "romanization": "xtiˈpame",
+            "translation": "we hit"
           }
         ],
         [
           {
-            "greek": "-εις",
-            "romanization": "-is",
-            "translation": "you"
+            "greek": "χτυπάς",
+            "romanization": "xtiˈpas",
+            "translation": "you hit"
           },
           {
-            "greek": "-ετε",
-            "romanization": "-ete",
-            "translation": "you (pl)"
+            "greek": "χτυπάτε",
+            "romanization": "xtiˈpate",
+            "translation": "you (pl) hit"
           }
         ],
         [
           {
-            "greek": "-ει",
-            "romanization": "-i",
-            "translation": "he/she"
+            "greek": "χτυπά",
+            "romanization": "xtiˈpa",
+            "translation": "he/she hits"
           },
           {
-            "greek": "-ουν(ε)",
-            "romanization": "-un(e)",
-            "translation": "they"
+            "greek": "χτυπούν",
+            "romanization": "xtiˈpun",
+            "translation": "they hit"
           }
         ]
-      ]
+      ],
+      "footnote": "Variants: χτυπάω, χτυπάει, χτυπούμε, χτυπάνε/χτυπούνε"
     }
   ],
   "examples": [
     {
       "id": "ex_801",
-      "greek": "Μιλάω ελληνικά.",
-      "romanization": "milˈao ellinikˈa.",
-      "catalan": "Parlo grec.",
-      "englishLiteral": "I speak Greek.",
+      "greek": "Εγώ χτυπώ την πόρτα.",
+      "romanization": "eɣˈo xtiˈpo tin ˈporta.",
+      "catalan": "Truco a la porta.",
+      "englishLiteral": "I knock on the door.",
       "highlights": [
         {
-          "startIndex": 0,
-          "endIndex": 5,
-          "explanation": "Present tense"
+          "startIndex": 4,
+          "endIndex": 9,
+          "explanation": "1st person singular"
         }
       ]
+    },
+    {
+      "id": "ex_802",
+      "greek": "Εσύ χτυπάς τη μπάλα.",
+      "romanization": "esˈi xtiˈpas ti ˈbala.",
+      "catalan": "Colpeges la pilota.",
+      "englishLiteral": "You hit the ball."
+    },
+    {
+      "id": "ex_803",
+      "greek": "Αυτοί χτυπούν δυνατά.",
+      "romanization": "aftˈi xtiˈpun ðinˈata.",
+      "catalan": "Colpegen fort.",
+      "englishLiteral": "They hit loudly."
     }
   ],
   "exercises": [
     {
-      "id": "ex_fill_801",
+      "id": "ex_fill_801a",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -110,21 +142,18 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εγώ ____ (μιλάω) καταλανικά.",
-      "promptRomanization": "eɣˈo ____ (milˈao) katalanikˈa.",
-      "hint": "Translation: I speak Catalan.",
-      "correctAnswer": "μιλάω",
-      "acceptableAnswers": [
-        "μιλάω"
-      ],
+      "prompt": "Εγώ ____ την πόρτα.",
+      "hint": "χτυπώ is a B1 class verb (accented -ώ). Use 1st person singular.",
+      "correctAnswer": "χτυπώ",
+      "acceptableAnswers": ["χτυπάω"],
       "explanation": {
-        "en": "First person singular present of μιλάω is μιλάω.",
-        "el": "Ο ενεστώτας του μιλάω στο α' ενικό είναι μιλάω.",
-        "ca": "El present de μιλάω en 1a persona és μιλάω."
+        "en": "First person singular uses -ώ or -άω.",
+        "el": "Το α' ενικό παίρνει -ώ ή -άω.",
+        "ca": "La 1a persona usa -ώ o -άω."
       }
     },
     {
-      "id": "ex_mc_801",
+      "id": "ex_mc_801a",
       "type": "multipleChoice",
       "difficulty": 1,
       "instruction": {
@@ -132,26 +161,18 @@
         "el": "Διάλεξε τον σωστό τύπο",
         "ca": "Tria la forma correcta"
       },
-      "prompt": "Εσύ ____ (παίζω) μπάλα.",
-      "promptRomanization": "esˈi ____ (pˈezo) bˈala.",
-      "hint": "Translation: You play ball.",
-      "correctAnswer": "παίζεις",
-      "options": [
-        "παίζω",
-        "παίζεις",
-        "παίζει"
-      ],
-      "acceptableAnswers": [
-        "παίζεις"
-      ],
+      "prompt": "Εσύ ____ τη μπάλα.",
+      "correctAnswer": "χτυπάς",
+      "options": ["χτυπώ", "χτυπάς", "χτυπά"],
+      "acceptableAnswers": ["χτυπάς"],
       "explanation": {
-        "en": "Second person singular present of παίζω is παίζεις.",
-        "el": "Ο ενεστώτας του παίζω στο β' ενικό είναι παίζεις.",
-        "ca": "El present de παίζω en 2a persona és παίζεις."
+        "en": "Second person singular ends in -άς.",
+        "el": "Το β' ενικό τελειώνει σε -άς.",
+        "ca": "La 2a persona singular acaba en -άς."
       }
     },
     {
-      "id": "ex_fill_802",
+      "id": "ex_fill_802a",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -159,22 +180,17 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτοί ____ (δουλεύω) εδώ.",
-      "promptRomanization": "aftˈi ____ (ðulˈevo) eðˈo.",
-      "hint": "Translation: They work here.",
-      "correctAnswer": "δουλεύουν",
-      "acceptableAnswers": [
-        "δουλεύουν",
-        "δουλεύουνε"
-      ],
+      "prompt": "Αυτός ____ δυνατά.",
+      "correctAnswer": "χτυπά",
+      "acceptableAnswers": ["χτυπάει"],
       "explanation": {
-        "en": "Third person plural present of δουλεύω is δουλεύουν.",
-        "el": "Ο ενεστώτας του δουλεύω στο γ' πληθυντικό είναι δουλεύουν.",
-        "ca": "El present de δουλεύω en 3a persona plural es δουλεύουν."
+        "en": "Third person singular can be -ά or -άει.",
+        "el": "Το γ' ενικό μπορεί να είναι -ά ή -άει.",
+        "ca": "La 3a persona singular pot ser -ά o -άει."
       }
     },
     {
-      "id": "ex_fill_803",
+      "id": "ex_fill_803a",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -182,21 +198,17 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ (αγαπάω) τη μουσική.",
-      "promptRomanization": "emˈis ____ (aɣapˈao) ti musikˈi.",
-      "hint": "Translation: We love music.",
-      "correctAnswer": "αγαπάμε",
-      "acceptableAnswers": [
-        "αγαπαμε"
-      ],
+      "prompt": "Εμείς ____ μαζί.",
+      "correctAnswer": "χτυπάμε",
+      "acceptableAnswers": ["χτυπούμε"],
       "explanation": {
-        "en": "First person plural present of αγαπάω is αγαπάμε.",
-        "el": "Ο ενεστώτας του αγαπάω στο α' πληθυντικό είναι αγαπάμε.",
-        "ca": "El present d'αγαπάω en 1a persona plural és αγαπάμε."
+        "en": "First person plural can be -άμε or -ούμε.",
+        "el": "Το α' πληθυντικό μπορεί να είναι -άμε ή -ούμε.",
+        "ca": "La 1a persona plural pot ser -άμε o -ούμε."
       }
     },
     {
-      "id": "ex_mc_803",
+      "id": "ex_mc_802a",
       "type": "multipleChoice",
       "difficulty": 1,
       "instruction": {
@@ -204,134 +216,85 @@
         "el": "Διάλεξε τον σωστό τύπο",
         "ca": "Tria la forma correcta"
       },
-      "prompt": "Εσείς ____ (δουλεύω) πολύ.",
-      "promptRomanization": "esˈis ____ (ðulˈevo) polˈi.",
-      "hint": "Translation: You (pl) work a lot.",
-      "correctAnswer": "δουλεύετε",
-      "options": [
-        "δουλεύω",
-        "δουλεύετε",
-        "δουλεύουν"
-      ],
-      "acceptableAnswers": [
-        "δουλευετε"
-      ],
+      "prompt": "Αυτοί ____ την πόρτα.",
+      "correctAnswer": "χτυπούν",
+      "options": ["χτυπάτε", "χτυπούν", "χτυπώ"],
+      "acceptableAnswers": ["χτυπούν", "χτυπάνε", "χτυπούνε"],
       "explanation": {
-        "en": "Second person plural present of δουλεύω is δουλεύετε.",
-        "el": "Ο ενεστώτας του δουλεύω στο β' πληθυντικό είναι δουλεύετε.",
-        "ca": "El present de δουλεύω en 2a persona plural és δουλεύετε."
+        "en": "Third person plural can be -ούν(ε) or -άν(ε).",
+        "el": "Το γ' πληθυντικό μπορεί να είναι -ούν(ε) ή -άν(ε).",
+        "ca": "La 3a persona plural pot ser -ούν(ε) o -άν(ε)."
       }
     },
     {
-      "id": "ex_fill_804",
-      "type": "fillBlank",
-      "difficulty": 1,
+      "id": "ex_conj_801a",
+      "type": "conjugation",
+      "difficulty": 2,
       "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
+        "en": "Conjugate χτυπώ in the present tense",
+        "el": "Κλίσε το χτυπώ στον ενεστώτα",
+        "ca": "Conjuga χτυπώ en present"
       },
-      "prompt": "Αυτός ____ (μένω) εδώ.",
-      "promptRomanization": "aftˈos ____ (mˈeno) eðˈo.",
-      "hint": "Translation: He lives here.",
-      "correctAnswer": "μένει",
-      "acceptableAnswers": [
-        "μενει"
-      ],
-      "explanation": {
-        "en": "Third person singular present of μένω is μένει.",
-        "el": "Ο ενεστώτας του μένω στο γ' ενικό είναι μένει.",
-        "ca": "El present de μένω en 3a persona és μένει."
-      }
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        {
+          "label": "Εγώ",
+          "answer": "χτυπώ",
+          "romanization": "xtiˈpo",
+          "acceptableAnswers": ["χτυπάω"]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "χτυπάς",
+          "romanization": "xtiˈpas",
+          "acceptableAnswers": ["χτυπάς"]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "χτυπά",
+          "romanization": "xtiˈpa",
+          "acceptableAnswers": ["χτυπάει"]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "χτυπάμε",
+          "romanization": "xtiˈpame",
+          "acceptableAnswers": ["χτυπούμε"]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "χτυπάτε",
+          "romanization": "xtiˈpate",
+          "acceptableAnswers": ["χτυπάτε"]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "χτυπούν",
+          "romanization": "xtiˈpun",
+          "acceptableAnswers": ["χτυπάνε", "χτυπούνε"]
+        }
+      ]
     },
     {
-      "id": "ex_fill_805",
-      "type": "fillBlank",
-      "difficulty": 1,
+      "id": "ex_match_801a",
+      "type": "matching",
+      "difficulty": 2,
       "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
+        "en": "Match the pronoun with the correct form",
+        "el": "Ταίριαξε την αντωνυμία με τον σωστό τύπο",
+        "ca": "Relaciona el pronom amb la forma correcta"
       },
-      "prompt": "Εσείς ____ (διαβάζω) πολύ.",
-      "promptRomanization": "esˈis ____ (ðiavˈazo) polˈi.",
-      "hint": "Translation: You (pl) read a lot.",
-      "correctAnswer": "διαβάζετε",
-      "acceptableAnswers": ["διαβάζετε", "διαβαζετε"],
-      "explanation": {
-        "en": "Second person plural present of διαβάζω is διαβάζετε.",
-        "el": "Ο ενεστώτας του διαβάζω στο β' πληθυντικό είναι διαβάζετε.",
-        "ca": "El present de διαβάζω en 2a persona plural és διαβάζετε."
-      }
-    },
-    {
-      "id": "ex_mc_804",
-      "type": "multipleChoice",
-      "difficulty": 1,
-      "instruction": {
-        "en": "Choose the correct form",
-        "el": "Διάλεξε τον σωστό τύπο",
-        "ca": "Tria la forma correcta"
-      },
-      "prompt": "Αυτή ____ (γράφω) ένα γράμμα.",
-      "promptRomanization": "aftˈi ____ (ɣrˈafo) ˈena ɣrˈama.",
-      "hint": "Translation: She writes a letter.",
-      "correctAnswer": "γράφει",
-      "options": ["γράφω", "γράφει", "γράφουν"],
-      "acceptableAnswers": ["γράφει", "γραφει"],
-      "explanation": {
-        "en": "Third person singular present of γράφω is γράφει.",
-        "el": "Ο ενεστώτας του γράφω στο γ' ενικό είναι γράφει.",
-        "ca": "El present de γράφω en 3a persona és γράφει."
-      }
-    },
-    {
-      "id": "ex_fill_806",
-      "type": "fillBlank",
-      "difficulty": 1,
-      "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
-      },
-      "prompt": "Εγώ ____ (ακούω) μουσική.",
-      "promptRomanization": "eɣˈo ____ (akˈuo) musikˈi.",
-      "hint": "Translation: I listen to music.",
-      "correctAnswer": "ακούω",
-      "acceptableAnswers": ["ακούω", "ακουω"],
-      "explanation": {
-        "en": "First person singular present of ακούω is ακούω.",
-        "el": "Ο ενεστώτας του ακούω στο α' ενικό είναι ακούω.",
-        "ca": "El present d'ακούω en 1a persona és ακούω."
-      }
-    },
-    {
-      "id": "ex_mc_805",
-      "type": "multipleChoice",
-      "difficulty": 1,
-      "instruction": {
-        "en": "Choose the correct form",
-        "el": "Διάλεξε τον σωστό τύπο",
-        "ca": "Tria la forma correcta"
-      },
-      "prompt": "Αυτοί ____ (βλέπω) τηλεόραση.",
-      "promptRomanization": "aftˈi ____ (vlˈepo) tileˈorasi.",
-      "hint": "Translation: They watch television.",
-      "correctAnswer": "βλέπουν",
-      "options": ["βλέπει", "βλέπουμε", "βλέπουν"],
-      "acceptableAnswers": ["βλέπουν", "βλεπουν"],
-      "explanation": {
-        "en": "Third person plural present of βλέπω is βλέπουν.",
-        "el": "Ο ενεστώτας του βλέπω στο γ' πληθυντικό είναι βλέπουν.",
-        "ca": "El present de βλέπω en 3a persona plural és βλέπουν."
-      }
+      "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα χτυπώ.",
+      "correctAnswer": "",
+      "pairs": [
+        { "left": "Εγώ", "right": "χτυπώ" },
+        { "left": "Εσύ", "right": "χτυπάς" },
+        { "left": "Αυτός/Αυτή/Αυτό", "right": "χτυπά" },
+        { "left": "Εμείς", "right": "χτυπάμε" },
+        { "left": "Εσείς", "right": "χτυπάτε" },
+        { "left": "Αυτοί/Αυτές/Αυτά", "right": "χτυπούν" }
+      ]
     }
-  ],
-  "prerequisites": [
-    "a1_g01_verb_to_be"
-  ],
-  "tags": [
-    "verbs",
-    "present"
   ]
 }

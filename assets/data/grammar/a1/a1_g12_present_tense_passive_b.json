@@ -1,0 +1,216 @@
+{
+  "id": "a1_g12_present_tense_passive_b",
+  "category": "verb_conjugation",
+  "subcategory": "present_tense",
+  "level": "A1",
+  "order": 12,
+  "title": {
+    "en": "Present Tense - B2 Class (Passive Voice)",
+    "el": "Ενεστώτας - Β2 Τάξη (Παθητική Φωνή)",
+    "ca": "Present - Classe B2 (Veu Passiva)"
+  },
+  "description": {
+    "en": "Learn B2 class passive present endings like -ούμαι, -είσαι, -είται. B2 verbs have accented -ώ with 'ει' in active voice.",
+    "el": "Μάθε τις καταλήξεις της Β2 τάξης στην παθητική φωνή: -ούμαι, -είσαι, -είται. Τα Β2 ρήματα έχουν τονισμένο -ώ με 'ει' στην ενεργητική φωνή.",
+    "ca": "Aprèn les terminacions de la classe B2 en veu passiva: -ούμαι, -είσαι, -είται. Els verbs B2 tenen -ώ accentuat amb 'ει' en veu activa."
+  },
+  "explanation": {
+    "content": {
+      "en": "B2 class passive verbs (from θεωρώ, μπορώ) take endings: -ούμαι, -είσαι, -είται, -ούμαστε, -είστε, -ούνται (e.g., θεωρούμαι).",
+      "el": "Τα ρήματα της Β2 τάξης στην παθητική φωνή (από θεωρώ, μπορώ) παίρνουν καταλήξεις: -ούμαι, -είσαι, -είται, -ούμαστε, -είστε, -ούνται (π.χ. θεωρούμαι).",
+      "ca": "Els verbs de classe B2 en veu passiva (de θεωρώ, μπορώ) prenen terminacions: -ούμαι, -είσαι, -είται, -ούμαστε, -είστε, -ούνται (p. ex. θεωρούμαι)."
+    },
+    "rules": [
+      {
+        "en": "B2 passive verbs come from B2 active verbs (θεωρώ → θεωρούμαι, μπορώ → can't be passivized).",
+        "el": "Τα Β2 παθητικά ρήματα προέρχονται από Β2 ενεργητικά (θεωρώ → θεωρούμαι, μπορώ → δεν μπορεί να γίνει παθητικό).",
+        "ca": "Els verbs B2 passius provenen de verbs B2 actius (θεωρώ → θεωρούμαι, μπορώ → no pot ser passivitzat)."
+      },
+      {
+        "en": "Endings: -ούμαι, -είσαι, -είται, -ούμαστε, -είστε, -ούνται. Note the 'ει' in 2nd/3rd person.",
+        "el": "Καταλήξεις: -ούμαι, -είσαι, -είται, -ούμαστε, -είστε, -ούνται. Παρατήρησε το 'ει' στα β'/γ' πρόσωπα.",
+        "ca": "Terminacions: -ούμαι, -είσαι, -είται, -ούμαστε, -είστε, -ούνται. Nota el 'ει' a 2a/3a persona."
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "B2 class example: θεωρούμαι (present passive) - Verb Family: B2 Passive",
+        "el": "Παράδειγμα Β2 τάξης: θεωρούμαι (παθητική) - Οικογένεια ρήματος: Β2 Παθητικό",
+        "ca": "Exemple classe B2: θεωρούμαι (veu passiva) - Família del verb: B2 Passiu"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          { "greek": "θεωρούμαι", "romanization": "θe.oˈrume", "translation": "I am considered" },
+          { "greek": "θεωρούμαστε", "romanization": "θe.oˈrumaste", "translation": "we are considered" }
+        ],
+        [
+          { "greek": "θεωρείσαι", "romanization": "θe.oˈrise", "translation": "you are considered" },
+          { "greek": "θεωρείστε", "romanization": "θe.oˈriste", "translation": "you (pl) are considered" }
+        ],
+        [
+          { "greek": "θεωρείται", "romanization": "θe.oˈrita", "translation": "he/she is considered" },
+          { "greek": "θεωρούνται", "romanization": "θe.oˈrundε", "translation": "they are considered" }
+        ]
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_1201",
+      "greek": "Θεωρούμαι καλός μαθητής.",
+      "romanization": "θe.oˈrume kaˈlos maθiˈtis.",
+      "catalan": "Em considero un bon estudiant.",
+      "englishLiteral": "I am considered a good student."
+    },
+    {
+      "id": "ex_1202",
+      "greek": "Αυτές θεωρούνται έτοιμες.",
+      "romanization": "aftˈes θe.oˈrunte ˈetimes.",
+      "catalan": "Es consideren a punt.",
+      "englishLiteral": "They (fem) are considered ready."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_1201",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ καλός φίλος.",
+      "correctAnswer": "θεωρούμαι",
+      "acceptableAnswers": ["θεωρούμαι"],
+      "explanation": {
+        "en": "First person singular is θεωρούμαι.",
+        "el": "Το α' ενικό είναι θεωρούμαι.",
+        "ca": "La 1a persona singular és θεωρούμαι."
+      }
+    },
+    {
+      "id": "ex_mc_1201",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσύ ____ έτοιμος.",
+      "correctAnswer": "θεωρείσαι",
+      "options": ["θεωρούμαι", "θεωρείσαι", "θεωρείται"],
+      "acceptableAnswers": ["θεωρείσαι"],
+      "explanation": {
+        "en": "Second person singular is θεωρείσαι.",
+        "el": "Το β' ενικό είναι θεωρείσαι.",
+        "ca": "La 2a persona singular és θεωρείσαι."
+      }
+    },
+    {
+      "id": "ex_fill_1202",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτό ____ σωστό.",
+      "correctAnswer": "θεωρείται",
+      "acceptableAnswers": ["θεωρείται"],
+      "explanation": {
+        "en": "Third person singular is θεωρείται.",
+        "el": "Το γ' ενικό είναι θεωρείται.",
+        "ca": "La 3a persona singular és θεωρείται."
+      }
+    },
+    {
+      "id": "ex_fill_1203",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ υπεύθυνοι.",
+      "correctAnswer": "θεωρούμαστε",
+      "acceptableAnswers": ["θεωρούμαστε"],
+      "explanation": {
+        "en": "First person plural is θεωρούμαστε.",
+        "el": "Το α' πληθυντικό είναι θεωρούμαστε.",
+        "ca": "La 1a persona plural és θεωρούμαστε."
+      }
+    },
+    {
+      "id": "ex_mc_1202",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσείς ____ σωστοί.",
+      "correctAnswer": "θεωρείστε",
+      "options": ["θεωρείστε", "θεωρούνται", "θεωρούμαστε"],
+      "acceptableAnswers": ["θεωρείστε"],
+      "explanation": {
+        "en": "Second person plural is θεωρείστε.",
+        "el": "Το β' πληθυντικό είναι θεωρείστε.",
+        "ca": "La 2a persona plural és θεωρείστε."
+      }
+    },
+    {
+      "id": "ex_fill_1204",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτοί ____ έτοιμοι.",
+      "correctAnswer": "θεωρούνται",
+      "acceptableAnswers": ["θεωρούνται"],
+      "explanation": {
+        "en": "Third person plural is θεωρούνται.",
+        "el": "Το γ' πληθυντικό είναι θεωρούνται.",
+        "ca": "La 3a persona plural és θεωρούνται."
+      }
+    },
+    {
+      "id": "ex_conj_1201",
+      "type": "conjugation",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Conjugate θεωρούμαι in the present tense",
+        "el": "Κλίσε το θεωρούμαι στον ενεστώτα",
+        "ca": "Conjuga θεωρούμαι en present"
+      },
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        { "label": "Εγώ", "answer": "θεωρούμαι", "acceptableAnswers": ["θεωρούμαι"] },
+        { "label": "Εσύ", "answer": "θεωρείσαι", "acceptableAnswers": ["θεωρείσαι"] },
+        { "label": "Αυτός/Αυτή/Αυτό", "answer": "θεωρείται", "acceptableAnswers": ["θεωρείται"] },
+        { "label": "Εμείς", "answer": "θεωρούμαστε", "acceptableAnswers": ["θεωρούμαστε"] },
+        { "label": "Εσείς", "answer": "θεωρείστε", "acceptableAnswers": ["θεωρείστε"] },
+        { "label": "Αυτοί/Αυτές/Αυτά", "answer": "θεωρούνται", "acceptableAnswers": ["θεωρούνται"] }
+      ]
+    }
+  ]
+}

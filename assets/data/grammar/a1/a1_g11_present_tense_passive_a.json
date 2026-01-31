@@ -1,0 +1,217 @@
+{
+  "id": "a1_g11_present_tense_passive_a",
+  "category": "verb_conjugation",
+  "subcategory": "present_tense",
+  "level": "A1",
+  "order": 11,
+  "title": {
+    "en": "Present Tense - B1 Class (Passive Voice)",
+    "el": "Ενεστώτας - Β1 Τάξη (Παθητική Φωνή)",
+    "ca": "Present - Classe B1 (Veu Passiva)"
+  },
+  "description": {
+    "en": "Learn B1 class passive present endings like -ιέμαι, -ιέσαι, -ιέται. B1 verbs have accented -ώ/-άω in active voice.",
+    "el": "Μάθε τις καταλήξεις της Β1 τάξης στην παθητική φωνή: -ιέμαι, -ιέσαι, -ιέται. Τα Β1 ρήματα έχουν τονισμένο -ώ/-άω στην ενεργητική φωνή.",
+    "ca": "Aprèn les terminacions de la classe B1 en veu passiva: -ιέμαι, -ιέσαι, -ιέται. Els verbs B1 tenen -ώ/-άω accentuat en veu activa."
+  },
+  "explanation": {
+    "content": {
+      "en": "B1 class passive verbs (from χτυπώ, αγαπώ) take endings: -ιέμαι, -ιέσαι, -ιέται, -ιόμαστε, -ιέστε/-ιόσαστε, -ιούνται/-ιόνται (e.g., χτυπιέμαι).",
+      "el": "Τα ρήματα της Β1 τάξης στην παθητική φωνή (από χτυπώ, αγαπώ) παίρνουν καταλήξεις: -ιέμαι, -ιέσαι, -ιέται, -ιόμαστε, -ιέστε/-ιόσαστε, -ιούνται/-ιόνται (π.χ. χτυπιέμαι).",
+      "ca": "Els verbs de classe B1 en veu passiva (de χτυπώ, αγαπώ) prenen terminacions: -ιέμαι, -ιέσαι, -ιέται, -ιόμαστε, -ιέστε/-ιόσαστε, -ιούνται/-ιόνται (p. ex. χτυπιέμαι)."
+    },
+    "rules": [
+      {
+        "en": "B1 passive verbs come from B1 active verbs (χτυπώ → χτυπιέμαι, αγαπώ → αγαπιέμαι).",
+        "el": "Τα Β1 παθητικά ρήματα προέρχονται από Β1 ενεργητικά (χτυπώ → χτυπιέμαι, αγαπώ → αγαπιέμαι).",
+        "ca": "Els verbs B1 passius provenen de verbs B1 actius (χτυπώ → χτυπιέμαι, αγαπώ → αγαπιέμαι)."
+      },
+      {
+        "en": "Endings: -ιέμαι, -ιέσαι, -ιέται, -ιόμαστε, -ιέστε/-ιόσαστε, -ιούνται/-ιόνται.",
+        "el": "Καταλήξεις: -ιέμαι, -ιέσαι, -ιέται, -ιόμαστε, -ιέστε/-ιόσαστε, -ιούνται/-ιόνται.",
+        "ca": "Terminacions: -ιέμαι, -ιέσαι, -ιέται, -ιόμαστε, -ιέστε/-ιόσαστε, -ιούνται/-ιόνται."
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "B1 class example: χτυπιέμαι (present passive) - Verb Family: B1 Passive",
+        "el": "Παράδειγμα Β1 τάξης: χτυπιέμαι (παθητική) - Οικογένεια ρήματος: Β1 Παθητικό",
+        "ca": "Exemple classe B1: χτυπιέμαι (veu passiva) - Família del verb: B1 Passiu"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          { "greek": "χτυπιέμαι", "romanization": "xtipiˈeme", "translation": "I am hit" },
+          { "greek": "χτυπιόμαστε", "romanization": "xtipiˈomaste", "translation": "we are hit" }
+        ],
+        [
+          { "greek": "χτυπιέσαι", "romanization": "xtipiˈese", "translation": "you are hit" },
+          { "greek": "χτυπιέστε", "romanization": "xtipiˈeste", "translation": "you (pl) are hit" }
+        ],
+        [
+          { "greek": "χτυπιέται", "romanization": "xtipiˈete", "translation": "he/she is hit" },
+          { "greek": "χτυπιούνται", "romanization": "xtipiˈunde", "translation": "they are hit" }
+        ]
+      ],
+      "footnote": "Variants: χτυπιόσαστε, χτυπιόνται"
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_1101",
+      "greek": "Χτυπιέμαι εύκολα.",
+      "romanization": "xtipiˈeme ˈefkola.",
+      "catalan": "Em colpegen fàcilment.",
+      "englishLiteral": "I get hit easily."
+    },
+    {
+      "id": "ex_1102",
+      "greek": "Αυτοί χτυπιούνται συχνά.",
+      "romanization": "aftˈi xtipiˈunde siˈxna.",
+      "catalan": "Ells són colpejats sovint.",
+      "englishLiteral": "They get hit often."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_1101",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ όταν παίζω ποδόσφαιρο.",
+      "correctAnswer": "χτυπιέμαι",
+      "acceptableAnswers": ["χτυπιέμαι"],
+      "explanation": {
+        "en": "First person singular is χτυπιέμαι.",
+        "el": "Το α' ενικό είναι χτυπιέμαι.",
+        "ca": "La 1a persona singular és χτυπιέμαι."
+      }
+    },
+    {
+      "id": "ex_mc_1101",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσύ ____ εύκολα.",
+      "correctAnswer": "χτυπιέσαι",
+      "options": ["χτυπιέμαι", "χτυπιέσαι", "χτυπιέται"],
+      "acceptableAnswers": ["χτυπιέσαι"],
+      "explanation": {
+        "en": "Second person singular is χτυπιέσαι.",
+        "el": "Το β' ενικό είναι χτυπιέσαι.",
+        "ca": "La 2a persona singular és χτυπιέσαι."
+      }
+    },
+    {
+      "id": "ex_fill_1102",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτή ____ συχνά.",
+      "correctAnswer": "χτυπιέται",
+      "acceptableAnswers": ["χτυπιέται"],
+      "explanation": {
+        "en": "Third person singular is χτυπιέται.",
+        "el": "Το γ' ενικό είναι χτυπιέται.",
+        "ca": "La 3a persona singular és χτυπιέται."
+      }
+    },
+    {
+      "id": "ex_fill_1103",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ στο παιχνίδι.",
+      "correctAnswer": "χτυπιόμαστε",
+      "acceptableAnswers": ["χτυπιόμαστε"],
+      "explanation": {
+        "en": "First person plural is χτυπιόμαστε.",
+        "el": "Το α' πληθυντικό είναι χτυπιόμαστε.",
+        "ca": "La 1a persona plural és χτυπιόμαστε."
+      }
+    },
+    {
+      "id": "ex_mc_1102",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσείς ____ συχνά.",
+      "correctAnswer": "χτυπιέστε",
+      "options": ["χτυπιέστε", "χτυπιούνται", "χτυπιόμαστε"],
+      "acceptableAnswers": ["χτυπιέστε", "χτυπιόσαστε"],
+      "explanation": {
+        "en": "Second person plural can be χτυπιέστε or χτυπιόσαστε.",
+        "el": "Το β' πληθυντικό μπορεί να είναι χτυπιέστε ή χτυπιόσαστε.",
+        "ca": "La 2a persona plural pot ser χτυπιέστε o χτυπιόσαστε."
+      }
+    },
+    {
+      "id": "ex_fill_1104",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτοί ____ συχνά.",
+      "correctAnswer": "χτυπιούνται",
+      "acceptableAnswers": ["χτυπιούνται", "χτυπιόνται"],
+      "explanation": {
+        "en": "Third person plural can be χτυπιούνται or χτυπιόνται.",
+        "el": "Το γ' πληθυντικό μπορεί να είναι χτυπιούνται ή χτυπιόνται.",
+        "ca": "La 3a persona plural pot ser χτυπιούνται o χτυπιόνται."
+      }
+    },
+    {
+      "id": "ex_conj_1101",
+      "type": "conjugation",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Conjugate χτυπιέμαι in the present tense",
+        "el": "Κλίσε το χτυπιέμαι στον ενεστώτα",
+        "ca": "Conjuga χτυπιέμαι en present"
+      },
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        { "label": "Εγώ", "answer": "χτυπιέμαι", "acceptableAnswers": ["χτυπιέμαι"] },
+        { "label": "Εσύ", "answer": "χτυπιέσαι", "acceptableAnswers": ["χτυπιέσαι"] },
+        { "label": "Αυτός/Αυτή/Αυτό", "answer": "χτυπιέται", "acceptableAnswers": ["χτυπιέται"] },
+        { "label": "Εμείς", "answer": "χτυπιόμαστε", "acceptableAnswers": ["χτυπιόμαστε"] },
+        { "label": "Εσείς", "answer": "χτυπιέστε", "acceptableAnswers": ["χτυπιέστε", "χτυπιόσαστε"] },
+        { "label": "Αυτοί/Αυτές/Αυτά", "answer": "χτυπιούνται", "acceptableAnswers": ["χτυπιούνται", "χτυπιόνται"] }
+      ]
+    }
+  ]
+}

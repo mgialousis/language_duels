@@ -14,6 +14,7 @@ class FlashCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
     final subtitle = [
       if (romanization != null) romanization!,
       if (phonetic != null) phonetic!,
@@ -29,12 +30,12 @@ class FlashCard extends StatelessWidget {
             children: [
               Text(
                 text,
-                style:
-                    const TextStyle(fontSize: 28, fontWeight: FontWeight.w700),
+                style: textTheme.headlineSmall
+                    ?.copyWith(fontWeight: FontWeight.w700),
               ),
               if (subtitle.isNotEmpty) ...[
                 const SizedBox(height: 8),
-                Text(subtitle),
+                Text(subtitle, style: textTheme.bodyMedium),
               ],
             ],
           ),

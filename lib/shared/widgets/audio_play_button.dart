@@ -29,18 +29,27 @@ class AudioPlayButton extends ConsumerWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        IconButton(
-          iconSize: size,
-          icon: Icon(
-            Icons.volume_up_rounded,
-            color: isAvailable ? Theme.of(context).colorScheme.primary : null,
+        Semantics(
+          button: true,
+          enabled: isAvailable,
+          label: isAvailable ? 'Play audio' : 'Audio unavailable',
+          child: Tooltip(
+            message: isAvailable ? 'Play audio' : 'Audio unavailable',
+            child: IconButton(
+              iconSize: size,
+              icon: Icon(
+                Icons.volume_up_rounded,
+                color:
+                    isAvailable ? Theme.of(context).colorScheme.primary : null,
+              ),
+              onPressed: !isAvailable
+                  ? null
+                  : () async {
+                      onReplay?.call();
+                      await audioService.speak(text, languageCode);
+                    },
+            ),
           ),
-          onPressed: !isAvailable
-              ? null
-              : () async {
-                  onReplay?.call();
-                  await audioService.speak(text, languageCode);
-                },
         ),
         if (showReplayCost)
           Text(

@@ -45,6 +45,7 @@ class _SpellingInputState extends State<SpellingInput> {
 
   @override
   Widget build(BuildContext context) {
+    final textStyle = Theme.of(context).textTheme.headlineSmall;
     return Column(
       children: [
         TextField(
@@ -52,8 +53,12 @@ class _SpellingInputState extends State<SpellingInput> {
           focusNode: _focusNode,
           enabled: widget.enabled,
           textAlign: TextAlign.center,
-          style: const TextStyle(fontSize: 22),
+          style: textStyle,
+          textInputAction: TextInputAction.done,
+          autocorrect: false,
+          enableSuggestions: false,
           decoration: InputDecoration(
+            labelText: 'Answer',
             hintText: widget.hint ?? 'Type your answer...',
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(12),

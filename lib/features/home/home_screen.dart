@@ -169,6 +169,16 @@ class HomeScreen extends ConsumerWidget {
                           foregroundColor: Colors.grey[700],
                         ),
                       ),
+                      TextButton.icon(
+                        onPressed: () => context.push(
+                          '$howToPlayRoute?walkthrough=true',
+                        ),
+                        icon: const Icon(Icons.play_circle_outline, size: 18),
+                        label: const Text('Tutorial'),
+                        style: TextButton.styleFrom(
+                          foregroundColor: Colors.grey[700],
+                        ),
+                      ),
                     ],
                   ),
                   const SizedBox(height: 12),

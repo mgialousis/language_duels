@@ -124,7 +124,11 @@ final goRouterProvider = Provider<GoRouter>((ref) {
       ),
       GoRoute(
         path: howToPlayRoute,
-        builder: (context, state) => const HowToPlayScreen(),
+        builder: (context, state) {
+          final walkthrough =
+              state.uri.queryParameters['walkthrough'] == 'true';
+          return HowToPlayScreen(walkthrough: walkthrough);
+        },
       ),
       GoRoute(
         path: grammarRoute,

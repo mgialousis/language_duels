@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-29",
+  "lastUpdated": "2026-01-30",
   "levels": [
     {
       "id": "A1",
@@ -88,6 +88,61 @@
           "order": 9,
           "prerequisites": [
             "a1_g08_present_tense_regular"
+          ]
+        },
+        {
+          "id": "a1_g10_present_tense_irregular",
+          "file": "a1/a1_g10_present_tense_irregular.json",
+          "category": "verb_conjugation",
+          "order": 10,
+          "prerequisites": [
+            "a1_g08_present_tense_regular",
+            "a1_g09_present_tense_common_irregular"
+          ]
+        },
+        {
+          "id": "a1_g11_present_tense_passive_a",
+          "file": "a1/a1_g11_present_tense_passive_a.json",
+          "category": "verb_conjugation",
+          "order": 11,
+          "prerequisites": [
+            "a1_g08_present_tense_regular"
+          ]
+        },
+        {
+          "id": "a1_g12_present_tense_passive_b",
+          "file": "a1/a1_g12_present_tense_passive_b.json",
+          "category": "verb_conjugation",
+          "order": 12,
+          "prerequisites": [
+            "a1_g09_present_tense_common_irregular"
+          ]
+        },
+        {
+          "id": "a1_g13_present_tense_a_class_active",
+          "file": "a1/a1_g13_present_tense_a_class_active.json",
+          "category": "verb_conjugation",
+          "order": 13,
+          "prerequisites": [
+            "a1_g01_verb_to_be"
+          ]
+        },
+        {
+          "id": "a1_g14_present_tense_a_class_passive",
+          "file": "a1/a1_g14_present_tense_a_class_passive.json",
+          "category": "verb_conjugation",
+          "order": 14,
+          "prerequisites": [
+            "a1_g13_present_tense_a_class_active"
+          ]
+        },
+        {
+          "id": "a1_g15_present_tense_deponent",
+          "file": "a1/a1_g15_present_tense_deponent.json",
+          "category": "verb_conjugation",
+          "order": 15,
+          "prerequisites": [
+            "a1_g10_present_tense_irregular"
           ]
         }
       ]

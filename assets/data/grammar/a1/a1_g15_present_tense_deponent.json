@@ -1,0 +1,429 @@
+{
+  "id": "a1_g15_present_tense_deponent",
+  "category": "verb_conjugation",
+  "subcategory": "present_tense",
+  "level": "A1",
+  "order": 15,
+  "title": {
+    "en": "Present Tense - Deponent Verbs (Passive Form Only)",
+    "el": "Ενεστώτας - Αποθετικά Ρήματα (Μόνο Παθητική Μορφή)",
+    "ca": "Present - Verbs Deponents (Només Forma Passiva)"
+  },
+  "description": {
+    "en": "Master deponent verbs - common verbs that exist ONLY in passive form with no active equivalent. Essential for daily communication.",
+    "el": "Κατακτήστε τα αποθετικά ρήματα - συχνά ρήματα που υπάρχουν ΜΟΝΟ σε παθητική μορφή χωρίς ενεργητική. Απαραίτητα για την καθημερινή επικοινωνία.",
+    "ca": "Domina els verbs deponents - verbs comuns que existeixen NOMÉS en forma passiva sense equivalent actiu. Essencials per a la comunicació diària."
+  },
+  "explanation": {
+    "content": {
+      "en": "Deponent verbs (Group 2B passive) always end in -μαι and have NO active form. Common examples: φοβάμαι (I fear), κοιμάμαι (I sleep), θυμάμαι (I remember), έρχομαι (I come), γίνομαι (I become). They conjugate like passive verbs but have active meaning.",
+      "el": "Τα αποθετικά ρήματα (Ομάδα 2Β παθητικά) τελειώνουν πάντα σε -μαι και ΔΕΝ έχουν ενεργητική μορφή. Συχνά παραδείγματα: φοβάμαι (φοβάμαι), κοιμάμαι (κοιμάμαι), θυμάμαι (θυμάμαι), έρχομαι (έρχομαι), γίνομαι (γίνομαι). Κλίνονται σαν παθητικά αλλά έχουν ενεργητική σημασία.",
+      "ca": "Els verbs deponents (Grup 2B passius) sempre acaben en -μαι i NO tenen forma activa. Exemples comuns: φοβάμαι (témer), κοιμάμαι (dormir), θυμάμαι (recordar), έρχομαι (venir), γίνομαι (esdevenir). Es conjuguen com passius però tenen significat actiu."
+    },
+    "rules": [
+      {
+        "en": "Deponent verbs have NO active equivalent - they exist ONLY in -μαι form.",
+        "el": "Τα αποθετικά ρήματα ΔΕΝ έχουν ενεργητικό αντίστοιχο - υπάρχουν ΜΟΝΟ στη μορφή -μαι.",
+        "ca": "Els verbs deponents NO tenen equivalent actiu - existeixen NOMÉS en forma -μαι."
+      },
+      {
+        "en": "They use passive endings but express active meaning (φοβάμαι = I fear, NOT I am feared).",
+        "el": "Χρησιμοποιούν παθητικές καταλήξεις αλλά εκφράζουν ενεργητική σημασία (φοβάμαι = φοβάμαι, ΟΧΙ με φοβούνται).",
+        "ca": "Usen terminacions passives però expressen significat actiu (φοβάμαι = témer, NO ser temut)."
+      },
+      {
+        "en": "Common patterns: -άμαι/-ώμαι (φοβάμαι, κοιμάμαι) and irregular forms (έρχομαι, γίνομαι).",
+        "el": "Συχνά μοτίβα: -άμαι/-ώμαι (φοβάμαι, κοιμάμαι) και ανώμαλες μορφές (έρχομαι, γίνομαι).",
+        "ca": "Patrons comuns: -άμαι/-ώμαι (φοβάμαι, κοιμάμαι) i formes irregulars (έρχομαι, γίνομαι)."
+      }
+    ],
+    "tips": [
+      {
+        "en": "These are among the most frequent verbs in Greek. Memorize them as vocabulary items.",
+        "el": "Αυτά είναι μεταξύ των πιο συχνών ρημάτων στα ελληνικά. Απομνημόνευσέ τα ως λεξιλόγιο.",
+        "ca": "Aquests són entre els verbs més freqüents en grec. Memoritza'ls com a vocabulari."
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "φοβάμαι (to fear) - Verb Family: DEPONENT (Passive Only)",
+        "el": "φοβάμαι (φοβάμαι) - Οικογένεια ρήματος: ΑΠΟΘΕΤΙΚΟ (Μόνο Παθητικό)",
+        "ca": "φοβάμαι (témer) - Família del verb: DEPONENT (Només Passiu)"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "φοβάμαι",
+            "romanization": "foˈvame",
+            "translation": "I fear/I am afraid"
+          },
+          {
+            "greek": "φοβόμαστε",
+            "romanization": "foˈvomaste",
+            "translation": "we fear"
+          }
+        ],
+        [
+          {
+            "greek": "φοβάσαι",
+            "romanization": "foˈvase",
+            "translation": "you fear"
+          },
+          {
+            "greek": "φοβάστε",
+            "romanization": "foˈvaste",
+            "translation": "you (pl) fear"
+          }
+        ],
+        [
+          {
+            "greek": "φοβάται",
+            "romanization": "foˈvate",
+            "translation": "he/she fears"
+          },
+          {
+            "greek": "φοβούνται",
+            "romanization": "foˈvunte",
+            "translation": "they fear"
+          }
+        ]
+      ],
+      "footnote": "No active form exists - deponent verb"
+    },
+    {
+      "title": {
+        "en": "κοιμάμαι (to sleep) - Verb Family: DEPONENT (Passive Only)",
+        "el": "κοιμάμαι (κοιμάμαι) - Οικογένεια ρήματος: ΑΠΟΘΕΤΙΚΟ (Μόνο Παθητικό)",
+        "ca": "κοιμάμαι (dormir) - Família del verb: DEPONENT (Només Passiu)"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "κοιμάμαι",
+            "romanization": "ciˈmame",
+            "translation": "I sleep"
+          },
+          {
+            "greek": "κοιμόμαστε",
+            "romanization": "ciˈmomaste",
+            "translation": "we sleep"
+          }
+        ],
+        [
+          {
+            "greek": "κοιμάσαι",
+            "romanization": "ciˈmase",
+            "translation": "you sleep"
+          },
+          {
+            "greek": "κοιμάστε",
+            "romanization": "ciˈmaste",
+            "translation": "you (pl) sleep"
+          }
+        ],
+        [
+          {
+            "greek": "κοιμάται",
+            "romanization": "ciˈmate",
+            "translation": "he/she sleeps"
+          },
+          {
+            "greek": "κοιμούνται",
+            "romanization": "ciˈmunte",
+            "translation": "they sleep"
+          }
+        ]
+      ],
+      "footnote": "No active form exists - deponent verb"
+    },
+    {
+      "title": {
+        "en": "θυμάμαι (to remember) - Verb Family: DEPONENT (Passive Only)",
+        "el": "θυμάμαι (θυμάμαι) - Οικογένεια ρήματος: ΑΠΟΘΕΤΙΚΟ (Μόνο Παθητικό)",
+        "ca": "θυμάμαι (recordar) - Família del verb: DEPONENT (Només Passiu)"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "θυμάμαι",
+            "romanization": "θiˈmame",
+            "translation": "I remember"
+          },
+          {
+            "greek": "θυμόμαστε",
+            "romanization": "θiˈmomaste",
+            "translation": "we remember"
+          }
+        ],
+        [
+          {
+            "greek": "θυμάσαι",
+            "romanization": "θiˈmase",
+            "translation": "you remember"
+          },
+          {
+            "greek": "θυμάστε",
+            "romanization": "θiˈmaste",
+            "translation": "you (pl) remember"
+          }
+        ],
+        [
+          {
+            "greek": "θυμάται",
+            "romanization": "θiˈmate",
+            "translation": "he/she remembers"
+          },
+          {
+            "greek": "θυμούνται",
+            "romanization": "θiˈmunte",
+            "translation": "they remember"
+          }
+        ]
+      ],
+      "footnote": "No active form exists - deponent verb"
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_1501",
+      "greek": "Φοβάμαι το σκοτάδι.",
+      "romanization": "foˈvame to skoˈtaði.",
+      "catalan": "Tinc por de la foscor.",
+      "englishLiteral": "I fear the dark.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 7,
+          "explanation": "Deponent verb - passive form, active meaning"
+        }
+      ]
+    },
+    {
+      "id": "ex_1502",
+      "greek": "Κοιμάσαι νωρίς;",
+      "romanization": "ciˈmase noˈris?",
+      "catalan": "Dorms d'hora?",
+      "englishLiteral": "Do you sleep early?"
+    },
+    {
+      "id": "ex_1503",
+      "greek": "Θυμόμαστε τη μέρα.",
+      "romanization": "θiˈmomaste ti ˈmera.",
+      "catalan": "Recordem el dia.",
+      "englishLiteral": "We remember the day."
+    },
+    {
+      "id": "ex_1504",
+      "greek": "Έρχεται αύριο.",
+      "romanization": "ˈerxete ˈavrio.",
+      "catalan": "Ve demà.",
+      "englishLiteral": "He/she comes tomorrow."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_1501",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ τη θάλασσα.",
+      "hint": "φοβάμαι is a deponent verb (passive form only). Use 1st person singular.",
+      "correctAnswer": "φοβάμαι",
+      "acceptableAnswers": ["φοβάμαι"],
+      "explanation": {
+        "en": "First person singular of φοβάμαι is φοβάμαι (deponent verb).",
+        "el": "Το α' ενικό του φοβάμαι είναι φοβάμαι (αποθετικό ρήμα).",
+        "ca": "La 1a persona singular de φοβάμαι és φοβάμαι (verb deponent)."
+      }
+    },
+    {
+      "id": "ex_mc_1501",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσύ ____ αργά.",
+      "correctAnswer": "κοιμάσαι",
+      "options": ["κοιμάμαι", "κοιμάσαι", "κοιμάται"],
+      "acceptableAnswers": ["κοιμάσαι"],
+      "explanation": {
+        "en": "Second person singular of deponent verbs ends in -σαι.",
+        "el": "Το β' ενικό των αποθετικών ρημάτων τελειώνει σε -σαι.",
+        "ca": "La 2a persona singular dels verbs deponents acaba en -σαι."
+      }
+    },
+    {
+      "id": "ex_fill_1502",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτή ____ το όνομά μου.",
+      "correctAnswer": "θυμάται",
+      "acceptableAnswers": ["θυμάται"],
+      "explanation": {
+        "en": "Third person singular of deponent verbs ends in -ται.",
+        "el": "Το γ' ενικό των αποθετικών ρημάτων τελειώνει σε -ται.",
+        "ca": "La 3a persona singular dels verbs deponents acaba en -ται."
+      }
+    },
+    {
+      "id": "ex_fill_1503",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ μαζί.",
+      "correctAnswer": "ερχόμαστε",
+      "acceptableAnswers": ["ερχόμαστε"],
+      "explanation": {
+        "en": "First person plural of έρχομαι is ερχόμαστε (irregular deponent).",
+        "el": "Το α' πληθυντικό του έρχομαι είναι ερχόμαστε (ανώμαλο αποθετικό).",
+        "ca": "La 1a persona plural de έρχομαι és ερχόμαστε (deponent irregular)."
+      }
+    },
+    {
+      "id": "ex_mc_1502",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσείς ____ το σπίτι;",
+      "correctAnswer": "θυμάστε",
+      "options": ["θυμάστε", "θυμούνται", "θυμόμαστε"],
+      "acceptableAnswers": ["θυμάστε"],
+      "explanation": {
+        "en": "Second person plural of deponent verbs ends in -στε.",
+        "el": "Το β' πληθυντικό των αποθετικών ρημάτων τελειώνει σε -στε.",
+        "ca": "La 2a persona plural dels verbs deponents acaba en -στε."
+      }
+    },
+    {
+      "id": "ex_fill_1504",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτοί ____ γιατροί.",
+      "correctAnswer": "γίνονται",
+      "acceptableAnswers": ["γίνονται"],
+      "explanation": {
+        "en": "Third person plural of γίνομαι is γίνονται (irregular deponent).",
+        "el": "Το γ' πληθυντικό του γίνομαι είναι γίνονται (ανώμαλο αποθετικό).",
+        "ca": "La 3a persona plural de γίνομαι és γίνονται (deponent irregular)."
+      }
+    },
+    {
+      "id": "ex_conj_1501",
+      "type": "conjugation",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Conjugate φοβάμαι in the present tense",
+        "el": "Κλίσε το φοβάμαι στον ενεστώτα",
+        "ca": "Conjuga φοβάμαι en present"
+      },
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        {
+          "label": "Εγώ",
+          "answer": "φοβάμαι",
+          "acceptableAnswers": ["φοβάμαι"]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "φοβάσαι",
+          "acceptableAnswers": ["φοβάσαι"]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "φοβάται",
+          "acceptableAnswers": ["φοβάται"]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "φοβόμαστε",
+          "acceptableAnswers": ["φοβόμαστε"]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "φοβάστε",
+          "acceptableAnswers": ["φοβάστε"]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "φοβούνται",
+          "acceptableAnswers": ["φοβούνται"]
+        }
+      ]
+    },
+    {
+      "id": "ex_match_1501",
+      "type": "matching",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Match the pronoun with the correct deponent verb form",
+        "el": "Ταίριαξε την αντωνυμία με το σωστό αποθετικό ρήμα",
+        "ca": "Relaciona el pronom amb la forma correcta del verb deponent"
+      },
+      "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα κοιμάμαι.",
+      "correctAnswer": "",
+      "pairs": [
+        { "left": "Εγώ", "right": "κοιμάμαι" },
+        { "left": "Εσύ", "right": "κοιμάσαι" },
+        { "left": "Αυτός/Αυτή/Αυτό", "right": "κοιμάται" },
+        { "left": "Εμείς", "right": "κοιμόμαστε" },
+        { "left": "Εσείς", "right": "κοιμάστε" },
+        { "left": "Αυτοί/Αυτές/Αυτά", "right": "κοιμούνται" }
+      ]
+    }
+  ]
+}

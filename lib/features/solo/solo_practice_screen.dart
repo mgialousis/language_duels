@@ -65,6 +65,7 @@ class _SoloPracticeScreenState extends ConsumerState<SoloPracticeScreen>
   SoloGameType _activeGameType = SoloGameType.vocabFlash;
   int _mixedRotationIndex = 0;
   List<SoloGameType> _mixedRotation = const [];
+  Set<String> _usedMatchMadnessIds = {};
 
   // Session config
   String? _deckId;
@@ -218,8 +219,25 @@ class _SoloPracticeScreenState extends ConsumerState<SoloPracticeScreen>
 
       if (_activeGameType == SoloGameType.matchMadness) {
         final direction = _direction;
-        final selected = [...deck.vocabularyItems]..shuffle();
-        final pairs = selected.take(6).map((item) {
+        // Filter out words already used in this session's Match Madness rounds
+        final available = deck.vocabularyItems
+            .where((item) => !_usedMatchMadnessIds.contains(item.id))
+            .toList()
+          ..shuffle();
+        // If not enough unused words, reset tracking and use all
+        final pool = available.length >= 6
+            ? available
+            : (List.of(deck.vocabularyItems)..shuffle());
+        if (available.length < 6) {
+          _usedMatchMadnessIds = {};
+        }
+        final selected = pool.take(6).toList();
+        // Track the IDs used in this round
+        _usedMatchMadnessIds = {
+          ..._usedMatchMadnessIds,
+          ...selected.map((item) => item.id),
+        };
+        final pairs = selected.map((item) {
           final sourceText = direction == LanguageDirection.greekToCatalan
               ? item.greek.text
               : item.catalan.text;

@@ -1,0 +1,347 @@
+{
+  "id": "a1_g14_present_tense_a_class_passive",
+  "category": "verb_conjugation",
+  "subcategory": "present_tense",
+  "level": "A1",
+  "order": 14,
+  "title": {
+    "en": "Present Tense - A Class (Passive Voice)",
+    "el": "Ενεστώτας - Α Τάξη (Παθητική Φωνή)",
+    "ca": "Present - Classe A (Veu Passiva)"
+  },
+  "description": {
+    "en": "Learn A class passive present endings like -ομαι, -εσαι, -εται. These passive forms come from A class active verbs (unaccented -ω).",
+    "el": "Μάθε τις καταλήξεις της Α τάξης στην παθητική φωνή: -ομαι, -εσαι, -εται. Αυτές οι παθητικές μορφές προέρχονται από ρήματα της Α τάξης ενεργητικής φωνής (μη τονισμένο -ω).",
+    "ca": "Aprèn les terminacions de la classe A en veu passiva: -ομαι, -εσαι, -εται. Aquestes formes passives provenen de verbs de classe A en veu activa (-ω sense accent)."
+  },
+  "explanation": {
+    "content": {
+      "en": "A class passive verbs (from γράφω, βλέπω, πλένω) take endings: -ομαι, -εσαι, -εται, -όμαστε, -εστε, -ονται. Example: γράφω → γράφομαι (I am written/I enroll). This is Group 1 passive - the most common passive pattern.",
+      "el": "Τα ρήματα της Α τάξης στην παθητική φωνή (από γράφω, βλέπω, πλένω) παίρνουν καταλήξεις: -ομαι, -εσαι, -εται, -όμαστε, -εστε, -ονται. Παράδειγμα: γράφω → γράφομαι (γράφομαι/εγγράφομαι). Αυτή είναι η Ομάδα 1 παθητικής - το πιο συνηθισμένο παθητικό μοτίβο.",
+      "ca": "Els verbs de classe A en veu passiva (de γράφω, βλέπω, πλένω) prenen terminacions: -ομαι, -εσαι, -εται, -όμαστε, -εστε, -ονται. Exemple: γράφω → γράφομαι (sóc escrit/m'inscric). Aquest és el Grup 1 passiu - el patró passiu més comú."
+    },
+    "rules": [
+      {
+        "en": "A class passive verbs come from A class active verbs: γράφω → γράφομαι, πλένω → πλένομαι.",
+        "el": "Τα παθητικά ρήματα της Α τάξης προέρχονται από ενεργητικά της Α τάξης: γράφω → γράφομαι, πλένω → πλένομαι.",
+        "ca": "Els verbs passius de classe A provenen d'actius de classe A: γράφω → γράφομαι, πλένω → πλένομαι."
+      },
+      {
+        "en": "Formation: Remove -ω from active, add -ομαι (γράφω → γράφ + ομαι = γράφομαι).",
+        "el": "Σχηματισμός: Αφαίρεσε το -ω από την ενεργητική, πρόσθεσε -ομαι (γράφω → γράφ + ομαι = γράφομαι).",
+        "ca": "Formació: Treu -ω de l'actiu, afegeix -ομαι (γράφω → γράφ + ομαι = γράφομαι)."
+      },
+      {
+        "en": "Endings: -ομαι, -εσαι, -εται, -όμαστε, -εστε, -ονται. This is the most common passive pattern.",
+        "el": "Καταλήξεις: -ομαι, -εσαι, -εται, -όμαστε, -εστε, -ονται. Αυτό είναι το πιο συνηθισμένο παθητικό μοτίβο.",
+        "ca": "Terminacions: -ομαι, -εσαι, -εται, -όμαστε, -εστε, -ονται. Aquest és el patró passiu més comú."
+      }
+    ],
+    "tips": [
+      {
+        "en": "Many passive verbs have reflexive meaning: πλένομαι (I wash myself), χτενίζομαι (I comb my hair).",
+        "el": "Πολλά παθητικά ρήματα έχουν αντωνυμική σημασία: πλένομαι (πλένομαι), χτενίζομαι (χτενίζομαι).",
+        "ca": "Molts verbs passius tenen significat reflexiu: πλένομαι (em rento), χτενίζομαι (em pentino)."
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "A class example: γράφομαι (to enroll/be written) - Verb Family: A CLASS PASSIVE",
+        "el": "Παράδειγμα Α τάξης: γράφομαι (εγγράφομαι) - Οικογένεια ρήματος: Α ΤΑΞΗ ΠΑΘΗΤΙΚΟ",
+        "ca": "Exemple classe A: γράφομαι (inscriure'm) - Família del verb: CLASSE A PASSIU"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "γράφομαι",
+            "romanization": "ˈɣrafome",
+            "translation": "I am written/I enroll"
+          },
+          {
+            "greek": "γραφόμαστε",
+            "romanization": "ɣraˈfomaste",
+            "translation": "we are written/we enroll"
+          }
+        ],
+        [
+          {
+            "greek": "γράφεσαι",
+            "romanization": "ˈɣrafese",
+            "translation": "you are written/you enroll"
+          },
+          {
+            "greek": "γράφεστε",
+            "romanization": "ˈɣrafeste",
+            "translation": "you (pl) are written/you enroll"
+          }
+        ],
+        [
+          {
+            "greek": "γράφεται",
+            "romanization": "ˈɣrafete",
+            "translation": "he/she is written/enrolls"
+          },
+          {
+            "greek": "γράφονται",
+            "romanization": "ˈɣrafonde",
+            "translation": "they are written/they enroll"
+          }
+        ]
+      ],
+      "footnote": "From active γράφω (I write)"
+    },
+    {
+      "title": {
+        "en": "A class example: πλένομαι (to wash myself) - Verb Family: A CLASS PASSIVE",
+        "el": "Παράδειγμα Α τάξης: πλένομαι (πλένομαι) - Οικογένεια ρήματος: Α ΤΑΞΗ ΠΑΘΗΤΙΚΟ",
+        "ca": "Exemple classe A: πλένομαι (rentar-me) - Família del verb: CLASSE A PASSIU"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "πλένομαι",
+            "romanization": "ˈplenome",
+            "translation": "I wash myself"
+          },
+          {
+            "greek": "πλενόμαστε",
+            "romanization": "pleˈnomaste",
+            "translation": "we wash ourselves"
+          }
+        ],
+        [
+          {
+            "greek": "πλένεσαι",
+            "romanization": "ˈplenese",
+            "translation": "you wash yourself"
+          },
+          {
+            "greek": "πλένεστε",
+            "romanization": "ˈpleneste",
+            "translation": "you (pl) wash yourselves"
+          }
+        ],
+        [
+          {
+            "greek": "πλένεται",
+            "romanization": "ˈplenete",
+            "translation": "he/she washes himself/herself"
+          },
+          {
+            "greek": "πλένονται",
+            "romanization": "ˈplenonde",
+            "translation": "they wash themselves"
+          }
+        ]
+      ],
+      "footnote": "From active πλένω (I wash). Reflexive meaning."
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_1401",
+      "greek": "Γράφομαι στο πανεπιστήμιο.",
+      "romanization": "ˈɣrafome sto panepistˈimio.",
+      "catalan": "M'inscric a la universitat.",
+      "englishLiteral": "I enroll at the university.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 8,
+          "explanation": "A class passive, 1st person singular"
+        }
+      ]
+    },
+    {
+      "id": "ex_1402",
+      "greek": "Πλένεσαι κάθε μέρα;",
+      "romanization": "ˈplenese ˈkaθe ˈmera?",
+      "catalan": "Et rentes cada dia?",
+      "englishLiteral": "Do you wash yourself every day?"
+    },
+    {
+      "id": "ex_1403",
+      "greek": "Χτενιζόμαστε το πρωί.",
+      "romanization": "xteniˈzomaste to proˈi.",
+      "catalan": "Ens pentinem al matí.",
+      "englishLiteral": "We comb our hair in the morning."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_1401",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ στο σχολείο.",
+      "hint": "γράφομαι is A class passive (from γράφω). Use 1st person singular.",
+      "correctAnswer": "γράφομαι",
+      "acceptableAnswers": ["γράφομαι"],
+      "explanation": {
+        "en": "First person singular is γράφομαι (A class passive pattern).",
+        "el": "Το α' ενικό είναι γράφομαι (μοτίβο Α τάξης παθητικό).",
+        "ca": "La 1a persona singular és γράφομαι (patró passiu classe A)."
+      }
+    },
+    {
+      "id": "ex_mc_1401",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσύ ____ κάθε πρωί.",
+      "correctAnswer": "πλένεσαι",
+      "options": ["πλένομαι", "πλένεσαι", "πλένεται"],
+      "acceptableAnswers": ["πλένεσαι"],
+      "explanation": {
+        "en": "Second person singular of A class passive ends in -εσαι.",
+        "el": "Το β' ενικό των παθητικών Α τάξης τελειώνει σε -εσαι.",
+        "ca": "La 2a persona singular dels passius de classe A acaba en -εσαι."
+      }
+    },
+    {
+      "id": "ex_fill_1402",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτή ____ στην τάξη.",
+      "correctAnswer": "χτενίζεται",
+      "acceptableAnswers": ["χτενίζεται"],
+      "explanation": {
+        "en": "Third person singular of A class passive ends in -εται.",
+        "el": "Το γ' ενικό των παθητικών Α τάξης τελειώνει σε -εται.",
+        "ca": "La 3a persona singular dels passius de classe A acaba en -εται."
+      }
+    },
+    {
+      "id": "ex_fill_1403",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ μαζί.",
+      "correctAnswer": "γραφόμαστε",
+      "acceptableAnswers": ["γραφόμαστε"],
+      "explanation": {
+        "en": "First person plural of A class passive ends in -όμαστε.",
+        "el": "Το α' πληθυντικό των παθητικών Α τάξης τελειώνει σε -όμαστε.",
+        "ca": "La 1a persona plural dels passius de classe A acaba en -όμαστε."
+      }
+    },
+    {
+      "id": "ex_mc_1402",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσείς ____ στο μάθημα;",
+      "correctAnswer": "γράφεστε",
+      "options": ["γράφεστε", "γράφονται", "γραφόμαστε"],
+      "acceptableAnswers": ["γράφεστε"],
+      "explanation": {
+        "en": "Second person plural of A class passive ends in -εστε.",
+        "el": "Το β' πληθυντικό των παθητικών Α τάξης τελειώνει σε -εστε.",
+        "ca": "La 2a persona plural dels passius de classe A acaba en -εστε."
+      }
+    },
+    {
+      "id": "ex_fill_1404",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτοί ____ αργά.",
+      "correctAnswer": "πλένονται",
+      "acceptableAnswers": ["πλένονται"],
+      "explanation": {
+        "en": "Third person plural of A class passive ends in -ονται.",
+        "el": "Το γ' πληθυντικό των παθητικών Α τάξης τελειώνει σε -ονται.",
+        "ca": "La 3a persona plural dels passius de classe A acaba en -ονται."
+      }
+    },
+    {
+      "id": "ex_conj_1401",
+      "type": "conjugation",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Conjugate γράφομαι in the present tense",
+        "el": "Κλίσε το γράφομαι στον ενεστώτα",
+        "ca": "Conjuga γράφομαι en present"
+      },
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        {
+          "label": "Εγώ",
+          "answer": "γράφομαι",
+          "acceptableAnswers": ["γράφομαι"]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "γράφεσαι",
+          "acceptableAnswers": ["γράφεσαι"]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "γράφεται",
+          "acceptableAnswers": ["γράφεται"]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "γραφόμαστε",
+          "acceptableAnswers": ["γραφόμαστε"]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "γράφεστε",
+          "acceptableAnswers": ["γράφεστε"]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "γράφονται",
+          "acceptableAnswers": ["γράφονται"]
+        }
+      ]
+    }
+  ]
+}
