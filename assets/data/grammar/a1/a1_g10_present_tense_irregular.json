@@ -10,26 +10,21 @@
     "ca": "Present - Verbs Irregulars Comuns"
   },
   "description": {
-    "en": "Practice high-frequency irregular verbs and important A class verbs (unaccented -ω) in the present tense.",
-    "el": "Εξάσκηση σε συχνά ανώμαλα ρήματα και σημαντικά ρήματα της A τάξης (μη τονισμένα -ω) στον ενεστώτα.",
-    "ca": "Practica verbs irregulars freqüents i verbs importants de classe A (-ω sense accent) en present."
+    "en": "Practice high-frequency irregular verbs in the present tense.",
+    "el": "Εξάσκηση σε συχνά ανώμαλα ρήματα στον ενεστώτα.",
+    "ca": "Practica verbs irregulars freqüents en present."
   },
   "explanation": {
     "content": {
-      "en": "This lesson covers truly irregular verbs (πάω, τρώω, λέω, έρχομαι, γίνομαι) and important A class verbs (βλέπω, παίρνω, πίνω, έχω). A class verbs have unaccented -ω and follow the pattern: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). They represent 75% of all Greek verbs.",
-      "el": "Αυτό το μάθημα καλύπτει πραγματικά ανώμαλα ρήματα (πάω, τρώω, λέω, έρχομαι, γίνομαι) και σημαντικά ρήματα της A τάξης (βλέπω, παίρνω, πίνω, έχω). Τα ρήματα της A τάξης έχουν μη τονισμένο -ω και ακολουθούν το μοτίβο: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Αποτελούν το 75% όλων των ελληνικών ρημάτων.",
-      "ca": "Aquesta lliçó cobreix verbs veritablement irregulars (πάω, τρώω, λέω, έρχομαι, γίνομαι) i verbs importants de classe A (βλέπω, παίρνω, πίνω, έχω). Els verbs de classe A tenen -ω sense accent i segueixen el patró: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Representen el 75% de tots els verbs grecs."
+      "en": "This lesson covers truly irregular verbs (πάω, τρώω, λέω, έρχομαι, γίνομαι). These verbs do not follow standard present tense patterns and must be memorized.",
+      "el": "Αυτό το μάθημα καλύπτει πραγματικά ανώμαλα ρήματα (πάω, τρώω, λέω, έρχομαι, γίνομαι). Αυτά τα ρήματα δεν ακολουθούν τυπικά μοτίβα στον ενεστώτα και πρέπει να απομνημονευτούν.",
+      "ca": "Aquesta lliçó cobreix verbs veritablement irregulars (πάω, τρώω, λέω, έρχομαι, γίνομαι). Aquests verbs no segueixen patrons estàndard en present i s'han de memoritzar."
     },
     "rules": [
       {
         "en": "Irregular verbs (πάω, τρώω, λέω, έρχομαι, γίνομαι): Must be memorized - they don't follow standard patterns.",
         "el": "Ανώμαλα ρήματα (πάω, τρώω, λέω, έρχομαι, γίνομαι): Πρέπει να τα απομνημονεύσεις - δεν ακολουθούν τυπικά μοτίβα.",
         "ca": "Verbs irregulars (πάω, τρώω, λέω, έρχομαι, γίνομαι): Cal memoritzar-los - no segueixen patrons estàndard."
-      },
-      {
-        "en": "A class verbs (βλέπω, παίρνω, πίνω, έχω): Regular verbs with unaccented -ω. Pattern: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε).",
-        "el": "Ρήματα A τάξης (βλέπω, παίρνω, πίνω, έχω): Κανονικά ρήματα με μη τονισμένο -ω. Μοτίβο: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε).",
-        "ca": "Verbs de classe A (βλέπω, παίρνω, πίνω, έχω): Verbs regulars amb -ω sense accent. Patró: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε)."
       }
     ]
   },
@@ -198,168 +193,6 @@
     },
     {
       "title": {
-        "en": "βλέπω (to see) - Verb Family: A CLASS",
-        "el": "βλέπω (βλέπω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
-        "ca": "βλέπω (veure) - Família del verb: CLASSE A"
-      },
-      "columnHeaders": [
-        "Ενικός",
-        "Πληθυντικός"
-      ],
-      "rowHeaders": [
-        "1ο Πρόσωπο",
-        "2ο Πρόσωπο",
-        "3ο Πρόσωπο"
-      ],
-      "cells": [
-        [
-          {
-            "greek": "βλέπω",
-            "romanization": "ˈvlepo",
-            "translation": "I see"
-          },
-          {
-            "greek": "βλέπουμε",
-            "romanization": "ˈvlepume",
-            "translation": "we see"
-          }
-        ],
-        [
-          {
-            "greek": "βλέπεις",
-            "romanization": "ˈvlepis",
-            "translation": "you see"
-          },
-          {
-            "greek": "βλέπετε",
-            "romanization": "ˈvlepete",
-            "translation": "you (pl) see"
-          }
-        ],
-        [
-          {
-            "greek": "βλέπει",
-            "romanization": "ˈvlepi",
-            "translation": "he/she sees"
-          },
-          {
-            "greek": "βλέπουν",
-            "romanization": "ˈvlepun",
-            "translation": "they see"
-          }
-        ]
-      ]
-    },
-    {
-      "title": {
-        "en": "παίρνω (to take) - Verb Family: A CLASS",
-        "el": "παίρνω (παίρνω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
-        "ca": "παίρνω (agafar) - Família del verb: CLASSE A"
-      },
-      "columnHeaders": [
-        "Ενικός",
-        "Πληθυντικός"
-      ],
-      "rowHeaders": [
-        "1ο Πρόσωπο",
-        "2ο Πρόσωπο",
-        "3ο Πρόσωπο"
-      ],
-      "cells": [
-        [
-          {
-            "greek": "παίρνω",
-            "romanization": "ˈperno",
-            "translation": "I take"
-          },
-          {
-            "greek": "παίρνουμε",
-            "romanization": "ˈpernume",
-            "translation": "we take"
-          }
-        ],
-        [
-          {
-            "greek": "παίρνεις",
-            "romanization": "ˈpernis",
-            "translation": "you take"
-          },
-          {
-            "greek": "παίρνετε",
-            "romanization": "ˈpernete",
-            "translation": "you (pl) take"
-          }
-        ],
-        [
-          {
-            "greek": "παίρνει",
-            "romanization": "ˈperni",
-            "translation": "he/she takes"
-          },
-          {
-            "greek": "παίρνουν",
-            "romanization": "ˈpernun",
-            "translation": "they take"
-          }
-        ]
-      ]
-    },
-    {
-      "title": {
-        "en": "πίνω (to drink) - Verb Family: A CLASS",
-        "el": "πίνω (πίνω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
-        "ca": "πίνω (beure) - Família del verb: CLASSE A"
-      },
-      "columnHeaders": [
-        "Ενικός",
-        "Πληθυντικός"
-      ],
-      "rowHeaders": [
-        "1ο Πρόσωπο",
-        "2ο Πρόσωπο",
-        "3ο Πρόσωπο"
-      ],
-      "cells": [
-        [
-          {
-            "greek": "πίνω",
-            "romanization": "ˈpino",
-            "translation": "I drink"
-          },
-          {
-            "greek": "πίνουμε",
-            "romanization": "ˈpinume",
-            "translation": "we drink"
-          }
-        ],
-        [
-          {
-            "greek": "πίνεις",
-            "romanization": "ˈpinis",
-            "translation": "you drink"
-          },
-          {
-            "greek": "πίνετε",
-            "romanization": "ˈpinete",
-            "translation": "you (pl) drink"
-          }
-        ],
-        [
-          {
-            "greek": "πίνει",
-            "romanization": "ˈpini",
-            "translation": "he/she drinks"
-          },
-          {
-            "greek": "πίνουν",
-            "romanization": "ˈpinun",
-            "translation": "they drink"
-          }
-        ]
-      ]
-    },
-    {
-      "title": {
         "en": "έρχομαι (to come) - Verb Family: IRREGULAR",
         "el": "έρχομαι (έρχομαι) - Οικογένεια ρήματος: ΑΝΩΜΑΛΟ",
         "ca": "έρχομαι (venir) - Família del verb: IRREGULAR"
@@ -408,60 +241,6 @@
             "greek": "έρχονται",
             "romanization": "ˈerxonde",
             "translation": "they come"
-          }
-        ]
-      ]
-    },
-    {
-      "title": {
-        "en": "έχω (to have) - Verb Family: A CLASS",
-        "el": "έχω (έχω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
-        "ca": "έχω (tenir) - Família del verb: CLASSE A"
-      },
-      "columnHeaders": [
-        "Ενικός",
-        "Πληθυντικός"
-      ],
-      "rowHeaders": [
-        "1ο Πρόσωπο",
-        "2ο Πρόσωπο",
-        "3ο Πρόσωπο"
-      ],
-      "cells": [
-        [
-          {
-            "greek": "έχω",
-            "romanization": "ˈexo",
-            "translation": "I have"
-          },
-          {
-            "greek": "έχουμε",
-            "romanization": "ˈexume",
-            "translation": "we have"
-          }
-        ],
-        [
-          {
-            "greek": "έχεις",
-            "romanization": "ˈexis",
-            "translation": "you have"
-          },
-          {
-            "greek": "έχετε",
-            "romanization": "ˈexete",
-            "translation": "you (pl) have"
-          }
-        ],
-        [
-          {
-            "greek": "έχει",
-            "romanization": "ˈexi",
-            "translation": "he/she has"
-          },
-          {
-            "greek": "έχουν",
-            "romanization": "ˈexun",
-            "translation": "they have"
           }
         ]
       ]
@@ -544,13 +323,6 @@
       "englishLiteral": "We tell the truth."
     },
     {
-      "id": "ex_1003",
-      "greek": "Βλέπεις την ταινία;",
-      "romanization": "ˈvlepis tin tˈenia;",
-      "catalan": "Veus la pel·lícula?",
-      "englishLiteral": "Do you see the movie?"
-    },
-    {
       "id": "ex_1004",
       "greek": "Γίνονται φίλοι.",
       "romanization": "ˈʝinonde fˈili.",
@@ -568,11 +340,13 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εσύ ____ στο σπίτι;",
+      "prompt": "Εσύ ____ (πάω) στο σπίτι;",
       "promptRomanization": "esˈi ____ sto spˈiti;",
       "hint": "Use πάω.",
       "correctAnswer": "πας",
-      "acceptableAnswers": ["πας"],
+      "acceptableAnswers": [
+        "πας"
+      ],
       "explanation": {
         "en": "Second person singular of πάω is πας.",
         "el": "Ο ενεστώτας του πάω στο β' ενικό είναι πας.",
@@ -590,8 +364,14 @@
       },
       "prompt": "Αυτός ____ (τρώω) τώρα.",
       "correctAnswer": "τρώει",
-      "options": ["τρώω", "τρώει", "τρώτε"],
-      "acceptableAnswers": ["τρώει"],
+      "options": [
+        "τρώω",
+        "τρώει",
+        "τρώτε"
+      ],
+      "acceptableAnswers": [
+        "τρώει"
+      ],
       "explanation": {
         "en": "Third person singular of τρώω is τρώει.",
         "el": "Ο ενεστώτας του τρώω στο γ' ενικό είναι τρώει.",
@@ -607,68 +387,15 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εγώ ____ την αλήθεια.",
+      "prompt": "Εγώ ____ (λέω) την αλήθεια.",
       "correctAnswer": "λέω",
-      "acceptableAnswers": ["λέω"],
+      "acceptableAnswers": [
+        "λέω"
+      ],
       "explanation": {
         "en": "First person singular of λέω is λέω.",
         "el": "Ο ενεστώτας του λέω στο α' ενικό είναι λέω.",
         "ca": "El present de λέω en 1a persona és λέω."
-      }
-    },
-    {
-      "id": "ex_mc_1002",
-      "type": "multipleChoice",
-      "difficulty": 1,
-      "instruction": {
-        "en": "Choose the correct form",
-        "el": "Διάλεξε τον σωστό τύπο",
-        "ca": "Tria la forma correcta"
-      },
-      "prompt": "Εσύ ____ (βλέπω) καλά;",
-      "correctAnswer": "βλέπεις",
-      "options": ["βλέπω", "βλέπεις", "βλέπει"],
-      "acceptableAnswers": ["βλέπεις"],
-      "explanation": {
-        "en": "Second person singular of βλέπω is βλέπεις.",
-        "el": "Ο ενεστώτας του βλέπω στο β' ενικό είναι βλέπεις.",
-        "ca": "El present de βλέπω en 2a persona és βλέπεις."
-      }
-    },
-    {
-      "id": "ex_fill_1003",
-      "type": "fillBlank",
-      "difficulty": 1,
-      "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
-      },
-      "prompt": "Εμείς ____ (παίρνω) το λεωφορείο.",
-      "correctAnswer": "παίρνουμε",
-      "acceptableAnswers": ["παίρνουμε"],
-      "explanation": {
-        "en": "First person plural of παίρνω is παίρνουμε.",
-        "el": "Ο ενεστώτας του παίρνω στο α' πληθυντικό είναι παίρνουμε.",
-        "ca": "El present de παίρνω en 1a persona plural és παίρνουμε."
-      }
-    },
-    {
-      "id": "ex_fill_1004",
-      "type": "fillBlank",
-      "difficulty": 1,
-      "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
-      },
-      "prompt": "Αυτός ____ (πίνω) νερό.",
-      "correctAnswer": "πίνει",
-      "acceptableAnswers": ["πίνει"],
-      "explanation": {
-        "en": "Third person singular of πίνω is πίνει.",
-        "el": "Ο ενεστώτας του πίνω στο γ' ενικό είναι πίνει.",
-        "ca": "El present de πίνω en 3a persona és πίνει."
       }
     },
     {
@@ -682,30 +409,18 @@
       },
       "prompt": "Εσείς ____ (έρχομαι) τώρα;",
       "correctAnswer": "έρχεστε",
-      "options": ["έρχομαι", "έρχεστε", "έρχονται"],
-      "acceptableAnswers": ["έρχεστε"],
+      "options": [
+        "έρχομαι",
+        "έρχεστε",
+        "έρχονται"
+      ],
+      "acceptableAnswers": [
+        "έρχεστε"
+      ],
       "explanation": {
         "en": "Second person plural of έρχομαι is έρχεστε.",
         "el": "Ο ενεστώτας του έρχομαι στο β' πληθυντικό είναι έρχεστε.",
         "ca": "El present de έρχομαι en 2a persona plural és έρχεστε."
-      }
-    },
-    {
-      "id": "ex_fill_1005",
-      "type": "fillBlank",
-      "difficulty": 1,
-      "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
-      },
-      "prompt": "Εγώ ____ (έχω) χρόνο.",
-      "correctAnswer": "έχω",
-      "acceptableAnswers": ["έχω"],
-      "explanation": {
-        "en": "First person singular of έχω is έχω.",
-        "el": "Ο ενεστώτας του έχω στο α' ενικό είναι έχω.",
-        "ca": "El present de έχω en 1a persona és έχω."
       }
     },
     {
@@ -719,7 +434,9 @@
       },
       "prompt": "Αυτές ____ (γίνομαι) φίλες.",
       "correctAnswer": "γίνονται",
-      "acceptableAnswers": ["γίνονται"],
+      "acceptableAnswers": [
+        "γίνονται"
+      ],
       "explanation": {
         "en": "Third person plural of γίνομαι is γίνονται.",
         "el": "Ο ενεστώτας του γίνομαι στο γ' πληθυντικό είναι γίνονται.",
@@ -738,12 +455,49 @@
       "prompt": "Συμπλήρωσε όλους τους τύπους.",
       "correctAnswer": "",
       "conjugations": [
-        { "label": "Εγώ", "answer": "πάω", "acceptableAnswers": ["πάω"] },
-        { "label": "Εσύ", "answer": "πας", "acceptableAnswers": ["πας"] },
-        { "label": "Αυτός/Αυτή/Αυτό", "answer": "πάει", "acceptableAnswers": ["πάει"] },
-        { "label": "Εμείς", "answer": "πάμε", "acceptableAnswers": ["πάμε"] },
-        { "label": "Εσείς", "answer": "πάτε", "acceptableAnswers": ["πάτε"] },
-        { "label": "Αυτοί/Αυτές/Αυτά", "answer": "πάνε", "acceptableAnswers": ["πάνε", "πανε"] }
+        {
+          "label": "Εγώ",
+          "answer": "πάω",
+          "acceptableAnswers": [
+            "πάω"
+          ]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "πας",
+          "acceptableAnswers": [
+            "πας"
+          ]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "πάει",
+          "acceptableAnswers": [
+            "πάει"
+          ]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "πάμε",
+          "acceptableAnswers": [
+            "πάμε"
+          ]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "πάτε",
+          "acceptableAnswers": [
+            "πάτε"
+          ]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "πάνε",
+          "acceptableAnswers": [
+            "πάνε",
+            "πανε"
+          ]
+        }
       ]
     },
     {
@@ -758,12 +512,30 @@
       "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα τρώω.",
       "correctAnswer": "",
       "pairs": [
-        { "left": "Εγώ", "right": "τρώω" },
-        { "left": "Εσύ", "right": "τρως" },
-        { "left": "Αυτός/Αυτή/Αυτό", "right": "τρώει" },
-        { "left": "Εμείς", "right": "τρώμε" },
-        { "left": "Εσείς", "right": "τρώτε" },
-        { "left": "Αυτοί/Αυτές/Αυτά", "right": "τρώνε" }
+        {
+          "left": "Εγώ",
+          "right": "τρώω"
+        },
+        {
+          "left": "Εσύ",
+          "right": "τρως"
+        },
+        {
+          "left": "Αυτός/Αυτή/Αυτό",
+          "right": "τρώει"
+        },
+        {
+          "left": "Εμείς",
+          "right": "τρώμε"
+        },
+        {
+          "left": "Εσείς",
+          "right": "τρώτε"
+        },
+        {
+          "left": "Αυτοί/Αυτές/Αυτά",
+          "right": "τρώνε"
+        }
       ]
     }
   ]

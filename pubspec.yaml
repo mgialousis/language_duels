@@ -96,11 +96,17 @@ flutter:
     - assets/data/grammar/a1/a1_g10_present_tense_irregular.json
     - assets/data/grammar/a1/a1_g11_present_tense_passive_a.json
     - assets/data/grammar/a1/a1_g12_present_tense_passive_b.json
+    - assets/data/grammar/a1/a1_g13_present_tense_b1_active.json
+    - assets/data/grammar/a1/a1_g14_present_tense_a_class_passive.json
+    - assets/data/grammar/a1/a1_g15_present_tense_deponent.json
     - assets/data/grammar/a2/a2_g01_simple_past.json
     - assets/data/grammar/a2/a2_g02_imperfect_tense.json
     - assets/data/grammar/a2/a2_g03_future_simple.json
     - assets/data/grammar/a2/a2_g04_object_pronouns.json
     - assets/data/grammar/a2/a2_g05_comparatives.json
+    - assets/data/grammar/a2/a2_g06_simple_past_b_class.json
+    - assets/data/grammar/a2/a2_g07_simple_past_irregular.json
+    - assets/data/grammar/a2/a2_g08_simple_past_passive.json
     - assets/icons/app_icon.png
 
 flutter_launcher_icons:

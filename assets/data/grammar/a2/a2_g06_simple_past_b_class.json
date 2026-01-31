@@ -1,0 +1,517 @@
+{
+  "id": "a2_g06_simple_past_b_class",
+  "category": "verb_conjugation",
+  "subcategory": "past_tense",
+  "level": "A2",
+  "order": 6,
+  "title": {
+    "en": "Simple Past (Αόριστος) - B1/B2 Class Verbs",
+    "el": "Αόριστος - Ρήματα Β1/Β2 Τάξης",
+    "ca": "Passat Simple (Αόριστος) - Verbs Classe B1/B2"
+  },
+  "description": {
+    "en": "Master the Simple Past (Αόριστος) for B1 and B2 class verbs. Both classes use the same -ησα pattern.",
+    "el": "Κατακτήστε τον Αόριστο για τα ρήματα Β1 και Β2 τάξης. Και οι δύο τάξεις χρησιμοποιούν το ίδιο μοτίβο -ησα.",
+    "ca": "Domina el Passat Simple (Αόριστος) per als verbs de classe B1 i B2. Ambdues classes usen el mateix patró -ησα."
+  },
+  "explanation": {
+    "content": {
+      "en": "B1 and B2 class verbs (accented -ώ/-άω in present) form the Simple Past identically: remove the present ending and add -ησα, -ησες, -ησε, -ήσαμε, -ήσατε, -ήσαν(ε). This is simpler than A class because there are no stem consonant changes!",
+      "el": "Τα ρήματα Β1 και Β2 τάξης (τονισμένο -ώ/-άω στον ενεστώτα) σχηματίζουν τον Αόριστο πανομοιότυπα: αφαιρούμε την κατάληξη του ενεστώτα και προσθέτουμε -ησα, -ησες, -ησε, -ήσαμε, -ήσατε, -ήσαν(ε). Αυτό είναι απλούστερο από την Α τάξη γιατί δεν υπάρχουν αλλαγές συμφώνων!",
+      "ca": "Els verbs B1 i B2 (amb -ώ/-άω accentuat en present) formen el Passat Simple idènticament: traiem la terminació del present i afegim -ησα, -ησες, -ησε, -ήσαμε, -ήσατε, -ήσαν(ε). Això és més senzill que la classe A perquè no hi ha canvis de consonants!"
+    },
+    "rules": [
+      {
+        "en": "B1 class (αγαπώ/αγαπάω type): Remove -ώ/-άω, add -ησα endings (αγαπώ → αγάπησα)",
+        "el": "Β1 τάξη (τύπος αγαπώ/αγαπάω): Αφαίρεσε -ώ/-άω, πρόσθεσε καταλήξεις -ησα (αγαπώ → αγάπησα)",
+        "ca": "Classe B1 (tipus αγαπώ/αγαπάω): Treu -ώ/-άω, afegeix terminacions -ησα (αγαπώ → αγάπησα)"
+      },
+      {
+        "en": "B2 class (θεωρώ type): Remove -ώ, add -ησα endings (θεωρώ → θεώρησα)",
+        "el": "Β2 τάξη (τύπος θεωρώ): Αφαίρεσε -ώ, πρόσθεσε καταλήξεις -ησα (θεωρώ → θεώρησα)",
+        "ca": "Classe B2 (tipus θεωρώ): Treu -ώ, afegeix terminacions -ησα (θεωρώ → θεώρησα)"
+      },
+      {
+        "en": "Simple Past endings for B class: -ησα, -ησες, -ησε, -ήσαμε, -ήσατε, -ήσαν/-ήσανε",
+        "el": "Καταλήξεις αορίστου για Β τάξη: -ησα, -ησες, -ησε, -ήσαμε, -ήσατε, -ήσαν/-ήσανε",
+        "ca": "Terminacions de passat simple per a classe B: -ησα, -ησες, -ησε, -ήσαμε, -ήσατε, -ήσαν/-ήσανε"
+      },
+      {
+        "en": "Accent shifts to the antepenultimate (3rd from last): μιλώ (2 syl) → μίλησα (3 syl), αγαπώ (3 syl) → αγάπησα (4 syl)",
+        "el": "Ο τόνος μετακινείται στην προπαραλήγουσα (3η από το τέλος): μιλώ → μίλησα, αγαπώ → αγάπησα",
+        "ca": "L'accent es mou a l'antepenúltima (3a des del final): μιλώ → μίλησα, αγαπώ → αγάπησα"
+      }
+    ],
+    "tips": [
+      {
+        "en": "Good news: B1 and B2 verbs are easier in the aorist than in present tense - they both use the same -ησα pattern with no stem changes!",
+        "el": "Καλά νέα: Τα ρήματα Β1 και Β2 είναι ευκολότερα στον αόριστο από τον ενεστώτα - χρησιμοποιούν το ίδιο μοτίβο -ησα χωρίς αλλαγές θέματος!",
+        "ca": "Bones notícies: Els verbs B1 i B2 són més fàcils en aorist que en present - tots dos usen el mateix patró -ησα sense canvis de tema!"
+      },
+      {
+        "en": "Common B1 verbs: μιλάω/μιλώ (speak), αγαπάω/αγαπώ (love), χτυπάω/χτυπώ (hit), φοράω/φορώ (wear), κρατάω/κρατώ (hold)",
+        "el": "Συνηθισμένα Β1 ρήματα: μιλάω/μιλώ, αγαπάω/αγαπώ, χτυπάω/χτυπώ, φοράω/φορώ, κρατάω/κρατώ",
+        "ca": "Verbs B1 comuns: μιλάω/μιλώ (parlar), αγαπάω/αγαπώ (estimar), χτυπάω/χτυπώ (colpejar)"
+      },
+      {
+        "en": "Common B2 verbs: θεωρώ (consider), μπορώ (can - but uses ήμπορα for past!), ξέρω (know - irregular: ήξερα)",
+        "el": "Συνηθισμένα Β2 ρήματα: θεωρώ, μπορώ (αλλά χρησιμοποιεί μπόρεσα για παρελθόν!), ξέρω (ανώμαλο: ήξερα)",
+        "ca": "Verbs B2 comuns: θεωρώ (considerar), μπορώ (poder - però usa μπόρεσα pel passat!)"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "B1 class: μιλάω/μιλώ → μίλησα (to speak) - Verb Family: B1 CLASS",
+        "el": "Β1 τάξη: μιλάω/μιλώ → μίλησα - Οικογένεια: Β1 ΤΑΞΗ",
+        "ca": "Classe B1: μιλάω/μιλώ → μίλησα (parlar) - Família: CLASSE B1"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "μίλησα",
+            "romanization": "ˈmilisa",
+            "translation": "I spoke"
+          },
+          {
+            "greek": "μιλήσαμε",
+            "romanization": "miˈlisame",
+            "translation": "we spoke"
+          }
+        ],
+        [
+          {
+            "greek": "μίλησες",
+            "romanization": "ˈmilises",
+            "translation": "you spoke"
+          },
+          {
+            "greek": "μιλήσατε",
+            "romanization": "miˈlisate",
+            "translation": "you (pl) spoke"
+          }
+        ],
+        [
+          {
+            "greek": "μίλησε",
+            "romanization": "ˈmilise",
+            "translation": "he/she spoke"
+          },
+          {
+            "greek": "μίλησαν",
+            "romanization": "ˈmilisan",
+            "translation": "they spoke"
+          }
+        ]
+      ],
+      "footnote": "Variant 3rd plural: μιλήσανε. No stem changes - just add -ησα endings!"
+    },
+    {
+      "title": {
+        "en": "B1 class: αγαπάω/αγαπώ → αγάπησα (to love) - Verb Family: B1 CLASS",
+        "el": "Β1 τάξη: αγαπάω/αγαπώ → αγάπησα - Οικογένεια: Β1 ΤΑΞΗ",
+        "ca": "Classe B1: αγαπάω/αγαπώ → αγάπησα (estimar) - Família: CLASSE B1"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "αγάπησα",
+            "romanization": "aˈɣapisa",
+            "translation": "I loved"
+          },
+          {
+            "greek": "αγαπήσαμε",
+            "romanization": "aɣaˈpisame",
+            "translation": "we loved"
+          }
+        ],
+        [
+          {
+            "greek": "αγάπησες",
+            "romanization": "aˈɣapises",
+            "translation": "you loved"
+          },
+          {
+            "greek": "αγαπήσατε",
+            "romanization": "aɣaˈpisate",
+            "translation": "you (pl) loved"
+          }
+        ],
+        [
+          {
+            "greek": "αγάπησε",
+            "romanization": "aˈɣapise",
+            "translation": "he/she loved"
+          },
+          {
+            "greek": "αγάπησαν",
+            "romanization": "aˈɣapisan",
+            "translation": "they loved"
+          }
+        ]
+      ],
+      "footnote": "Accent moves to 3rd-from-last syllable. Variant: αγαπήσανε."
+    },
+    {
+      "title": {
+        "en": "B2 class: θεωρώ → θεώρησα (to consider) - Verb Family: B2 CLASS",
+        "el": "Β2 τάξη: θεωρώ → θεώρησα - Οικογένεια: Β2 ΤΑΞΗ",
+        "ca": "Classe B2: θεωρώ → θεώρησα (considerar) - Família: CLASSE B2"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "θεώρησα",
+            "romanization": "θeˈorisa",
+            "translation": "I considered"
+          },
+          {
+            "greek": "θεωρήσαμε",
+            "romanization": "θeoˈrisame",
+            "translation": "we considered"
+          }
+        ],
+        [
+          {
+            "greek": "θεώρησες",
+            "romanization": "θeˈorises",
+            "translation": "you considered"
+          },
+          {
+            "greek": "θεωρήσατε",
+            "romanization": "θeoˈrisate",
+            "translation": "you (pl) considered"
+          }
+        ],
+        [
+          {
+            "greek": "θεώρησε",
+            "romanization": "θeˈorise",
+            "translation": "he/she considered"
+          },
+          {
+            "greek": "θεώρησαν",
+            "romanization": "θeˈorisan",
+            "translation": "they considered"
+          }
+        ]
+      ],
+      "footnote": "B2 verbs use exactly the same -ησα pattern as B1 in aorist."
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_a2_601",
+      "greek": "Χθες μίλησα με τη μητέρα μου.",
+      "romanization": "xθes ˈmilisa me ti miˈtera mu.",
+      "catalan": "Ahir vaig parlar amb la meva mare.",
+      "englishLiteral": "Yesterday I spoke with my mother.",
+      "highlights": [
+        {
+          "startIndex": 5,
+          "endIndex": 12,
+          "explanation": "B1 aorist: μιλάω → μίλησα"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_602",
+      "greek": "Αγάπησε αυτή τη χώρα.",
+      "romanization": "aˈɣapise afˈti ti ˈxɔra.",
+      "catalan": "Va estimar aquest país.",
+      "englishLiteral": "He/She loved this country.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 8,
+          "explanation": "B1 aorist: αγαπάω → αγάπησε"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_603",
+      "greek": "Θεώρησαν το πρόβλημα σοβαρό.",
+      "romanization": "θeˈorisan to ˈprovlima sovaˈro.",
+      "catalan": "Van considerar el problema seriós.",
+      "englishLiteral": "They considered the problem serious.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 9,
+          "explanation": "B2 aorist: θεωρώ → θεώρησαν"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_604",
+      "greek": "Φορέσαμε τα καλύτερά μας ρούχα.",
+      "romanization": "foˈresame ta kaliˈtera mas ˈruxa.",
+      "catalan": "Vam portar la nostra millor roba.",
+      "englishLiteral": "We wore our best clothes.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 9,
+          "explanation": "B1 aorist: φοράω → φορέσαμε"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2_ex_fill_601",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
+      },
+      "prompt": "Χθες ____ (μιλάω) με τον φίλο μου.",
+      "hint": "μιλάω is B1 class. Remove -άω, add -ησα.",
+      "correctAnswer": "μίλησα",
+      "acceptableAnswers": [
+        "μίλησα"
+      ],
+      "explanation": {
+        "en": "μιλάω → μίλησα. B1 verbs add -ησα endings.",
+        "el": "μιλάω → μίλησα. Τα Β1 ρήματα προσθέτουν -ησα.",
+        "ca": "μιλάω → μίλησα. Els verbs B1 afegeixen -ησα."
+      },
+      "translation": {
+        "en": "Yesterday I ____ (speak) with my friend.",
+        "ca": "Ahir ____ (parlar) amb el meu amic."
+      }
+    },
+    {
+      "id": "a2_ex_mc_601",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct simple past form",
+        "el": "Διάλεξε τον σωστό τύπο αορίστου",
+        "ca": "Tria la forma correcta de passat simple"
+      },
+      "prompt": "Αυτή ____ (αγαπάω) τα παιδιά της.",
+      "hint": "αγαπάω is B1 class. 3rd person singular.",
+      "correctAnswer": "αγάπησε",
+      "options": [
+        "αγαπάει",
+        "αγάπησε",
+        "αγαπούσε"
+      ],
+      "acceptableAnswers": [
+        "αγάπησε"
+      ],
+      "explanation": {
+        "en": "αγαπάω → αγάπησε. Third person singular aorist.",
+        "el": "αγαπάω → αγάπησε. Τρίτο ενικό αόριστος.",
+        "ca": "αγαπάω → αγάπησε. Tercera persona singular aorist."
+      }
+    },
+    {
+      "id": "a2_ex_fill_602",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
+      },
+      "prompt": "Εμείς ____ (χτυπάω) την πόρτα.",
+      "hint": "χτυπάω is B1 class. First person plural.",
+      "correctAnswer": "χτυπήσαμε",
+      "acceptableAnswers": [
+        "χτυπήσαμε"
+      ],
+      "explanation": {
+        "en": "χτυπάω → χτυπήσαμε. -ήσαμε for 1st person plural.",
+        "el": "χτυπάω → χτυπήσαμε. -ήσαμε για το α' πληθυντικό.",
+        "ca": "χτυπάω → χτυπήσαμε. -ήσαμε per a 1a persona plural."
+      },
+      "translation": {
+        "en": "We ____ (knock) on the door.",
+        "ca": "Nosaltres ____ (trucar) a la porta."
+      }
+    },
+    {
+      "id": "a2_ex_fill_603",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
+      },
+      "prompt": "Εσύ ____ (θεωρώ) αυτό σωστό;",
+      "hint": "θεωρώ is B2 class. Second person singular.",
+      "correctAnswer": "θεώρησες",
+      "acceptableAnswers": [
+        "θεώρησες"
+      ],
+      "explanation": {
+        "en": "θεωρώ → θεώρησες. B2 uses same pattern as B1.",
+        "el": "θεωρώ → θεώρησες. Η Β2 χρησιμοποιεί το ίδιο μοτίβο με τη Β1.",
+        "ca": "θεωρώ → θεώρησες. B2 usa el mateix patró que B1."
+      },
+      "translation": {
+        "en": "Do you ____ (consider) this correct?",
+        "ca": "Tu ____ (considerar) això correcte?"
+      }
+    },
+    {
+      "id": "a2_ex_mc_602",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct simple past form",
+        "el": "Διάλεξε τον σωστό τύπο αορίστου",
+        "ca": "Tria la forma correcta de passat simple"
+      },
+      "prompt": "Αυτοί ____ (κρατάω) τις τσάντες.",
+      "hint": "κρατάω is B1 class. Third person plural.",
+      "correctAnswer": "κράτησαν",
+      "options": [
+        "κρατούν",
+        "κράτησαν",
+        "κρατούσαν"
+      ],
+      "acceptableAnswers": [
+        "κράτησαν",
+        "κρατήσανε"
+      ],
+      "explanation": {
+        "en": "κρατάω → κράτησαν. Third person plural aorist.",
+        "el": "κρατάω → κράτησαν. Τρίτο πληθυντικό αόριστος.",
+        "ca": "κρατάω → κράτησαν. Tercera persona plural aorist."
+      }
+    },
+    {
+      "id": "a2_ex_fill_604",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
+      },
+      "prompt": "Εσείς ____ (φοράω) τα γυαλιά σας;",
+      "hint": "φοράω is B1 class. Second person plural.",
+      "correctAnswer": "φορέσατε",
+      "acceptableAnswers": [
+        "φορέσατε"
+      ],
+      "explanation": {
+        "en": "φοράω → φορέσατε. -ήσατε becomes -έσατε here.",
+        "el": "φοράω → φορέσατε. Το -ήσατε γίνεται -έσατε εδώ.",
+        "ca": "φοράω → φορέσατε. -ήσατε es converteix en -έσατε aquí."
+      },
+      "translation": {
+        "en": "Do you (pl) ____ (wear) your glasses?",
+        "ca": "Vosaltres ____ (portar) les ulleres?"
+      }
+    },
+    {
+      "id": "a2_ex_conj_601",
+      "type": "conjugation",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Conjugate αγαπάω in the simple past",
+        "el": "Κλίσε το αγαπάω στον αόριστο",
+        "ca": "Conjuga αγαπάω en passat simple"
+      },
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        {
+          "label": "Εγώ",
+          "answer": "αγάπησα",
+          "romanization": "aˈɣapisa",
+          "acceptableAnswers": [
+            "αγάπησα"
+          ]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "αγάπησες",
+          "romanization": "aˈɣapises",
+          "acceptableAnswers": [
+            "αγάπησες"
+          ]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "αγάπησε",
+          "romanization": "aˈɣapise",
+          "acceptableAnswers": [
+            "αγάπησε"
+          ]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "αγαπήσαμε",
+          "romanization": "aɣaˈpisame",
+          "acceptableAnswers": [
+            "αγαπήσαμε"
+          ]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "αγαπήσατε",
+          "romanization": "aɣaˈpisate",
+          "acceptableAnswers": [
+            "αγαπήσατε"
+          ]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "αγάπησαν",
+          "romanization": "aˈɣapisan",
+          "acceptableAnswers": [
+            "αγάπησαν",
+            "αγαπήσανε"
+          ]
+        }
+      ]
+    }
+  ],
+  "prerequisites": [
+    "a1_g13_present_tense_b1_active",
+    "a2_g01_simple_past"
+  ],
+  "tags": [
+    "verbs",
+    "past",
+    "aorist",
+    "b1-class",
+    "b2-class"
+  ]
+}

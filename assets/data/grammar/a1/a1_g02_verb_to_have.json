@@ -129,7 +129,7 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ δύο σκύλους.",
+      "prompt": "Εμείς ____ (έχω) δύο σκύλους.",
       "promptRomanization": "emˈis ____ ðˈio skˈilus.",
       "correctAnswer": "έχουμε",
       "acceptableAnswers": [
@@ -284,7 +284,7 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ δύο γάτες.",
+      "prompt": "Εμείς ____ (έχω) δύο γάτες.",
       "promptRomanization": "emˈis ____ ðˈio ɣˈates.",
       "correctAnswer": "έχουμε",
       "acceptableAnswers": [
@@ -331,7 +331,7 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εσύ ____ χρόνο;",
+      "prompt": "Εσύ ____ (έχω) χρόνο;",
       "promptRomanization": "esˈi ____ xrˈono;",
       "correctAnswer": "έχεις",
       "acceptableAnswers": [
@@ -355,8 +355,15 @@
       "prompt": "Αυτοί ____ πολλά βιβλία.",
       "promptRomanization": "aftˈi ____ polˈa vivlˈia.",
       "correctAnswer": "έχουν",
-      "options": ["έχει", "έχουν", "έχουμε"],
-      "acceptableAnswers": ["έχουν", "εχουν"],
+      "options": [
+        "έχει",
+        "έχουν",
+        "έχουμε"
+      ],
+      "acceptableAnswers": [
+        "έχουν",
+        "εχουν"
+      ],
       "explanation": {
         "en": "Use έχουν for 3rd person plural.",
         "el": "Χρησιμοποίησε έχουν για το γ' πληθυντικό.",
@@ -372,10 +379,13 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εσείς ____ ωραίο σπίτι.",
+      "prompt": "Εσείς ____ (έχω) ωραίο σπίτι.",
       "promptRomanization": "esˈis ____ orˈeo spˈiti.",
       "correctAnswer": "έχετε",
-      "acceptableAnswers": ["έχετε", "εχετε"],
+      "acceptableAnswers": [
+        "έχετε",
+        "εχετε"
+      ],
       "explanation": {
         "en": "Use έχετε for 2nd person plural.",
         "el": "Χρησιμοποίησε έχετε για το β' πληθυντικό.",
@@ -391,10 +401,13 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Η Μαρία ____ μία γάτα.",
+      "prompt": "Η Μαρία ____ (έχω) μία γάτα.",
       "promptRomanization": "i marˈia ____ mˈia ɣˈata.",
       "correctAnswer": "έχει",
-      "acceptableAnswers": ["έχει", "εχει"],
+      "acceptableAnswers": [
+        "έχει",
+        "εχει"
+      ],
       "explanation": {
         "en": "Use έχει for 3rd person singular.",
         "el": "Χρησιμοποίησε έχει για το γ' ενικό.",

@@ -197,10 +197,12 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εγώ ____ στο σχολείο.",
+      "prompt": "Εγώ ____ (γράφομαι) στο σχολείο.",
       "hint": "γράφομαι is A class passive (from γράφω). Use 1st person singular.",
       "correctAnswer": "γράφομαι",
-      "acceptableAnswers": ["γράφομαι"],
+      "acceptableAnswers": [
+        "γράφομαι"
+      ],
       "explanation": {
         "en": "First person singular is γράφομαι (A class passive pattern).",
         "el": "Το α' ενικό είναι γράφομαι (μοτίβο Α τάξης παθητικό).",
@@ -218,8 +220,14 @@
       },
       "prompt": "Εσύ ____ κάθε πρωί.",
       "correctAnswer": "πλένεσαι",
-      "options": ["πλένομαι", "πλένεσαι", "πλένεται"],
-      "acceptableAnswers": ["πλένεσαι"],
+      "options": [
+        "πλένομαι",
+        "πλένεσαι",
+        "πλένεται"
+      ],
+      "acceptableAnswers": [
+        "πλένεσαι"
+      ],
       "explanation": {
         "en": "Second person singular of A class passive ends in -εσαι.",
         "el": "Το β' ενικό των παθητικών Α τάξης τελειώνει σε -εσαι.",
@@ -235,9 +243,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτή ____ στην τάξη.",
+      "prompt": "Αυτή ____ (χτενίζομαι) στην τάξη.",
       "correctAnswer": "χτενίζεται",
-      "acceptableAnswers": ["χτενίζεται"],
+      "acceptableAnswers": [
+        "χτενίζεται"
+      ],
       "explanation": {
         "en": "Third person singular of A class passive ends in -εται.",
         "el": "Το γ' ενικό των παθητικών Α τάξης τελειώνει σε -εται.",
@@ -253,9 +263,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ μαζί.",
+      "prompt": "Εμείς ____ (γράφομαι) μαζί.",
       "correctAnswer": "γραφόμαστε",
-      "acceptableAnswers": ["γραφόμαστε"],
+      "acceptableAnswers": [
+        "γραφόμαστε"
+      ],
       "explanation": {
         "en": "First person plural of A class passive ends in -όμαστε.",
         "el": "Το α' πληθυντικό των παθητικών Α τάξης τελειώνει σε -όμαστε.",
@@ -273,8 +285,14 @@
       },
       "prompt": "Εσείς ____ στο μάθημα;",
       "correctAnswer": "γράφεστε",
-      "options": ["γράφεστε", "γράφονται", "γραφόμαστε"],
-      "acceptableAnswers": ["γράφεστε"],
+      "options": [
+        "γράφεστε",
+        "γράφονται",
+        "γραφόμαστε"
+      ],
+      "acceptableAnswers": [
+        "γράφεστε"
+      ],
       "explanation": {
         "en": "Second person plural of A class passive ends in -εστε.",
         "el": "Το β' πληθυντικό των παθητικών Α τάξης τελειώνει σε -εστε.",
@@ -290,9 +308,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτοί ____ αργά.",
+      "prompt": "Αυτοί ____ (πλένομαι) αργά.",
       "correctAnswer": "πλένονται",
-      "acceptableAnswers": ["πλένονται"],
+      "acceptableAnswers": [
+        "πλένονται"
+      ],
       "explanation": {
         "en": "Third person plural of A class passive ends in -ονται.",
         "el": "Το γ' πληθυντικό των παθητικών Α τάξης τελειώνει σε -ονται.",
@@ -314,32 +334,44 @@
         {
           "label": "Εγώ",
           "answer": "γράφομαι",
-          "acceptableAnswers": ["γράφομαι"]
+          "acceptableAnswers": [
+            "γράφομαι"
+          ]
         },
         {
           "label": "Εσύ",
           "answer": "γράφεσαι",
-          "acceptableAnswers": ["γράφεσαι"]
+          "acceptableAnswers": [
+            "γράφεσαι"
+          ]
         },
         {
           "label": "Αυτός/Αυτή/Αυτό",
           "answer": "γράφεται",
-          "acceptableAnswers": ["γράφεται"]
+          "acceptableAnswers": [
+            "γράφεται"
+          ]
         },
         {
           "label": "Εμείς",
           "answer": "γραφόμαστε",
-          "acceptableAnswers": ["γραφόμαστε"]
+          "acceptableAnswers": [
+            "γραφόμαστε"
+          ]
         },
         {
           "label": "Εσείς",
           "answer": "γράφεστε",
-          "acceptableAnswers": ["γράφεστε"]
+          "acceptableAnswers": [
+            "γράφεστε"
+          ]
         },
         {
           "label": "Αυτοί/Αυτές/Αυτά",
           "answer": "γράφονται",
-          "acceptableAnswers": ["γράφονται"]
+          "acceptableAnswers": [
+            "γράφονται"
+          ]
         }
       ]
     }

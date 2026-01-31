@@ -1,0 +1,663 @@
+{
+  "id": "a2_g07_simple_past_irregular",
+  "category": "verb_conjugation",
+  "subcategory": "past_tense",
+  "level": "A2",
+  "order": 7,
+  "title": {
+    "en": "Simple Past (Αόριστος) - Irregular Verbs",
+    "el": "Αόριστος - Ανώμαλα Ρήματα",
+    "ca": "Passat Simple (Αόριστος) - Verbs Irregulars"
+  },
+  "description": {
+    "en": "Learn the most common irregular Simple Past forms. These high-frequency verbs have unpredictable aorist stems that must be memorized.",
+    "el": "Μάθετε τους πιο συνηθισμένους ανώμαλους τύπους Αορίστου. Αυτά τα ρήματα υψηλής συχνότητας έχουν απρόβλεπτα θέματα που πρέπει να απομνημονευθούν.",
+    "ca": "Aprèn les formes de Passat Simple irregulars més comunes. Aquests verbs d'alta freqüència tenen temes imprevisibles que cal memoritzar."
+  },
+  "explanation": {
+    "content": {
+      "en": "Many of the most common Greek verbs are irregular in the Simple Past. Their aorist stems cannot be predicted from the present tense and must be learned individually. The endings remain regular (-α, -ες, -ε, -αμε, -ατε, -αν), but the stem changes dramatically.",
+      "el": "Πολλά από τα πιο συνηθισμένα ελληνικά ρήματα είναι ανώμαλα στον Αόριστο. Τα θέματα του αορίστου τους δεν μπορούν να προβλεφθούν από τον ενεστώτα και πρέπει να μαθευτούν ξεχωριστά. Οι καταλήξεις παραμένουν κανονικές (-α, -ες, -ε, -αμε, -ατε, -αν), αλλά το θέμα αλλάζει δραματικά.",
+      "ca": "Molts dels verbs grecs més comuns són irregulars en el Passat Simple. Els seus temes d'aorist no es poden predir del present i s'han d'aprendre individualment. Les terminacions segueixen sent regulars (-α, -ες, -ε, -αμε, -ατε, -αν), però el tema canvia dràsticament."
+    },
+    "rules": [
+      {
+        "en": "πάω (go) → πήγα: Stem changes completely. πήγα, πήγες, πήγε, πήγαμε, πήγατε, πήγαν.",
+        "el": "πάω (πηγαίνω) → πήγα: Το θέμα αλλάζει εντελώς. πήγα, πήγες, πήγε, πήγαμε, πήγατε, πήγαν.",
+        "ca": "πάω (anar) → πήγα: El tema canvia completament. πήγα, πήγες, πήγε, πήγαμε, πήγατε, πήγαν."
+      },
+      {
+        "en": "τρώω (eat) → έφαγα: Completely different stem with augment. έφαγα, έφαγες, έφαγε, φάγαμε, φάγατε, έφαγαν.",
+        "el": "τρώω (τρώγω) → έφαγα: Εντελώς διαφορετικό θέμα με αύξηση. έφαγα, έφαγες, έφαγε, φάγαμε, φάγατε, έφαγαν.",
+        "ca": "τρώω (menjar) → έφαγα: Tema completament diferent amb augment."
+      },
+      {
+        "en": "πίνω (drink) → ήπια: Stem changes and augment η-. ήπια, ήπιες, ήπιε, ήπιαμε, ήπιατε, ήπιαν.",
+        "el": "πίνω (πίνω) → ήπια: Το θέμα αλλάζει και αύξηση η-. ήπια, ήπιες, ήπιε, ήπιαμε, ήπιατε, ήπιαν.",
+        "ca": "πίνω (beure) → ήπια: El tema canvia i augment η-."
+      },
+      {
+        "en": "βλέπω (see) → είδα: Completely different stem. είδα, είδες, είδε, είδαμε, είδατε, είδαν.",
+        "el": "βλέπω (βλέπω) → είδα: Εντελώς διαφορετικό θέμα. είδα, είδες, είδε, είδαμε, είδατε, είδαν.",
+        "ca": "βλέπω (veure) → είδα: Tema completament diferent."
+      },
+      {
+        "en": "λέω (say) → είπα: Stem changes to ειπ-. είπα, είπες, είπε, είπαμε, είπατε, είπαν.",
+        "el": "λέω (λέγω) → είπα: Το θέμα αλλάζει σε ειπ-. είπα, είπες, είπε, είπαμε, είπατε, είπαν.",
+        "ca": "λέω (dir) → είπα: El tema canvia a ειπ-."
+      },
+      {
+        "en": "έρχομαι (come) → ήρθα: Deponent verb with irregular aorist. ήρθα, ήρθες, ήρθε, ήρθαμε, ήρθατε, ήρθαν.",
+        "el": "έρχομαι (έρχομαι) → ήρθα: Αποθετικό ρήμα με ανώμαλο αόριστο. ήρθα, ήρθες, ήρθε, ήρθαμε, ήρθατε, ήρθαν.",
+        "ca": "έρχομαι (venir) → ήρθα: Verb deponent amb aorist irregular."
+      },
+      {
+        "en": "βρίσκω (find) → βρήκα: Irregular stem βρηκ-. βρήκα, βρήκες, βρήκε, βρήκαμε, βρήκατε, βρήκαν.",
+        "el": "βρίσκω (βρίσκω) → βρήκα: Ανώμαλο θέμα βρηκ-. βρήκα, βρήκες, βρήκε, βρήκαμε, βρήκατε, βρήκαν.",
+        "ca": "βρίσκω (trobar) → βρήκα: Tema irregular βρηκ-."
+      }
+    ],
+    "tips": [
+      {
+        "en": "Must memorize: πάω→πήγα, τρώω→έφαγα, πίνω→ήπια, βλέπω→είδα, λέω→είπα, έρχομαι→ήρθα, παίρνω→πήρα, φεύγω→έφυγα, βρίσκω→βρήκα, μπαίνω→μπήκα",
+        "el": "Πρέπει να απομνημονεύσετε: πάω→πήγα, τρώω→έφαγα, πίνω→ήπια, βλέπω→είδα, λέω→είπα, έρχομαι→ήρθα, παίρνω→πήρα, φεύγω→έφυγα, βρίσκω→βρήκα, μπαίνω→μπήκα",
+        "ca": "Cal memoritzar: πάω→πήγα, τρώω→έφαγα, πίνω→ήπια, βλέπω→είδα, λέω→είπα, έρχομαι→ήρθα, παίρνω→πήρα, φεύγω→έφυγα, βρίσκω→βρήκα, μπαίνω→μπήκα"
+      },
+      {
+        "en": "These verbs are among the most frequently used in Greek. Learning their aorist forms is essential for basic communication.",
+        "el": "Αυτά τα ρήματα είναι από τα πιο συχνά χρησιμοποιούμενα στα ελληνικά. Η εκμάθηση των τύπων αορίστου τους είναι απαραίτητη για βασική επικοινωνία.",
+        "ca": "Aquests verbs són dels més freqüentment usats en grec. Aprendre les seves formes d'aorist és essencial per a la comunicació bàsica."
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "Irregular: πάω → πήγα (to go) - IRREGULAR",
+        "el": "Ανώμαλο: πάω → πήγα - ΑΝΩΜΑΛΟ",
+        "ca": "Irregular: πάω → πήγα (anar) - IRREGULAR"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "πήγα",
+            "romanization": "ˈpiɣa",
+            "translation": "I went"
+          },
+          {
+            "greek": "πήγαμε",
+            "romanization": "ˈpiɣame",
+            "translation": "we went"
+          }
+        ],
+        [
+          {
+            "greek": "πήγες",
+            "romanization": "ˈpiɣes",
+            "translation": "you went"
+          },
+          {
+            "greek": "πήγατε",
+            "romanization": "ˈpiɣate",
+            "translation": "you (pl) went"
+          }
+        ],
+        [
+          {
+            "greek": "πήγε",
+            "romanization": "ˈpiɣe",
+            "translation": "he/she went"
+          },
+          {
+            "greek": "πήγαν",
+            "romanization": "ˈpiɣan",
+            "translation": "they went"
+          }
+        ]
+      ],
+      "footnote": "Completely irregular stem: πα- → πηγ-. Variant: πηγαίνω also uses πήγα."
+    },
+    {
+      "title": {
+        "en": "Irregular: τρώω → έφαγα (to eat) - IRREGULAR",
+        "el": "Ανώμαλο: τρώω → έφαγα - ΑΝΩΜΑΛΟ",
+        "ca": "Irregular: τρώω → έφαγα (menjar) - IRREGULAR"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "έφαγα",
+            "romanization": "ˈefaɣa",
+            "translation": "I ate"
+          },
+          {
+            "greek": "φάγαμε",
+            "romanization": "ˈfaɣame",
+            "translation": "we ate"
+          }
+        ],
+        [
+          {
+            "greek": "έφαγες",
+            "romanization": "ˈefaɣes",
+            "translation": "you ate"
+          },
+          {
+            "greek": "φάγατε",
+            "romanization": "ˈfaɣate",
+            "translation": "you (pl) ate"
+          }
+        ],
+        [
+          {
+            "greek": "έφαγε",
+            "romanization": "ˈefaɣe",
+            "translation": "he/she ate"
+          },
+          {
+            "greek": "έφαγαν",
+            "romanization": "ˈefaɣan",
+            "translation": "they ate"
+          }
+        ]
+      ],
+      "footnote": "Completely different stem: τρω- → φαγ-. Augment ε- in singular and 3rd plural."
+    },
+    {
+      "title": {
+        "en": "Irregular: βλέπω → είδα (to see) - IRREGULAR",
+        "el": "Ανώμαλο: βλέπω → είδα - ΑΝΩΜΑΛΟ",
+        "ca": "Irregular: βλέπω → είδα (veure) - IRREGULAR"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "είδα",
+            "romanization": "ˈiða",
+            "translation": "I saw"
+          },
+          {
+            "greek": "είδαμε",
+            "romanization": "ˈiðame",
+            "translation": "we saw"
+          }
+        ],
+        [
+          {
+            "greek": "είδες",
+            "romanization": "ˈiðes",
+            "translation": "you saw"
+          },
+          {
+            "greek": "είδατε",
+            "romanization": "ˈiðate",
+            "translation": "you (pl) saw"
+          }
+        ],
+        [
+          {
+            "greek": "είδε",
+            "romanization": "ˈiðe",
+            "translation": "he/she saw"
+          },
+          {
+            "greek": "είδαν",
+            "romanization": "ˈiðan",
+            "translation": "they saw"
+          }
+        ]
+      ],
+      "footnote": "Completely different stem: βλεπ- → ιδ- (with augment ει-)."
+    },
+    {
+      "title": {
+        "en": "Irregular: βρίσκω → βρήκα (to find) - IRREGULAR",
+        "el": "Ανώμαλο: βρίσκω → βρήκα - ΑΝΩΜΑΛΟ",
+        "ca": "Irregular: βρίσκω → βρήκα (trobar) - IRREGULAR"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "βρήκα",
+            "romanization": "ˈvrika",
+            "translation": "I found"
+          },
+          {
+            "greek": "βρήκαμε",
+            "romanization": "ˈvrikame",
+            "translation": "we found"
+          }
+        ],
+        [
+          {
+            "greek": "βρήκες",
+            "romanization": "ˈvrikes",
+            "translation": "you found"
+          },
+          {
+            "greek": "βρήκατε",
+            "romanization": "ˈvrikate",
+            "translation": "you (pl) found"
+          }
+        ],
+        [
+          {
+            "greek": "βρήκε",
+            "romanization": "ˈvrike",
+            "translation": "he/she found"
+          },
+          {
+            "greek": "βρήκαν",
+            "romanization": "ˈvrikan",
+            "translation": "they found"
+          }
+        ]
+      ],
+      "footnote": "Irregular stem: βρισκ- → βρηκ-."
+    },
+    {
+      "title": {
+        "en": "Irregular: έρχομαι → ήρθα (to come) - IRREGULAR DEPONENT",
+        "el": "Ανώμαλο: έρχομαι → ήρθα - ΑΝΩΜΑΛΟ ΑΠΟΘΕΤΙΚΟ",
+        "ca": "Irregular: έρχομαι → ήρθα (venir) - DEPONENT IRREGULAR"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "ήρθα",
+            "romanization": "ˈirθa",
+            "translation": "I came"
+          },
+          {
+            "greek": "ήρθαμε",
+            "romanization": "ˈirθame",
+            "translation": "we came"
+          }
+        ],
+        [
+          {
+            "greek": "ήρθες",
+            "romanization": "ˈirθes",
+            "translation": "you came"
+          },
+          {
+            "greek": "ήρθατε",
+            "romanization": "ˈirθate",
+            "translation": "you (pl) came"
+          }
+        ],
+        [
+          {
+            "greek": "ήρθε",
+            "romanization": "ˈirθe",
+            "translation": "he/she came"
+          },
+          {
+            "greek": "ήρθαν",
+            "romanization": "ˈirθan",
+            "translation": "they came"
+          }
+        ]
+      ],
+      "footnote": "Deponent verb (passive form, active meaning). Stem: ερχ- → ηρθ-."
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_a2_701",
+      "greek": "Χθες πήγα στο σχολείο.",
+      "romanization": "xθes ˈpiɣa sto sxoˈlio.",
+      "catalan": "Ahir vaig anar a l'escola.",
+      "englishLiteral": "Yesterday I went to school.",
+      "highlights": [
+        {
+          "startIndex": 5,
+          "endIndex": 9,
+          "explanation": "Irregular aorist: πάω → πήγα"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_702",
+      "greek": "Τι είδες στην ταινία;",
+      "romanization": "ti ˈiðes stin teˈnia?",
+      "catalan": "Què vas veure a la pel·lícula?",
+      "englishLiteral": "What did you see in the movie?",
+      "highlights": [
+        {
+          "startIndex": 3,
+          "endIndex": 8,
+          "explanation": "Irregular aorist: βλέπω → είδες"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_703",
+      "greek": "Έφαγαν πολύ χθες το βράδυ.",
+      "romanization": "ˈefaɣan poˈli xθes to ˈvraði.",
+      "catalan": "Van menjar molt ahir a la nit.",
+      "englishLiteral": "They ate a lot last night.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 7,
+          "explanation": "Irregular aorist: τρώω → έφαγαν"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_704",
+      "greek": "Πότε ήρθες από την Αθήνα;",
+      "romanization": "ˈpɔte ˈirθes apɔ tin aˈθina?",
+      "catalan": "Quan vas arribar d'Atenes?",
+      "englishLiteral": "When did you come from Athens?",
+      "highlights": [
+        {
+          "startIndex": 5,
+          "endIndex": 10,
+          "explanation": "Irregular aorist: έρχομαι → ήρθες"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_705",
+      "greek": "Τι είπε ο δάσκαλος;",
+      "romanization": "ti ˈipe o ˈðaskalos?",
+      "catalan": "Què va dir el mestre?",
+      "englishLiteral": "What did the teacher say?",
+      "highlights": [
+        {
+          "startIndex": 3,
+          "endIndex": 7,
+          "explanation": "Irregular aorist: λέω → είπε"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_706",
+      "greek": "Βρήκα τα κλειδιά.",
+      "romanization": "ˈvrika ta kliˈðja.",
+      "catalan": "Vaig trobar les claus.",
+      "englishLiteral": "I found the keys.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 5,
+          "explanation": "Irregular aorist: βρίσκω → βρήκα"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2_ex_fill_701",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
+      },
+      "prompt": "Χθες ____ (πάω) στην αγορά.",
+      "hint": "πάω is irregular. Aorist stem: πηγ-",
+      "correctAnswer": "πήγα",
+      "acceptableAnswers": [
+        "πήγα"
+      ],
+      "explanation": {
+        "en": "πάω → πήγα. Irregular - must memorize.",
+        "el": "πάω → πήγα. Ανώμαλο - πρέπει να απομνημονευθεί.",
+        "ca": "πάω → πήγα. Irregular - cal memoritzar."
+      },
+      "translation": {
+        "en": "Yesterday I ____ (go) to the market.",
+        "ca": "Ahir ____ (anar) al mercat."
+      }
+    },
+    {
+      "id": "a2_ex_mc_701",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct simple past form",
+        "el": "Διάλεξε τον σωστό τύπο αορίστου",
+        "ca": "Tria la forma correcta de passat simple"
+      },
+      "prompt": "Αυτός ____ (βλέπω) την ταινία.",
+      "hint": "βλέπω is irregular in aorist.",
+      "correctAnswer": "είδε",
+      "options": [
+        "βλέπει",
+        "έβλεπε",
+        "είδε"
+      ],
+      "acceptableAnswers": [
+        "είδε"
+      ],
+      "explanation": {
+        "en": "βλέπω → είδε. Irregular stem: ιδ-.",
+        "el": "βλέπω → είδε. Ανώμαλο θέμα: ιδ-.",
+        "ca": "βλέπω → είδε. Tema irregular: ιδ-."
+      }
+    },
+    {
+      "id": "a2_ex_fill_702",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
+      },
+      "prompt": "Τι ____ (λέω) η μητέρα σου;",
+      "hint": "λέω is irregular. Aorist stem: ειπ-",
+      "correctAnswer": "είπε",
+      "acceptableAnswers": [
+        "είπε"
+      ],
+      "explanation": {
+        "en": "λέω → είπε. Irregular stem: ειπ-.",
+        "el": "λέω → είπε. Ανώμαλο θέμα: ειπ-.",
+        "ca": "λέω → είπε. Tema irregular: ειπ-."
+      },
+      "translation": {
+        "en": "What did your mother ____ (say)?",
+        "ca": "Què ____ (dir) la teva mare?"
+      }
+    },
+    {
+      "id": "a2_ex_fill_703",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
+      },
+      "prompt": "Εμείς ____ (τρώω) σουβλάκι.",
+      "hint": "τρώω is irregular. Aorist stem: φαγ-",
+      "correctAnswer": "φάγαμε",
+      "acceptableAnswers": [
+        "φάγαμε"
+      ],
+      "explanation": {
+        "en": "τρώω → φάγαμε. Irregular stem: φαγ-. No augment in 1st/2nd plural.",
+        "el": "τρώω → φάγαμε. Ανώμαλο θέμα: φαγ-. Χωρίς αύξηση στο α'/β' πληθυντικό.",
+        "ca": "τρώω → φάγαμε. Tema irregular: φαγ-."
+      },
+      "translation": {
+        "en": "We ____ (eat) souvlaki.",
+        "ca": "Nosaltres ____ (menjar) souvlaki."
+      }
+    },
+    {
+      "id": "a2_ex_mc_702",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct simple past form",
+        "el": "Διάλεξε τον σωστό τύπο αορίστου",
+        "ca": "Tria la forma correcta de passat simple"
+      },
+      "prompt": "Αυτοί ____ (έρχομαι) από την Ελλάδα.",
+      "hint": "έρχομαι is irregular (deponent verb).",
+      "correctAnswer": "ήρθαν",
+      "options": [
+        "έρχονται",
+        "ερχόταν",
+        "ήρθαν"
+      ],
+      "acceptableAnswers": [
+        "ήρθαν"
+      ],
+      "explanation": {
+        "en": "έρχομαι → ήρθαν. Deponent with irregular stem: ηρθ-.",
+        "el": "έρχομαι → ήρθαν. Αποθετικό με ανώμαλο θέμα: ηρθ-.",
+        "ca": "έρχομαι → ήρθαν. Deponent amb tema irregular: ηρθ-."
+      }
+    },
+    {
+      "id": "a2_ex_fill_704",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
+      },
+      "prompt": "Εσύ ____ (πίνω) καφέ το πρωί;",
+      "hint": "πίνω is irregular. Aorist stem: ηπι-",
+      "correctAnswer": "ήπιες",
+      "acceptableAnswers": [
+        "ήπιες"
+      ],
+      "explanation": {
+        "en": "πίνω → ήπιες. Irregular stem with augment η-.",
+        "el": "πίνω → ήπιες. Ανώμαλο θέμα με αύξηση η-.",
+        "ca": "πίνω → ήπιες. Tema irregular amb augment η-."
+      },
+      "translation": {
+        "en": "Did you ____ (drink) coffee in the morning?",
+        "ca": "Tu ____ (beure) cafè al matí?"
+      }
+    },
+    {
+      "id": "a2_ex_fill_705",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
+      },
+      "prompt": "Πού ____ (βρίσκω) τα κλειδιά;",
+      "hint": "βρίσκω is irregular. Aorist stem: βρηκ-",
+      "correctAnswer": "βρήκες",
+      "acceptableAnswers": [
+        "βρήκες"
+      ],
+      "explanation": {
+        "en": "βρίσκω → βρήκες. Irregular stem: βρηκ-.",
+        "el": "βρίσκω → βρήκες. Ανώμαλο θέμα: βρηκ-.",
+        "ca": "βρίσκω → βρήκες. Tema irregular: βρηκ-."
+      },
+      "translation": {
+        "en": "Where did you ____ (find) the keys?",
+        "ca": "On ____ (trobar) les claus?"
+      }
+    },
+    {
+      "id": "a2_ex_match_701",
+      "type": "matching",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Match the present tense with its aorist",
+        "el": "Ταίριαξε τον ενεστώτα με τον αόριστό του",
+        "ca": "Relaciona el present amb el seu aorist"
+      },
+      "prompt": "Σύνδεσε τα ρήματα.",
+      "correctAnswer": "",
+      "pairs": [
+        {
+          "left": "πάω",
+          "right": "πήγα"
+        },
+        {
+          "left": "τρώω",
+          "right": "έφαγα"
+        },
+        {
+          "left": "πίνω",
+          "right": "ήπια"
+        },
+        {
+          "left": "βλέπω",
+          "right": "είδα"
+        },
+        {
+          "left": "λέω",
+          "right": "είπα"
+        },
+        {
+          "left": "έρχομαι",
+          "right": "ήρθα"
+        }
+      ]
+    }
+  ],
+  "prerequisites": [
+    "a2_g01_simple_past",
+    "a1_g10_present_tense_irregular"
+  ],
+  "tags": [
+    "verbs",
+    "past",
+    "aorist",
+    "irregular"
+  ]
+}

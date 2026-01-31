@@ -51,16 +51,40 @@
       ],
       "cells": [
         [
-          { "greek": "θεωρούμαι", "romanization": "θe.oˈrume", "translation": "I am considered" },
-          { "greek": "θεωρούμαστε", "romanization": "θe.oˈrumaste", "translation": "we are considered" }
+          {
+            "greek": "θεωρούμαι",
+            "romanization": "θe.oˈrume",
+            "translation": "I am considered"
+          },
+          {
+            "greek": "θεωρούμαστε",
+            "romanization": "θe.oˈrumaste",
+            "translation": "we are considered"
+          }
         ],
         [
-          { "greek": "θεωρείσαι", "romanization": "θe.oˈrise", "translation": "you are considered" },
-          { "greek": "θεωρείστε", "romanization": "θe.oˈriste", "translation": "you (pl) are considered" }
+          {
+            "greek": "θεωρείσαι",
+            "romanization": "θe.oˈrise",
+            "translation": "you are considered"
+          },
+          {
+            "greek": "θεωρείστε",
+            "romanization": "θe.oˈriste",
+            "translation": "you (pl) are considered"
+          }
         ],
         [
-          { "greek": "θεωρείται", "romanization": "θe.oˈrita", "translation": "he/she is considered" },
-          { "greek": "θεωρούνται", "romanization": "θe.oˈrundε", "translation": "they are considered" }
+          {
+            "greek": "θεωρείται",
+            "romanization": "θe.oˈrita",
+            "translation": "he/she is considered"
+          },
+          {
+            "greek": "θεωρούνται",
+            "romanization": "θe.oˈrundε",
+            "translation": "they are considered"
+          }
         ]
       ]
     }
@@ -91,9 +115,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εγώ ____ καλός φίλος.",
+      "prompt": "Εγώ ____ (θεωρούμαι) καλός φίλος.",
       "correctAnswer": "θεωρούμαι",
-      "acceptableAnswers": ["θεωρούμαι"],
+      "acceptableAnswers": [
+        "θεωρούμαι"
+      ],
       "explanation": {
         "en": "First person singular is θεωρούμαι.",
         "el": "Το α' ενικό είναι θεωρούμαι.",
@@ -111,8 +137,14 @@
       },
       "prompt": "Εσύ ____ έτοιμος.",
       "correctAnswer": "θεωρείσαι",
-      "options": ["θεωρούμαι", "θεωρείσαι", "θεωρείται"],
-      "acceptableAnswers": ["θεωρείσαι"],
+      "options": [
+        "θεωρούμαι",
+        "θεωρείσαι",
+        "θεωρείται"
+      ],
+      "acceptableAnswers": [
+        "θεωρείσαι"
+      ],
       "explanation": {
         "en": "Second person singular is θεωρείσαι.",
         "el": "Το β' ενικό είναι θεωρείσαι.",
@@ -128,9 +160,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτό ____ σωστό.",
+      "prompt": "Αυτό ____ (θεωρούμαι) σωστό.",
       "correctAnswer": "θεωρείται",
-      "acceptableAnswers": ["θεωρείται"],
+      "acceptableAnswers": [
+        "θεωρείται"
+      ],
       "explanation": {
         "en": "Third person singular is θεωρείται.",
         "el": "Το γ' ενικό είναι θεωρείται.",
@@ -146,9 +180,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ υπεύθυνοι.",
+      "prompt": "Εμείς ____ (θεωρούμαι) υπεύθυνοι.",
       "correctAnswer": "θεωρούμαστε",
-      "acceptableAnswers": ["θεωρούμαστε"],
+      "acceptableAnswers": [
+        "θεωρούμαστε"
+      ],
       "explanation": {
         "en": "First person plural is θεωρούμαστε.",
         "el": "Το α' πληθυντικό είναι θεωρούμαστε.",
@@ -166,8 +202,14 @@
       },
       "prompt": "Εσείς ____ σωστοί.",
       "correctAnswer": "θεωρείστε",
-      "options": ["θεωρείστε", "θεωρούνται", "θεωρούμαστε"],
-      "acceptableAnswers": ["θεωρείστε"],
+      "options": [
+        "θεωρείστε",
+        "θεωρούνται",
+        "θεωρούμαστε"
+      ],
+      "acceptableAnswers": [
+        "θεωρείστε"
+      ],
       "explanation": {
         "en": "Second person plural is θεωρείστε.",
         "el": "Το β' πληθυντικό είναι θεωρείστε.",
@@ -183,9 +225,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτοί ____ έτοιμοι.",
+      "prompt": "Αυτοί ____ (θεωρούμαι) έτοιμοι.",
       "correctAnswer": "θεωρούνται",
-      "acceptableAnswers": ["θεωρούνται"],
+      "acceptableAnswers": [
+        "θεωρούνται"
+      ],
       "explanation": {
         "en": "Third person plural is θεωρούνται.",
         "el": "Το γ' πληθυντικό είναι θεωρούνται.",
@@ -204,12 +248,48 @@
       "prompt": "Συμπλήρωσε όλους τους τύπους.",
       "correctAnswer": "",
       "conjugations": [
-        { "label": "Εγώ", "answer": "θεωρούμαι", "acceptableAnswers": ["θεωρούμαι"] },
-        { "label": "Εσύ", "answer": "θεωρείσαι", "acceptableAnswers": ["θεωρείσαι"] },
-        { "label": "Αυτός/Αυτή/Αυτό", "answer": "θεωρείται", "acceptableAnswers": ["θεωρείται"] },
-        { "label": "Εμείς", "answer": "θεωρούμαστε", "acceptableAnswers": ["θεωρούμαστε"] },
-        { "label": "Εσείς", "answer": "θεωρείστε", "acceptableAnswers": ["θεωρείστε"] },
-        { "label": "Αυτοί/Αυτές/Αυτά", "answer": "θεωρούνται", "acceptableAnswers": ["θεωρούνται"] }
+        {
+          "label": "Εγώ",
+          "answer": "θεωρούμαι",
+          "acceptableAnswers": [
+            "θεωρούμαι"
+          ]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "θεωρείσαι",
+          "acceptableAnswers": [
+            "θεωρείσαι"
+          ]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "θεωρείται",
+          "acceptableAnswers": [
+            "θεωρείται"
+          ]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "θεωρούμαστε",
+          "acceptableAnswers": [
+            "θεωρούμαστε"
+          ]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "θεωρείστε",
+          "acceptableAnswers": [
+            "θεωρείστε"
+          ]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "θεωρούνται",
+          "acceptableAnswers": [
+            "θεωρούνται"
+          ]
+        }
       ]
     }
   ]

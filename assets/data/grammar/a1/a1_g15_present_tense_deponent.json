@@ -259,10 +259,12 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εγώ ____ τη θάλασσα.",
+      "prompt": "Εγώ ____ (φοβάμαι) τη θάλασσα.",
       "hint": "φοβάμαι is a deponent verb (passive form only). Use 1st person singular.",
       "correctAnswer": "φοβάμαι",
-      "acceptableAnswers": ["φοβάμαι"],
+      "acceptableAnswers": [
+        "φοβάμαι"
+      ],
       "explanation": {
         "en": "First person singular of φοβάμαι is φοβάμαι (deponent verb).",
         "el": "Το α' ενικό του φοβάμαι είναι φοβάμαι (αποθετικό ρήμα).",
@@ -280,8 +282,14 @@
       },
       "prompt": "Εσύ ____ αργά.",
       "correctAnswer": "κοιμάσαι",
-      "options": ["κοιμάμαι", "κοιμάσαι", "κοιμάται"],
-      "acceptableAnswers": ["κοιμάσαι"],
+      "options": [
+        "κοιμάμαι",
+        "κοιμάσαι",
+        "κοιμάται"
+      ],
+      "acceptableAnswers": [
+        "κοιμάσαι"
+      ],
       "explanation": {
         "en": "Second person singular of deponent verbs ends in -σαι.",
         "el": "Το β' ενικό των αποθετικών ρημάτων τελειώνει σε -σαι.",
@@ -297,9 +305,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτή ____ το όνομά μου.",
+      "prompt": "Αυτή ____ (θυμάμαι) το όνομά μου.",
       "correctAnswer": "θυμάται",
-      "acceptableAnswers": ["θυμάται"],
+      "acceptableAnswers": [
+        "θυμάται"
+      ],
       "explanation": {
         "en": "Third person singular of deponent verbs ends in -ται.",
         "el": "Το γ' ενικό των αποθετικών ρημάτων τελειώνει σε -ται.",
@@ -315,9 +325,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ μαζί.",
+      "prompt": "Εμείς ____ (έρχομαι) μαζί.",
       "correctAnswer": "ερχόμαστε",
-      "acceptableAnswers": ["ερχόμαστε"],
+      "acceptableAnswers": [
+        "ερχόμαστε"
+      ],
       "explanation": {
         "en": "First person plural of έρχομαι is ερχόμαστε (irregular deponent).",
         "el": "Το α' πληθυντικό του έρχομαι είναι ερχόμαστε (ανώμαλο αποθετικό).",
@@ -335,8 +347,14 @@
       },
       "prompt": "Εσείς ____ το σπίτι;",
       "correctAnswer": "θυμάστε",
-      "options": ["θυμάστε", "θυμούνται", "θυμόμαστε"],
-      "acceptableAnswers": ["θυμάστε"],
+      "options": [
+        "θυμάστε",
+        "θυμούνται",
+        "θυμόμαστε"
+      ],
+      "acceptableAnswers": [
+        "θυμάστε"
+      ],
       "explanation": {
         "en": "Second person plural of deponent verbs ends in -στε.",
         "el": "Το β' πληθυντικό των αποθετικών ρημάτων τελειώνει σε -στε.",
@@ -352,9 +370,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτοί ____ γιατροί.",
+      "prompt": "Αυτοί ____ (γίνομαι) γιατροί.",
       "correctAnswer": "γίνονται",
-      "acceptableAnswers": ["γίνονται"],
+      "acceptableAnswers": [
+        "γίνονται"
+      ],
       "explanation": {
         "en": "Third person plural of γίνομαι is γίνονται (irregular deponent).",
         "el": "Το γ' πληθυντικό του γίνομαι είναι γίνονται (ανώμαλο αποθετικό).",
@@ -376,32 +396,44 @@
         {
           "label": "Εγώ",
           "answer": "φοβάμαι",
-          "acceptableAnswers": ["φοβάμαι"]
+          "acceptableAnswers": [
+            "φοβάμαι"
+          ]
         },
         {
           "label": "Εσύ",
           "answer": "φοβάσαι",
-          "acceptableAnswers": ["φοβάσαι"]
+          "acceptableAnswers": [
+            "φοβάσαι"
+          ]
         },
         {
           "label": "Αυτός/Αυτή/Αυτό",
           "answer": "φοβάται",
-          "acceptableAnswers": ["φοβάται"]
+          "acceptableAnswers": [
+            "φοβάται"
+          ]
         },
         {
           "label": "Εμείς",
           "answer": "φοβόμαστε",
-          "acceptableAnswers": ["φοβόμαστε"]
+          "acceptableAnswers": [
+            "φοβόμαστε"
+          ]
         },
         {
           "label": "Εσείς",
           "answer": "φοβάστε",
-          "acceptableAnswers": ["φοβάστε"]
+          "acceptableAnswers": [
+            "φοβάστε"
+          ]
         },
         {
           "label": "Αυτοί/Αυτές/Αυτά",
           "answer": "φοβούνται",
-          "acceptableAnswers": ["φοβούνται"]
+          "acceptableAnswers": [
+            "φοβούνται"
+          ]
         }
       ]
     },
@@ -417,12 +449,30 @@
       "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα κοιμάμαι.",
       "correctAnswer": "",
       "pairs": [
-        { "left": "Εγώ", "right": "κοιμάμαι" },
-        { "left": "Εσύ", "right": "κοιμάσαι" },
-        { "left": "Αυτός/Αυτή/Αυτό", "right": "κοιμάται" },
-        { "left": "Εμείς", "right": "κοιμόμαστε" },
-        { "left": "Εσείς", "right": "κοιμάστε" },
-        { "left": "Αυτοί/Αυτές/Αυτά", "right": "κοιμούνται" }
+        {
+          "left": "Εγώ",
+          "right": "κοιμάμαι"
+        },
+        {
+          "left": "Εσύ",
+          "right": "κοιμάσαι"
+        },
+        {
+          "left": "Αυτός/Αυτή/Αυτό",
+          "right": "κοιμάται"
+        },
+        {
+          "left": "Εμείς",
+          "right": "κοιμόμαστε"
+        },
+        {
+          "left": "Εσείς",
+          "right": "κοιμάστε"
+        },
+        {
+          "left": "Αυτοί/Αυτές/Αυτά",
+          "right": "κοιμούνται"
+        }
       ]
     }
   ]

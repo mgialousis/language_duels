@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-30",
+  "lastUpdated": "2026-01-31",
   "levels": [
     {
       "id": "A1",
@@ -106,7 +106,7 @@
           "category": "verb_conjugation",
           "order": 11,
           "prerequisites": [
-            "a1_g08_present_tense_regular"
+            "a1_g13_present_tense_b1_active"
           ]
         },
         {
@@ -119,12 +119,12 @@
           ]
         },
         {
-          "id": "a1_g13_present_tense_a_class_active",
-          "file": "a1/a1_g13_present_tense_a_class_active.json",
+          "id": "a1_g13_present_tense_b1_active",
+          "file": "a1/a1_g13_present_tense_b1_active.json",
           "category": "verb_conjugation",
           "order": 13,
           "prerequisites": [
-            "a1_g01_verb_to_be"
+            "a1_g08_present_tense_regular"
           ]
         },
         {
@@ -133,7 +133,7 @@
           "category": "verb_conjugation",
           "order": 14,
           "prerequisites": [
-            "a1_g13_present_tense_a_class_active"
+            "a1_g08_present_tense_regular"
           ]
         },
         {
@@ -198,6 +198,36 @@
           "order": 5,
           "prerequisites": [
             "a1_g03_definite_articles"
+          ]
+        },
+        {
+          "id": "a2_g06_simple_past_b_class",
+          "file": "a2/a2_g06_simple_past_b_class.json",
+          "category": "verb_conjugation",
+          "order": 6,
+          "prerequisites": [
+            "a2_g01_simple_past",
+            "a1_g13_present_tense_b1_active"
+          ]
+        },
+        {
+          "id": "a2_g07_simple_past_irregular",
+          "file": "a2/a2_g07_simple_past_irregular.json",
+          "category": "verb_conjugation",
+          "order": 7,
+          "prerequisites": [
+            "a2_g01_simple_past",
+            "a1_g10_present_tense_irregular"
+          ]
+        },
+        {
+          "id": "a2_g08_simple_past_passive",
+          "file": "a2/a2_g08_simple_past_passive.json",
+          "category": "verb_conjugation",
+          "order": 8,
+          "prerequisites": [
+            "a2_g01_simple_past",
+            "a1_g14_present_tense_a_class_passive"
           ]
         }
       ]

@@ -5,122 +5,174 @@
   "level": "A2",
   "order": 1,
   "title": {
-    "en": "Simple Past (Αόριστος) - Regular Verbs",
-    "el": "Αόριστος - Κανονικά Ρήματα",
-    "ca": "Passat Simple (Αόριστος) - Verbs Regulars"
+    "en": "Simple Past (Αόριστος) - A Class Verbs",
+    "el": "Αόριστος - Ρήματα Α Τάξης",
+    "ca": "Passat Simple (Αόριστος) - Verbs Classe A"
   },
   "description": {
-    "en": "Form and use the simple past for regular Greek verbs.",
-    "el": "Σχημάτισε και χρησιμοποίησε τον αόριστο για κανονικά ρήματα.",
-    "ca": "Forma i utilitza el passat simple per a verbs grecs regulars."
+    "en": "Master the Simple Past (Αόριστος) for A class verbs. Learn the stem changes and sigmatic aorist formation.",
+    "el": "Κατακτήστε τον Αόριστο για τα ρήματα της Α τάξης. Μάθετε τις αλλαγές θέματος και τον σιγματικό αόριστο.",
+    "ca": "Domina el Passat Simple (Αόριστος) per als verbs de classe A. Aprèn els canvis de tema i l'aorist sigmàtic."
   },
   "explanation": {
     "content": {
-      "en": "The aorist (Αόριστος) is used for completed actions in the past. The sigmatic aorist adds -σ- to the stem, plus personal endings: -α, -ες, -ε, -αμε, -ατε, -αν. Note: Some consonants combine with σ: κ/γ/χ+σ→ξ, π/β/φ+σ→ψ.",
-      "el": "Ο αόριστος χρησιμοποιείται για ολοκληρωμένες πράξεις στο παρελθόν. Ο σιγματικός αόριστος προσθέτει -σ- στο θέμα, και καταλήξεις: -α, -ες, -ε, -αμε, -ατε, -αν. Προσοχή: κ/γ/χ+σ→ξ, π/β/φ+σ→ψ.",
-      "ca": "L'aorist (Αόριστος) s'utilitza per a accions completades en el passat. L'aorist sigmàtic afegeix -σ- al tema, més terminacions: -α, -ες, -ε, -αμε, -ατε, -αν."
+      "en": "The Simple Past (Αόριστος) describes completed actions in the past. A class verbs (unaccented -ω) form the sigmatic aorist by changing the stem's final consonant and adding -σ- plus endings: -α, -ες, -ε, -αμε, -ατε, -αν(ε). Short verbs (2 syllables starting with consonant) add the augment ε-.",
+      "el": "Ο Αόριστος περιγράφει ολοκληρωμένες πράξεις στο παρελθόν. Τα ρήματα της Α τάξης (μη τονισμένο -ω) σχηματίζουν τον σιγματικό αόριστο αλλάζοντας το τελικό σύμφωνο του θέματος και προσθέτοντας -σ- και καταλήξεις: -α, -ες, -ε, -αμε, -ατε, -αν(ε). Τα σύντομα ρήματα (2 συλλαβές που αρχίζουν με σύμφωνο) προσθέτουν αύξηση ε-.",
+      "ca": "El Passat Simple (Αόριστος) descriu accions completades en el passat. Els verbs de classe A (-ω sense accent) formen l'aorist sigmàtic canviant la consonant final del tema i afegint -σ- més terminacions: -α, -ες, -ε, -αμε, -ατε, -αν(ε). Els verbs curts (2 síl·labes començant amb consonant) afegeixen l'augment ε-."
     },
     "rules": [
       {
-        "en": "Stem + σ + -α (μίλησα, I spoke, from μιλάω)",
-        "el": "Θέμα + σ + -α (μίλησα, από το μιλάω)",
-        "ca": "Tema + σ + -α (μίλησα, de μιλάω)"
+        "en": "Stem change: -ν, -θ, -ζ → -σ (πληρώνω → πλήρωσα, αρχίζω → άρχισα, παίζω → έπαιξα uses -ζ→-ξ)",
+        "el": "Αλλαγή θέματος: -ν, -θ, -ζ → -σ (πληρώνω → πλήρωσα, αρχίζω → άρχισα)",
+        "ca": "Canvi de tema: -ν, -θ, -ζ → -σ (πληρώνω → πλήρωσα, αρχίζω → άρχισα)"
       },
       {
-        "en": "With ζ→ξ: παίζω → έπαιξα (I played)",
-        "el": "Με ζ→ξ: παίζω → έπαιξα",
-        "ca": "Amb ζ→ξ: παίζω → έπαιξα"
+        "en": "Stem change: -κ, -γ, -χ, -χν, -σκ → -ξ (ανοίγω → άνοιξα, διδάσκω → δίδαξα)",
+        "el": "Αλλαγή θέματος: -κ, -γ, -χ, -χν, -σκ → -ξ (ανοίγω → άνοιξα, διδάσκω → δίδαξα)",
+        "ca": "Canvi de tema: -κ, -γ, -χ, -χν, -σκ → -ξ (ανοίγω → άνοιξα, διδάσκω → δίδαξα)"
       },
       {
-        "en": "With φ→ψ: γράφω → έγραψα (I wrote)",
-        "el": "Με φ→ψ: γράφω → έγραψα",
-        "ca": "Amb φ→ψ: γράφω → έγραψα"
+        "en": "Stem change: -π, -β, -φ, -πτ → -ψ (γράφω → έγραψα, κόβω → έκοψα)",
+        "el": "Αλλαγή θέματος: -π, -β, -φ, -πτ → -ψ (γράφω → έγραψα, κόβω → έκοψα)",
+        "ca": "Canvi de tema: -π, -β, -φ, -πτ → -ψ (γράφω → έγραψα, κόβω → έκοψα)"
+      },
+      {
+        "en": "Stem change: -αυ, -ευ → -αψ, -εψ (δουλεύω → δούλεψα, παύω → έπαψα)",
+        "el": "Αλλαγή θέματος: -αυ, -ευ → -αψ, -εψ (δουλεύω → δούλεψα, παύω → έπαψα)",
+        "ca": "Canvi de tema: -αυ, -ευ → -αψ, -εψ (δουλεύω → δούλεψα, παύω → έπαψα)"
+      },
+      {
+        "en": "Augment rule: Short verbs (2 syllables, starting with consonant) add ε- prefix: γράφω → έγραψα, μένω → έμεινα",
+        "el": "Κανόνας αύξησης: Τα σύντομα ρήματα (2 συλλαβές, αρχίζουν με σύμφωνο) προσθέτουν ε-: γράφω → έγραψα, μένω → έμεινα",
+        "ca": "Regla d'augment: Els verbs curts (2 síl·labes, comencen amb consonant) afegeixen ε-: γράφω → έγραψα, μένω → έμεινα"
+      },
+      {
+        "en": "Accent rule: The accent always falls on the third-to-last syllable (antepenultimate). If the word is too short, add the augment.",
+        "el": "Κανόνας τονισμού: Ο τόνος πέφτει πάντα στην προπαραλήγουσα (τρίτη από το τέλος). Αν η λέξη είναι πολύ σύντομη, προσθέτουμε αύξηση.",
+        "ca": "Regla d'accent: L'accent sempre cau a l'antepenúltima síl·laba (tercera des del final). Si la paraula és massa curta, afegim augment."
+      }
+    ],
+    "tips": [
+      {
+        "en": "Memory trick: ζ always becomes ξ or σ, κ/γ/χ always become ξ, π/β/φ always become ψ. These are called 'sigmatic' changes because they involve the σ sound.",
+        "el": "Κόλπο μνήμης: το ζ γίνεται πάντα ξ ή σ, τα κ/γ/χ γίνονται πάντα ξ, τα π/β/φ γίνονται πάντα ψ. Αυτές ονομάζονται 'σιγματικές' αλλαγές γιατί περιλαμβάνουν τον ήχο σ.",
+        "ca": "Truc de memòria: ζ sempre es converteix en ξ o σ, κ/γ/χ sempre es converteixen en ξ, π/β/φ sempre es converteixen en ψ. Aquests s'anomenen canvis 'sigmàtics' perquè impliquen el so σ."
       }
     ]
   },
   "tables": [
     {
       "title": {
-        "en": "Sigmatic Aorist: μιλάω → μίλησα",
-        "el": "Σιγματικός Αόριστος: μιλάω → μίλησα",
-        "ca": "Aorist Sigmàtic: μιλάω → μίλησα"
+        "en": "A class with -ψ: γράφω → έγραψα (to write) - Verb Family: A CLASS",
+        "el": "Α τάξη με -ψ: γράφω → έγραψα - Οικογένεια ρήματος: Α ΤΑΞΗ",
+        "ca": "Classe A amb -ψ: γράφω → έγραψα (escriure) - Família: CLASSE A"
       },
-      "columnHeaders": [
-        "Ενικός",
-        "Πληθυντικός"
-      ],
-      "rowHeaders": [
-        "1ο Πρόσωπο",
-        "2ο Πρόσωπο",
-        "3ο Πρόσωπο"
-      ],
+      "columnHeaders": ["Ενικός", "Πληθυντικός"],
+      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
       "cells": [
         [
-          {
-            "greek": "μίλησα",
-            "romanization": "mˈilisa",
-            "translation": "I spoke"
-          },
-          {
-            "greek": "μιλήσαμε",
-            "romanization": "milˈisame",
-            "translation": "we spoke"
-          }
+          { "greek": "έγραψα", "romanization": "ˈeɣrapsa", "translation": "I wrote" },
+          { "greek": "γράψαμε", "romanization": "ˈɣrapsame", "translation": "we wrote" }
         ],
         [
-          {
-            "greek": "μίλησες",
-            "romanization": "mˈilises",
-            "translation": "you spoke"
-          },
-          {
-            "greek": "μιλήσατε",
-            "romanization": "milˈisate",
-            "translation": "you spoke (pl)"
-          }
+          { "greek": "έγραψες", "romanization": "ˈeɣrapses", "translation": "you wrote" },
+          { "greek": "γράψατε", "romanization": "ˈɣrapsate", "translation": "you (pl) wrote" }
         ],
         [
-          {
-            "greek": "μίλησε",
-            "romanization": "mˈilise",
-            "translation": "he/she spoke"
-          },
-          {
-            "greek": "μίλησαν",
-            "romanization": "mˈilisan",
-            "translation": "they spoke"
-          }
+          { "greek": "έγραψε", "romanization": "ˈeɣrapse", "translation": "he/she wrote" },
+          { "greek": "έγραψαν", "romanization": "ˈeɣrapsan", "translation": "they wrote" }
         ]
-      ]
+      ],
+      "footnote": "Stem change: φ → ψ. Augment ε- added because γράφω has only 2 syllables."
+    },
+    {
+      "title": {
+        "en": "A class with -ξ: ανοίγω → άνοιξα (to open) - Verb Family: A CLASS",
+        "el": "Α τάξη με -ξ: ανοίγω → άνοιξα - Οικογένεια ρήματος: Α ΤΑΞΗ",
+        "ca": "Classe A amb -ξ: ανοίγω → άνοιξα (obrir) - Família: CLASSE A"
+      },
+      "columnHeaders": ["Ενικός", "Πληθυντικός"],
+      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "cells": [
+        [
+          { "greek": "άνοιξα", "romanization": "ˈaniksa", "translation": "I opened" },
+          { "greek": "ανοίξαμε", "romanization": "aˈniksame", "translation": "we opened" }
+        ],
+        [
+          { "greek": "άνοιξες", "romanization": "ˈanikses", "translation": "you opened" },
+          { "greek": "ανοίξατε", "romanization": "aˈniksate", "translation": "you (pl) opened" }
+        ],
+        [
+          { "greek": "άνοιξε", "romanization": "ˈanikse", "translation": "he/she opened" },
+          { "greek": "άνοιξαν", "romanization": "ˈaniksan", "translation": "they opened" }
+        ]
+      ],
+      "footnote": "Stem change: γ → ξ. No augment because ανοίγω already has 3+ syllables."
+    },
+    {
+      "title": {
+        "en": "A class with -σ: πληρώνω → πλήρωσα (to pay) - Verb Family: A CLASS",
+        "el": "Α τάξη με -σ: πληρώνω → πλήρωσα - Οικογένεια ρήματος: Α ΤΑΞΗ",
+        "ca": "Classe A amb -σ: πληρώνω → πλήρωσα (pagar) - Família: CLASSE A"
+      },
+      "columnHeaders": ["Ενικός", "Πληθυντικός"],
+      "rowHeaders": ["1ο Πρόσωπο", "2ο Πρόσωπο", "3ο Πρόσωπο"],
+      "cells": [
+        [
+          { "greek": "πλήρωσα", "romanization": "ˈplirosa", "translation": "I paid" },
+          { "greek": "πληρώσαμε", "romanization": "pliˈrosame", "translation": "we paid" }
+        ],
+        [
+          { "greek": "πλήρωσες", "romanization": "ˈpliroses", "translation": "you paid" },
+          { "greek": "πληρώσατε", "romanization": "pliˈrosate", "translation": "you (pl) paid" }
+        ],
+        [
+          { "greek": "πλήρωσε", "romanization": "ˈplirose", "translation": "he/she paid" },
+          { "greek": "πλήρωσαν", "romanization": "ˈplirosan", "translation": "they paid" }
+        ]
+      ],
+      "footnote": "Stem change: ν → σ. No augment needed (3+ syllables)."
     }
   ],
   "examples": [
     {
       "id": "ex_a2_101",
-      "greek": "Χτες έπαιξα ποδόσφαιρο.",
-      "romanization": "xtes ˈepeksa poðˈosfero.",
-      "catalan": "Ahir vaig jugar a futbol.",
-      "englishLiteral": "Yesterday I played football.",
+      "greek": "Χθες έγραψα ένα γράμμα.",
+      "romanization": "xθes ˈeɣrapsa ˈena ˈɣrama.",
+      "catalan": "Ahir vaig escriure una carta.",
+      "englishLiteral": "Yesterday I wrote a letter.",
       "highlights": [
-        {
-          "startIndex": 5,
-          "endIndex": 9,
-          "explanation": "Aorist form"
-        }
+        { "startIndex": 5, "endIndex": 12, "explanation": "Aorist of γράφω: φ→ψ + augment ε-" }
       ]
     },
     {
       "id": "ex_a2_102",
-      "greek": "Μίλησε με τη φίλη του.",
-      "romanization": "mˈilise me ti fˈili tu.",
-      "catalan": "Va parlar amb la seva amiga.",
-      "englishLiteral": "He/She spoke with his friend.",
+      "greek": "Άνοιξα την πόρτα.",
+      "romanization": "ˈaniksa tin ˈpɔrta.",
+      "catalan": "Vaig obrir la porta.",
+      "englishLiteral": "I opened the door.",
       "highlights": [
-        {
-          "startIndex": 0,
-          "endIndex": 6,
-          "explanation": "Aorist form"
-        }
+        { "startIndex": 0, "endIndex": 6, "explanation": "Aorist of ανοίγω: γ→ξ" }
+      ]
+    },
+    {
+      "id": "ex_a2_103",
+      "greek": "Πληρώσαμε το λογαριασμό.",
+      "romanization": "pliˈrosame to loɣariaˈzmo.",
+      "catalan": "Vam pagar el compte.",
+      "englishLiteral": "We paid the bill.",
+      "highlights": [
+        { "startIndex": 0, "endIndex": 10, "explanation": "Aorist of πληρώνω: ν→σ" }
+      ]
+    },
+    {
+      "id": "ex_a2_104",
+      "greek": "Δούλεψε όλη τη μέρα.",
+      "romanization": "ˈðulεpse ˈɔli ti ˈmera.",
+      "catalan": "Va treballar tot el dia.",
+      "englishLiteral": "He/She worked all day.",
+      "highlights": [
+        { "startIndex": 0, "endIndex": 8, "explanation": "Aorist of δουλεύω: ευ→εψ" }
       ]
     }
   ],
@@ -130,21 +182,22 @@
       "type": "fillBlank",
       "difficulty": 2,
       "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
       },
-      "prompt": "Χτες ____ (παίζω) τένις.",
-      "promptRomanization": "xtes ____ (pˈezo) tˈenis.",
-      "hint": "Translation: Yesterday I played tennis.",
-      "correctAnswer": "έπαιξα",
-      "acceptableAnswers": [
-        "έπαιξα"
-      ],
+      "prompt": "Χθες ____ (γράφω) ένα email.",
+      "translation": {
+        "en": "Yesterday I ____ (write) an email.",
+        "ca": "Ahir ____ (escriure) un email."
+      },
+      "hint": "γράφω is A class. Stem change: φ→ψ. Add augment ε-.",
+      "correctAnswer": "έγραψα",
+      "acceptableAnswers": ["έγραψα"],
       "explanation": {
-        "en": "First person singular aorist of παίζω is έπαιξα.",
-        "el": "Ο αόριστος του παίζω στο α' ενικό είναι έπαιξα.",
-        "ca": "L'aorist de παίζω en 1a persona és έπαιξα."
+        "en": "γράφω → έγραψα (φ→ψ, augment ε- because 2 syllables)",
+        "el": "γράφω → έγραψα (φ→ψ, αύξηση ε- γιατί έχει 2 συλλαβές)",
+        "ca": "γράφω → έγραψα (φ→ψ, augment ε- perquè té 2 síl·labes)"
       }
     },
     {
@@ -152,26 +205,23 @@
       "type": "multipleChoice",
       "difficulty": 2,
       "instruction": {
-        "en": "Choose the correct form",
-        "el": "Διάλεξε τον σωστό τύπο",
-        "ca": "Tria la forma correcta"
+        "en": "Choose the correct simple past form",
+        "el": "Διάλεξε τον σωστό τύπο αορίστου",
+        "ca": "Tria la forma correcta de passat simple"
       },
-      "prompt": "Αυτός ____ (μιλάω) με τη δασκάλα.",
-      "promptRomanization": "aftˈos ____ (milˈao) me ti ðaskˈala.",
-      "hint": "Translation: He spoke with the teacher.",
-      "correctAnswer": "μίλησε",
-      "options": [
-        "μιλά",
-        "μίλησε",
-        "μιλούσε"
-      ],
-      "acceptableAnswers": [
-        "μίλησε"
-      ],
+      "prompt": "Αυτός ____ (ανοίγω) το παράθυρο.",
+      "translation": {
+        "en": "He ____ (open) the window.",
+        "ca": "Ell ____ (obrir) la finestra."
+      },
+      "hint": "ανοίγω is A class. Stem change: γ→ξ.",
+      "correctAnswer": "άνοιξε",
+      "options": ["ανοίγει", "άνοιξε", "άνοιγε"],
+      "acceptableAnswers": ["άνοιξε"],
       "explanation": {
-        "en": "Third person singular aorist of μιλάω is μίλησε.",
-        "el": "Ο αόριστος του μιλάω στο γ' ενικό είναι μίλησε.",
-        "ca": "L'aorist de μιλάω en 3a persona és μίλησε."
+        "en": "ανοίγω → άνοιξε (γ→ξ). Third person singular aorist.",
+        "el": "ανοίγω → άνοιξε (γ→ξ). Τρίτο ενικό αόριστος.",
+        "ca": "ανοίγω → άνοιξε (γ→ξ). Tercera persona singular aorist."
       }
     },
     {
@@ -179,21 +229,22 @@
       "type": "fillBlank",
       "difficulty": 2,
       "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
       },
-      "prompt": "Εμείς ____ (δουλεύω) μέχρι αργά.",
-      "promptRomanization": "emˈis ____ (ðulˈevo) mˈexri arɣˈa.",
-      "hint": "Translation: We worked until late.",
-      "correctAnswer": "δουλέψαμε",
-      "acceptableAnswers": [
-        "δουλέψαμε"
-      ],
+      "prompt": "Εμείς ____ (πληρώνω) τον λογαριασμό.",
+      "translation": {
+        "en": "We ____ (pay) the bill.",
+        "ca": "Nosaltres ____ (pagar) el compte."
+      },
+      "hint": "πληρώνω is A class. Stem change: ν→σ.",
+      "correctAnswer": "πληρώσαμε",
+      "acceptableAnswers": ["πληρώσαμε"],
       "explanation": {
-        "en": "First person plural aorist of δουλεύω is δουλέψαμε.",
-        "el": "Ο αόριστος του δουλεύω στο α' πληθυντικό είναι δουλέψαμε.",
-        "ca": "L'aorist de δουλεύω en 1a persona plural és δουλέψαμε."
+        "en": "πληρώνω → πληρώσαμε (ν→σ). First person plural.",
+        "el": "πληρώνω → πληρώσαμε (ν→σ). Πρώτο πληθυντικό.",
+        "ca": "πληρώνω → πληρώσαμε (ν→σ). Primera persona plural."
       }
     },
     {
@@ -201,21 +252,22 @@
       "type": "fillBlank",
       "difficulty": 2,
       "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
       },
-      "prompt": "Εσύ ____ (γράφω) ένα γράμμα.",
-      "promptRomanization": "esˈi ____ (ɣrˈafo) ˈena ɣrˈamma.",
-      "hint": "Translation: You wrote a letter.",
-      "correctAnswer": "έγραψες",
-      "acceptableAnswers": [
-        "εγραψες"
-      ],
+      "prompt": "Εσύ ____ (δουλεύω) πολύ χθες.",
+      "translation": {
+        "en": "You ____ (work) a lot yesterday.",
+        "ca": "Tu ____ (treballar) molt ahir."
+      },
+      "hint": "δουλεύω is A class. Stem change: ευ→εψ.",
+      "correctAnswer": "δούλεψες",
+      "acceptableAnswers": ["δούλεψες"],
       "explanation": {
-        "en": "Second person singular aorist of γράφω is έγραψες.",
-        "el": "Ο αόριστος του γράφω στο β' ενικό είναι έγραψες.",
-        "ca": "L'aorist de γράφω en 2a persona és έγραψες."
+        "en": "δουλεύω → δούλεψες (ευ→εψ). Second person singular.",
+        "el": "δουλεύω → δούλεψες (ευ→εψ). Δεύτερο ενικό.",
+        "ca": "δουλεύω → δούλεψες (ευ→εψ). Segona persona singular."
       }
     },
     {
@@ -223,26 +275,23 @@
       "type": "multipleChoice",
       "difficulty": 2,
       "instruction": {
-        "en": "Choose the correct form",
-        "el": "Διάλεξε τον σωστό τύπο",
-        "ca": "Tria la forma correcta"
+        "en": "Choose the correct simple past form",
+        "el": "Διάλεξε τον σωστό τύπο αορίστου",
+        "ca": "Tria la forma correcta de passat simple"
       },
-      "prompt": "Χτες αυτοί ____ (παίζω) μπάλα.",
-      "promptRomanization": "xtes aftˈi ____ (pˈezo) bˈala.",
-      "hint": "Translation: Yesterday they played ball.",
-      "correctAnswer": "έπαιξαν",
-      "options": [
-        "έπαιζαν",
-        "έπαιξαν",
-        "παίζουν"
-      ],
-      "acceptableAnswers": [
-        "επαιξαν"
-      ],
+      "prompt": "Αυτοί ____ (κλείνω) το μαγαζί.",
+      "translation": {
+        "en": "They ____ (close) the shop.",
+        "ca": "Ells ____ (tancar) la botiga."
+      },
+      "hint": "κλείνω is A class. Stem change: ν→σ.",
+      "correctAnswer": "έκλεισαν",
+      "options": ["κλείνουν", "έκλεισαν", "έκλειναν"],
+      "acceptableAnswers": ["έκλεισαν"],
       "explanation": {
-        "en": "Third person plural aorist of παίζω is έπαιξαν.",
-        "el": "Ο αόριστος του παίζω στο γ' πληθυντικό είναι έπαιξαν.",
-        "ca": "L'aorist de παίζω en 3a persona plural és έπαιξαν."
+        "en": "κλείνω → έκλεισαν (ν→σ, augment ε-). Third person plural.",
+        "el": "κλείνω → έκλεισαν (ν→σ, αύξηση ε-). Τρίτο πληθυντικό.",
+        "ca": "κλείνω → έκλεισαν (ν→σ, augment ε-). Tercera persona plural."
       }
     },
     {
@@ -250,21 +299,22 @@
       "type": "fillBlank",
       "difficulty": 2,
       "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
       },
-      "prompt": "Αυτή ____ (αγοράζω) ένα βιβλίο.",
-      "promptRomanization": "aftˈi ____ (aɣorˈazo) ˈena vivlˈio.",
-      "hint": "Translation: She bought a book.",
-      "correctAnswer": "αγόρασε",
-      "acceptableAnswers": [
-        "αγορασε"
-      ],
+      "prompt": "Εγώ ____ (παίζω) ποδόσφαιρο χθες.",
+      "translation": {
+        "en": "I ____ (play) football yesterday.",
+        "ca": "Jo ____ (jugar) a futbol ahir."
+      },
+      "hint": "παίζω is A class. Stem change: ζ→ξ. Add augment ε-.",
+      "correctAnswer": "έπαιξα",
+      "acceptableAnswers": ["έπαιξα"],
       "explanation": {
-        "en": "Third person singular aorist of αγοράζω is αγόρασε.",
-        "el": "Ο αόριστος του αγοράζω στο γ' ενικό είναι αγόρασε.",
-        "ca": "L'aorist d'αγοράζω en 3a persona és αγόρασε."
+        "en": "παίζω → έπαιξα (ζ→ξ, augment ε-). First person singular.",
+        "el": "παίζω → έπαιξα (ζ→ξ, αύξηση ε-). Πρώτο ενικό.",
+        "ca": "παίζω → έπαιξα (ζ→ξ, augment ε-). Primera persona singular."
       }
     },
     {
@@ -272,90 +322,45 @@
       "type": "fillBlank",
       "difficulty": 2,
       "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
+        "en": "Complete with the simple past",
+        "el": "Συμπλήρωσε με τον αόριστο",
+        "ca": "Completa amb el passat simple"
       },
-      "prompt": "Εσείς ____ (μιλάω) με τον δάσκαλο.",
-      "promptRomanization": "esˈis ____ (milˈao) me ton ðˈaskalo.",
-      "hint": "Translation: You (pl) spoke with the teacher.",
-      "correctAnswer": "μιλήσατε",
-      "acceptableAnswers": ["μιλήσατε", "μιλησατε"],
+      "prompt": "Εσείς ____ (διαβάζω) το βιβλίο;",
+      "translation": {
+        "en": "Did you (pl) ____ (read) the book?",
+        "ca": "Vosaltres ____ (llegir) el llibre?"
+      },
+      "hint": "διαβάζω is A class. Stem change: ζ→σ.",
+      "correctAnswer": "διαβάσατε",
+      "acceptableAnswers": ["διαβάσατε"],
       "explanation": {
-        "en": "Second person plural aorist of μιλάω is μιλήσατε.",
-        "el": "Ο αόριστος του μιλάω στο β' πληθυντικό είναι μιλήσατε.",
-        "ca": "L'aorist de μιλάω en 2a persona plural és μιλήσατε."
+        "en": "διαβάζω → διαβάσατε (ζ→σ). Second person plural.",
+        "el": "διαβάζω → διαβάσατε (ζ→σ). Δεύτερο πληθυντικό.",
+        "ca": "διαβάζω → διαβάσατε (ζ→σ). Segona persona plural."
       }
     },
     {
-      "id": "a2_ex_mc_103",
-      "type": "multipleChoice",
+      "id": "a2_ex_conj_101",
+      "type": "conjugation",
       "difficulty": 2,
       "instruction": {
-        "en": "Choose the correct form",
-        "el": "Διάλεξε τον σωστό τύπο",
-        "ca": "Tria la forma correcta"
+        "en": "Conjugate γράφω in the simple past",
+        "el": "Κλίσε το γράφω στον αόριστο",
+        "ca": "Conjuga γράφω en passat simple"
       },
-      "prompt": "Εμείς ____ (ακούω) μουσική χτες.",
-      "promptRomanization": "emˈis ____ (akˈuo) musikˈi xtes.",
-      "hint": "Translation: We listened to music yesterday.",
-      "correctAnswer": "ακούσαμε",
-      "options": ["ακούμε", "ακούσαμε", "ακούγαμε"],
-      "acceptableAnswers": ["ακούσαμε", "ακουσαμε"],
-      "explanation": {
-        "en": "First person plural aorist of ακούω is ακούσαμε.",
-        "el": "Ο αόριστος του ακούω στο α' πληθυντικό είναι ακούσαμε.",
-        "ca": "L'aorist d'ακούω en 1a persona plural és ακούσαμε."
-      }
-    },
-    {
-      "id": "a2_ex_fill_106",
-      "type": "fillBlank",
-      "difficulty": 2,
-      "instruction": {
-        "en": "Complete the sentence",
-        "el": "Συμπλήρωσε την πρόταση",
-        "ca": "Completa la frase"
-      },
-      "prompt": "Εσύ ____ (διαβάζω) το βιβλίο;",
-      "promptRomanization": "esˈi ____ (ðiavˈazo) to vivlˈio;",
-      "hint": "Translation: Did you read the book?",
-      "correctAnswer": "διάβασες",
-      "acceptableAnswers": ["διάβασες", "διαβασες"],
-      "explanation": {
-        "en": "Second person singular aorist of διαβάζω is διάβασες.",
-        "el": "Ο αόριστος του διαβάζω στο β' ενικό είναι διάβασες.",
-        "ca": "L'aorist de διαβάζω en 2a persona és διάβασες."
-      }
-    },
-    {
-      "id": "a2_ex_mc_104",
-      "type": "multipleChoice",
-      "difficulty": 2,
-      "instruction": {
-        "en": "Choose the correct form",
-        "el": "Διάλεξε τον σωστό τύπο",
-        "ca": "Tria la forma correcta"
-      },
-      "prompt": "Αυτή ____ (βλέπω) την ταινία.",
-      "promptRomanization": "aftˈi ____ (vlˈepo) tin tenˈia.",
-      "hint": "Translation: She watched the movie.",
-      "correctAnswer": "είδε",
-      "options": ["βλέπει", "έβλεπε", "είδε"],
-      "acceptableAnswers": ["είδε", "ειδε"],
-      "explanation": {
-        "en": "Third person singular aorist of βλέπω is είδε (irregular).",
-        "el": "Ο αόριστος του βλέπω στο γ' ενικό είναι είδε (ανώμαλο).",
-        "ca": "L'aorist de βλέπω en 3a persona és είδε (irregular)."
-      }
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        { "label": "Εγώ", "answer": "έγραψα", "romanization": "ˈeɣrapsa", "acceptableAnswers": ["έγραψα"] },
+        { "label": "Εσύ", "answer": "έγραψες", "romanization": "ˈeɣrapses", "acceptableAnswers": ["έγραψες"] },
+        { "label": "Αυτός/Αυτή/Αυτό", "answer": "έγραψε", "romanization": "ˈeɣrapse", "acceptableAnswers": ["έγραψε"] },
+        { "label": "Εμείς", "answer": "γράψαμε", "romanization": "ˈɣrapsame", "acceptableAnswers": ["γράψαμε"] },
+        { "label": "Εσείς", "answer": "γράψατε", "romanization": "ˈɣrapsate", "acceptableAnswers": ["γράψατε"] },
+        { "label": "Αυτοί/Αυτές/Αυτά", "answer": "έγραψαν", "romanization": "ˈeɣrapsan", "acceptableAnswers": ["έγραψαν", "γράψανε"] }
+      ]
     }
   ],
-  "prerequisites": [
-    "a1_g02_verb_to_have"
-  ],
-  "tags": [
-    "verbs",
-    "past",
-    "aorist"
-  ]
+  "prerequisites": ["a1_g08_present_tense_regular"],
+  "tags": ["verbs", "past", "aorist", "a-class", "sigmatic"]
 }

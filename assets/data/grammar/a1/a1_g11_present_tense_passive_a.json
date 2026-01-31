@@ -51,16 +51,40 @@
       ],
       "cells": [
         [
-          { "greek": "χτυπιέμαι", "romanization": "xtipiˈeme", "translation": "I am hit" },
-          { "greek": "χτυπιόμαστε", "romanization": "xtipiˈomaste", "translation": "we are hit" }
+          {
+            "greek": "χτυπιέμαι",
+            "romanization": "xtipiˈeme",
+            "translation": "I am hit"
+          },
+          {
+            "greek": "χτυπιόμαστε",
+            "romanization": "xtipiˈomaste",
+            "translation": "we are hit"
+          }
         ],
         [
-          { "greek": "χτυπιέσαι", "romanization": "xtipiˈese", "translation": "you are hit" },
-          { "greek": "χτυπιέστε", "romanization": "xtipiˈeste", "translation": "you (pl) are hit" }
+          {
+            "greek": "χτυπιέσαι",
+            "romanization": "xtipiˈese",
+            "translation": "you are hit"
+          },
+          {
+            "greek": "χτυπιέστε",
+            "romanization": "xtipiˈeste",
+            "translation": "you (pl) are hit"
+          }
         ],
         [
-          { "greek": "χτυπιέται", "romanization": "xtipiˈete", "translation": "he/she is hit" },
-          { "greek": "χτυπιούνται", "romanization": "xtipiˈunde", "translation": "they are hit" }
+          {
+            "greek": "χτυπιέται",
+            "romanization": "xtipiˈete",
+            "translation": "he/she is hit"
+          },
+          {
+            "greek": "χτυπιούνται",
+            "romanization": "xtipiˈunde",
+            "translation": "they are hit"
+          }
         ]
       ],
       "footnote": "Variants: χτυπιόσαστε, χτυπιόνται"
@@ -92,9 +116,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εγώ ____ όταν παίζω ποδόσφαιρο.",
+      "prompt": "Εγώ ____ (χτυπιέμαι) όταν παίζω ποδόσφαιρο.",
       "correctAnswer": "χτυπιέμαι",
-      "acceptableAnswers": ["χτυπιέμαι"],
+      "acceptableAnswers": [
+        "χτυπιέμαι"
+      ],
       "explanation": {
         "en": "First person singular is χτυπιέμαι.",
         "el": "Το α' ενικό είναι χτυπιέμαι.",
@@ -112,8 +138,14 @@
       },
       "prompt": "Εσύ ____ εύκολα.",
       "correctAnswer": "χτυπιέσαι",
-      "options": ["χτυπιέμαι", "χτυπιέσαι", "χτυπιέται"],
-      "acceptableAnswers": ["χτυπιέσαι"],
+      "options": [
+        "χτυπιέμαι",
+        "χτυπιέσαι",
+        "χτυπιέται"
+      ],
+      "acceptableAnswers": [
+        "χτυπιέσαι"
+      ],
       "explanation": {
         "en": "Second person singular is χτυπιέσαι.",
         "el": "Το β' ενικό είναι χτυπιέσαι.",
@@ -129,9 +161,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτή ____ συχνά.",
+      "prompt": "Αυτή ____ (χτυπιέμαι) συχνά.",
       "correctAnswer": "χτυπιέται",
-      "acceptableAnswers": ["χτυπιέται"],
+      "acceptableAnswers": [
+        "χτυπιέται"
+      ],
       "explanation": {
         "en": "Third person singular is χτυπιέται.",
         "el": "Το γ' ενικό είναι χτυπιέται.",
@@ -147,9 +181,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ στο παιχνίδι.",
+      "prompt": "Εμείς ____ (χτυπιέμαι) στο παιχνίδι.",
       "correctAnswer": "χτυπιόμαστε",
-      "acceptableAnswers": ["χτυπιόμαστε"],
+      "acceptableAnswers": [
+        "χτυπιόμαστε"
+      ],
       "explanation": {
         "en": "First person plural is χτυπιόμαστε.",
         "el": "Το α' πληθυντικό είναι χτυπιόμαστε.",
@@ -167,8 +203,15 @@
       },
       "prompt": "Εσείς ____ συχνά.",
       "correctAnswer": "χτυπιέστε",
-      "options": ["χτυπιέστε", "χτυπιούνται", "χτυπιόμαστε"],
-      "acceptableAnswers": ["χτυπιέστε", "χτυπιόσαστε"],
+      "options": [
+        "χτυπιέστε",
+        "χτυπιούνται",
+        "χτυπιόμαστε"
+      ],
+      "acceptableAnswers": [
+        "χτυπιέστε",
+        "χτυπιόσαστε"
+      ],
       "explanation": {
         "en": "Second person plural can be χτυπιέστε or χτυπιόσαστε.",
         "el": "Το β' πληθυντικό μπορεί να είναι χτυπιέστε ή χτυπιόσαστε.",
@@ -184,9 +227,12 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτοί ____ συχνά.",
+      "prompt": "Αυτοί ____ (χτυπιέμαι) συχνά.",
       "correctAnswer": "χτυπιούνται",
-      "acceptableAnswers": ["χτυπιούνται", "χτυπιόνται"],
+      "acceptableAnswers": [
+        "χτυπιούνται",
+        "χτυπιόνται"
+      ],
       "explanation": {
         "en": "Third person plural can be χτυπιούνται or χτυπιόνται.",
         "el": "Το γ' πληθυντικό μπορεί να είναι χτυπιούνται ή χτυπιόνται.",
@@ -205,12 +251,50 @@
       "prompt": "Συμπλήρωσε όλους τους τύπους.",
       "correctAnswer": "",
       "conjugations": [
-        { "label": "Εγώ", "answer": "χτυπιέμαι", "acceptableAnswers": ["χτυπιέμαι"] },
-        { "label": "Εσύ", "answer": "χτυπιέσαι", "acceptableAnswers": ["χτυπιέσαι"] },
-        { "label": "Αυτός/Αυτή/Αυτό", "answer": "χτυπιέται", "acceptableAnswers": ["χτυπιέται"] },
-        { "label": "Εμείς", "answer": "χτυπιόμαστε", "acceptableAnswers": ["χτυπιόμαστε"] },
-        { "label": "Εσείς", "answer": "χτυπιέστε", "acceptableAnswers": ["χτυπιέστε", "χτυπιόσαστε"] },
-        { "label": "Αυτοί/Αυτές/Αυτά", "answer": "χτυπιούνται", "acceptableAnswers": ["χτυπιούνται", "χτυπιόνται"] }
+        {
+          "label": "Εγώ",
+          "answer": "χτυπιέμαι",
+          "acceptableAnswers": [
+            "χτυπιέμαι"
+          ]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "χτυπιέσαι",
+          "acceptableAnswers": [
+            "χτυπιέσαι"
+          ]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "χτυπιέται",
+          "acceptableAnswers": [
+            "χτυπιέται"
+          ]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "χτυπιόμαστε",
+          "acceptableAnswers": [
+            "χτυπιόμαστε"
+          ]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "χτυπιέστε",
+          "acceptableAnswers": [
+            "χτυπιέστε",
+            "χτυπιόσαστε"
+          ]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "χτυπιούνται",
+          "acceptableAnswers": [
+            "χτυπιούνται",
+            "χτυπιόνται"
+          ]
+        }
       ]
     }
   ]

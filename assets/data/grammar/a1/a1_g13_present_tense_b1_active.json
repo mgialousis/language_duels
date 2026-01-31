@@ -1,0 +1,456 @@
+{
+  "id": "a1_g13_present_tense_b1_active",
+  "category": "verb_conjugation",
+  "subcategory": "present_tense",
+  "level": "A1",
+  "order": 13,
+  "title": {
+    "en": "Present Tense - B1 Class (Active Voice)",
+    "el": "Ενεστώτας - Β1 Τάξη (Ενεργητική Φωνή)",
+    "ca": "Present - Classe B1 (Veu Activa)"
+  },
+  "description": {
+    "en": "Master B1 class verbs with accented -ώ/-άω and 'α' in their endings. These verbs represent about 15% of Greek verbs.",
+    "el": "Κατακτήστε τα ρήματα της Β1 τάξης με τονισμένο -ώ/-άω και 'α' στις καταλήξεις. Αυτά τα ρήματα αποτελούν περίπου το 15% των ελληνικών ρημάτων.",
+    "ca": "Domina els verbs de classe B1 amb -ώ/-άω accentuat i 'α' a les terminacions. Aquests verbs representen aproximadament el 15% dels verbs grecs."
+  },
+  "explanation": {
+    "content": {
+      "en": "B1 class verbs have stress on the final -ώ/-άω and use 'α' in their endings: χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν(ε). Recognition: Accented final syllable + 'α' in endings (not 'ει').",
+      "el": "Τα ρήματα της Β1 τάξης τονίζονται στο τελικό -ώ/-άω και έχουν 'α' στις καταλήξεις: χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν(ε). Αναγνώριση: Τόνος στην τελευταία συλλαβή + 'α' στις καταλήξεις (όχι 'ει').",
+      "ca": "Els verbs de classe B1 tenen l'accent a la -ώ/-άω final i usen 'α' a les seves terminacions: χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν(ε). Reconeixement: Accent a la síl·laba final + 'α' a les terminacions (no 'ει')."
+    },
+    "rules": [
+      {
+        "en": "How to recognize B1 class: The final -ώ/-άω has an accent mark AND endings use 'α' (χτυπώ → χτυπάς, αγαπώ → αγαπάς).",
+        "el": "Πώς αναγνωρίζουμε την Β1 τάξη: Το τελικό -ώ/-άω έχει τόνο ΚΑΙ οι καταλήξεις χρησιμοποιούν 'α' (χτυπώ → χτυπάς, αγαπώ → αγαπάς).",
+        "ca": "Com reconèixer la classe B1: La -ώ/-άω final té accent I les terminacions usen 'α' (χτυπώ → χτυπάς, αγαπώ → αγαπάς)."
+      },
+      {
+        "en": "B1 class endings: -ώ/-άω, -άς, -ά, -άμε/-ούμε, -άτε, -ούν(ε). Note the 'α' in 2nd and 3rd person singular.",
+        "el": "Καταλήξεις Β1 τάξης: -ώ/-άω, -άς, -ά, -άμε/-ούμε, -άτε, -ούν(ε). Παρατήρησε το 'α' στα β' και γ' ενικό.",
+        "ca": "Terminacions classe B1: -ώ/-άω, -άς, -ά, -άμε/-ούμε, -άτε, -ούν(ε). Nota la 'α' a la 2a i 3a persona singular."
+      },
+      {
+        "en": "This class includes many common verbs of love, emotion, and action.",
+        "el": "Αυτή η τάξη περιλαμβάνει πολλά κοινά ρήματα αγάπης, συναισθήματος και δράσης.",
+        "ca": "Aquesta classe inclou molts verbs comuns d'amor, emoció i acció."
+      },
+      {
+        "en": "B1 verbs have two equally valid forms: contracted (μιλώ, μιλά, μιλούν) and uncontracted (μιλάω, μιλάει, μιλάνε). Both are actively used and interchangeable.",
+        "el": "Τα Β1 ρήματα έχουν δύο εξίσου έγκυρες μορφές: συνηρημένες (μιλώ, μιλά, μιλούν) και ασυναίρετες (μιλάω, μιλάει, μιλάνε). Και οι δύο χρησιμοποιούνται ενεργά και είναι εναλλάξιμες.",
+        "ca": "Els verbs B1 tenen dues formes igualment vàlides: contractades (μιλώ, μιλά, μιλούν) i no contractades (μιλάω, μιλάει, μιλάνε). Totes dues s'usen activament i són intercanviables."
+      }
+    ],
+    "tips": [
+      {
+        "en": "Common B1 verbs: χτυπώ (hit/knock), αγαπώ (love), μιλώ (speak), φορώ (wear), κρατώ (hold), περνώ (pass).",
+        "el": "Συχνά ρήματα Β1: χτυπώ (χτυπώ), αγαπώ (αγαπώ), μιλώ (μιλώ), φορώ (φορώ), κρατώ (κρατώ), περνώ (περνώ).",
+        "ca": "Verbs comuns B1: χτυπώ (colpejar), αγαπώ (estimar), μιλώ (parlar), φορώ (portar), κρατώ (sostenir), περνώ (passar)."
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "B1 class example: χτυπώ (to hit/knock) - Verb Family: B1 CLASS",
+        "el": "Παράδειγμα Β1 τάξης: χτυπώ (χτυπώ) - Οικογένεια ρήματος: Β1 ΤΑΞΗ",
+        "ca": "Exemple classe B1: χτυπώ (colpejar) - Família del verb: CLASSE B1"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "χτυπώ",
+            "romanization": "xtiˈpo",
+            "translation": "I hit/knock"
+          },
+          {
+            "greek": "χτυπάμε",
+            "romanization": "xtiˈpame",
+            "translation": "we hit/knock"
+          }
+        ],
+        [
+          {
+            "greek": "χτυπάς",
+            "romanization": "xtiˈpas",
+            "translation": "you hit/knock"
+          },
+          {
+            "greek": "χτυπάτε",
+            "romanization": "xtiˈpate",
+            "translation": "you (pl) hit/knock"
+          }
+        ],
+        [
+          {
+            "greek": "χτυπά",
+            "romanization": "xtiˈpa",
+            "translation": "he/she hits/knocks"
+          },
+          {
+            "greek": "χτυπούν",
+            "romanization": "xtiˈpun",
+            "translation": "they hit/knock"
+          }
+        ]
+      ],
+      "footnote": "Variants: χτυπάω (uncontracted 1st sg), χτυπά/χτυπάει (contracted/uncontracted 3rd sg), χτυπούμε (alt. 1st pl), χτυπούν/χτυπάνε/χτυπούνε (3rd pl forms)"
+    },
+    {
+      "title": {
+        "en": "B1 class example: αγαπώ (to love) - Verb Family: B1 CLASS",
+        "el": "Παράδειγμα Β1 τάξης: αγαπώ (αγαπώ) - Οικογένεια ρήματος: Β1 ΤΑΞΗ",
+        "ca": "Exemple classe B1: αγαπώ (estimar) - Família del verb: CLASSE B1"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "αγαπώ",
+            "romanization": "aɣaˈpo",
+            "translation": "I love"
+          },
+          {
+            "greek": "αγαπάμε",
+            "romanization": "aɣaˈpame",
+            "translation": "we love"
+          }
+        ],
+        [
+          {
+            "greek": "αγαπάς",
+            "romanization": "aɣaˈpas",
+            "translation": "you love"
+          },
+          {
+            "greek": "αγαπάτε",
+            "romanization": "aɣaˈpate",
+            "translation": "you (pl) love"
+          }
+        ],
+        [
+          {
+            "greek": "αγαπά",
+            "romanization": "aɣaˈpa",
+            "translation": "he/she loves"
+          },
+          {
+            "greek": "αγαπούν",
+            "romanization": "aɣaˈpun",
+            "translation": "they love"
+          }
+        ]
+      ],
+      "footnote": "Variants: αγαπούμε, αγαπάνε/αγαπούνε"
+    },
+    {
+      "title": {
+        "en": "B1 class example: μιλώ (to speak) - Verb Family: B1 CLASS",
+        "el": "Παράδειγμα Β1 τάξης: μιλώ (μιλώ) - Οικογένεια ρήματος: Β1 ΤΑΞΗ",
+        "ca": "Exemple classe B1: μιλώ (parlar) - Família del verb: CLASSE B1"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "μιλώ",
+            "romanization": "miˈlo",
+            "translation": "I speak"
+          },
+          {
+            "greek": "μιλάμε",
+            "romanization": "miˈlame",
+            "translation": "we speak"
+          }
+        ],
+        [
+          {
+            "greek": "μιλάς",
+            "romanization": "miˈlas",
+            "translation": "you speak"
+          },
+          {
+            "greek": "μιλάτε",
+            "romanization": "miˈlate",
+            "translation": "you (pl) speak"
+          }
+        ],
+        [
+          {
+            "greek": "μιλά",
+            "romanization": "miˈla",
+            "translation": "he/she speaks"
+          },
+          {
+            "greek": "μιλούν",
+            "romanization": "miˈlun",
+            "translation": "they speak"
+          }
+        ]
+      ],
+      "footnote": "Variants: μιλούμε, μιλάνε/μιλούνε"
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_1301",
+      "greek": "Χτυπώ την πόρτα.",
+      "romanization": "xtiˈpo tin ˈpɔrta.",
+      "catalan": "Truque a la porta.",
+      "englishLiteral": "I knock on the door.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 6,
+          "explanation": "B1 class verb, 1st person singular"
+        }
+      ]
+    },
+    {
+      "id": "ex_1302",
+      "greek": "Αγαπάς τη μουσική;",
+      "romanization": "aɣaˈpas ti musiˈki?",
+      "catalan": "Estimes la música?",
+      "englishLiteral": "Do you love music?"
+    },
+    {
+      "id": "ex_1303",
+      "greek": "Μιλάμε ελληνικά.",
+      "romanization": "miˈlame eliniˈka.",
+      "catalan": "Parlem grec.",
+      "englishLiteral": "We speak Greek."
+    },
+    {
+      "id": "ex_1304",
+      "greek": "Φοράτε τα παπούτσια σας.",
+      "romanization": "foˈrate ta paˈputsia sas.",
+      "catalan": "Us poseu les sabates.",
+      "englishLiteral": "You (pl) wear your shoes."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_fill_1301",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ (χτυπώ) την πόρτα.",
+      "hint": "χτυπώ is a B1 class verb (accented -ώ with 'α' endings). Use 1st person singular.",
+      "correctAnswer": "χτυπώ",
+      "acceptableAnswers": [
+        "χτυπώ"
+      ],
+      "explanation": {
+        "en": "First person singular of χτυπώ is χτυπώ (B1 class pattern).",
+        "el": "Το α' ενικό του χτυπώ είναι χτυπώ (μοτίβο Β1 τάξης).",
+        "ca": "La 1a persona singular de χτυπώ és χτυπώ (patró classe B1)."
+      }
+    },
+    {
+      "id": "ex_mc_1301",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσύ ____ ελληνικά.",
+      "correctAnswer": "μιλάς",
+      "options": [
+        "μιλώ",
+        "μιλάς",
+        "μιλά"
+      ],
+      "acceptableAnswers": [
+        "μιλάς"
+      ],
+      "explanation": {
+        "en": "Second person singular of B1 class verbs ends in -άς.",
+        "el": "Το β' ενικό των ρημάτων Β1 τάξης τελειώνει σε -άς.",
+        "ca": "La 2a persona singular dels verbs de classe B1 acaba en -άς."
+      }
+    },
+    {
+      "id": "ex_fill_1302",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτή ____ (αγαπώ) τη μουσική.",
+      "correctAnswer": "αγαπά",
+      "acceptableAnswers": [
+        "αγαπά"
+      ],
+      "explanation": {
+        "en": "Third person singular of B1 class verbs ends in -ά.",
+        "el": "Το γ' ενικό των ρημάτων Β1 τάξης τελειώνει σε -ά.",
+        "ca": "La 3a persona singular dels verbs de classe B1 acaba en -ά."
+      }
+    },
+    {
+      "id": "ex_fill_1303",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ (κρατώ) την τσάντα.",
+      "correctAnswer": "κρατάμε",
+      "acceptableAnswers": [
+        "κρατάμε",
+        "κρατούμε"
+      ],
+      "explanation": {
+        "en": "First person plural can be -άμε or -ούμε.",
+        "el": "Το α' πληθυντικό μπορεί να είναι -άμε ή -ούμε.",
+        "ca": "La 1a persona plural pot ser -άμε o -ούμε."
+      }
+    },
+    {
+      "id": "ex_mc_1302",
+      "type": "multipleChoice",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
+      },
+      "prompt": "Εσείς ____ το παλτό σας.",
+      "correctAnswer": "φοράτε",
+      "options": [
+        "φορώ",
+        "φοράς",
+        "φοράτε"
+      ],
+      "acceptableAnswers": [
+        "φοράτε"
+      ],
+      "explanation": {
+        "en": "Second person plural of B1 class verbs ends in -άτε.",
+        "el": "Το β' πληθυντικό των ρημάτων Β1 τάξης τελειώνει σε -άτε.",
+        "ca": "La 2a persona plural dels verbs de classe B1 acaba en -άτε."
+      }
+    },
+    {
+      "id": "ex_fill_1304",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτοί ____ (περνώ) από εδώ.",
+      "correctAnswer": "περνούν",
+      "acceptableAnswers": [
+        "περνούν",
+        "περνάνε"
+      ],
+      "explanation": {
+        "en": "Third person plural can be -ούν or -άνε.",
+        "el": "Το γ' πληθυντικό μπορεί να είναι -ούν ή -άνε.",
+        "ca": "La 3a persona plural pot ser -ούν o -άνε."
+      }
+    },
+    {
+      "id": "ex_conj_1301",
+      "type": "conjugation",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Conjugate αγαπώ in the present tense",
+        "el": "Κλίσε το αγαπώ στον ενεστώτα",
+        "ca": "Conjuga αγαπώ en present"
+      },
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        {
+          "label": "Εγώ",
+          "answer": "αγαπώ",
+          "romanization": "aɣaˈpo",
+          "acceptableAnswers": [
+            "αγαπώ"
+          ]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "αγαπάς",
+          "romanization": "aɣaˈpas",
+          "acceptableAnswers": [
+            "αγαπάς"
+          ]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "αγαπά",
+          "romanization": "aɣaˈpa",
+          "acceptableAnswers": [
+            "αγαπά"
+          ]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "αγαπάμε",
+          "romanization": "aɣaˈpame",
+          "acceptableAnswers": [
+            "αγαπάμε",
+            "αγαπούμε"
+          ]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "αγαπάτε",
+          "romanization": "aɣaˈpate",
+          "acceptableAnswers": [
+            "αγαπάτε"
+          ]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "αγαπούν",
+          "romanization": "aɣaˈpun",
+          "acceptableAnswers": [
+            "αγαπούν",
+            "αγαπάνε"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,52 +5,52 @@
   "level": "A1",
   "order": 8,
   "title": {
-    "en": "Present Tense - B1 Class (Active Voice)",
-    "el": "Ενεστώτας - Β1 Τάξη (Ενεργητική Φωνή)",
-    "ca": "Present - Classe B1 (Veu Activa)"
+    "en": "Present Tense - A Class (Active Voice)",
+    "el": "Ενεστώτας - Α Τάξη (Ενεργητική Φωνή)",
+    "ca": "Present - Classe A (Veu Activa)"
   },
   "description": {
-    "en": "Conjugate B1 class verbs (accented -ώ/-άω with 'α' in endings). These verbs are characterized by stress on the last syllable.",
-    "el": "Κλίση ρημάτων της Β1 τάξης (τονισμένα -ώ/-άω με 'α' στις καταλήξεις). Αυτά τα ρήματα τονίζονται στην τελευταία συλλαβή.",
-    "ca": "Conjugació de verbs de classe B1 (accentuats -ώ/-άω amb 'α' a les terminacions). Aquests verbs es caracteritzen per l'accent a l'última síl·laba."
+    "en": "Master A class verbs - the largest verb group representing 75% of all Greek verbs. These verbs have unaccented -ω.",
+    "el": "Κατακτήστε τα ρήματα της Α τάξης - η μεγαλύτερη ομάδα ρημάτων που αποτελεί το 75% όλων των ελληνικών ρημάτων. Αυτά τα ρήματα έχουν μη τονισμένο -ω.",
+    "ca": "Domina els verbs de classe A - el grup de verbs més gran que representa el 75% de tots els verbs grecs. Aquests verbs tenen -ω sense accent."
   },
   "explanation": {
     "content": {
-      "en": "B1 class verbs (like χτυπώ, αγαπώ) have stress on the final -ώ/-άω and use 'α' in their endings: χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν. This class represents about 15% of Greek verbs.",
-      "el": "Τα ρήματα της Β1 τάξης (όπως χτυπώ, αγαπώ) τονίζονται στο τελικό -ώ/-άω και έχουν 'α' στις καταλήξεις: χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν. Αυτή η τάξη αποτελεί περίπου το 15% των ελληνικών ρημάτων.",
-      "ca": "Els verbs de classe B1 (com χτυπώ, αγαπώ) tenen l'accent al final -ώ/-άω i usen 'α' a les seves terminacions: χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν. Aquesta classe representa aproximadament el 15% dels verbs grecs."
+      "en": "A class verbs are the most common in Greek (75% of all verbs). They end in unaccented -ω and follow the pattern: γράφω, γράφεις, γράφει, γράφουμε, γράφετε, γράφουν(ε). Recognition: NO accent on the final -ω.",
+      "el": "Τα ρήματα της Α τάξης είναι τα πιο συνηθισμένα στα ελληνικά (75% όλων των ρημάτων). Τελειώνουν σε μη τονισμένο -ω και ακολουθούν το μοτίβο: γράφω, γράφεις, γράφει, γράφουμε, γράφετε, γράφουν(ε). Αναγνώριση: ΧΩΡΙΣ τόνο στο τελικό -ω.",
+      "ca": "Els verbs de classe A són els més comuns en grec (75% de tots els verbs). Acaben en -ω sense accent i segueixen el patró: γράφω, γράφεις, γράφει, γράφουμε, γράφετε, γράφουν(ε). Reconeixement: SENSE accent a la -ω final."
     },
     "rules": [
       {
-        "en": "How to recognize B1 verbs: The accent falls on the final -ώ or -άω (e.g., χτυπώ, αγαπώ, ρωτώ).",
-        "el": "Πώς αναγνωρίζουμε τα Β1 ρήματα: Ο τόνος πέφτει στο τελικό -ώ ή -άω (π.χ. χτυπώ, αγαπώ, ρωτώ).",
-        "ca": "Com reconèixer els verbs B1: L'accent cau a la final -ώ o -άω (p. ex., χτυπώ, αγαπώ, ρωτώ)."
+        "en": "How to recognize A class: The final -ω has NO accent mark (γράφω, βλέπω, ακούω).",
+        "el": "Πώς αναγνωρίζουμε την Α τάξη: Το τελικό -ω ΔΕΝ έχει τόνο (γράφω, βλέπω, ακούω).",
+        "ca": "Com reconèixer la classe A: La -ω final NO té accent (γράφω, βλέπω, ακούω)."
       },
       {
-        "en": "Common B1 endings: -ώ/-άω, -άς, -ά/-άει, -άμε/-ούμε, -άτε, -ούν(ε)/-άν(ε).",
-        "el": "Συχνές καταλήξεις Β1: -ώ/-άω, -άς, -ά/-άει, -άμε/-ούμε, -άτε, -ούν(ε)/-άν(ε).",
-        "ca": "Terminacions B1 comunes: -ώ/-άω, -άς, -ά/-άει, -άμε/-ούμε, -άτε, -ούν(ε)/-άν(ε)."
+        "en": "A class endings: -ω, -εις, -ει, -ουμε/-ομε, -ετε, -ουν(ε).",
+        "el": "Καταλήξεις Α τάξης: -ω, -εις, -ει, -ουμε/-ομε, -ετε, -ουν(ε).",
+        "ca": "Terminacions classe A: -ω, -εις, -ει, -ουμε/-ομε, -ετε, -ουν(ε)."
       },
       {
-        "en": "Note the 'α' sound in most endings (χτυπάς, χτυπά, χτυπάμε, χτυπάτε).",
-        "el": "Παρατήρησε τον ήχο 'α' στις περισσότερες καταλήξεις (χτυπάς, χτυπά, χτυπάμε, χτυπάτε).",
-        "ca": "Nota el so 'α' a la majoria de terminacions (χτυπάς, χτυπά, χτυπάμε, χτυπάτε)."
+        "en": "This is the default conjugation pattern - most new Greek verbs follow this class.",
+        "el": "Αυτό είναι το προεπιλεγμένο μοτίβο κλίσης - τα περισσότερα νέα ελληνικά ρήματα ακολουθούν αυτή την τάξη.",
+        "ca": "Aquest és el patró de conjugació predeterminat - la majoria dels nous verbs grecs segueixen aquesta classe."
       }
     ],
     "tips": [
       {
-        "en": "Other common B1 verbs: αγαπώ (love), ρωτώ (ask), μιλώ (speak), κοιτώ (look).",
-        "el": "Άλλα συχνά Β1 ρήματα: αγαπώ (αγαπώ), ρωτώ (ρωτώ), μιλώ (μιλώ), κοιτώ (κοιτώ).",
-        "ca": "Altres verbs B1 comuns: αγαπώ (estimar), ρωτώ (preguntar), μιλώ (parlar), κοιτώ (mirar)."
+        "en": "Common A class verbs: γράφω (write), διαβάζω (read), ακούω (hear), μαθαίνω (learn), ανοίγω (open), κλείνω (close).",
+        "el": "Συχνά ρήματα Α τάξης: γράφω (γράφω), διαβάζω (διαβάζω), ακούω (ακούω), μαθαίνω (μαθαίνω), ανοίγω (ανοίγω), κλείνω (κλείνω).",
+        "ca": "Verbs comuns de classe A: γράφω (escriure), διαβάζω (llegir), ακούω (escoltar), μαθαίνω (aprendre), ανοίγω (obrir), κλείνω (tancar)."
       }
     ]
   },
   "tables": [
     {
       "title": {
-        "en": "B1 class example: χτυπώ (present) - Verb Family: B1",
-        "el": "Παράδειγμα Β1 τάξης: χτυπώ (ενεστώτας) - Οικογένεια ρήματος: Β1",
-        "ca": "Exemple classe B1: χτυπώ (present) - Família del verb: B1"
+        "en": "A class example: γράφω (to write) - Verb Family: A CLASS",
+        "el": "Παράδειγμα Α τάξης: γράφω (γράφω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
+        "ca": "Exemple classe A: γράφω (escriure) - Família del verb: CLASSE A"
       },
       "columnHeaders": [
         "Ενικός",
@@ -64,77 +64,355 @@
       "cells": [
         [
           {
-            "greek": "χτυπώ",
-            "romanization": "xtiˈpo",
-            "translation": "I hit/knock"
+            "greek": "γράφω",
+            "romanization": "ˈɣrafo",
+            "translation": "I write"
           },
           {
-            "greek": "χτυπάμε",
-            "romanization": "xtiˈpame",
-            "translation": "we hit"
+            "greek": "γράφουμε",
+            "romanization": "ˈɣrafume",
+            "translation": "we write"
           }
         ],
         [
           {
-            "greek": "χτυπάς",
-            "romanization": "xtiˈpas",
-            "translation": "you hit"
+            "greek": "γράφεις",
+            "romanization": "ˈɣrafis",
+            "translation": "you write"
           },
           {
-            "greek": "χτυπάτε",
-            "romanization": "xtiˈpate",
-            "translation": "you (pl) hit"
+            "greek": "γράφετε",
+            "romanization": "ˈɣrafete",
+            "translation": "you (pl) write"
           }
         ],
         [
           {
-            "greek": "χτυπά",
-            "romanization": "xtiˈpa",
-            "translation": "he/she hits"
+            "greek": "γράφει",
+            "romanization": "ˈɣrafi",
+            "translation": "he/she writes"
           },
           {
-            "greek": "χτυπούν",
-            "romanization": "xtiˈpun",
-            "translation": "they hit"
+            "greek": "γράφουν",
+            "romanization": "ˈɣrafun",
+            "translation": "they write"
           }
         ]
       ],
-      "footnote": "Variants: χτυπάω, χτυπάει, χτυπούμε, χτυπάνε/χτυπούνε"
+      "footnote": "Variants: γράφομε, γράφουνε"
+    },
+    {
+      "title": {
+        "en": "A class example: διαβάζω (to read) - Verb Family: A CLASS",
+        "el": "Παράδειγμα Α τάξης: διαβάζω (διαβάζω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
+        "ca": "Exemple classe A: διαβάζω (llegir) - Família del verb: CLASSE A"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "διαβάζω",
+            "romanization": "ðiaˈvazo",
+            "translation": "I read"
+          },
+          {
+            "greek": "διαβάζουμε",
+            "romanization": "ðiaˈvazume",
+            "translation": "we read"
+          }
+        ],
+        [
+          {
+            "greek": "διαβάζεις",
+            "romanization": "ðiaˈvazis",
+            "translation": "you read"
+          },
+          {
+            "greek": "διαβάζετε",
+            "romanization": "ðiaˈvazete",
+            "translation": "you (pl) read"
+          }
+        ],
+        [
+          {
+            "greek": "διαβάζει",
+            "romanization": "ðiaˈvazi",
+            "translation": "he/she reads"
+          },
+          {
+            "greek": "διαβάζουν",
+            "romanization": "ðiaˈvazun",
+            "translation": "they read"
+          }
+        ]
+      ],
+      "footnote": "Variants: διαβάζομε, διαβάζουνε"
+    },
+    {
+      "title": {
+        "en": "βλέπω (to see) - Verb Family: A CLASS",
+        "el": "βλέπω (βλέπω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
+        "ca": "βλέπω (veure) - Família del verb: CLASSE A"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "βλέπω",
+            "romanization": "ˈvlepo",
+            "translation": "I see"
+          },
+          {
+            "greek": "βλέπουμε",
+            "romanization": "ˈvlepume",
+            "translation": "we see"
+          }
+        ],
+        [
+          {
+            "greek": "βλέπεις",
+            "romanization": "ˈvlepis",
+            "translation": "you see"
+          },
+          {
+            "greek": "βλέπετε",
+            "romanization": "ˈvlepete",
+            "translation": "you (pl) see"
+          }
+        ],
+        [
+          {
+            "greek": "βλέπει",
+            "romanization": "ˈvlepi",
+            "translation": "he/she sees"
+          },
+          {
+            "greek": "βλέπουν",
+            "romanization": "ˈvlepun",
+            "translation": "they see"
+          }
+        ]
+      ]
+    },
+    {
+      "title": {
+        "en": "παίρνω (to take) - Verb Family: A CLASS",
+        "el": "παίρνω (παίρνω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
+        "ca": "παίρνω (agafar) - Família del verb: CLASSE A"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "παίρνω",
+            "romanization": "ˈperno",
+            "translation": "I take"
+          },
+          {
+            "greek": "παίρνουμε",
+            "romanization": "ˈpernume",
+            "translation": "we take"
+          }
+        ],
+        [
+          {
+            "greek": "παίρνεις",
+            "romanization": "ˈpernis",
+            "translation": "you take"
+          },
+          {
+            "greek": "παίρνετε",
+            "romanization": "ˈpernete",
+            "translation": "you (pl) take"
+          }
+        ],
+        [
+          {
+            "greek": "παίρνει",
+            "romanization": "ˈperni",
+            "translation": "he/she takes"
+          },
+          {
+            "greek": "παίρνουν",
+            "romanization": "ˈpernun",
+            "translation": "they take"
+          }
+        ]
+      ]
+    },
+    {
+      "title": {
+        "en": "πίνω (to drink) - Verb Family: A CLASS",
+        "el": "πίνω (πίνω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
+        "ca": "πίνω (beure) - Família del verb: CLASSE A"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "πίνω",
+            "romanization": "ˈpino",
+            "translation": "I drink"
+          },
+          {
+            "greek": "πίνουμε",
+            "romanization": "ˈpinume",
+            "translation": "we drink"
+          }
+        ],
+        [
+          {
+            "greek": "πίνεις",
+            "romanization": "ˈpinis",
+            "translation": "you drink"
+          },
+          {
+            "greek": "πίνετε",
+            "romanization": "ˈpinete",
+            "translation": "you (pl) drink"
+          }
+        ],
+        [
+          {
+            "greek": "πίνει",
+            "romanization": "ˈpini",
+            "translation": "he/she drinks"
+          },
+          {
+            "greek": "πίνουν",
+            "romanization": "ˈpinun",
+            "translation": "they drink"
+          }
+        ]
+      ]
+    },
+    {
+      "title": {
+        "en": "έχω (to have) - Verb Family: A CLASS",
+        "el": "έχω (έχω) - Οικογένεια ρήματος: Α ΤΑΞΗ",
+        "ca": "έχω (tenir) - Família del verb: CLASSE A"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "έχω",
+            "romanization": "ˈexo",
+            "translation": "I have"
+          },
+          {
+            "greek": "έχουμε",
+            "romanization": "ˈexume",
+            "translation": "we have"
+          }
+        ],
+        [
+          {
+            "greek": "έχεις",
+            "romanization": "ˈexis",
+            "translation": "you have"
+          },
+          {
+            "greek": "έχετε",
+            "romanization": "ˈexete",
+            "translation": "you (pl) have"
+          }
+        ],
+        [
+          {
+            "greek": "έχει",
+            "romanization": "ˈexi",
+            "translation": "he/she has"
+          },
+          {
+            "greek": "έχουν",
+            "romanization": "ˈexun",
+            "translation": "they have"
+          }
+        ]
+      ]
     }
   ],
   "examples": [
     {
-      "id": "ex_801",
-      "greek": "Εγώ χτυπώ την πόρτα.",
-      "romanization": "eɣˈo xtiˈpo tin ˈporta.",
-      "catalan": "Truco a la porta.",
-      "englishLiteral": "I knock on the door.",
+      "id": "ex_1301",
+      "greek": "Γράφω ένα γράμμα.",
+      "romanization": "ˈɣrafo ˈena ˈɣrama.",
+      "catalan": "Escric una carta.",
+      "englishLiteral": "I write a letter.",
       "highlights": [
         {
-          "startIndex": 4,
-          "endIndex": 9,
-          "explanation": "1st person singular"
+          "startIndex": 0,
+          "endIndex": 5,
+          "explanation": "A class verb, 1st person singular"
         }
       ]
     },
     {
-      "id": "ex_802",
-      "greek": "Εσύ χτυπάς τη μπάλα.",
-      "romanization": "esˈi xtiˈpas ti ˈbala.",
-      "catalan": "Colpeges la pilota.",
-      "englishLiteral": "You hit the ball."
+      "id": "ex_1302",
+      "greek": "Διαβάζεις το βιβλίο;",
+      "romanization": "ðiaˈvazis to viˈvlio?",
+      "catalan": "Llegeixes el llibre?",
+      "englishLiteral": "Do you read the book?"
     },
     {
-      "id": "ex_803",
-      "greek": "Αυτοί χτυπούν δυνατά.",
-      "romanization": "aftˈi xtiˈpun ðinˈata.",
-      "catalan": "Colpegen fort.",
-      "englishLiteral": "They hit loudly."
+      "id": "ex_1303",
+      "greek": "Ακούμε μουσική.",
+      "romanization": "aˈkume musiˈki.",
+      "catalan": "Escoltem música.",
+      "englishLiteral": "We listen to music."
+    },
+    {
+      "id": "ex_1304",
+      "greek": "Βλέπεις την ταινία;",
+      "romanization": "ˈvlepis tin tˈenia;",
+      "catalan": "Veus la pel·lícula?",
+      "englishLiteral": "Do you see the movie?"
     }
   ],
   "exercises": [
     {
-      "id": "ex_fill_801a",
+      "id": "ex_fill_1301",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -142,18 +420,20 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εγώ ____ την πόρτα.",
-      "hint": "χτυπώ is a B1 class verb (accented -ώ). Use 1st person singular.",
-      "correctAnswer": "χτυπώ",
-      "acceptableAnswers": ["χτυπάω"],
+      "prompt": "Εγώ ____ (γράφω) ένα βιβλίο.",
+      "hint": "γράφω is an A class verb (unaccented -ω). Use 1st person singular.",
+      "correctAnswer": "γράφω",
+      "acceptableAnswers": [
+        "γράφω"
+      ],
       "explanation": {
-        "en": "First person singular uses -ώ or -άω.",
-        "el": "Το α' ενικό παίρνει -ώ ή -άω.",
-        "ca": "La 1a persona usa -ώ o -άω."
+        "en": "First person singular of γράφω is γράφω (A class pattern).",
+        "el": "Το α' ενικό του γράφω είναι γράφω (μοτίβο Α τάξης).",
+        "ca": "La 1a persona singular de γράφω és γράφω (patró classe A)."
       }
     },
     {
-      "id": "ex_mc_801a",
+      "id": "ex_mc_1301",
       "type": "multipleChoice",
       "difficulty": 1,
       "instruction": {
@@ -161,18 +441,24 @@
         "el": "Διάλεξε τον σωστό τύπο",
         "ca": "Tria la forma correcta"
       },
-      "prompt": "Εσύ ____ τη μπάλα.",
-      "correctAnswer": "χτυπάς",
-      "options": ["χτυπώ", "χτυπάς", "χτυπά"],
-      "acceptableAnswers": ["χτυπάς"],
+      "prompt": "Εσύ ____ καθημερινά.",
+      "correctAnswer": "διαβάζεις",
+      "options": [
+        "διαβάζω",
+        "διαβάζεις",
+        "διαβάζει"
+      ],
+      "acceptableAnswers": [
+        "διαβάζεις"
+      ],
       "explanation": {
-        "en": "Second person singular ends in -άς.",
-        "el": "Το β' ενικό τελειώνει σε -άς.",
-        "ca": "La 2a persona singular acaba en -άς."
+        "en": "Second person singular of A class verbs ends in -εις.",
+        "el": "Το β' ενικό των ρημάτων Α τάξης τελειώνει σε -εις.",
+        "ca": "La 2a persona singular dels verbs de classe A acaba en -εις."
       }
     },
     {
-      "id": "ex_fill_802a",
+      "id": "ex_fill_1302",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -180,17 +466,19 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτός ____ δυνατά.",
-      "correctAnswer": "χτυπά",
-      "acceptableAnswers": ["χτυπάει"],
+      "prompt": "Αυτή ____ (ακούω) τη μουσική.",
+      "correctAnswer": "ακούει",
+      "acceptableAnswers": [
+        "ακούει"
+      ],
       "explanation": {
-        "en": "Third person singular can be -ά or -άει.",
-        "el": "Το γ' ενικό μπορεί να είναι -ά ή -άει.",
-        "ca": "La 3a persona singular pot ser -ά o -άει."
+        "en": "Third person singular of A class verbs ends in -ει.",
+        "el": "Το γ' ενικό των ρημάτων Α τάξης τελειώνει σε -ει.",
+        "ca": "La 3a persona singular dels verbs de classe A acaba en -ει."
       }
     },
     {
-      "id": "ex_fill_803a",
+      "id": "ex_fill_1303",
       "type": "fillBlank",
       "difficulty": 1,
       "instruction": {
@@ -198,17 +486,20 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ μαζί.",
-      "correctAnswer": "χτυπάμε",
-      "acceptableAnswers": ["χτυπούμε"],
+      "prompt": "Εμείς ____ (μαθαίνω) ελληνικά.",
+      "correctAnswer": "μαθαίνουμε",
+      "acceptableAnswers": [
+        "μαθαίνουμε",
+        "μαθαίνομε"
+      ],
       "explanation": {
-        "en": "First person plural can be -άμε or -ούμε.",
-        "el": "Το α' πληθυντικό μπορεί να είναι -άμε ή -ούμε.",
-        "ca": "La 1a persona plural pot ser -άμε o -ούμε."
+        "en": "First person plural can be -ουμε or -ομε.",
+        "el": "Το α' πληθυντικό μπορεί να είναι -ουμε ή -ομε.",
+        "ca": "La 1a persona plural pot ser -ουμε o -ομε."
       }
     },
     {
-      "id": "ex_mc_802a",
+      "id": "ex_mc_1302",
       "type": "multipleChoice",
       "difficulty": 1,
       "instruction": {
@@ -216,85 +507,191 @@
         "el": "Διάλεξε τον σωστό τύπο",
         "ca": "Tria la forma correcta"
       },
-      "prompt": "Αυτοί ____ την πόρτα.",
-      "correctAnswer": "χτυπούν",
-      "options": ["χτυπάτε", "χτυπούν", "χτυπώ"],
-      "acceptableAnswers": ["χτυπούν", "χτυπάνε", "χτυπούνε"],
+      "prompt": "Εσείς ____ την πόρτα.",
+      "correctAnswer": "ανοίγετε",
+      "options": [
+        "ανοίγω",
+        "ανοίγεις",
+        "ανοίγετε"
+      ],
+      "acceptableAnswers": [
+        "ανοίγετε"
+      ],
       "explanation": {
-        "en": "Third person plural can be -ούν(ε) or -άν(ε).",
-        "el": "Το γ' πληθυντικό μπορεί να είναι -ούν(ε) ή -άν(ε).",
-        "ca": "La 3a persona plural pot ser -ούν(ε) o -άν(ε)."
+        "en": "Second person plural of A class verbs ends in -ετε.",
+        "el": "Το β' πληθυντικό των ρημάτων Α τάξης τελειώνει σε -ετε.",
+        "ca": "La 2a persona plural dels verbs de classe A acaba en -ετε."
       }
     },
     {
-      "id": "ex_conj_801a",
+      "id": "ex_fill_1304",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτοί ____ (κλείνω) το μάθημα.",
+      "correctAnswer": "κλείνουν",
+      "acceptableAnswers": [
+        "κλείνουν",
+        "κλείνουνε"
+      ],
+      "explanation": {
+        "en": "Third person plural can be -ουν or -ουνε.",
+        "el": "Το γ' πληθυντικό μπορεί να είναι -ουν ή -ουνε.",
+        "ca": "La 3a persona plural pot ser -ουν o -ουνε."
+      }
+    },
+    {
+      "id": "ex_conj_1301",
       "type": "conjugation",
       "difficulty": 2,
       "instruction": {
-        "en": "Conjugate χτυπώ in the present tense",
-        "el": "Κλίσε το χτυπώ στον ενεστώτα",
-        "ca": "Conjuga χτυπώ en present"
+        "en": "Conjugate γράφω in the present tense",
+        "el": "Κλίσε το γράφω στον ενεστώτα",
+        "ca": "Conjuga γράφω en present"
       },
       "prompt": "Συμπλήρωσε όλους τους τύπους.",
       "correctAnswer": "",
       "conjugations": [
         {
           "label": "Εγώ",
-          "answer": "χτυπώ",
-          "romanization": "xtiˈpo",
-          "acceptableAnswers": ["χτυπάω"]
+          "answer": "γράφω",
+          "romanization": "ˈɣrafo",
+          "acceptableAnswers": [
+            "γράφω"
+          ]
         },
         {
           "label": "Εσύ",
-          "answer": "χτυπάς",
-          "romanization": "xtiˈpas",
-          "acceptableAnswers": ["χτυπάς"]
+          "answer": "γράφεις",
+          "romanization": "ˈɣrafis",
+          "acceptableAnswers": [
+            "γράφεις"
+          ]
         },
         {
           "label": "Αυτός/Αυτή/Αυτό",
-          "answer": "χτυπά",
-          "romanization": "xtiˈpa",
-          "acceptableAnswers": ["χτυπάει"]
+          "answer": "γράφει",
+          "romanization": "ˈɣrafi",
+          "acceptableAnswers": [
+            "γράφει"
+          ]
         },
         {
           "label": "Εμείς",
-          "answer": "χτυπάμε",
-          "romanization": "xtiˈpame",
-          "acceptableAnswers": ["χτυπούμε"]
+          "answer": "γράφουμε",
+          "romanization": "ˈɣrafume",
+          "acceptableAnswers": [
+            "γράφουμε",
+            "γράφομε"
+          ]
         },
         {
           "label": "Εσείς",
-          "answer": "χτυπάτε",
-          "romanization": "xtiˈpate",
-          "acceptableAnswers": ["χτυπάτε"]
+          "answer": "γράφετε",
+          "romanization": "ˈɣrafete",
+          "acceptableAnswers": [
+            "γράφετε"
+          ]
         },
         {
           "label": "Αυτοί/Αυτές/Αυτά",
-          "answer": "χτυπούν",
-          "romanization": "xtiˈpun",
-          "acceptableAnswers": ["χτυπάνε", "χτυπούνε"]
+          "answer": "γράφουν",
+          "romanization": "ˈɣrafun",
+          "acceptableAnswers": [
+            "γράφουν",
+            "γράφουνε"
+          ]
         }
       ]
     },
     {
-      "id": "ex_match_801a",
-      "type": "matching",
-      "difficulty": 2,
+      "id": "ex_mc_1303",
+      "type": "multipleChoice",
+      "difficulty": 1,
       "instruction": {
-        "en": "Match the pronoun with the correct form",
-        "el": "Ταίριαξε την αντωνυμία με τον σωστό τύπο",
-        "ca": "Relaciona el pronom amb la forma correcta"
+        "en": "Choose the correct form",
+        "el": "Διάλεξε τον σωστό τύπο",
+        "ca": "Tria la forma correcta"
       },
-      "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα χτυπώ.",
-      "correctAnswer": "",
-      "pairs": [
-        { "left": "Εγώ", "right": "χτυπώ" },
-        { "left": "Εσύ", "right": "χτυπάς" },
-        { "left": "Αυτός/Αυτή/Αυτό", "right": "χτυπά" },
-        { "left": "Εμείς", "right": "χτυπάμε" },
-        { "left": "Εσείς", "right": "χτυπάτε" },
-        { "left": "Αυτοί/Αυτές/Αυτά", "right": "χτυπούν" }
-      ]
+      "prompt": "Εσύ ____ (βλέπω) καλά;",
+      "correctAnswer": "βλέπεις",
+      "options": [
+        "βλέπω",
+        "βλέπεις",
+        "βλέπει"
+      ],
+      "acceptableAnswers": [
+        "βλέπεις"
+      ],
+      "explanation": {
+        "en": "Second person singular of βλέπω is βλέπεις.",
+        "el": "Ο ενεστώτας του βλέπω στο β' ενικό είναι βλέπεις.",
+        "ca": "El present de βλέπω en 2a persona és βλέπεις."
+      }
+    },
+    {
+      "id": "ex_fill_1305",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εμείς ____ (παίρνω) το λεωφορείο.",
+      "correctAnswer": "παίρνουμε",
+      "acceptableAnswers": [
+        "παίρνουμε"
+      ],
+      "explanation": {
+        "en": "First person plural of παίρνω is παίρνουμε.",
+        "el": "Ο ενεστώτας του παίρνω στο α' πληθυντικό είναι παίρνουμε.",
+        "ca": "El present de παίρνω en 1a persona plural és παίρνουμε."
+      }
+    },
+    {
+      "id": "ex_fill_1306",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Αυτός ____ (πίνω) νερό.",
+      "correctAnswer": "πίνει",
+      "acceptableAnswers": [
+        "πίνει"
+      ],
+      "explanation": {
+        "en": "Third person singular of πίνω is πίνει.",
+        "el": "Ο ενεστώτας του πίνω στο γ' ενικό είναι πίνει.",
+        "ca": "El present de πίνω en 3a persona és πίνει."
+      }
+    },
+    {
+      "id": "ex_fill_1307",
+      "type": "fillBlank",
+      "difficulty": 1,
+      "instruction": {
+        "en": "Complete the sentence",
+        "el": "Συμπλήρωσε την πρόταση",
+        "ca": "Completa la frase"
+      },
+      "prompt": "Εγώ ____ (έχω) χρόνο.",
+      "correctAnswer": "έχω",
+      "acceptableAnswers": [
+        "έχω"
+      ],
+      "explanation": {
+        "en": "First person singular of έχω is έχω.",
+        "el": "Ο ενεστώτας του έχω στο α' ενικό είναι έχω.",
+        "ca": "El present de έχω en 1a persona és έχω."
+      }
     }
   ]
 }

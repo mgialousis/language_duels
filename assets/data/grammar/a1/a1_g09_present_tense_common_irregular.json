@@ -22,9 +22,9 @@
     },
     "rules": [
       {
-        "en": "How to recognize B2 verbs: The accent falls on the final -ώ, and endings contain 'ει' (θεωρώ, μπορώ, ξερώ).",
-        "el": "Πώς αναγνωρίζουμε τα Β2 ρήματα: Ο τόνος πέφτει στο τελικό -ώ, και οι καταλήξεις περιέχουν 'ει' (θεωρώ, μπορώ, ξερώ).",
-        "ca": "Com reconèixer els verbs B2: L'accent cau a la final -ώ, i les terminacions contenen 'ει' (θεωρώ, μπορώ, ξερώ)."
+        "en": "How to recognize B2 verbs: The accent falls on the final -ώ, and endings contain 'ει' (θεωρώ, μπορώ, ξέρω).",
+        "el": "Πώς αναγνωρίζουμε τα Β2 ρήματα: Ο τόνος πέφτει στο τελικό -ώ, και οι καταλήξεις περιέχουν 'ει' (θεωρώ, μπορώ, ξέρω).",
+        "ca": "Com reconèixer els verbs B2: L'accent cau a la final -ώ, i les terminacions contenen 'ει' (θεωρώ, μπορώ, ξέρω)."
       },
       {
         "en": "B2 endings: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(ε). Note the 'ει' in 2nd person and 3rd person forms.",
@@ -34,9 +34,9 @@
     ],
     "tips": [
       {
-        "en": "Other common B2 verbs: μπορώ (can), φορώ (wear), κρατώ (hold), περνώ (pass).",
-        "el": "Άλλα συχνά Β2 ρήματα: μπορώ (μπορώ), φορώ (φορώ), κρατώ (κρατώ), περνώ (περνώ).",
-        "ca": "Altres verbs B2 comuns: μπορώ (poder), φορώ (portar), κρατώ (sostenir), περνώ (passar)."
+        "en": "Other common B2 verbs: μπορώ (can), ξέρω (know), πονώ (hurt), γελώ (laugh).",
+        "el": "Άλλα συχνά Β2 ρήματα: μπορώ (μπορώ), ξέρω (ξέρω), πονώ (πονώ), γελώ (γελώ).",
+        "ca": "Altres verbs B2 comuns: μπορώ (poder), ξέρω (saber), πονώ (fer mal), γελώ (riure)."
       }
     ]
   },
@@ -130,10 +130,12 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εγώ ____ ότι έχεις δίκιο.",
+      "prompt": "Εγώ ____ (θεωρώ) ότι έχεις δίκιο.",
       "hint": "θεωρώ is a B2 class verb (accented -ώ with 'ει' in endings). Use 1st person singular.",
       "correctAnswer": "θεωρώ",
-      "acceptableAnswers": ["θεωρώ"],
+      "acceptableAnswers": [
+        "θεωρώ"
+      ],
       "explanation": {
         "en": "First person singular uses -ώ.",
         "el": "Το α' ενικό τελειώνει σε -ώ.",
@@ -151,8 +153,14 @@
       },
       "prompt": "Εσύ ____ αυτό σωστό.",
       "correctAnswer": "θεωρείς",
-      "options": ["θεωρώ", "θεωρείς", "θεωρεί"],
-      "acceptableAnswers": ["θεωρείς"],
+      "options": [
+        "θεωρώ",
+        "θεωρείς",
+        "θεωρεί"
+      ],
+      "acceptableAnswers": [
+        "θεωρείς"
+      ],
       "explanation": {
         "en": "Second person singular ends in -είς.",
         "el": "Το β' ενικό τελειώνει σε -είς.",
@@ -168,9 +176,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτή ____ το σχέδιο καλό.",
+      "prompt": "Αυτή ____ (θεωρώ) το σχέδιο καλό.",
       "correctAnswer": "θεωρεί",
-      "acceptableAnswers": ["θεωρεί"],
+      "acceptableAnswers": [
+        "θεωρεί"
+      ],
       "explanation": {
         "en": "Third person singular ends in -εί.",
         "el": "Το γ' ενικό τελειώνει σε -εί.",
@@ -186,9 +196,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Εμείς ____ τις οδηγίες.",
+      "prompt": "Εμείς ____ (θεωρώ) τις οδηγίες.",
       "correctAnswer": "θεωρούμε",
-      "acceptableAnswers": ["θεωρούμε"],
+      "acceptableAnswers": [
+        "θεωρούμε"
+      ],
       "explanation": {
         "en": "First person plural ends in -ούμε.",
         "el": "Το α' πληθυντικό τελειώνει σε -ούμε.",
@@ -206,8 +218,14 @@
       },
       "prompt": "Εσείς ____ αυτήν την ιδέα.",
       "correctAnswer": "θεωρείτε",
-      "options": ["θεωρείτε", "θεωρούν", "θεωρούμε"],
-      "acceptableAnswers": ["θεωρείτε"],
+      "options": [
+        "θεωρείτε",
+        "θεωρούν",
+        "θεωρούμε"
+      ],
+      "acceptableAnswers": [
+        "θεωρείτε"
+      ],
       "explanation": {
         "en": "Second person plural ends in -είτε.",
         "el": "Το β' πληθυντικό τελειώνει σε -είτε.",
@@ -223,9 +241,11 @@
         "el": "Συμπλήρωσε την πρόταση",
         "ca": "Completa la frase"
       },
-      "prompt": "Αυτοί ____ σωστό αυτό.",
+      "prompt": "Αυτοί ____ (θεωρώ) σωστό αυτό.",
       "correctAnswer": "θεωρούν",
-      "acceptableAnswers": ["θεωρούνε"],
+      "acceptableAnswers": [
+        "θεωρούνε"
+      ],
       "explanation": {
         "en": "Third person plural ends in -ούν(ε).",
         "el": "Το γ' πληθυντικό τελειώνει σε -ούν(ε).",
@@ -248,37 +268,49 @@
           "label": "Εγώ",
           "answer": "θεωρώ",
           "romanization": "θe.oˈro",
-          "acceptableAnswers": ["θεωρώ"]
+          "acceptableAnswers": [
+            "θεωρώ"
+          ]
         },
         {
           "label": "Εσύ",
           "answer": "θεωρείς",
           "romanization": "θe.oˈris",
-          "acceptableAnswers": ["θεωρείς"]
+          "acceptableAnswers": [
+            "θεωρείς"
+          ]
         },
         {
           "label": "Αυτός/Αυτή/Αυτό",
           "answer": "θεωρεί",
           "romanization": "θe.oˈri",
-          "acceptableAnswers": ["θεωρεί"]
+          "acceptableAnswers": [
+            "θεωρεί"
+          ]
         },
         {
           "label": "Εμείς",
           "answer": "θεωρούμε",
           "romanization": "θe.oˈrume",
-          "acceptableAnswers": ["θεωρούμε"]
+          "acceptableAnswers": [
+            "θεωρούμε"
+          ]
         },
         {
           "label": "Εσείς",
           "answer": "θεωρείτε",
           "romanization": "θe.oˈrite",
-          "acceptableAnswers": ["θεωρείτε"]
+          "acceptableAnswers": [
+            "θεωρείτε"
+          ]
         },
         {
           "label": "Αυτοί/Αυτές/Αυτά",
           "answer": "θεωρούν",
           "romanization": "θe.oˈrun",
-          "acceptableAnswers": ["θεωρούνε"]
+          "acceptableAnswers": [
+            "θεωρούνε"
+          ]
         }
       ]
     },
@@ -294,12 +326,30 @@
       "prompt": "Σύνδεσε κάθε πρόσωπο με το ρήμα θεωρώ.",
       "correctAnswer": "",
       "pairs": [
-        { "left": "Εγώ", "right": "θεωρώ" },
-        { "left": "Εσύ", "right": "θεωρείς" },
-        { "left": "Αυτός/Αυτή/Αυτό", "right": "θεωρεί" },
-        { "left": "Εμείς", "right": "θεωρούμε" },
-        { "left": "Εσείς", "right": "θεωρείτε" },
-        { "left": "Αυτοί/Αυτές/Αυτά", "right": "θεωρούν" }
+        {
+          "left": "Εγώ",
+          "right": "θεωρώ"
+        },
+        {
+          "left": "Εσύ",
+          "right": "θεωρείς"
+        },
+        {
+          "left": "Αυτός/Αυτή/Αυτό",
+          "right": "θεωρεί"
+        },
+        {
+          "left": "Εμείς",
+          "right": "θεωρούμε"
+        },
+        {
+          "left": "Εσείς",
+          "right": "θεωρείτε"
+        },
+        {
+          "left": "Αυτοί/Αυτές/Αυτά",
+          "right": "θεωρούν"
+        }
       ]
     }
   ]

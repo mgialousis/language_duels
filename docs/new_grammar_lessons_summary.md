@@ -2,20 +2,23 @@
 
 **Date:** 2026-01-31
 **Created By:** Grammar Categorization Fix
+**Updated:** 2026-01-31 - Restructured to fix naming conflicts
 
 ## Summary
 
 Created **3 critical missing grammar lessons** for present tense verb conjugation to complete the Greek verb classification system.
+
+**Note:** The original a1_g13 (A class active) was moved to a1_g08 to resolve naming conflicts. The g13 slot now contains the new B1 active lesson.
 
 ## Complete Present Tense Verb Coverage
 
 You now have **8 present tense lessons** covering all verb types:
 
 ### Active Voice:
-1. **B1 Class** (a1_g08) - χτυπώ type | Accented -ώ/-άω with "α" endings
+1. **A Class** (a1_g08) - γράφω type | Unaccented -ω (75% of verbs!)
 2. **B2 Class** (a1_g09) - θεωρώ type | Accented -ώ with "ει" endings
-3. **A Class** (a1_g13) ✨ **NEW** - γράφω type | Unaccented -ω (75% of verbs!)
-4. **Irregular + A Class** (a1_g10) - πάω, τρώω, λέω, βλέπω, έχω
+3. **Irregular + A Class** (a1_g10) - πάω, τρώω, λέω, βλέπω, έχω
+4. **B1 Class** (a1_g13) ✨ **NEW** - χτυπώ type | Accented -ώ/-άω with "α" endings
 
 ### Passive Voice:
 5. **B1 Passive** (a1_g11) - χτυπιέμαι type | -ιέμαι, -ιέσαι, -ιέται
@@ -29,9 +32,9 @@ You now have **8 present tense lessons** covering all verb types:
 
 ## New Lessons Details
 
-### 📚 Lesson a1_g13: A Class Active Voice
+### 📚 Lesson a1_g08: A Class Active Voice (MOVED FROM g13)
 
-**File:** `a1_g13_present_tense_a_class_active.json`
+**File:** `a1_g08_present_tense_regular.json`
 
 **Why Critical:** A class represents **75% of all Greek verbs** - this is the default conjugation pattern!
 
@@ -54,6 +57,36 @@ You now have **8 present tense lessons** covering all verb types:
 - 7 exercises (fill-in-blank, multiple choice, full conjugation)
 - Clear explanation of A class recognition
 - List of common A class verbs
+
+**Note:** This content was originally created as a1_g13 but moved to g08 to match the "regular" filename.
+
+---
+
+### 📚 Lesson a1_g13: B1 Class Active Voice (NEW)
+
+**File:** `a1_g13_present_tense_b1_active.json`
+
+**Why Critical:** B1 class represents **15% of Greek verbs** and includes many high-frequency verbs for emotions and actions!
+
+**Characteristics:**
+- Verbs ending in accented -ώ/-άω with 'α' in endings
+- Pattern: -ώ/-άω, -άς, -ά, -άμε/-ούμε, -άτε, -ούν(ε)
+- Recognition: Accent on final syllable + 'α' in 2nd/3rd person singular
+
+**Example Verbs:**
+- χτυπώ (hit/knock) → χτυπώ, χτυπάς, χτυπά, χτυπάμε, χτυπάτε, χτυπούν
+- αγαπώ (love)
+- μιλώ (speak)
+- φορώ (wear)
+- κρατώ (hold)
+- περνώ (pass)
+
+**Content Includes:**
+- 3 conjugation tables (χτυπώ, αγαπώ, μιλώ)
+- 4 usage examples
+- 7 exercises (fill-in-blank, multiple choice, full conjugation)
+- Clear explanation of B1 class recognition
+- List of common B1 class verbs
 
 ---
 
@@ -124,10 +157,11 @@ You now have **8 present tense lessons** covering all verb types:
 ### Grammar Index Updated
 **File:** `assets/data/grammar/grammar_index.json`
 
-Added three new lessons to A1 level:
-- a1_g13 (order 13) - Prerequisites: a1_g01_verb_to_be
-- a1_g14 (order 14) - Prerequisites: a1_g13_present_tense_a_class_active
-- a1_g15 (order 15) - Prerequisites: a1_g10_present_tense_irregular
+Updated lesson structure:
+- a1_g08 (order 8) - A class active - Prerequisites: a1_g01_verb_to_be
+- a1_g13 (order 13) - B1 class active - Prerequisites: a1_g08_present_tense_regular
+- a1_g14 (order 14) - A class passive - Prerequisites: a1_g08_present_tense_regular
+- a1_g15 (order 15) - Deponent verbs - Prerequisites: a1_g10_present_tense_irregular
 
 ---
 
@@ -160,9 +194,10 @@ Added three new lessons to A1 level:
 ## Validation
 
 All files validated successfully:
-- ✅ a1_g13_present_tense_a_class_active.json - Valid JSON
-- ✅ a1_g14_present_tense_a_class_passive.json - Valid JSON
-- ✅ a1_g15_present_tense_deponent.json - Valid JSON
+- ✅ a1_g08_present_tense_regular.json - Valid JSON (A class active)
+- ✅ a1_g13_present_tense_b1_active.json - Valid JSON (B1 class active)
+- ✅ a1_g14_present_tense_a_class_passive.json - Valid JSON (A class passive)
+- ✅ a1_g15_present_tense_deponent.json - Valid JSON (Deponent verbs)
 - ✅ grammar_index.json - Valid JSON
 
 ---

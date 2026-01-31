@@ -1,0 +1,485 @@
+{
+  "id": "a2_g08_simple_past_passive",
+  "category": "verb_conjugation",
+  "subcategory": "past_tense",
+  "level": "A2",
+  "order": 8,
+  "title": {
+    "en": "Simple Past (Αόριστος) - Passive Voice",
+    "el": "Αόριστος - Παθητική Φωνή",
+    "ca": "Passat Simple (Αόριστος) - Veu Passiva"
+  },
+  "description": {
+    "en": "Learn the Simple Past passive voice. All verb classes use the same -ηκα pattern: -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ήκαν.",
+    "el": "Μάθετε την παθητική φωνή του Αορίστου. Όλες οι τάξεις ρημάτων χρησιμοποιούν το ίδιο μοτίβο -ηκα: -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ήκαν.",
+    "ca": "Aprèn la veu passiva del Passat Simple. Totes les classes de verbs usen el mateix patró -ηκα: -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ήκαν."
+  },
+  "explanation": {
+    "content": {
+      "en": "The passive Simple Past is surprisingly uniform across all verb classes. The pattern is: passive stem + -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ήκαν(ε). The passive stem usually involves -θ- or -στ- being added to the verb root.",
+      "el": "Ο παθητικός Αόριστος είναι εκπληκτικά ομοιόμορφος σε όλες τις τάξεις ρημάτων. Το μοτίβο είναι: παθητικό θέμα + -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ήκαν(ε). Το παθητικό θέμα συνήθως περιλαμβάνει -θ- ή -στ- που προστίθεται στη ρίζα του ρήματος.",
+      "ca": "El Passat Simple passiu és sorprenentment uniforme en totes les classes de verbs. El patró és: tema passiu + -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ήκαν(ε). El tema passiu normalment implica afegir -θ- o -στ- a l'arrel del verb."
+    },
+    "rules": [
+      {
+        "en": "Passive aorist endings: -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ήκαν/-ήκανε (same for ALL verb classes)",
+        "el": "Καταλήξεις παθητικού αορίστου: -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ήκαν/-ήκανε (ίδιες για ΟΛΕΣ τις τάξεις)",
+        "ca": "Terminacions d'aorist passiu: -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ήκαν/-ήκανε (iguals per a TOTES les classes)"
+      },
+      {
+        "en": "A class passive stem: Often adds -θ- or -στ- (γράφω → γράφ-τηκα, but often γράφτηκα)",
+        "el": "Παθητικό θέμα Α τάξης: Συχνά προσθέτει -θ- ή -στ- (γράφω → γράφτηκα)",
+        "ca": "Tema passiu classe A: Sovint afegeix -θ- o -στ- (γράφω → γράφτηκα)"
+      },
+      {
+        "en": "B class passive stem: stem + -θ- + -ηκα (αγαπώ → αγαπήθηκα, θεωρώ → θεωρήθηκα)",
+        "el": "Παθητικό θέμα Β τάξης: θέμα + -θ- + -ηκα (αγαπώ → αγαπήθηκα, θεωρώ → θεωρήθηκα)",
+        "ca": "Tema passiu classe B: tema + -θ- + -ηκα (αγαπώ → αγαπήθηκα, θεωρώ → θεωρήθηκα)"
+      },
+      {
+        "en": "Accent always on third-from-last syllable: γράφτηκα, αγαπήθηκα, θεωρήθηκα",
+        "el": "Ο τόνος πάντα στην προπαραλήγουσα: γράφτηκα, αγαπήθηκα, θεωρήθηκα",
+        "ca": "Accent sempre a l'antepenúltima síl·laba: γράφτηκα, αγαπήθηκα, θεωρήθηκα"
+      }
+    ],
+    "tips": [
+      {
+        "en": "Good news: The passive aorist endings are the same for ALL verb classes! Only the stem formation varies.",
+        "el": "Καλά νέα: Οι καταλήξεις του παθητικού αορίστου είναι ίδιες για ΟΛΕΣ τις τάξεις! Μόνο ο σχηματισμός του θέματος διαφέρει.",
+        "ca": "Bones notícies: Les terminacions de l'aorist passiu són les mateixes per a TOTES les classes! Només varia la formació del tema."
+      },
+      {
+        "en": "Common passive meanings: γράφτηκα (I enrolled), χτυπήθηκα (I got hit), θεωρήθηκε (it was considered).",
+        "el": "Συνηθισμένες παθητικές σημασίες: γράφτηκα (εγγράφηκα), χτυπήθηκα (χτυπήθηκα), θεωρήθηκε (θεωρήθηκε).",
+        "ca": "Significats passius comuns: γράφτηκα (em vaig inscriure), χτυπήθηκα (em van colpejar)."
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": {
+        "en": "A class passive: γράφομαι → γράφτηκα (to be written/to enroll)",
+        "el": "Α τάξη παθητική: γράφομαι → γράφτηκα",
+        "ca": "Classe A passiva: γράφομαι → γράφτηκα"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "γράφτηκα",
+            "romanization": "ˈɣraftika",
+            "translation": "I was written/I enrolled"
+          },
+          {
+            "greek": "γραφτήκαμε",
+            "romanization": "ɣrafˈtikame",
+            "translation": "we were written/enrolled"
+          }
+        ],
+        [
+          {
+            "greek": "γράφτηκες",
+            "romanization": "ˈɣraftikes",
+            "translation": "you were written/enrolled"
+          },
+          {
+            "greek": "γραφτήκατε",
+            "romanization": "ɣrafˈtikate",
+            "translation": "you (pl) were written/enrolled"
+          }
+        ],
+        [
+          {
+            "greek": "γράφτηκε",
+            "romanization": "ˈɣraftike",
+            "translation": "he/she was written/enrolled"
+          },
+          {
+            "greek": "γράφτηκαν",
+            "romanization": "ˈɣraftikan",
+            "translation": "they were written/enrolled"
+          }
+        ]
+      ],
+      "footnote": "Passive stem: γραφ- + τ- → γραφτ-. Endings: -ηκα, -ηκες, -ηκε, -ήκαμε, -ήκατε, -ηκαν."
+    },
+    {
+      "title": {
+        "en": "B1 class passive: αγαπιέμαι → αγαπήθηκα (to be loved)",
+        "el": "Β1 τάξη παθητική: αγαπιέμαι → αγαπήθηκα",
+        "ca": "Classe B1 passiva: αγαπιέμαι → αγαπήθηκα"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "αγαπήθηκα",
+            "romanization": "aɣaˈpiθika",
+            "translation": "I was loved"
+          },
+          {
+            "greek": "αγαπηθήκαμε",
+            "romanization": "aɣapiˈθikame",
+            "translation": "we were loved"
+          }
+        ],
+        [
+          {
+            "greek": "αγαπήθηκες",
+            "romanization": "aɣaˈpiθikes",
+            "translation": "you were loved"
+          },
+          {
+            "greek": "αγαπηθήκατε",
+            "romanization": "aɣapiˈθikate",
+            "translation": "you (pl) were loved"
+          }
+        ],
+        [
+          {
+            "greek": "αγαπήθηκε",
+            "romanization": "aɣaˈpiθike",
+            "translation": "he/she was loved"
+          },
+          {
+            "greek": "αγαπήθηκαν",
+            "romanization": "aɣaˈpiθikan",
+            "translation": "they were loved"
+          }
+        ]
+      ],
+      "footnote": "Passive stem: αγαπ- + ηθ- → αγαπηθ-. Note the -θ- marker."
+    },
+    {
+      "title": {
+        "en": "B2 class passive: θεωρούμαι → θεωρήθηκα (to be considered)",
+        "el": "Β2 τάξη παθητική: θεωρούμαι → θεωρήθηκα",
+        "ca": "Classe B2 passiva: θεωρούμαι → θεωρήθηκα"
+      },
+      "columnHeaders": [
+        "Ενικός",
+        "Πληθυντικός"
+      ],
+      "rowHeaders": [
+        "1ο Πρόσωπο",
+        "2ο Πρόσωπο",
+        "3ο Πρόσωπο"
+      ],
+      "cells": [
+        [
+          {
+            "greek": "θεωρήθηκα",
+            "romanization": "θeoˈriθika",
+            "translation": "I was considered"
+          },
+          {
+            "greek": "θεωρηθήκαμε",
+            "romanization": "θeoriˈθikame",
+            "translation": "we were considered"
+          }
+        ],
+        [
+          {
+            "greek": "θεωρήθηκες",
+            "romanization": "θeoˈriθikes",
+            "translation": "you were considered"
+          },
+          {
+            "greek": "θεωρηθήκατε",
+            "romanization": "θeoriˈθikate",
+            "translation": "you (pl) were considered"
+          }
+        ],
+        [
+          {
+            "greek": "θεωρήθηκε",
+            "romanization": "θeoˈriθike",
+            "translation": "he/she was considered"
+          },
+          {
+            "greek": "θεωρήθηκαν",
+            "romanization": "θeoˈriθikan",
+            "translation": "they were considered"
+          }
+        ]
+      ],
+      "footnote": "B2 passive uses the same -ηθ- + -ηκα pattern as B1."
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_a2_801",
+      "greek": "Το βιβλίο γράφτηκε το 1990.",
+      "romanization": "to viˈvlio ˈɣraftike to ˈxilia enikɔˈsia eneˈninda.",
+      "catalan": "El llibre va ser escrit el 1990.",
+      "englishLiteral": "The book was written in 1990.",
+      "highlights": [
+        {
+          "startIndex": 10,
+          "endIndex": 18,
+          "explanation": "Passive aorist: γράφω → γράφτηκε"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_802",
+      "greek": "Αγαπήθηκε από όλους.",
+      "romanization": "aɣaˈpiθike apˈo ˈolus.",
+      "catalan": "Va ser estimat per tothom.",
+      "englishLiteral": "He/She was loved by everyone.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 10,
+          "explanation": "B1 passive aorist: αγαπώ → αγαπήθηκε"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_803",
+      "greek": "Θεωρήθηκε καλή ιδέα.",
+      "romanization": "θeoˈriθike kaˈli iˈðea.",
+      "catalan": "Va ser considerat una bona idea.",
+      "englishLiteral": "It was considered a good idea.",
+      "highlights": [
+        {
+          "startIndex": 0,
+          "endIndex": 10,
+          "explanation": "B2 passive aorist: θεωρώ → θεωρήθηκε"
+        }
+      ]
+    },
+    {
+      "id": "ex_a2_804",
+      "greek": "Πότε γραφτήκατε στο σχολείο;",
+      "romanization": "ˈpɔte ɣrafˈtikate sto sxoˈlio?",
+      "catalan": "Quan us vau inscriure a l'escola?",
+      "englishLiteral": "When did you (pl) enroll in school?",
+      "highlights": [
+        {
+          "startIndex": 5,
+          "endIndex": 16,
+          "explanation": "Passive aorist with reflexive meaning"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2_ex_fill_801",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the passive simple past",
+        "el": "Συμπλήρωσε με τον παθητικό αόριστο",
+        "ca": "Completa amb el passat simple passiu"
+      },
+      "prompt": "Το γράμμα ____ (γράφομαι) χθες.",
+      "hint": "γράφομαι passive aorist uses stem γραφτ-.",
+      "correctAnswer": "γράφτηκε",
+      "acceptableAnswers": [
+        "γράφτηκε"
+      ],
+      "explanation": {
+        "en": "γράφομαι → γράφτηκε. Passive aorist 3rd singular.",
+        "el": "γράφομαι → γράφτηκε. Παθητικός αόριστος γ' ενικό.",
+        "ca": "γράφομαι → γράφτηκε. Aorist passiu 3a singular."
+      },
+      "translation": {
+        "en": "The letter ____ (be written) yesterday.",
+        "ca": "La carta ____ (ser escrita) ahir."
+      }
+    },
+    {
+      "id": "a2_ex_mc_801",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct passive simple past form",
+        "el": "Διάλεξε τον σωστό τύπο παθητικού αορίστου",
+        "ca": "Tria la forma correcta de passat simple passiu"
+      },
+      "prompt": "Αυτή ____ (αγαπιέμαι) πολύ.",
+      "hint": "αγαπιέμαι passive aorist uses stem αγαπηθ-.",
+      "correctAnswer": "αγαπήθηκε",
+      "options": [
+        "αγαπιέται",
+        "αγαπιόταν",
+        "αγαπήθηκε"
+      ],
+      "acceptableAnswers": [
+        "αγαπήθηκε"
+      ],
+      "explanation": {
+        "en": "αγαπιέμαι → αγαπήθηκε. B1 passive aorist.",
+        "el": "αγαπιέμαι → αγαπήθηκε. Β1 παθητικός αόριστος.",
+        "ca": "αγαπιέμαι → αγαπήθηκε. Aorist passiu B1."
+      }
+    },
+    {
+      "id": "a2_ex_fill_802",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the passive simple past",
+        "el": "Συμπλήρωσε με τον παθητικό αόριστο",
+        "ca": "Completa amb el passat simple passiu"
+      },
+      "prompt": "Εμείς ____ (γράφομαι) στο σχολείο.",
+      "hint": "First person plural passive aorist.",
+      "correctAnswer": "γραφτήκαμε",
+      "acceptableAnswers": [
+        "γραφτήκαμε"
+      ],
+      "explanation": {
+        "en": "γράφομαι → γραφτήκαμε. 'We enrolled.'",
+        "el": "γράφομαι → γραφτήκαμε. 'Γραφτήκαμε.'",
+        "ca": "γράφομαι → γραφτήκαμε. 'Ens vam inscriure.'"
+      },
+      "translation": {
+        "en": "We ____ (enroll/be enrolled) at school.",
+        "ca": "Nosaltres ____ (inscriure'ns) a l'escola."
+      }
+    },
+    {
+      "id": "a2_ex_fill_803",
+      "type": "fillBlank",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Complete with the passive simple past",
+        "el": "Συμπλήρωσε με τον παθητικό αόριστο",
+        "ca": "Completa amb el passat simple passiu"
+      },
+      "prompt": "Η ιδέα ____ (θεωρούμαι) καλή.",
+      "hint": "θεωρούμαι is B2 class. Uses -ηθ- + -ηκε.",
+      "correctAnswer": "θεωρήθηκε",
+      "acceptableAnswers": [
+        "θεωρήθηκε"
+      ],
+      "explanation": {
+        "en": "θεωρούμαι → θεωρήθηκε. 'It was considered good.'",
+        "el": "θεωρούμαι → θεωρήθηκε. 'Θεωρήθηκε καλή.'",
+        "ca": "θεωρούμαι → θεωρήθηκε. 'Va ser considerat bo.'"
+      },
+      "translation": {
+        "en": "The idea ____ (be considered) good.",
+        "ca": "La idea ____ (ser considerada) bona."
+      }
+    },
+    {
+      "id": "a2_ex_mc_802",
+      "type": "multipleChoice",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Choose the correct passive simple past form",
+        "el": "Διάλεξε τον σωστό τύπο παθητικού αορίστου",
+        "ca": "Tria la forma correcta de passat simple passiu"
+      },
+      "prompt": "Αυτοί ____ (χτυπιέμαι) στο παιχνίδι.",
+      "hint": "χτυπιέμαι B1 passive aorist.",
+      "correctAnswer": "χτυπήθηκαν",
+      "options": [
+        "χτυπιούνται",
+        "χτυπιόνταν",
+        "χτυπήθηκαν"
+      ],
+      "acceptableAnswers": [
+        "χτυπήθηκαν"
+      ],
+      "explanation": {
+        "en": "χτυπιέμαι → χτυπήθηκαν. 'They got hit.'",
+        "el": "χτυπιέμαι → χτυπήθηκαν. 'Χτυπήθηκαν.'",
+        "ca": "χτυπιέμαι → χτυπήθηκαν. 'Van ser colpejats.'"
+      }
+    },
+    {
+      "id": "a2_ex_conj_801",
+      "type": "conjugation",
+      "difficulty": 2,
+      "instruction": {
+        "en": "Conjugate αγαπιέμαι in the passive simple past",
+        "el": "Κλίσε το αγαπιέμαι στον παθητικό αόριστο",
+        "ca": "Conjuga αγαπιέμαι en passat simple passiu"
+      },
+      "prompt": "Συμπλήρωσε όλους τους τύπους.",
+      "correctAnswer": "",
+      "conjugations": [
+        {
+          "label": "Εγώ",
+          "answer": "αγαπήθηκα",
+          "romanization": "aɣaˈpiθika",
+          "acceptableAnswers": [
+            "αγαπήθηκα"
+          ]
+        },
+        {
+          "label": "Εσύ",
+          "answer": "αγαπήθηκες",
+          "romanization": "aɣaˈpiθikes",
+          "acceptableAnswers": [
+            "αγαπήθηκες"
+          ]
+        },
+        {
+          "label": "Αυτός/Αυτή/Αυτό",
+          "answer": "αγαπήθηκε",
+          "romanization": "aɣaˈpiθike",
+          "acceptableAnswers": [
+            "αγαπήθηκε"
+          ]
+        },
+        {
+          "label": "Εμείς",
+          "answer": "αγαπηθήκαμε",
+          "romanization": "aɣapiˈθikame",
+          "acceptableAnswers": [
+            "αγαπηθήκαμε"
+          ]
+        },
+        {
+          "label": "Εσείς",
+          "answer": "αγαπηθήκατε",
+          "romanization": "aɣapiˈθikate",
+          "acceptableAnswers": [
+            "αγαπηθήκατε"
+          ]
+        },
+        {
+          "label": "Αυτοί/Αυτές/Αυτά",
+          "answer": "αγαπήθηκαν",
+          "romanization": "aɣaˈpiθikan",
+          "acceptableAnswers": [
+            "αγαπήθηκαν",
+            "αγαπηθήκανε"
+          ]
+        }
+      ]
+    }
+  ],
+  "prerequisites": [
+    "a2_g01_simple_past",
+    "a1_g14_present_tense_a_class_passive"
+  ],
+  "tags": [
+    "verbs",
+    "past",
+    "aorist",
+    "passive"
+  ]
+}
