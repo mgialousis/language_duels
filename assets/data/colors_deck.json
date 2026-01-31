@@ -16,7 +16,7 @@
     "el": "Κοινά χρώματα και απλές φράσεις",
     "ca": "Colors comuns i frases simples"
   },
-  "itemCount": 26,
+  "itemCount": 39,
   "items": [
     {
       "id": "col_001",
@@ -735,6 +735,253 @@
         "color"
       ],
       "formalityLevel": "neutral"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "λευκό",
+        "romanization": "lefko",
+        "phonetic": "LEF-koh"
+      },
+      "catalan": {
+        "text": "blanc",
+        "phonetic": "blangk"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_027"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "ανοιχτό μπλε",
+        "romanization": "anichto ble",
+        "phonetic": "ah-neekh-TOH bleh"
+      },
+      "catalan": {
+        "text": "blau clar",
+        "phonetic": "blow klar"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_028"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "σκούρο μπλε",
+        "romanization": "skouro ble",
+        "phonetic": "SKOO-roh bleh"
+      },
+      "catalan": {
+        "text": "blau fosc",
+        "phonetic": "blow fosk"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_029"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "ανοιχτό πράσινο",
+        "romanization": "anichto prasino",
+        "phonetic": "ah-neekh-TOH PRAH-see-no"
+      },
+      "catalan": {
+        "text": "verd clar",
+        "phonetic": "vehrd klar"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_030"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "σκούρο πράσινο",
+        "romanization": "skouro prasino",
+        "phonetic": "SKOO-roh PRAH-see-no"
+      },
+      "catalan": {
+        "text": "verd fosc",
+        "phonetic": "vehrd fosk"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_031"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "ανοιχτό γκρι",
+        "romanization": "anichto gkri",
+        "phonetic": "ah-neekh-TOH gree"
+      },
+      "catalan": {
+        "text": "gris clar",
+        "phonetic": "grees klar"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_032"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "σκούρο γκρι",
+        "romanization": "skouro gkri",
+        "phonetic": "SKOO-roh gree"
+      },
+      "catalan": {
+        "text": "gris fosc",
+        "phonetic": "grees fosk"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_033"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "λιλά",
+        "romanization": "lila",
+        "phonetic": "lee-LAH"
+      },
+      "catalan": {
+        "text": "lila",
+        "phonetic": "LEE-lah"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_034"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "σομόν",
+        "romanization": "somon",
+        "phonetic": "soh-MON"
+      },
+      "catalan": {
+        "text": "salmó",
+        "phonetic": "sal-MOH"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_035"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "λαχανί",
+        "romanization": "lachani",
+        "phonetic": "lah-khah-NEE"
+      },
+      "catalan": {
+        "text": "verd llima",
+        "phonetic": "vehrd YEE-mah"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_036"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "κεραμιδί",
+        "romanization": "keramidi",
+        "phonetic": "keh-rah-mee-THEE"
+      },
+      "catalan": {
+        "text": "terracota",
+        "phonetic": "teh-rah-KOH-tah"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_037"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "πολύχρωμο",
+        "romanization": "polychromo",
+        "phonetic": "poh-LEE-khroh-moh"
+      },
+      "catalan": {
+        "text": "multicolor",
+        "phonetic": "mool-tee-koh-LOR"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_038"
+    },
+    {
+      "type": "vocabulary",
+      "category": "colors",
+      "difficulty": 1,
+      "greek": {
+        "text": "χρυσαφί",
+        "romanization": "chrysafi",
+        "phonetic": "khree-sah-FEE"
+      },
+      "catalan": {
+        "text": "daurat",
+        "phonetic": "dah-oo-RAT"
+      },
+      "tags": [
+        "basic"
+      ],
+      "formalityLevel": "neutral",
+      "id": "col_039"
     }
   ],
   "metadata": {

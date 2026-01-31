@@ -16,7 +16,7 @@
     "el": "Βασικοί χαιρετισμοί, αποχαιρετισμοί, ευγένειες και κοινές ερωτήσεις",
     "ca": "Salutacions basiques, comiats, cortesies i preguntes comunes"
   },
-  "itemCount": 40,
+  "itemCount": 60,
   "items": [
     {
       "id": "greet_001",
@@ -1258,6 +1258,392 @@
         "meeting"
       ],
       "formalityLevel": "neutral"
+    },
+    {
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλημέρα σας",
+        "romanization": "Kalimera sas",
+        "phonetic": "kah-lee-MEH-rah sas"
+      },
+      "catalan": {
+        "text": "Bon dia a vostè",
+        "phonetic": "bon DEE-ah ah vohs-TEH"
+      },
+      "tags": [
+        "morning",
+        "formal",
+        "common"
+      ],
+      "formalityLevel": "formal",
+      "id": "greet_041"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλό βράδυ",
+        "romanization": "Kalo vrady",
+        "phonetic": "kah-LOH VRAH-thee"
+      },
+      "catalan": {
+        "text": "Bona nit",
+        "phonetic": "BOH-nah neet"
+      },
+      "tags": [
+        "evening",
+        "common"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_042"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλό σαββατοκύριακο",
+        "romanization": "Kalo savvatokyriako",
+        "phonetic": "kah-LOH sah-vah-toh-kee-RYAH-koh"
+      },
+      "catalan": {
+        "text": "Bon cap de setmana",
+        "phonetic": "bon KAP deh seh-MAH-nah"
+      },
+      "tags": [
+        "weekend"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_043"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλή εβδομάδα",
+        "romanization": "Kali evdomada",
+        "phonetic": "kah-LEE ev-thoh-MAH-thah"
+      },
+      "catalan": {
+        "text": "Bona setmana",
+        "phonetic": "BOH-nah seh-MAH-nah"
+      },
+      "tags": [
+        "week"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_044"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλή δουλειά",
+        "romanization": "Kali douleia",
+        "phonetic": "kah-LEE thoo-LYAH"
+      },
+      "catalan": {
+        "text": "Bona feina",
+        "phonetic": "BOH-nah FEH-ee-nah"
+      },
+      "tags": [
+        "encouragement"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_045"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλή επιτυχία",
+        "romanization": "Kali epitychia",
+        "phonetic": "kah-LEE eh-pee-TYH-hee-ah"
+      },
+      "catalan": {
+        "text": "Molta sort",
+        "phonetic": "MOHL-tah sort"
+      },
+      "tags": [
+        "wish"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_046"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Στην υγειά σου",
+        "romanization": "Stin yia sou",
+        "phonetic": "steen yee-AH soo"
+      },
+      "catalan": {
+        "text": "Salut",
+        "phonetic": "sah-LOOT"
+      },
+      "tags": [
+        "toast"
+      ],
+      "formalityLevel": "informal",
+      "id": "greet_047"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Με συγχωρείτε",
+        "romanization": "Me synchoreite",
+        "phonetic": "meh seen-kho-REE-teh"
+      },
+      "catalan": {
+        "text": "Perdoni",
+        "phonetic": "pehr-DOH-nee"
+      },
+      "tags": [
+        "apology",
+        "formal"
+      ],
+      "formalityLevel": "formal",
+      "id": "greet_048"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Παρακαλώ πολύ",
+        "romanization": "Parakalo poly",
+        "phonetic": "pah-rah-kah-LOH poh-LEE"
+      },
+      "catalan": {
+        "text": "De res",
+        "phonetic": "deh res"
+      },
+      "tags": [
+        "response"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_049"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Καλώς σας βρήκα",
+        "romanization": "Kalos sas vrika",
+        "phonetic": "kah-LOHS sas VREE-kah"
+      },
+      "catalan": {
+        "text": "Molt de gust",
+        "phonetic": "molt deh gust"
+      },
+      "tags": [
+        "response"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_050"
+    },
+    {
+      "type": "vocabulary",
+      "category": "question",
+      "difficulty": 1,
+      "greek": {
+        "text": "Πώς πάει;",
+        "romanization": "Pos paei?",
+        "phonetic": "pos PAH-ee"
+      },
+      "catalan": {
+        "text": "Com va?",
+        "phonetic": "kom vah"
+      },
+      "tags": [
+        "question",
+        "common"
+      ],
+      "formalityLevel": "informal",
+      "id": "greet_051"
+    },
+    {
+      "type": "vocabulary",
+      "category": "question",
+      "difficulty": 1,
+      "greek": {
+        "text": "Όλα καλά;",
+        "romanization": "Ola kala?",
+        "phonetic": "OH-lah kah-LAH"
+      },
+      "catalan": {
+        "text": "Tot bé?",
+        "phonetic": "tot beh"
+      },
+      "tags": [
+        "question"
+      ],
+      "formalityLevel": "informal",
+      "id": "greet_052"
+    },
+    {
+      "type": "vocabulary",
+      "category": "question",
+      "difficulty": 1,
+      "greek": {
+        "text": "Τι νέα;",
+        "romanization": "Ti nea?",
+        "phonetic": "tee NEH-ah"
+      },
+      "catalan": {
+        "text": "Què hi ha de nou?",
+        "phonetic": "keh ee ah deh now"
+      },
+      "tags": [
+        "question"
+      ],
+      "formalityLevel": "informal",
+      "id": "greet_053"
+    },
+    {
+      "type": "vocabulary",
+      "category": "question",
+      "difficulty": 1,
+      "greek": {
+        "text": "Πού είσαι;",
+        "romanization": "Pou eisai?",
+        "phonetic": "poo EE-seh"
+      },
+      "catalan": {
+        "text": "On ets?",
+        "phonetic": "on ets"
+      },
+      "tags": [
+        "question"
+      ],
+      "formalityLevel": "informal",
+      "id": "greet_054"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 2,
+      "greek": {
+        "text": "Χαίρομαι που σε γνωρίζω",
+        "romanization": "Cherome pou se gnorizo",
+        "phonetic": "HEH-roh-meh poo seh gno-REE-zo"
+      },
+      "catalan": {
+        "text": "Encantat de conèixer-te",
+        "phonetic": "en-kan-TAHT deh kuh-neh-SER-teh"
+      },
+      "tags": [
+        "meeting"
+      ],
+      "formalityLevel": "informal",
+      "id": "greet_055"
+    },
+    {
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλό μεσημέρι",
+        "romanization": "Kalo mesimeri",
+        "phonetic": "kah-LOH meh-see-MEH-ree"
+      },
+      "catalan": {
+        "text": "Bon migdia",
+        "phonetic": "bon meej-DEE-ah"
+      },
+      "tags": [
+        "afternoon"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_056"
+    },
+    {
+      "type": "vocabulary",
+      "category": "pleasantry",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλή ανάρρωση",
+        "romanization": "Kali anarro̱si",
+        "phonetic": "kah-LEE ah-nah-ROH-see"
+      },
+      "catalan": {
+        "text": "Que et milloris",
+        "phonetic": "keh et mee-YOH-rees"
+      },
+      "tags": [
+        "wish"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_057"
+    },
+    {
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 1,
+      "greek": {
+        "text": "Καλημέρα φίλε",
+        "romanization": "Kalimera file",
+        "phonetic": "kah-lee-MEH-rah FEE-leh"
+      },
+      "catalan": {
+        "text": "Bon dia, amic",
+        "phonetic": "bon DEE-ah ah-MEEK"
+      },
+      "tags": [
+        "morning",
+        "informal"
+      ],
+      "formalityLevel": "informal",
+      "id": "greet_058"
+    },
+    {
+      "type": "vocabulary",
+      "category": "greeting",
+      "difficulty": 1,
+      "greek": {
+        "text": "Γεια χαρά",
+        "romanization": "Yia hara",
+        "phonetic": "yah hah-RAH"
+      },
+      "catalan": {
+        "text": "Hola",
+        "phonetic": "OH-lah"
+      },
+      "tags": [
+        "informal"
+      ],
+      "formalityLevel": "informal",
+      "id": "greet_059"
+    },
+    {
+      "type": "vocabulary",
+      "category": "farewell",
+      "difficulty": 1,
+      "greek": {
+        "text": "Τα λέμε το βράδυ",
+        "romanization": "Ta leme to vrady",
+        "phonetic": "tah LEH-meh toh VRAH-thee"
+      },
+      "catalan": {
+        "text": "Ens veiem al vespre",
+        "phonetic": "ens VAY-em al VES-preh"
+      },
+      "tags": [
+        "evening"
+      ],
+      "formalityLevel": "neutral",
+      "id": "greet_060"
     }
   ],
   "metadata": {

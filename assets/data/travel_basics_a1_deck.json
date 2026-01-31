@@ -13,7 +13,7 @@
     "el": "Απαραίτητες λέξεις και μικρές φράσεις για μετακινήσεις (χαιρετισμοί, οδηγίες, μεταφορά, φαγητό).",
     "ca": "Paraules essencials i frases curtes per moure’t (salutacions, direccions, transport, menjar)."
   },
-  "itemCount": 40,
+  "itemCount": 60,
   "metadata": {
     "tags": [
       "travel",
@@ -972,6 +972,326 @@
         "romanization": "museu",
         "phonetic": "moo-ZEU"
       }
+    },
+    {
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "κέντρο",
+        "romanization": "kentro",
+        "phonetic": "KEN-troh"
+      },
+      "catalan": {
+        "text": "centre",
+        "romanization": "centre",
+        "phonetic": "SEN-truh"
+      },
+      "id": "tb_041"
+    },
+    {
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "στάση",
+        "romanization": "stasi",
+        "phonetic": "STAH-see"
+      },
+      "catalan": {
+        "text": "parada",
+        "romanization": "parada",
+        "phonetic": "pah-RAH-dah"
+      },
+      "id": "tb_042"
+    },
+    {
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "πλατεία",
+        "romanization": "plateia",
+        "phonetic": "plah-TEH-ah"
+      },
+      "catalan": {
+        "text": "plaça",
+        "romanization": "plaça",
+        "phonetic": "PLAH-sah"
+      },
+      "id": "tb_043"
+    },
+    {
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "οδός",
+        "romanization": "odos",
+        "phonetic": "oh-THOS"
+      },
+      "catalan": {
+        "text": "carrer",
+        "romanization": "carrer",
+        "phonetic": "kah-REH"
+      },
+      "id": "tb_044"
+    },
+    {
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "γωνία",
+        "romanization": "gonia",
+        "phonetic": "ghoh-NEE-ah"
+      },
+      "catalan": {
+        "text": "cantonada",
+        "romanization": "cantonada",
+        "phonetic": "kan-toh-NAH-dah"
+      },
+      "id": "tb_045"
+    },
+    {
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "φαρμακείο",
+        "romanization": "farmakeio",
+        "phonetic": "fahr-mah-KEH-oh"
+      },
+      "catalan": {
+        "text": "farmàcia",
+        "romanization": "farmàcia",
+        "phonetic": "fahr-MAH-see-ah"
+      },
+      "id": "tb_046"
+    },
+    {
+      "type": "vocab",
+      "category": "help",
+      "difficulty": 1,
+      "greek": {
+        "text": "αστυνομία",
+        "romanization": "astynomia",
+        "phonetic": "ah-stee-noh-MEE-ah"
+      },
+      "catalan": {
+        "text": "policia",
+        "romanization": "policia",
+        "phonetic": "poh-LEE-see-ah"
+      },
+      "id": "tb_047"
+    },
+    {
+      "type": "vocab",
+      "category": "places",
+      "difficulty": 1,
+      "greek": {
+        "text": "νοσοκομείο",
+        "romanization": "nosokomeio",
+        "phonetic": "noh-soh-koh-MEH-oh"
+      },
+      "catalan": {
+        "text": "hospital",
+        "romanization": "hospital",
+        "phonetic": "os-pee-TAL"
+      },
+      "id": "tb_048"
+    },
+    {
+      "type": "vocab",
+      "category": "help",
+      "difficulty": 1,
+      "greek": {
+        "text": "πληροφορίες",
+        "romanization": "plirofories",
+        "phonetic": "plee-roh-foh-REE-es"
+      },
+      "catalan": {
+        "text": "informació",
+        "romanization": "informació",
+        "phonetic": "in-for-mah-SYOH"
+      },
+      "id": "tb_049"
+    },
+    {
+      "type": "vocab",
+      "category": "money",
+      "difficulty": 1,
+      "greek": {
+        "text": "ρέστα",
+        "romanization": "resta",
+        "phonetic": "RES-tah"
+      },
+      "catalan": {
+        "text": "canvi",
+        "romanization": "canvi",
+        "phonetic": "KAN-vee"
+      },
+      "id": "tb_050"
+    },
+    {
+      "type": "vocab",
+      "category": "money",
+      "difficulty": 1,
+      "greek": {
+        "text": "κάρτα",
+        "romanization": "karta",
+        "phonetic": "KAR-tah"
+      },
+      "catalan": {
+        "text": "targeta",
+        "romanization": "targeta",
+        "phonetic": "tar-JEH-tah"
+      },
+      "id": "tb_051"
+    },
+    {
+      "type": "vocab",
+      "category": "money",
+      "difficulty": 1,
+      "greek": {
+        "text": "μετρητά",
+        "romanization": "metrita",
+        "phonetic": "meh-tree-TAH"
+      },
+      "catalan": {
+        "text": "efectiu",
+        "romanization": "efectiu",
+        "phonetic": "eh-fek-TEEW"
+      },
+      "id": "tb_052"
+    },
+    {
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "εισιτήριο επιστροφής",
+        "romanization": "eisitirio epistrofis",
+        "phonetic": "ee-see-TEE-ree-oh eh-pee-stroh-FEES"
+      },
+      "catalan": {
+        "text": "bitllet d’anada i tornada",
+        "romanization": "bitllet d’anada i tornada",
+        "phonetic": "beet-YET dah-NAH-dah ee tor-NAH-dah"
+      },
+      "id": "tb_053"
+    },
+    {
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "οδηγός",
+        "romanization": "odigos",
+        "phonetic": "oh-thee-GOS"
+      },
+      "catalan": {
+        "text": "conductor",
+        "romanization": "conductor",
+        "phonetic": "kon-dook-TOR"
+      },
+      "id": "tb_054"
+    },
+    {
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "οδηγίες",
+        "romanization": "odigies",
+        "phonetic": "oh-thee-YEES"
+      },
+      "catalan": {
+        "text": "indicacions",
+        "romanization": "indicacions",
+        "phonetic": "in-dee-kah-SYONS"
+      },
+      "id": "tb_055"
+    },
+    {
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "κοντά",
+        "romanization": "konta",
+        "phonetic": "kon-TAH"
+      },
+      "catalan": {
+        "text": "a prop",
+        "romanization": "a prop",
+        "phonetic": "ah prop"
+      },
+      "id": "tb_056"
+    },
+    {
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 1,
+      "greek": {
+        "text": "μακριά",
+        "romanization": "makria",
+        "phonetic": "mah-kree-AH"
+      },
+      "catalan": {
+        "text": "lluny",
+        "romanization": "lluny",
+        "phonetic": "lyoon"
+      },
+      "id": "tb_057"
+    },
+    {
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 1,
+      "greek": {
+        "text": "ημερήσιο εισιτήριο",
+        "romanization": "imerisio eisitirio",
+        "phonetic": "ee-meh-REE-sio ee-see-TEE-ree-oh"
+      },
+      "catalan": {
+        "text": "bitllet de dia",
+        "romanization": "bitllet de dia",
+        "phonetic": "beet-YET deh DEE-ah"
+      },
+      "id": "tb_058"
+    },
+    {
+      "type": "vocab",
+      "category": "hotel",
+      "difficulty": 1,
+      "greek": {
+        "text": "μονό δωμάτιο",
+        "romanization": "mono domatio",
+        "phonetic": "moh-NOH tho-MAH-tee-oh"
+      },
+      "catalan": {
+        "text": "habitació individual",
+        "romanization": "habitació individual",
+        "phonetic": "ah-bee-tah-SYOH in-dee-vee-DWAL"
+      },
+      "id": "tb_059"
+    },
+    {
+      "type": "vocab",
+      "category": "hotel",
+      "difficulty": 1,
+      "greek": {
+        "text": "διπλό δωμάτιο",
+        "romanization": "diplo domatio",
+        "phonetic": "thee-PLOH tho-MAH-tee-oh"
+      },
+      "catalan": {
+        "text": "habitació doble",
+        "romanization": "habitació doble",
+        "phonetic": "ah-bee-tah-SYOH DOH-bleh"
+      },
+      "id": "tb_060"
     }
   ]
 }

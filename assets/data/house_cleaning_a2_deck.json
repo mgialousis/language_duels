@@ -13,7 +13,7 @@
     "el": "Εργασίες καθαρισμού σπιτιού: δουλειές, σειρά ενεργειών, αιτήματα και απλά παράπονα.",
     "ca": "Tasques de neteja de la llar: feines, ordre, peticions i petites queixes."
   },
-  "itemCount": 30,
+  "itemCount": 45,
   "metadata": {
     "tags": [
       "house",
@@ -982,6 +982,246 @@
         "romanization": "terra",
         "phonetic": "TEH-rah"
       }
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "πλένω τα ρούχα",
+        "romanization": "pleno ta roucha",
+        "phonetic": "PLEH-noh tah ROO-hah"
+      },
+      "catalan": {
+        "text": "rento la roba",
+        "romanization": "rento la roba",
+        "phonetic": "REN-toh lah ROH-bah"
+      },
+      "id": "hc2_031"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "απλώνω τα ρούχα",
+        "romanization": "aplonо ta roucha",
+        "phonetic": "ah-PLOH-noh tah ROO-hah"
+      },
+      "catalan": {
+        "text": "estenc la roba",
+        "romanization": "estenc la roba",
+        "phonetic": "es-TENK lah ROH-bah"
+      },
+      "id": "hc2_032"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "σιδερώνω",
+        "romanization": "siderono",
+        "phonetic": "see-theh-ROH-noh"
+      },
+      "catalan": {
+        "text": "planxo",
+        "romanization": "planxo",
+        "phonetic": "PLAHN-shoh"
+      },
+      "id": "hc2_033"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "στρώνω το κρεβάτι",
+        "romanization": "strono to krevati",
+        "phonetic": "STROH-noh toh kreh-VAH-tee"
+      },
+      "catalan": {
+        "text": "faig el llit",
+        "romanization": "faig el llit",
+        "phonetic": "fahj el YEET"
+      },
+      "id": "hc2_034"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "βγάζω τα σκουπίδια",
+        "romanization": "vgazo ta skoupidia",
+        "phonetic": "VGAH-zoh tah skoo-PEE-dyah"
+      },
+      "catalan": {
+        "text": "trec la brossa",
+        "romanization": "trec la brossa",
+        "phonetic": "trek lah BROS-sah"
+      },
+      "id": "hc2_035"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "μαζεύω το σπίτι",
+        "romanization": "mazevo to spiti",
+        "phonetic": "mah-ZEH-voh toh SPEE-tee"
+      },
+      "catalan": {
+        "text": "endreço la casa",
+        "romanization": "endreço la casa",
+        "phonetic": "en-DREH-soh lah KAH-zah"
+      },
+      "id": "hc2_036"
+    },
+    {
+      "type": "vocab",
+      "category": "house",
+      "difficulty": 2,
+      "greek": {
+        "text": "υπνοδωμάτιο",
+        "romanization": "ypnоdomatio",
+        "phonetic": "eep-noh-thoh-MAH-tee-oh"
+      },
+      "catalan": {
+        "text": "dormitori",
+        "romanization": "dormitori",
+        "phonetic": "dor-mee-TOH-ree"
+      },
+      "id": "hc2_037"
+    },
+    {
+      "type": "vocab",
+      "category": "rooms",
+      "difficulty": 2,
+      "greek": {
+        "text": "μπαλκόνι",
+        "romanization": "balkoni",
+        "phonetic": "bal-KOH-nee"
+      },
+      "catalan": {
+        "text": "balcó",
+        "romanization": "balcó",
+        "phonetic": "bal-KOH"
+      },
+      "id": "hc2_038"
+    },
+    {
+      "type": "vocab",
+      "category": "rooms",
+      "difficulty": 2,
+      "greek": {
+        "text": "διάδρομος",
+        "romanization": "diadromos",
+        "phonetic": "thee-AH-throh-mos"
+      },
+      "catalan": {
+        "text": "passadís",
+        "romanization": "passadís",
+        "phonetic": "pah-sah-DEES"
+      },
+      "id": "hc2_039"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "καθαρίζω το μπάνιο",
+        "romanization": "katharizo to banio",
+        "phonetic": "kah-thah-REE-zoh toh BAH-nyoh"
+      },
+      "catalan": {
+        "text": "netego el bany",
+        "romanization": "netego el bany",
+        "phonetic": "neh-TEH-go el BAHN"
+      },
+      "id": "hc2_040"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "πλένω το πάτωμα",
+        "romanization": "pleno to patoma",
+        "phonetic": "PLEH-noh toh PAH-toh-mah"
+      },
+      "catalan": {
+        "text": "rento el terra",
+        "romanization": "rento el terra",
+        "phonetic": "REN-toh el TEH-rah"
+      },
+      "id": "hc2_041"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "αερίζω το σπίτι",
+        "romanization": "aerizo to spiti",
+        "phonetic": "ah-eh-REE-zoh toh SPEE-tee"
+      },
+      "catalan": {
+        "text": "airejo la casa",
+        "romanization": "airejo la casa",
+        "phonetic": "ah-ee-REH-zoh lah KAH-zah"
+      },
+      "id": "hc2_042"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "σκουπίδια",
+        "romanization": "skoupidia",
+        "phonetic": "skoo-PEE-dyah"
+      },
+      "catalan": {
+        "text": "brossa",
+        "romanization": "brossa",
+        "phonetic": "BROS-sah"
+      },
+      "id": "hc2_043"
+    },
+    {
+      "type": "vocab",
+      "category": "chores",
+      "difficulty": 2,
+      "greek": {
+        "text": "σακούλα σκουπιδιών",
+        "romanization": "sakoula skoupidion",
+        "phonetic": "sah-KOO-lah skoo-pee-DYON"
+      },
+      "catalan": {
+        "text": "bossa d’escombraries",
+        "romanization": "bossa d’escombraries",
+        "phonetic": "BOS-sah dehs-kom-BRAH-ree-es"
+      },
+      "id": "hc2_044"
+    },
+    {
+      "type": "vocab",
+      "category": "house",
+      "difficulty": 2,
+      "greek": {
+        "text": "ντουλάπα",
+        "romanization": "doulapa",
+        "phonetic": "doo-LAH-pah"
+      },
+      "catalan": {
+        "text": "armari",
+        "romanization": "armari",
+        "phonetic": "ar-MAH-ree"
+      },
+      "id": "hc2_045"
     }
   ]
 }

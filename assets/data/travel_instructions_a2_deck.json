@@ -13,7 +13,7 @@
     "el": "Συνηθισμένες αλληλεπιδράσεις ταξιδιού: βοήθεια, προβλήματα, κρατήσεις και απλές εξηγήσεις.",
     "ca": "Interaccions habituals de viatge: demanar ajuda, resoldre problemes, reserves i explicacions senzilles."
   },
-  "itemCount": 40,
+  "itemCount": 60,
   "metadata": {
     "tags": [
       "travel",
@@ -1532,6 +1532,326 @@
         "romanization": "reparacio",
         "phonetic": "reh-pah-rah-SEE-oh"
       }
+    },
+    {
+      "type": "vocab",
+      "category": "time",
+      "difficulty": 2,
+      "greek": {
+        "text": "αναχώρηση",
+        "romanization": "anaxorisi",
+        "phonetic": "ah-nah-HOH-ree-see"
+      },
+      "catalan": {
+        "text": "sortida",
+        "romanization": "sortida",
+        "phonetic": "sor-TEE-dah"
+      },
+      "id": "ta2_041"
+    },
+    {
+      "type": "vocab",
+      "category": "time",
+      "difficulty": 2,
+      "greek": {
+        "text": "άφιξη",
+        "romanization": "afixi",
+        "phonetic": "AH-fik-see"
+      },
+      "catalan": {
+        "text": "arribada",
+        "romanization": "arribada",
+        "phonetic": "ah-ree-BAH-dah"
+      },
+      "id": "ta2_042"
+    },
+    {
+      "type": "vocab",
+      "category": "money",
+      "difficulty": 2,
+      "greek": {
+        "text": "απόδειξη",
+        "romanization": "apodeixi",
+        "phonetic": "ah-poh-THIX-ee"
+      },
+      "catalan": {
+        "text": "tiquet",
+        "romanization": "tiquet",
+        "phonetic": "tee-KET"
+      },
+      "id": "ta2_043"
+    },
+    {
+      "type": "vocab",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "ακύρωση",
+        "romanization": "akyrosi",
+        "phonetic": "ah-kee-ROH-see"
+      },
+      "catalan": {
+        "text": "cancel·lació",
+        "romanization": "cancel·lació",
+        "phonetic": "kan-sel-yah-SYOH"
+      },
+      "id": "ta2_044"
+    },
+    {
+      "type": "vocab",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "επιστροφή",
+        "romanization": "epistrofi",
+        "phonetic": "eh-pee-stroh-FEE"
+      },
+      "catalan": {
+        "text": "devolució",
+        "romanization": "devolució",
+        "phonetic": "deh-voh-loo-SYOH"
+      },
+      "id": "ta2_045"
+    },
+    {
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 2,
+      "greek": {
+        "text": "πτήση",
+        "romanization": "ptisi",
+        "phonetic": "PTEE-see"
+      },
+      "catalan": {
+        "text": "vol",
+        "romanization": "vol",
+        "phonetic": "vol"
+      },
+      "id": "ta2_046"
+    },
+    {
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 2,
+      "greek": {
+        "text": "πύλη",
+        "romanization": "pyli",
+        "phonetic": "PEE-lee"
+      },
+      "catalan": {
+        "text": "porta",
+        "romanization": "porta",
+        "phonetic": "POR-tah"
+      },
+      "id": "ta2_047"
+    },
+    {
+      "type": "vocab",
+      "category": "help",
+      "difficulty": 2,
+      "greek": {
+        "text": "υποστήριξη",
+        "romanization": "ypostirixi",
+        "phonetic": "ee-poh-STEE-ree-ksee"
+      },
+      "catalan": {
+        "text": "suport",
+        "romanization": "suport",
+        "phonetic": "soo-PORT"
+      },
+      "id": "ta2_048"
+    },
+    {
+      "type": "vocab",
+      "category": "language",
+      "difficulty": 2,
+      "greek": {
+        "text": "μετάφραση",
+        "romanization": "metafrasi",
+        "phonetic": "meh-tah-FRAH-see"
+      },
+      "catalan": {
+        "text": "traducció",
+        "romanization": "traducció",
+        "phonetic": "trah-doo-SYOH"
+      },
+      "id": "ta2_049"
+    },
+    {
+      "type": "vocab",
+      "category": "hotel",
+      "difficulty": 2,
+      "greek": {
+        "text": "κλειδί δωματίου",
+        "romanization": "kleidi domatiou",
+        "phonetic": "KLEE-thee tho-mah-TEE-ou"
+      },
+      "catalan": {
+        "text": "clau de l’habitació",
+        "romanization": "clau de l’habitació",
+        "phonetic": "klow deh lah-bee-tah-SYOH"
+      },
+      "id": "ta2_050"
+    },
+    {
+      "type": "vocab",
+      "category": "shopping",
+      "difficulty": 2,
+      "greek": {
+        "text": "έκπτωση",
+        "romanization": "ekptosi",
+        "phonetic": "EKP-toh-see"
+      },
+      "catalan": {
+        "text": "descompte",
+        "romanization": "descompte",
+        "phonetic": "des-KOMP-teh"
+      },
+      "id": "ta2_051"
+    },
+    {
+      "type": "vocab",
+      "category": "shopping",
+      "difficulty": 2,
+      "greek": {
+        "text": "τιμή",
+        "romanization": "timi",
+        "phonetic": "tee-MEE"
+      },
+      "catalan": {
+        "text": "preu",
+        "romanization": "preu",
+        "phonetic": "prew"
+      },
+      "id": "ta2_052"
+    },
+    {
+      "type": "vocab",
+      "category": "food",
+      "difficulty": 2,
+      "greek": {
+        "text": "μενού",
+        "romanization": "menou",
+        "phonetic": "meh-NOO"
+      },
+      "catalan": {
+        "text": "menú",
+        "romanization": "menú",
+        "phonetic": "meh-NOO"
+      },
+      "id": "ta2_053"
+    },
+    {
+      "type": "vocab",
+      "category": "food",
+      "difficulty": 2,
+      "greek": {
+        "text": "φιλοδώρημα",
+        "romanization": "filodorima",
+        "phonetic": "fee-loh-THO-ree-mah"
+      },
+      "catalan": {
+        "text": "propina",
+        "romanization": "propina",
+        "phonetic": "proh-PEE-nah"
+      },
+      "id": "ta2_054"
+    },
+    {
+      "type": "vocab",
+      "category": "problems",
+      "difficulty": 2,
+      "greek": {
+        "text": "ζημιά",
+        "romanization": "zimia",
+        "phonetic": "zee-MYAH"
+      },
+      "catalan": {
+        "text": "dany",
+        "romanization": "dany",
+        "phonetic": "dahn"
+      },
+      "id": "ta2_055"
+    },
+    {
+      "type": "vocab",
+      "category": "directions",
+      "difficulty": 2,
+      "greek": {
+        "text": "διασταύρωση",
+        "romanization": "diastavrosi",
+        "phonetic": "dee-ah-stah-VROH-see"
+      },
+      "catalan": {
+        "text": "encreuament",
+        "romanization": "encreuament",
+        "phonetic": "en-krew-ah-MENT"
+      },
+      "id": "ta2_056"
+    },
+    {
+      "type": "vocab",
+      "category": "transport",
+      "difficulty": 2,
+      "greek": {
+        "text": "ταξιδιωτική ασφάλεια",
+        "romanization": "taxidiotiki asfaleia",
+        "phonetic": "tahk-see-thyoh-TEE-kee as-fah-LEE-ah"
+      },
+      "catalan": {
+        "text": "assegurança de viatge",
+        "romanization": "assegurança de viatge",
+        "phonetic": "ah-seh-GUR-an-sah deh vee-AH-jeh"
+      },
+      "id": "ta2_057"
+    },
+    {
+      "type": "vocab",
+      "category": "social",
+      "difficulty": 2,
+      "greek": {
+        "text": "συνάντηση",
+        "romanization": "synantisi",
+        "phonetic": "see-NAHN-tee-see"
+      },
+      "catalan": {
+        "text": "trobada",
+        "romanization": "trobada",
+        "phonetic": "troh-BAH-dah"
+      },
+      "id": "ta2_058"
+    },
+    {
+      "type": "vocab",
+      "category": "help",
+      "difficulty": 2,
+      "greek": {
+        "text": "χάθηκα",
+        "romanization": "hathika",
+        "phonetic": "HAH-thee-kah"
+      },
+      "catalan": {
+        "text": "m’he perdut",
+        "romanization": "m’he perdut",
+        "phonetic": "meh pehr-DOOT"
+      },
+      "id": "ta2_059"
+    },
+    {
+      "type": "vocab",
+      "category": "language",
+      "difficulty": 2,
+      "greek": {
+        "text": "προφορά",
+        "romanization": "profora",
+        "phonetic": "proh-foh-RAH"
+      },
+      "catalan": {
+        "text": "pronúncia",
+        "romanization": "pronúncia",
+        "phonetic": "proh-NOON-see-ah"
+      },
+      "id": "ta2_060"
     }
   ]
 }

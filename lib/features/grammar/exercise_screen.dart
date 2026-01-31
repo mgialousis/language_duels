@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../app/routes.dart';
 import '../../data/models/grammar_exercise.dart';
+import '../games/spelling_bee/spelling_validator.dart';
 import '../../data/providers/grammar_provider.dart';
 import '../../shared/widgets/async_state.dart';
 import 'controllers/grammar_exercise_controller.dart';
@@ -182,7 +183,7 @@ class _GrammarExerciseScreenState
                   _FeedbackBanner(
                     isCorrect: state.isCorrect ?? false,
                     correctAnswer: exercise.correctAnswer,
-                    showAnswer: exercise.correctAnswer.isNotEmpty,
+                    showAnswer: _shouldShowAnswer(exercise),
                     explanation: exercise.explanation?.defaultText,
                   ),
               ],
@@ -296,6 +297,14 @@ class _ExerciseBody extends StatelessWidget {
   }
 }
 
+bool _shouldShowAnswer(GrammarExercise exercise) {
+  if (exercise.type == GrammarExerciseType.conjugation ||
+      exercise.type == GrammarExerciseType.tableCompletion) {
+    return false;
+  }
+  return exercise.correctAnswer.isNotEmpty;
+}
+
 class _FeedbackBanner extends StatelessWidget {
   const _FeedbackBanner({
     required this.isCorrect,
@@ -383,22 +392,62 @@ class _ConjugationExerciseState extends State<_ConjugationExercise> {
           .map(
             (item) => Padding(
               padding: const EdgeInsets.only(bottom: 10),
-              child: TextField(
-                enabled: !widget.isSubmitted,
-                decoration: InputDecoration(
-                  labelText: item.label,
-                  border: const OutlineInputBorder(),
-                ),
-                onChanged: (value) {
-                  _answers[item.label] = value;
-                  widget.onAnswerChanged(Map<String, String>.from(_answers));
-                },
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  TextField(
+                    enabled: !widget.isSubmitted,
+                    decoration: InputDecoration(
+                      labelText: item.label,
+                      border: const OutlineInputBorder(),
+                    ),
+                    onChanged: (value) {
+                      _answers[item.label] = value;
+                      widget.onAnswerChanged(Map<String, String>.from(_answers));
+                    },
+                  ),
+                  if (widget.isSubmitted &&
+                      !_isConjugationEntryCorrect(
+                        _answers[item.label] ?? '',
+                        item,
+                      )) ...[
+                    const SizedBox(height: 4),
+                    Text(
+                      'Correct: ${item.answer}',
+                      style: TextStyle(
+                        color: Theme.of(context).colorScheme.error,
+                        fontSize: 12,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ],
+                ],
               ),
             ),
           )
           .toList(),
     );
   }
+}
+
+bool _isConjugationEntryCorrect(
+  String userValue,
+  GrammarConjugationItem item,
+) {
+  final trimmed = userValue.trim();
+  if (trimmed.isEmpty) return false;
+  final candidates = <String>{item.answer};
+  if (item.acceptableAnswers != null) {
+    candidates.addAll(item.acceptableAnswers!);
+  }
+  for (final candidate in candidates) {
+    final result = SpellingValidator.validate(trimmed, candidate);
+    if (result == SpellingResult.perfect ||
+        result == SpellingResult.accentError) {
+      return true;
+    }
+  }
+  return false;
 }
 
 class _MatchingExercise extends StatefulWidget {

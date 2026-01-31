@@ -13,7 +13,7 @@
     "el": "Χρήση εργαλείων στο σπίτι: μικροεπισκευές, συναρμολόγηση επίπλων και απλές οδηγίες.",
     "ca": "Ús d’eines a casa: petites reparacions, muntar mobles i donar instruccions senzilles."
   },
-  "itemCount": 40,
+  "itemCount": 60,
   "metadata": {
     "tags": [
       "tools",
@@ -1388,6 +1388,326 @@
         "romanization": "paper de vidre",
         "phonetic": "pah-PER deh VEE-dreh"
       }
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "γαλλικό κλειδί",
+        "romanization": "galliko kleidi",
+        "phonetic": "gah-LEE-koh KLEE-thee"
+      },
+      "catalan": {
+        "text": "clau anglesa",
+        "romanization": "clau anglesa",
+        "phonetic": "klow an-GLEH-zah"
+      },
+      "id": "td2_041"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "καλέμι",
+        "romanization": "kalemi",
+        "phonetic": "kah-LEH-mee"
+      },
+      "catalan": {
+        "text": "cisell",
+        "romanization": "cisell",
+        "phonetic": "see-ZELL"
+      },
+      "id": "td2_042"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "κατσαβίδι σταυρού",
+        "romanization": "katsavidi stavrou",
+        "phonetic": "ka-tsah-VEE-thee stah-VROO"
+      },
+      "catalan": {
+        "text": "tornavís d’estrella",
+        "romanization": "tornavís d’estrella",
+        "phonetic": "tor-nah-VEES des-TREH-yah"
+      },
+      "id": "td2_043"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "κατσαβίδι ίσιο",
+        "romanization": "katsavidi isio",
+        "phonetic": "ka-tsah-VEE-thee EE-syoh"
+      },
+      "catalan": {
+        "text": "tornavís pla",
+        "romanization": "tornavís pla",
+        "phonetic": "tor-nah-VEES plah"
+      },
+      "id": "td2_044"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "κόφτης",
+        "romanization": "koftis",
+        "phonetic": "KOF-tees"
+      },
+      "catalan": {
+        "text": "tallador",
+        "romanization": "tallador",
+        "phonetic": "tah-lya-DOR"
+      },
+      "id": "td2_045"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "μέγγενη",
+        "romanization": "meggeni",
+        "phonetic": "MEHG-geh-nee"
+      },
+      "catalan": {
+        "text": "mordassa",
+        "romanization": "mordassa",
+        "phonetic": "mor-DAH-sah"
+      },
+      "id": "td2_046"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "σφιγκτήρας",
+        "romanization": "sfinktiras",
+        "phonetic": "sfeeng-KTEE-ras"
+      },
+      "catalan": {
+        "text": "serjant",
+        "romanization": "serjant",
+        "phonetic": "ser-JANT"
+      },
+      "id": "td2_047"
+    },
+    {
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "σιλικόνη",
+        "romanization": "silikoni",
+        "phonetic": "see-lee-KOH-nee"
+      },
+      "catalan": {
+        "text": "silicona",
+        "romanization": "silicona",
+        "phonetic": "see-lee-KOH-nah"
+      },
+      "id": "td2_048"
+    },
+    {
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "μονωτική ταινία",
+        "romanization": "monotiki tainia",
+        "phonetic": "moh-noh-TEE-kee teh-NEE-ah"
+      },
+      "catalan": {
+        "text": "cinta aïllant",
+        "romanization": "cinta aïllant",
+        "phonetic": "SEEN-tah ah-YANT"
+      },
+      "id": "td2_049"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "σπάτουλα",
+        "romanization": "spatoula",
+        "phonetic": "SPAH-too-lah"
+      },
+      "catalan": {
+        "text": "espàtula",
+        "romanization": "espàtula",
+        "phonetic": "es-PAH-too-lah"
+      },
+      "id": "td2_050"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "ρουλέτα",
+        "romanization": "rouleta",
+        "phonetic": "roo-LEH-tah"
+      },
+      "catalan": {
+        "text": "cinta mètrica",
+        "romanization": "cinta mètrica",
+        "phonetic": "SEEN-tah MEH-tree-kah"
+      },
+      "id": "td2_051"
+    },
+    {
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "αστάρι",
+        "romanization": "astari",
+        "phonetic": "ah-STA-ree"
+      },
+      "catalan": {
+        "text": "imprimació",
+        "romanization": "imprimació",
+        "phonetic": "im-pree-mah-SYOH"
+      },
+      "id": "td2_052"
+    },
+    {
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "σφραγιστικό",
+        "romanization": "sfragistiko",
+        "phonetic": "sfrah-yee-STEE-koh"
+      },
+      "catalan": {
+        "text": "segellant",
+        "romanization": "segellant",
+        "phonetic": "seh-ZHEH-yant"
+      },
+      "id": "td2_053"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "μαχαίρι στόκου",
+        "romanization": "machairi stokou",
+        "phonetic": "mah-HEH-ree STOH-koo"
+      },
+      "catalan": {
+        "text": "espàtula de massilla",
+        "romanization": "espàtula de massilla",
+        "phonetic": "es-PAH-too-lah deh mah-SEE-yah"
+      },
+      "id": "td2_054"
+    },
+    {
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "στόκος",
+        "romanization": "stokos",
+        "phonetic": "STOH-kos"
+      },
+      "catalan": {
+        "text": "massilla",
+        "romanization": "massilla",
+        "phonetic": "mah-SEE-yah"
+      },
+      "id": "td2_055"
+    },
+    {
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "καλώδιο",
+        "romanization": "kalodio",
+        "phonetic": "kah-LOH-thee-oh"
+      },
+      "catalan": {
+        "text": "cable",
+        "romanization": "cable",
+        "phonetic": "KAH-bleh"
+      },
+      "id": "td2_056"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "πένσα κοπής",
+        "romanization": "pensa kopis",
+        "phonetic": "PEN-sah koh-PEES"
+      },
+      "catalan": {
+        "text": "alicates de tall",
+        "romanization": "alicates de tall",
+        "phonetic": "ah-lee-KAH-tes deh TAH-y"
+      },
+      "id": "td2_057"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "δοκιμαστικό",
+        "romanization": "dokimastiko",
+        "phonetic": "thoh-kee-mah-STEE-koh"
+      },
+      "catalan": {
+        "text": "provador",
+        "romanization": "provador",
+        "phonetic": "proh-vah-DOR"
+      },
+      "id": "td2_058"
+    },
+    {
+      "type": "vocab",
+      "category": "materials",
+      "difficulty": 2,
+      "greek": {
+        "text": "ξύλο MDF",
+        "romanization": "xylo MDF",
+        "phonetic": "KSEE-loh em-dee-ef"
+      },
+      "catalan": {
+        "text": "fusta MDF",
+        "romanization": "fusta MDF",
+        "phonetic": "FOOS-tah em-dee-ef"
+      },
+      "id": "td2_059"
+    },
+    {
+      "type": "vocab",
+      "category": "tools",
+      "difficulty": 2,
+      "greek": {
+        "text": "γάντια εργασίας",
+        "romanization": "gantia ergasias",
+        "phonetic": "YAHN-tyah er-gah-SEE-as"
+      },
+      "catalan": {
+        "text": "guants de feina",
+        "romanization": "guants de feina",
+        "phonetic": "gwants deh FEH-nyah"
+      },
+      "id": "td2_060"
     }
   ]
 }

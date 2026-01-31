@@ -16,7 +16,7 @@
     "el": "Βασικοί αριθμοί και απλές φράσεις μέτρησης",
     "ca": "Nombres bàsics i frases simples de comptatge"
   },
-  "itemCount": 26,
+  "itemCount": 39,
   "items": [
     {
       "id": "num_001",
@@ -722,6 +722,259 @@
         "counting"
       ],
       "formalityLevel": "neutral"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "έντεκα",
+        "romanization": "endeka",
+        "phonetic": "EN-deh-kah"
+      },
+      "catalan": {
+        "text": "onze",
+        "phonetic": "ON-zuh"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_027"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "δώδεκα",
+        "romanization": "dodeka",
+        "phonetic": "THOH-theh-kah"
+      },
+      "catalan": {
+        "text": "dotze",
+        "phonetic": "DOH-tsuh"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_028"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "δεκατρία",
+        "romanization": "dekatria",
+        "phonetic": "theh-kah-TREE-ah"
+      },
+      "catalan": {
+        "text": "tretze",
+        "phonetic": "TREH-tsuh"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_029"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "δεκατέσσερα",
+        "romanization": "dekatessera",
+        "phonetic": "theh-kah-TESS-eh-rah"
+      },
+      "catalan": {
+        "text": "catorze",
+        "phonetic": "kah-TOR-zuh"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_030"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "δεκαπέντε",
+        "romanization": "dekapente",
+        "phonetic": "theh-kah-PEN-teh"
+      },
+      "catalan": {
+        "text": "quinze",
+        "phonetic": "KEEN-zuh"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_031"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "δεκαέξι",
+        "romanization": "dekaexi",
+        "phonetic": "theh-kah-EX-ee"
+      },
+      "catalan": {
+        "text": "setze",
+        "phonetic": "SET-zuh"
+      },
+      "tags": [
+        "basic",
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_032"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι επτά",
+        "romanization": "eikosi epta",
+        "phonetic": "EE-koh-see eh-PTAH"
+      },
+      "catalan": {
+        "text": "vint-i-set",
+        "phonetic": "veent-ee-SET"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_033"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι οκτώ",
+        "romanization": "eikosi okto",
+        "phonetic": "EE-koh-see ok-TOH"
+      },
+      "catalan": {
+        "text": "vint-i-vuit",
+        "phonetic": "veent-ee-VOOT"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_034"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "είκοσι εννέα",
+        "romanization": "eikosi ennea",
+        "phonetic": "EE-koh-see en-NEH-ah"
+      },
+      "catalan": {
+        "text": "vint-i-nou",
+        "phonetic": "veent-ee-NOH"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_035"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "τριάντα",
+        "romanization": "trianta",
+        "phonetic": "tree-AHN-tah"
+      },
+      "catalan": {
+        "text": "trenta",
+        "phonetic": "TREHN-tah"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_036"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "σαράντα",
+        "romanization": "saranta",
+        "phonetic": "sah-RAHN-tah"
+      },
+      "catalan": {
+        "text": "quaranta",
+        "phonetic": "kwah-RAHN-tah"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_037"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "πενήντα",
+        "romanization": "peninta",
+        "phonetic": "peh-NEEN-tah"
+      },
+      "catalan": {
+        "text": "cinquanta",
+        "phonetic": "seen-KWAN-tah"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_038"
+    },
+    {
+      "type": "vocabulary",
+      "category": "numbers",
+      "difficulty": 1,
+      "greek": {
+        "text": "εξήντα",
+        "romanization": "exinta",
+        "phonetic": "ek-SHEEN-tah"
+      },
+      "catalan": {
+        "text": "seixanta",
+        "phonetic": "shesh-AHN-tah"
+      },
+      "tags": [
+        "counting"
+      ],
+      "formalityLevel": "neutral",
+      "id": "num_039"
     }
   ],
   "metadata": {

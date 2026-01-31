@@ -16,7 +16,7 @@
     "el": "Μέλη οικογένειας και απλές φράσεις",
     "ca": "Membres de la família i frases simples"
   },
-  "itemCount": 26,
+  "itemCount": 39,
   "items": [
     {
       "id": "fam_001",
@@ -731,6 +731,266 @@
         "family"
       ],
       "formalityLevel": "neutral"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ο παππούς μου",
+        "romanization": "O pappous mou",
+        "phonetic": "oh pah-POOS moo"
+      },
+      "catalan": {
+        "text": "El meu avi",
+        "phonetic": "el MEW AH-vee"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_027"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Η γιαγιά μου",
+        "romanization": "I giagia mou",
+        "phonetic": "ee yah-YAH moo"
+      },
+      "catalan": {
+        "text": "La meva àvia",
+        "phonetic": "lah MEH-vah AH-vee-ah"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_028"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ο γιος μου",
+        "romanization": "O gios mou",
+        "phonetic": "oh yohs moo"
+      },
+      "catalan": {
+        "text": "El meu fill",
+        "phonetic": "el MEW FEEL"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_029"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Η κόρη μου",
+        "romanization": "I kori mou",
+        "phonetic": "ee KOH-ree moo"
+      },
+      "catalan": {
+        "text": "La meva filla",
+        "phonetic": "lah MEH-vah FEE-yah"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_030"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Τα παιδιά μου",
+        "romanization": "Ta paidia mou",
+        "phonetic": "tah pah-ee-DYAH moo"
+      },
+      "catalan": {
+        "text": "Els meus fills",
+        "phonetic": "els MEWS FEELS"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_031"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ο θείος μου",
+        "romanization": "O theios mou",
+        "phonetic": "oh THEE-os moo"
+      },
+      "catalan": {
+        "text": "El meu oncle",
+        "phonetic": "el MEW ON-kleh"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_032"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Η θεία μου",
+        "romanization": "I theia mou",
+        "phonetic": "ee THEE-ah moo"
+      },
+      "catalan": {
+        "text": "La meva tia",
+        "phonetic": "lah MEH-vah TEE-ah"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_033"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Τα ξαδέρφια μου",
+        "romanization": "Ta xaderfia mou",
+        "phonetic": "tah zah-THER-fyah moo"
+      },
+      "catalan": {
+        "text": "Els meus cosins",
+        "phonetic": "els MEWS koh-ZEENS"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_034"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Η γυναίκα μου",
+        "romanization": "I gynaika mou",
+        "phonetic": "ee yee-NEH-kah moo"
+      },
+      "catalan": {
+        "text": "La meva dona",
+        "phonetic": "lah MEH-vah DOH-nah"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_035"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Ο άντρας μου",
+        "romanization": "O antras mou",
+        "phonetic": "oh AHN-tras moo"
+      },
+      "catalan": {
+        "text": "El meu marit",
+        "phonetic": "el MEW mah-REET"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_036"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Είμαι παντρεμένος",
+        "romanization": "Eimai pantremenos",
+        "phonetic": "EE-meh pah-ntréh-menos"
+      },
+      "catalan": {
+        "text": "Estic casat",
+        "phonetic": "ES-teek kah-ZAHT"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_037"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 1,
+      "greek": {
+        "text": "Είμαι ανύπαντρος",
+        "romanization": "Eimai anypantros",
+        "phonetic": "EE-meh ah-NEE-pahnt-ros"
+      },
+      "catalan": {
+        "text": "Sóc solter",
+        "phonetic": "sok sol-TEHR"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_038"
+    },
+    {
+      "type": "vocabulary",
+      "category": "family",
+      "difficulty": 2,
+      "greek": {
+        "text": "Ο σύντροφός μου",
+        "romanization": "O syntrofos mou",
+        "phonetic": "oh seen-TROH-fos moo"
+      },
+      "catalan": {
+        "text": "La meva parella",
+        "phonetic": "lah MEH-vah pah-REH-lyah"
+      },
+      "tags": [
+        "family",
+        "phrase"
+      ],
+      "formalityLevel": "neutral",
+      "id": "fam_039"
     }
   ],
   "metadata": {

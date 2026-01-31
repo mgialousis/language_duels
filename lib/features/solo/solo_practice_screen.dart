@@ -978,7 +978,7 @@ class _SoloPracticeScreenState extends ConsumerState<SoloPracticeScreen>
             if (didPop) return;
             final shouldPop = await _confirmExit(context);
             if (shouldPop && context.mounted) {
-              Navigator.of(context).pop();
+              context.go(homeRoute);
             }
           },
           child: Scaffold(
