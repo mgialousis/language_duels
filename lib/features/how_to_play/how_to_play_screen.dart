@@ -71,7 +71,7 @@ const List<_TutorialSection> _guideSections = [
     title: 'Turn Handoff',
     bullets: [
       'A “Pass the phone” screen appears between players.',
-      'Reveal your name only when you have the phone.',
+      'Your name is always visible during handoff.',
     ],
   ),
   _TutorialSection(
@@ -123,7 +123,7 @@ const List<_WalkthroughPageData> _walkthroughPages = [
     icon: Icons.swap_horiz_rounded,
     bullets: [
       'Use the handoff screen between players.',
-      'Reveal your name only when ready.',
+      'Your name stays visible during handoff.',
       'Start the countdown when the phone is secure.',
     ],
   ),

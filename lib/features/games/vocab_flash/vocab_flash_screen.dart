@@ -430,7 +430,7 @@ class _VocabFlashScreenState extends ConsumerState<VocabFlashScreen>
             if (didPop) return;
             final shouldPop = await _confirmExit(context);
             if (shouldPop && context.mounted) {
-              Navigator.of(context).pop();
+              context.go(duelRoute);
             }
           },
           child: Scaffold(

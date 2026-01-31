@@ -122,9 +122,21 @@ class DeckSelectScreen extends ConsumerWidget {
               ),
             ),
             const SizedBox(height: 16),
-            DuelButton(
-              label: 'Continue',
-              onPressed: () => context.push(miniGameRoute),
+            Row(
+              children: [
+                OutlinedButton.icon(
+                  onPressed: () => context.go(homeRoute),
+                  icon: const Icon(Icons.home_outlined),
+                  label: const Text('Main Menu'),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: DuelButton(
+                    label: 'Continue',
+                    onPressed: () => context.push(miniGameRoute),
+                  ),
+                ),
+              ],
             ),
           ],
         ),

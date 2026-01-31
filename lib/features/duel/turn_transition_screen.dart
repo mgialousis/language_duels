@@ -21,7 +21,6 @@ class _TurnTransitionScreenState extends ConsumerState<TurnTransitionScreen> {
   Timer? _countdownTimer;
   int _countdown = _countdownSeconds;
   bool _isCountingDown = false;
-  bool _nameRevealed = false;
   double _opacity = 0;
 
   @override
@@ -44,7 +43,6 @@ class _TurnTransitionScreenState extends ConsumerState<TurnTransitionScreen> {
     setState(() {
       _isCountingDown = true;
       _countdown = _countdownSeconds;
-      _nameRevealed = true;
     });
     _countdownTimer?.cancel();
     _countdownTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
@@ -73,8 +71,9 @@ class _TurnTransitionScreenState extends ConsumerState<TurnTransitionScreen> {
     final nextPlayerName = session.currentPlayer == 1
         ? session.playerOneName
         : session.playerTwoName;
-    final safeName =
-        _nameRevealed ? nextPlayerName : 'Player ${session.currentPlayer}';
+    final safeName = nextPlayerName.isEmpty
+        ? 'Player ${session.currentPlayer}'
+        : nextPlayerName;
     final backgroundColor = session.currentPlayer == 1
         ? const Color(0xFF1F5BFF)
         : const Color(0xFFFF8A00);
@@ -106,19 +105,6 @@ class _TurnTransitionScreenState extends ConsumerState<TurnTransitionScreen> {
               ),
             ),
             const SizedBox(height: 6),
-            TextButton.icon(
-              onPressed: _isCountingDown
-                  ? null
-                  : () => setState(() => _nameRevealed = !_nameRevealed),
-              icon: Icon(
-                _nameRevealed ? Icons.visibility_off : Icons.visibility,
-                color: Colors.white70,
-              ),
-              label: Text(
-                _nameRevealed ? 'Hide name' : 'Reveal name',
-                style: const TextStyle(color: Colors.white70),
-              ),
-            ),
             const SizedBox(height: 12),
             _HandoffIcon(animate: !reduceMotion),
             const SizedBox(height: 32),
