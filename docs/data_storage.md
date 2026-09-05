@@ -1,5 +1,10 @@
 # Language Duel MVP - Data Storage & Local Persistence Specification
 
+> **Historical document:** This records the original persistence design and is
+> kept for project context. The implementation has since evolved. Treat the
+> models, repositories, providers, Hive adapters, and migration service under
+> `lib/data/` as the current source of truth.
+
 **Version:** 1.0
 **Last Updated:** 2026-01-26
 **Document Owner:** Local Storage/Data Agent

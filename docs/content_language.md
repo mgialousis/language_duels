@@ -1,5 +1,10 @@
 # Language Duel MVP - Content & Language Specification
 
+> **Historical document:** This records the original content design and is kept
+> for project context. The implementation has since evolved. Treat the models,
+> repositories, and validated JSON files under `assets/data/` as the current
+> source of truth.
+
 **Version:** 2.0
 **Last Updated:** 2026-01-28
 **Document Owner:** Content/Language Agent

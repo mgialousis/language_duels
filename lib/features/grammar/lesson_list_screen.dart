@@ -64,13 +64,13 @@ class LessonListScreen extends ConsumerWidget {
               ...otherLessons.map((lesson) {
                 final progress = progressMap[lesson.id];
                 return _lessonTile(context, lesson, progress);
-              }).toList(),
+              }),
             ];
 
             return ListView.separated(
               padding: const EdgeInsets.all(16),
               itemCount: items.length,
-              separatorBuilder: (_, __) => const SizedBox(height: 12),
+              separatorBuilder: (_, _) => const SizedBox(height: 12),
               itemBuilder: (context, index) => items[index],
             );
           }
@@ -92,13 +92,13 @@ class LessonListScreen extends ConsumerWidget {
               ...otherLessons.map((lesson) {
                 final progress = progressMap[lesson.id];
                 return _lessonTile(context, lesson, progress);
-              }).toList(),
+              }),
             ];
 
             return ListView.separated(
               padding: const EdgeInsets.all(16),
               itemCount: items.length,
-              separatorBuilder: (_, __) => const SizedBox(height: 12),
+              separatorBuilder: (_, _) => const SizedBox(height: 12),
               itemBuilder: (context, index) => items[index],
             );
           }
@@ -106,7 +106,7 @@ class LessonListScreen extends ConsumerWidget {
           return ListView.separated(
             padding: const EdgeInsets.all(16),
             itemCount: lessons.length,
-            separatorBuilder: (_, __) => const SizedBox(height: 12),
+            separatorBuilder: (_, _) => const SizedBox(height: 12),
             itemBuilder: (context, index) {
               final lesson = lessons[index];
               final progress = progressMap[lesson.id];
