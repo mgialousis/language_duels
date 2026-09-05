@@ -6,6 +6,18 @@ Language Duels turns Greek-Catalan study into a shared, hot-seat game for two pe
 
 The app is designed for a single Android or iOS device. It does not require an account or a network connection: learning content ships with the app and progress stays on the device.
 
+## Preview
+
+Real Android app captures; all progress shown belongs to a demonstration session.
+
+<p>
+  <img src="docs/screenshots/01-home.png" width="240" alt="Language Duels home and learning modes" />
+  <img src="docs/screenshots/02-practice-setup.png" width="240" alt="Configure a relaxed vocabulary session" />
+  <img src="docs/screenshots/03-vocab-flash.png" width="240" alt="Greek prompt with four Catalan answer choices" />
+</p>
+
+[Two-minute product walkthrough](docs/WALKTHROUGH.md)
+
 ## Highlights
 
 - Two-player hot-seat duels with resumable sessions and match history
